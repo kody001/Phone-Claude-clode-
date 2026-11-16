@@ -39,6 +39,9 @@ const P = {
   romanb: { skin: SKIN.tan, body: 'bean', color: '#a0522d', hair: 'short', hairColor: '#2a1a10' },
   senator: { skin: SKIN.fair, body: 'toga', color: '#f4f0e6', stripe: '#7a1f3d', hair: 'balding', hairColor: '#7a756f' },
   narr: { skin: SKIN.light, body: 'bean', color: '#e74c3c', hair: 'tuft', hairColor: '#3b2a1e' },
+  egy_pat: { skin: SKIN.brown, body: 'kilt', color: '#efe6cf', hair: 'short', hairColor: '#141414' },
+  roman_pat: { skin: SKIN.fair, body: 'bean', color: '#c9a77a', hair: 'short', hairColor: '#4a2e18' },
+  greek_pat: { skin: SKIN.fair, body: 'chiton', color: '#e8d6c0', trim: '#4a7a3a', hair: 'curly', hairColor: '#1a1a1a' },
   ghost: { skin: '#e8f4ff', body: 'ghost', color: '#e8f4ff', hair: 'balding', hairColor: '#ffffff', beard: 'white', beardColor: '#ffffff', ghost: true },
   medic: { skin: SKIN.brown, body: 'bean', color: '#1f7a4a', hair: 'short', hairColor: '#1a1a1a' },
 };

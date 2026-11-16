@@ -1,6 +1,6 @@
-# What If You Got Sick in the Ancient World? — stickman video
+# The Weird History of Ancient Medicine — stickman history video
 
-A 2D hand-drawn stickman explainer built as HTML/JS canvas scenes and rendered to a 1920×1080, 60 fps MP4.
+A 2D hand-drawn stickman history video built as HTML/JS canvas scenes and rendered natively in 4K (3840×2160, 60 fps; pass `--res=4k`).
 Narration comes from the supplied voiceover; captions are word-synced to it.
 
 ## Layout
@@ -23,8 +23,8 @@ Narration comes from the supplied voiceover; captions are word-synced to it.
 python3 tools/prep.py                                         # timings (needs input/vo.mp3 + input/align.json)
 node render/validate.js --cues=build/cues.json --shots=build/shots.json
 python3 audio/mix.py                                           # -> build/mix.wav
-node render/render.js --workers=4                              # -> build/video_noaudio.mp4 (~40 min)
-bash render/finalize.sh                                        # -> out/What If You Got Sick in the Ancient World.mp4
+node render/render.js --workers=4 --res=4k                     # -> build/video_noaudio.mp4
+bash render/finalize.sh                                        # -> out/The Weird History of Ancient Medicine (4K).mp4
 ```
 
 Requirements: Node + `puppeteer-core`, Google Chrome, ffmpeg, Python 3 with numpy/scipy/soundfile, rubberband.

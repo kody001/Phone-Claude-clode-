@@ -1,6 +1,7 @@
 // COLD OPEN + TITLE + PART 1: EGYPT
 'use strict';
 const PIN_FR = frP(7.35, 47.87);
+const STAFF_POSE0 = [[10, 6], [36, 10]];
 
 // ===== COLD OPEN =====
 shot({ at: 0, bg: 'map_france', amb: 'wind', mus: 'tension', vig: 0.5,
@@ -97,14 +98,20 @@ shot({ at: 'the alternative used to be', bg: 'clinic', amb: 'clinic', trans: 'cu
     popText(c, st, 'CAN-DO ATTITUDE!', 1250, 190, at(st, 'can-do attitude'), { size: 88, anim: 'pop', sfx: 'pop' });
   } });
 
-shot({ at: "Today, we're finding out", bg: 'v_purple', mus: 'intro', trans: 'whip',
+shot({ at: "Today, we're finding out", bg: 'map_med', mus: 'intro', trans: 'whip', vig: 0.45, cam: { push: 0.08, x0: 200, x1: 240, y0: -40, y1: -40 },
   draw: (c, st) => {
-    vortex(c, st.t);
-    prop(c, st, 'portal', 960, 520, { r: 330, enter: [0, 'pop'] });
-    const items = ['rock', 'cabbage', 'honey', 'scroll', 'jar'];
-    items.forEach((it, i) => { const a = st.t * 0.8 + i / items.length * TAU; prop(c, st, it, 960 + Math.cos(a) * 640, 520 + Math.sin(a) * 300, { s: 0.8, rot: st.t + i }); });
-    ch(c, st, 'you', { x: 960, y: GY + 40, s: 1.25, face: 'nervous', look: [0, -0.5], pose: 'scared', sweat: true });
-    popText(c, st, 'WHAT DID ANCIENT PEOPLE\nDO WHEN THEY GOT SICK?', 960, 150, at(st, 'what ancient people'), { size: 66, anim: 'rise', sfx: 'swoosh_up' });
+    const stops = [['EGYPT', medP(31.13, 29.98), 'ancient people'], ['BABYLON', medP(44.42, 32.54), 'actually did'], ['GREECE', medP(23.08, 37.6), 'when they got'], ['ROME', medP(12.5, 41.9), 'got sick']];
+    stops.forEach((sp, i) => {
+      const t = at(st, sp[2]) + (i === 3 ? 0.35 : 0);
+      cue('pin_drop', t, 0.6);
+      if (st.t < t) return;
+      const p = prog(st.t, t, 0.4, E.back);
+      c.save(); c.translate(sp[1][0], sp[1][1] - (1 - p) * 160); c.scale(0.45, 0.45);
+      shp(c, [[0, 0], [-34, -60], ...ellPts(0, -78, 36, 36, 16, Math.PI * 0.8, Math.PI * 2.2), [34, -60]], { fill: '#e0262d', lw: 8 }); circ(c, 0, -78, 12, { fill: '#fff', lw: 4 });
+      c.restore();
+      label(c, st, sp[0], sp[1][0], sp[1][1] - 70, t + 0.1, { size: 40, fill: '#ffd23f', sfx: false });
+    });
+    popText(c, st, 'WHAT DID ANCIENT PEOPLE\nDO WHEN THEY GOT SICK?', 1180, 120, at(st, 'finding out'), { size: 64, anim: 'rise', sfx: 'swoosh_up' });
   } });
 
 function miniCard(c, st, x, y, t0, bgId, cap, inner) {
@@ -115,8 +122,8 @@ shot({ at: 'It involves a royal butt specialist', bg: 'v_navy', trans: 'cut', ca
   draw: (c, st) => {
     popText(c, st, "ON TODAY'S MENU:", 960, 90, st.s.start + 0.05, { size: 70, anim: 'rise', sfx: 'swoosh_up', out: at(st, 'royal butt specialist') + 0.2 });
     miniCard(c, st, 520, 300, 'royal butt specialist', 'palace', 'ROYAL BUTT SPECIALIST', cc => ch(cc, st, 'iry', { x: 0, y: -40, s: 1.4, face: 'serious', pose: 'hips' }));
-    miniCard(c, st, 1400, 300, 'a city where', 'market', 'EVERYONE IS YOUR DOCTOR', cc => { ch(cc, st, 'bab', { x: -360, y: -40, s: 1.2, face: 'talk' }); ch(cc, st, 'you', { x: 0, y: -40, s: 1.2, face: 'sad', green: true }); ch(cc, st, 'bab_pass', { x: 360, y: -40, s: 1.2, flip: true, face: 'happy', pose: 'point' }); });
-    miniCard(c, st, 520, 740, 'a hospital that', 'abaton', 'THE NAP HOSPITAL', cc => { ch(cc, st, 'you', { x: 0, y: -60, s: 1.2, face: 'sleep', lie: true }); zzz(cc, 140, -320, st.t, 1.6); });
+    miniCard(c, st, 1400, 300, 'a city where', 'market', 'EVERYONE IS YOUR DOCTOR', cc => { ch(cc, st, 'bab', { x: -360, y: -40, s: 1.2, face: 'talk' }); ch(cc, st, 'bab_sick', { x: 0, y: -40, s: 1.2, face: 'sad', green: true }); ch(cc, st, 'bab_pass', { x: 360, y: -40, s: 1.2, flip: true, face: 'happy', pose: 'point' }); });
+    miniCard(c, st, 520, 740, 'a hospital that', 'abaton', 'THE NAP HOSPITAL', cc => { ch(cc, st, 'greek_pat', { x: 0, y: -60, s: 1.2, face: 'sleep', lie: true }); zzz(cc, 140, -320, st.t, 1.6); });
     miniCard(c, st, 1400, 740, 'Roman senator', 'farm', 'PEE, PRESCRIBED', cc => ch(cc, st, 'cato', { x: 0, y: -40, s: 1.3, face: 'smug', pose: 'holdUp', hold: { R: 'jar' } }));
   } });
 
@@ -135,15 +142,15 @@ shot({ at: 'Remember that snake', bg: 'v_black', trans: 'cut', mus: 'whisper', s
   } });
 
 // ===== TITLE =====
-shot({ at: { insert: 'title' }, bg: 'v_purple', trans: 'flash', nocap: true, mus: 'title', sfx: [['riser', -1.2, 0.8], ['impact', 0.9, 1], ['whoosh', 0.2, 0.7]],
+shot({ at: { insert: 'title' }, bg: 'v_red', trans: 'flash', nocap: true, mus: 'title', sfx: [['riser', -1.2, 0.8], ['impact', 0.9, 1], ['whoosh', 0.2, 0.7]],
   cam: { push: 0.06 }, shake: [[0.9, 0.4, 14, false]],
   draw: (c, st) => {
-    vortex(c, st.t);
-    const lt = st.lt;
-    ['cabbage', 'jar', 'rock', 'honey', 'scroll', 'shekel'].forEach((it, i) => { const ph = (lt * 0.35 + i / 6) % 1; const a = i * 1.7 + lt; prop(c, st, it, 960 + Math.cos(a) * ph * 1100, 540 + Math.sin(a) * ph * 700, { s: 0.4 + ph * 1.4, rot: lt * 3 + i, alpha: clamp(ph * 3) }); });
-    c.save(); c.translate(960 + Math.sin(lt * 2) * 500, 820 + Math.cos(lt * 1.6) * 60); c.rotate(lt * 2.5); ch(c, st, 'you', { x: 0, y: 200, s: 0.9, face: 'scared', flail: true, noShadow: true }); c.restore();
-    popText(c, st, 'WHAT IF YOU GOT SICK', 960, 330, st.s.start + 0.9, { size: 130, anim: 'slam', sfx: false });
-    popText(c, st, 'IN THE ANCIENT WORLD?', 960, 500, st.s.start + 1.2, { size: 130, anim: 'slam', sfx: 'impact', fill: '#ffffff' });
+    rays(c, st.t, 'rgba(255,220,160,0.10)', 18, 960, 380);
+    const cast = [['cavedoc', { hold: { R: 'rock' }, pose: 'holdUp', face: 'grin' }], ['iry', { face: 'serious', pose: 'hips' }], ['rod', { face: 'smug', pose: 'hold', hold: { R: 'scroll' } }],
+      ['asclepius', { face: 'smug', pose: STAFF_POSE0, hold: { R: ['staff', { s: 0.78 }] } }], ['cato', { face: 'angry', pose: 'holdUp', hold: { R: 'cabbage' } }]];
+    cast.forEach((cm, i) => ch(c, st, cm[0], Object.assign({ x: 260 + i * 350, y: 1130, s: 0.95, enter: [0.25 + i * 0.12, 'up', 0.35], id: 'cast' + i, enterSfx: false }, cm[1])));
+    popText(c, st, 'THE WEIRD HISTORY OF', 960, 190, st.s.start + 0.9, { size: 92, anim: 'slam', sfx: false, fill: '#ffffff' });
+    popText(c, st, 'ANCIENT MEDICINE', 960, 350, st.s.start + 1.2, { size: 170, anim: 'slam', sfx: 'impact' });
   } });
 chapter('title', 1, 'EGYPT', '~2200 BC', 'desert');
 
@@ -285,7 +292,7 @@ shot({ at: 'Think of one clogged drain', bg: 'v_blue', trans: 'whip', sfx: [['gu
 
 shot({ at: 'So the fix was obvious', bg: 'palace', amb: 'palace', trans: 'whip', sfx: [['flush', 'Flush the drain', 1], ['boing', 'regularly', 0.7]], punch: ['Enemas'],
   draw: (c, st) => {
-    ch(c, st, 'you', { x: 660, y: GY, s: 1.15, faces: [[0, 'nervous'], ['Flush', 'shock'], ['Enemas', 'scared']], green: true, sweat: true, pose: 'scared', tremble: after(st, 'Enemas'), id: 'you' });
+    ch(c, st, 'egy_pat', { x: 660, y: GY, s: 1.15, faces: [[0, 'nervous'], ['Flush', 'shock'], ['Enemas', 'scared']], green: true, sweat: true, pose: 'scared', tremble: after(st, 'Enemas'), id: 'you' });
     ch(c, st, 'iry', { x: 1350, y: GY, s: 1.15, flip: true, face: 'serious', pose: 'holdUp', hold: { R: ['horn', { rot: -0.6 }] }, move: [['Enemas', 1150, GY, 0.5]] });
     popText(c, st, 'FLUSH THE DRAIN!', 960, 170, at(st, 'Flush the drain'), { size: 96, anim: 'slam', sfx: 'impact' });
     stamp(c, st, 'ENEMAS', 960, 330, 'Enemas', { size: 100 });
@@ -298,7 +305,7 @@ shot({ at: 'And according to an old story', bg: 'desert', amb: 'nile', trans: 'w
     prop(c, st, 'ibis', -200, 780, { s: 1.1, move: [[0, 860, 780, 1.6]], beak: bend ? 'down' : 'up', rot: bend ? -0.25 : 0 });
     label(c, st, 'THE IBIS', 860, 330, 'the ibis', { size: 70, fill: '#ffd23f' });
     if (after(st, 'rear end')) { const p = prog(st.t, at(st, 'rear end'), 0.15); c.save(); c.translate(820, 760); c.rotate(-0.1); c.fillStyle = '#111'; c.fillRect(-260 * p, -60, 520 * p, 120); txt(c, 'CENSORED', 0, 0, { size: 64, fill: '#fff', lw: 0, shadow: false, alpha: p }); c.restore(); }
-    ch(c, st, 'you', { x: 1550, y: GY, s: 1.05, faces: [[0, 'neutral'], ['rinse out', 'disgust']], flip: true, look: [0.6, 0], id: 'you' });
+    ch(c, st, 'egy_pat', { x: 1550, y: GY, s: 1.05, faces: [[0, 'neutral'], ['rinse out', 'disgust']], flip: true, look: [0.6, 0], id: 'you' });
   } });
 
 shot({ at: 'So the first gut doctor was', bg: 'palace', amb: 'palace', trans: 'cut', sfx: [['ding', 'gut doctor', 0.8]],
@@ -341,7 +348,7 @@ shot({ at: "That's a prescription pad", bg: 'v_navy', trans: 'whip', sfx: [['str
 shot({ at: 'For bleary eyes', bg: 'palace', amb: 'palace', trans: 'whip', sfx: [['plop', 'myrrh', 0.8], ['plop', 'onions', 0.8], ['squelch', 'antelope dung', 1]],
   draw: (c, st) => {
     popText(c, st, 'RECIPE: FOR BLEARY EYES', 960, 130, at(st, 'bleary eyes'), { size: 76, anim: 'rise', sfx: 'swoosh_up' });
-    ch(c, st, 'you', { x: 480, y: GY, s: 1.1, faces: [[0, 'wince'], ['antelope dung', 'disgust']], tears: true, id: 'you' });
+    ch(c, st, 'egy_pat', { x: 480, y: GY, s: 1.1, faces: [[0, 'wince'], ['antelope dung', 'disgust']], tears: true, id: 'you' });
     ch(c, st, 'iry', { x: 1400, y: GY, s: 1.1, flip: true, face: 'serious', pose: 'holdBoth' });
     prop(c, st, 'bowl', 1180, 640, { s: 1.2 });
     [['myrrh', 'myrrh', 'MYRRH'], ['onion', 'onions', 'ONION'], ['dung', 'antelope dung', 'ANTELOPE DUNG']].forEach((ing, i) => {
@@ -377,7 +384,7 @@ shot({ at: 'Side effects may include: smelling', bg: null, trans: 'flash', mus: 
   draw: (c, st) => {
     sideEffects(c, st, ['SMELLING LIKE A SWAMP', 'LOSING ALL YOUR FRIENDS', 'BEING FOLLOWED HOME BY\nA CONFUSED CROCODILE'], [at(st, 'smelling like'), at(st, 'losing all'), at(st, 'followed home')], [
       (c2, st2) => stink(c2, 0, 40, st2.t, '#6a9a2a', 3, 0.9),
-      (c2, st2) => { ch(c2, st2, 'you', { x: 0, y: 80, s: 0.32, face: 'sad', noShadow: true }); },
+      (c2, st2) => { ch(c2, st2, 'egy_pat', { x: 0, y: 80, s: 0.32, face: 'sad', noShadow: true }); },
       (c2, st2) => { c2.save(); c2.scale(0.33, 0.33); drawProp(c2, st2, 'croc', { confused: true }); c2.restore(); },
     ]);
   } });
@@ -393,7 +400,7 @@ shot({ at: "But here's the twist", bg: 'v_black', mus: 'twist', trans: 'spin', s
 shot({ at: 'Egyptian doctors smeared it on wounds', bg: 'palace', amb: 'palace', trans: 'whip', sfx: [['squelch', 'smeared', 0.9], ['bandage', 'wrapped them', 0.9]],
   draw: (c, st) => {
     const wrapped = after(st, 'in linen');
-    ch(c, st, 'you', { x: 760, y: GY, s: 1.2, faces: [[0, 'wince'], ['in linen', 'content']], pose: [[10, 6], [70, 60]], id: 'you',
+    ch(c, st, 'egy_pat', { x: 760, y: GY, s: 1.2, faces: [[0, 'wince'], ['in linen', 'content']], pose: [[10, 6], [70, 60]], id: 'you',
       after: (cc, info) => { const h = info.hands[1].p; if (!wrapped) { line(cc, [[h[0] - 60, h[1] - 50], [h[0] - 20, h[1] - 20]], { lw: 8, stroke: '#e0262d' }); if (after(st, 'smeared')) { cc.fillStyle = 'rgba(240,170,40,0.85)'; cc.beginPath(); cc.ellipse(h[0] - 40, h[1] - 36, 36, 20, 0.6, 0, TAU); cc.fill(); } } else { cc.save(); cc.translate(h[0] - 40, h[1] - 36); cc.rotate(0.6); rrect(cc, -46, -22, 92, 44, 16, { fill: '#f5f1e6', lw: 6 }); cc.restore(); } } });
     ch(c, st, 'iry', { x: 1300, y: GY, s: 1.15, flip: true, face: 'serious', pose: 'reach', hold: { R: after(st, 'wrapped') ? 'linen' : 'honey' } });
     label(c, st, 'HONEY ON THE WOUND', 960, 170, 'smeared', { size: 70, fill: '#ffd23f' });

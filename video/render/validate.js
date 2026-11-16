@@ -10,7 +10,7 @@ const { serve } = require('./serve');
   const page = await browser.newPage();
   page.on('pageerror', e => console.log('[pageerror]', e.message));
   await page.setViewport({ width: 1920, height: 1080 });
-  await page.goto(`http://127.0.0.1:${port}/index.html?render=1${opts.scenes ? '&scenes=' + opts.scenes : ''}`);
+  await page.goto(`http://127.0.0.1:${port}/index.html?render=1${opts.scenes ? '&scenes=' + opts.scenes : ''}${opts.res ? '&res=' + opts.res : ''}`);
   await page.waitForFunction('window.READY || window.BOOT_ERROR', { timeout: 60000 });
   const err = await page.evaluate('window.BOOT_ERROR');
   if (err) { console.error('BOOT ERROR:', err); process.exit(1); }

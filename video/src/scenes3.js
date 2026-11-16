@@ -12,7 +12,7 @@ shot({ at: "They didn't go to the market", bg: 'v_navy', trans: 'whip', sfx: [['
   draw: (c, st) => {
     card(c, st, 560, 520, 640, 420, at(st, "didn't go"), (cc, w, h) => { cc.drawImage(bgCanvas('market'), 0, 0, w, h); }, { rot: -0.05, drift: 1 });
     if (after(st, 'to the market')) bigX(c, 560, 520, 1.2, pr_(st, 'to the market', 0.3));
-    card(c, st, 1360, 520, 640, 420, at(st, 'went to sleep'), (cc, w, h) => { cc.drawImage(bgCanvas('abaton'), 0, 0, w, h); cc.save(); cc.translate(w / 2, h - 30); cc.scale(0.5, 0.5); ch(cc, st, 'you', { x: 0, y: 0, s: 1, face: 'sleep', lie: true }); cc.restore(); zzz(cc, w / 2 + 60, h / 2, st.t, 0.8); }, { rot: 0.05, drift: 1 });
+    card(c, st, 1360, 520, 640, 420, at(st, 'went to sleep'), (cc, w, h) => { cc.drawImage(bgCanvas('abaton'), 0, 0, w, h); cc.save(); cc.translate(w / 2, h - 30); cc.scale(0.5, 0.5); ch(cc, st, 'greek_pat', { x: 0, y: 0, s: 1, face: 'sleep', lie: true }); cc.restore(); zzz(cc, w / 2 + 60, h / 2, st.t, 0.8); }, { rot: 0.05, drift: 1 });
     popText(c, st, 'THEY WENT TO SLEEP', 960, 840, at(st, 'went to sleep'), { size: 90, anim: 'slam', sfx: 'impact' });
   } });
 
@@ -56,19 +56,19 @@ shot({ at: "Here's how a visit worked", bg: 'sanctuary', amb: 'birds', mus: 'gre
     let x = 460, face = 'sad';
     if (after(st, 'you wash')) { x = 800; face = 'neutral'; }
     if (after(st, 'make an offering')) { x = 1320; face = 'happy'; }
-    ch(c, st, 'you', { x, y: GY, s: 1.0, face, green: !after(st, 'you wash'), pose: after(st, 'make an offering') ? 'present' : 'idle', id: 'you' });
+    ch(c, st, 'greek_pat', { x, y: GY, s: 1.0, face, green: !after(st, 'you wash'), pose: after(st, 'make an offering') ? 'present' : 'idle', id: 'pat' });
     const steps = [['1. SHOW UP SICK', 'show up sick'], ['2. WASH', 'you wash'], ['3. MAKE AN OFFERING', 'make an offering']];
     steps.forEach((s2, i) => popText(c, st, s2[0], 420 + i * 560, 170, at(st, s2[1]), { size: 58, anim: 'rise', sfx: 'swoosh_up', fill: i === 0 ? '#9be34a' : '#ffd23f' }));
   } });
 
 shot({ at: 'Then at night, you lie down', bg: 'abaton', amb: 'night', mus: 'night', trans: 'fade', td: 0.6, sfx: [['snore', 'sick strangers', 0.6], ['snore', 'go to sleep', 0.5]],
   draw: (c, st) => {
-    const mats = [[420, 'greek', 's1'], [960, 'you', 'you'], [1500, 'greekw', 's2']];
+    const mats = [[420, 'greek', 's1'], [960, 'greek_pat', 'pat'], [1500, 'greekw', 's2']];
     mats.forEach((m, i) => {
       prop(c, st, 'mat', m[0], 960, { s: 0.9 });
-      const show = m[1] !== 'you' || after(st, 'lie down');
-      if (show) ch(c, st, m[1], { x: m[0] + 10, y: 930, s: 0.85, face: m[1] === 'you' && !after(st, 'go to sleep') ? 'nervous' : 'sleep', lie: true, id: m[2], green: m[1] === 'you' });
-      if (m[1] !== 'you' && after(st, 'sick strangers')) zzz(c, m[0] + 60, 720, st.t + i, 1);
+      const show = m[2] !== 'pat' || after(st, 'lie down');
+      if (show) ch(c, st, m[1], { x: m[0] + 10, y: 930, s: 0.85, face: m[2] === 'pat' && !after(st, 'go to sleep') ? 'nervous' : 'sleep', lie: true, id: m[2], green: m[2] === 'pat' });
+      if (m[2] !== 'pat' && after(st, 'sick strangers')) zzz(c, m[0] + 60, 720, st.t + i, 1);
     });
     if (after(st, 'go to sleep')) zzz(c, 1020, 720, st.t, 1.2);
     label(c, st, 'THE ABATON', 960, 180, 'abaton', { size: 90, fill: '#bcd2ff' });
@@ -76,7 +76,7 @@ shot({ at: 'Then at night, you lie down', bg: 'abaton', amb: 'night', mus: 'nigh
 
 shot({ at: 'The god is supposed to visit you', bg: 'dream', amb: 'night', mus: 'dream', trans: 'fade', td: 0.5, sfx: [['harp', 0.1, 0.9], ['magic', 'heal you on the spot', 0.9], ['paper_in', 'tell you what to do', 0.7], ['cash', 'you pay', 1]],
   draw: (c, st) => {
-    ch(c, st, 'you', { x: 600, y: 990, s: 0.9, face: 'sleep', lie: true, id: 'you' });
+    ch(c, st, 'greek_pat', { x: 600, y: 990, s: 0.9, face: 'sleep', lie: true, id: 'pat' });
     zzz(c, 660, 800, st.t, 1);
     const p = pr_(st, 0.2, 0.6, E.back);
     c.save(); c.translate(1150, 450); c.scale(p, p);
@@ -92,7 +92,7 @@ shot({ at: 'The god is supposed to visit you', bg: 'dream', amb: 'night', mus: '
 shot({ at: "It's a hospital where the main treatment is a nap", bg: 'abaton', amb: 'night', mus: 'lullaby', trans: 'whip', sfx: [['snore', 0.4, 0.5], ['ding', 'most relatable', 0.8]],
   draw: (c, st) => {
     prop(c, st, 'mat', 760, 960, { s: 1.4 });
-    ch(c, st, 'you', { x: 780, y: 930, s: 1.3, face: 'sleep', lie: true, id: 'you' });
+    ch(c, st, 'greek_pat', { x: 780, y: 930, s: 1.3, face: 'sleep', lie: true, id: 'pat' });
     shp(c, rrectPts(420, 800, 640, 110, 30), { fill: '#7a63c9', lw: 7 });
     zzz(c, 860, 650, st.t, 1.4);
     prop(c, st, 'sign', 1450, 760, { s: 1.0, text: 'TREATMENT: NAP', w: 520, color: '#f1e3c0' });
@@ -138,7 +138,7 @@ shot({ at: 'And they are wild', bg: 'sanctuary', amb: 'birds', trans: 'whip', sf
 shot({ at: 'She slept in the abaton, walked out', bg: t => (t < 0 ? 'abaton' : 'abaton'), amb: 'birds', trans: 'cut', sfx: [['snore', 0.2, 0.5], ['ta_da', 'gave birth', 0.9], ['pop', 'gave birth', 0.8], ['splash', 'washed himself', 1], ['footsteps', 'walked around', 0.6]],
   draw: (c, st) => {
     const out = after(st, 'walked out');
-    if (out) c.drawImage(bgCanvas('sanctuary'), 0, 0);
+    if (out) c.drawImage(bgCanvas('sanctuary'), 0, 0, W, H);
     if (!out) { prop(c, st, 'mat', 900, 960, { s: 1.0 }); ch(c, st, 'kleo', { x: 920, y: 930, s: 0.95, face: 'sleep', lie: true }); zzz(c, 980, 720, st.t); return; }
     prop(c, st, 'fountain', 1350, 980, { s: 1.0 });
     const born = after(st, 'gave birth');
@@ -190,7 +190,7 @@ shot({ at: 'Which, honestly', bg: 'sanctuary', amb: 'birds', trans: 'cut', sfx: 
 shot({ at: 'Then she slept in the abaton', bg: 'abaton', amb: 'night', mus: 'dream', trans: 'fade', td: 0.5, sfx: [['choir', 'god appeared', 0.9], ['harp', 'in her dream', 0.7]],
   draw: (c, st) => {
     const dream = after(st, 'god appeared');
-    if (dream) c.drawImage(bgCanvas('dream'), 0, 0);
+    if (dream) c.drawImage(bgCanvas('dream'), 0, 0, W, H);
     prop(c, st, 'mat', 560, 990, { s: 0.9 });
     ch(c, st, 'ambrosia', { x: 580, y: 960, s: 0.85, face: 'sleep', lie: true });
     zzz(c, 640, 760, st.t);

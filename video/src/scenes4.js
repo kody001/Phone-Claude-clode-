@@ -143,7 +143,7 @@ shot({ at: "Sick people didn't fast", bg: 'farm', amb: 'farm', trans: 'cut', sfx
   draw: (c, st) => {
     prop(c, st, 'bed', 760, 980, { s: 1.0 });
     const dream = after(st, 'weird dreams');
-    ch(c, st, 'you', { x: 600, y: 900, s: 0.95, faces: [[0, 'sad'], ['greens', 'neutral'], ['weird dreams', 'sleep']], lie: true, green: !dream, id: 'you' });
+    ch(c, st, 'roman_pat', { x: 600, y: 900, s: 0.95, faces: [[0, 'sad'], ['greens', 'neutral'], ['weird dreams', 'sleep']], lie: true, green: !dream, id: 'you' });
     ch(c, st, 'cato', { x: 1420, y: GY, s: 1.15, flip: true, faces: [[0, 'serious'], ['it was great', 'proud']], pose: after(st, 'it was great') ? 'cheer' : 'hold', hold: { R: dream ? null : 'plate' } });
     if (!dream) [['bowl', 'greens', 1200], ['duck', 'duck', 1290], ['pigeon', 'pigeon', 1370], ['hare', 'hare', 1450]].forEach(f => { if (after(st, f[1])) prop(c, st, f[0], f[2] - 120, 560, { s: 0.55, enter: [f[1], 'drop'] }); });
     if (dream) {
@@ -195,7 +195,7 @@ shot({ at: 'Got a wound', bg: 'v_green', trans: 'flash', mus: 'jingle', off: -0.
 
 shot({ at: 'You might think it can', bg: 'farm', amb: 'farm', mus: 'rome', trans: 'whip', sfx: [['boing', 'way ahead', 1]],
   draw: (c, st) => {
-    ch(c, st, 'you', { x: 700, y: GY, s: 1.2, faces: [[0, 'content'], ['way ahead', 'shock']], pose: after(st, 'way ahead') ? 'scared' : 'hips', id: 'you' });
+    ch(c, st, 'roman_pat', { x: 700, y: GY, s: 1.2, faces: [[0, 'content'], ['way ahead', 'shock']], pose: after(st, 'way ahead') ? 'scared' : 'hips', id: 'you' });
     popText(c, st, "IT CAN'T GET WEIRDER...", 960, 170, at(st, "can't get weirder"), { size: 80, anim: 'rise', sfx: 'swoosh_up' });
     if (after(st, 'way ahead')) ch(c, st, 'cato', { x: 1260, y: GY, s: 1.2, flip: true, face: 'smug', pose: 'holdUp', hold: { R: 'jar' }, enter: ['Cato is way', 'up', 0.35] });
   } });
@@ -214,7 +214,7 @@ shot({ at: 'Cato adds', bg: 'farm', amb: 'farm', trans: 'cut', sfx: [['splash', 
   draw: (c, st) => {
     const babies = after(st, 'little babies');
     prop(c, st, 'tub', 760, 1000, { s: 1.3, steam: true });
-    if (!babies) ch(c, st, 'you', { x: 760, y: 1060, s: 1.1, face: 'disgust', pose: 'scared', tremble: true, id: 'you' });
+    if (!babies) ch(c, st, 'roman_pat', { x: 760, y: 1060, s: 1.1, face: 'disgust', pose: 'scared', tremble: true, id: 'you' });
     else ch(c, st, 'baby', { x: 760, y: 1000, s: 1.6, face: 'grin', pose: 'fists', hops: ['grow up weak'] });
     prop(c, st, 'tub', 760, 1000, { s: 1.3, steam: false, liquid: '#f2d43a' });
     ch(c, st, 'cato', { x: 1450, y: GY, s: 1.15, flip: true, face: 'proud', pose: 'present' });
@@ -233,7 +233,7 @@ shot({ at: 'Which means somebody in that house', bg: 'farm', amb: 'farm', trans:
 
 shot({ at: 'For a dislocated joint', bg: 'farm', amb: 'farm', trans: 'whip', sfx: [['bone_crack', 'dislocated', 1]],
   draw: (c, st) => {
-    ch(c, st, 'you', { x: 820, y: GY, s: 1.15, faces: [[0, 'wince'], ['two helpers', 'nervous']], rot: -8, pose: 'scared', id: 'you' });
+    ch(c, st, 'roman_pat', { x: 820, y: GY, s: 1.15, faces: [[0, 'wince'], ['two helpers', 'nervous']], rot: -8, pose: 'scared', id: 'you' });
     label(c, st, 'DISLOCATED!', 820, 220, 'dislocated', { size: 70, fill: '#ff6b3a' });
     if (after(st, 'split green reed')) prop(c, st, 'reed', 820, 760, { s: 1.0, rot: Math.PI / 2, enter: ['split green reed', 'pop'] });
     if (after(st, 'two helpers')) { ch(c, st, 'roman', { x: 440, y: GY, s: 1.05, face: 'nervous', pose: 'reach', look: [-0.8, -0.4], enter: ['two helpers', 'left'], id: 'h1' }); ch(c, st, 'romanb', { x: 1200, y: GY, s: 1.05, flip: true, face: 'nervous', pose: 'reach', look: [0.8, -0.4], enter: ['two helpers', 'right'], id: 'h2' }); }
@@ -269,7 +269,7 @@ shot({ at: 'Side effects may include: a sore throat', bg: null, trans: 'flash', 
 shot({ at: 'And Cato was proud of all this', bg: 'farm', amb: 'farm', mus: 'rome', trans: 'whip', sfx: [['ding', 'whole family healthy', 0.7]],
   draw: (c, st) => {
     rrect(c, 360, 180, 1200, 760, 16, { fill: '#c9a46a', lw: 10 });
-    c.save(); c.beginPath(); c.rect(390, 210, 1140, 700); c.clip(); c.drawImage(bgCanvas('farm'), 0, 0);
+    c.save(); c.beginPath(); c.rect(390, 210, 1140, 700); c.clip(); c.drawImage(bgCanvas('farm'), 0, 0, W, H);
     ch(c, st, 'catowife', { x: 640, y: 1000, s: 1.0, face: 'happy', id: 'wife' });
     ch(c, st, 'cato', { x: 960, y: 1000, s: 1.05, face: 'proud', pose: 'hold', hold: { R: 'cabbage' } });
     ch(c, st, 'marcus', { x: 1280, y: 1000, s: 1.0, face: 'happy', id: 'son' });
@@ -422,7 +422,7 @@ shot({ at: "And that's why your ambulance", bg: 'street', amb: 'city', trans: 'w
     drawProp(c, st, 'ambulance', { starS: 0.001 });
     c.translate(-100, -230); drawProp(c, st, 'cabbage', { face: true, s: 0.9 });
     c.restore();
-    ch(c, st, 'you', { x: 1500, y: GY, s: 1.1, face: 'disgust', flip: true, pose: 'point', id: 'you' });
+    ch(c, st, 'you_modern', { x: 1500, y: GY, s: 1.1, face: 'disgust', flip: true, pose: 'point', id: 'you' });
     if (after(st, 'vegetable')) { bigX(c, 780, 680, 0.8, pr_(st, 'vegetable', 0.3)); ch(c, st, 'cato', { x: 280, y: GY, s: 1.0, face: 'sad', tears: true, hold: { R: 'cabbage' }, pose: 'carry', enter: ['vegetable', 'left'] }); }
   } });
 
@@ -431,8 +431,9 @@ shot({ at: { end: 'vegetable on it' }, off: 0.9, bg: 'v_navy', mus: 'outro', tra
   draw: (c, st) => {
     rays(c, st.t, 'rgba(255,255,255,0.08)');
     popText(c, st, 'THANKS FOR WATCHING!', 960, 200, st.s.start + 0.2, { size: 110, anim: 'slam', sfx: 'impact' });
-    ch(c, st, 'you', { x: 560, y: GY, s: 1.1, face: 'happy', pose: 'wave', wave: true, enter: [0.4, 'up'], id: 'you' });
-    ch(c, st, 'cato', { x: 960, y: GY, s: 1.1, face: 'smug', pose: 'holdUp', hold: { R: 'cabbage' }, enter: [0.6, 'up'] });
-    prop(c, st, 'snake', 1380, 860, { s: 1.1, shades: true, enter: [0.8, 'up'] });
+    const cast = [['iry', { face: 'proud', pose: 'wave', wave: true }], ['rod', { face: 'smug', pose: 'hold', hold: { R: 'scroll' } }], ['ambrosia', { face: 'happy', healed: true, pose: 'wave', wave: true }],
+      ['asclepius', { face: 'smug', pose: STAFF_POSE, hold: { R: ['staff', { s: 0.78 }] } }], ['cato', { face: 'smug', pose: 'holdUp', hold: { R: 'cabbage' } }]];
+    cast.forEach((cm, i) => ch(c, st, cm[0], Object.assign({ x: 260 + i * 350, y: GY, s: 0.95, enter: [0.4 + i * 0.12, 'up', 0.35], id: 'end' + i }, cm[1])));
+    prop(c, st, 'snake', 1720, 330, { s: 0.6, shades: true, enter: [1.2, 'pop'] });
     popText(c, st, 'STAY HEALTHY. MAYBE SKIP THE CABBAGE BATH.', 960, 1010, st.s.start + 1.4, { size: 44, fill: '#fff', anim: 'rise', sfx: false });
   } });

@@ -162,21 +162,30 @@ function registerCamCues(s) {
 
 // ---------- canvas ----------
 const canvas = document.getElementById('c');
+// supersampling: ?res=4k renders 3840x2160 natively (logical coordinates stay 1920x1080)
+const SS = new URLSearchParams(location.search).get('res') === '4k' ? 2 : 1;
+canvas.width = W * SS; canvas.height = H * SS;
 const ctx = canvas.getContext('2d');
-function mk(w = W, h = H) { const cv = document.createElement('canvas'); cv.width = w; cv.height = h; return cv; }
+function mk(w = W, h = H) { const cv = document.createElement('canvas'); cv.width = w * SS; cv.height = h * SS; cv.getContext('2d').setTransform(SS, 0, 0, SS, 0, 0); return cv; }
 const bufA = mk(), bufB = mk(), bufC = mk();
 const BG_CACHE = {};
+const BG_ORDER = [];
 function bgCanvas(id) {
+  if (BG_CACHE[id]) { const i = BG_ORDER.indexOf(id); if (i >= 0) BG_ORDER.splice(i, 1); BG_ORDER.push(id); }
   if (!BG_CACHE[id]) {
+    // keep memory bounded (a 4K background is ~33 MB): evict least-recently-used caches
+    while (BG_ORDER.length >= (SS > 1 ? 7 : 40)) { const old = BG_ORDER.shift(); const cv = BG_CACHE[old]; if (cv) { cv.width = 1; cv.height = 1; } delete BG_CACHE[old]; }
+    BG_ORDER.push(id);
     const fn = window.BGS[id];
     if (!fn) throw new Error('no bg ' + id);
     const cv = mk(W, H), c = cv.getContext('2d');
     const blur = fn(c) ;
     if (blur) {
       const cv2 = mk(W, H), c2 = cv2.getContext('2d');
-      c2.filter = 'blur(' + blur + 'px)';
+      c2.save(); c2.setTransform(1, 0, 0, 1, 0, 0);
+      c2.filter = 'blur(' + blur * SS + 'px)';
       c2.drawImage(cv, 0, 0);
-      c2.filter = 'none';
+      c2.filter = 'none'; c2.restore();
       addGrainTo(c2, 0.05);
       BG_CACHE[id] = cv2;
     } else { addGrainTo(c, 0.05); BG_CACHE[id] = cv; }
@@ -191,7 +200,7 @@ function addGrainTo(c, a) {
     for (let i = 0; i < im.data.length; i += 4) { const v = 128 + (rnd(i, 9) - 0.5) * 255; im.data[i] = im.data[i + 1] = im.data[i + 2] = v; im.data[i + 3] = 255; }
     g.putImageData(im, 0, 0);
   }
-  c.save(); c.globalAlpha = a; c.globalCompositeOperation = 'overlay';
+  c.save(); c.setTransform(SS, 0, 0, SS, 0, 0); c.globalAlpha = a; c.globalCompositeOperation = 'overlay';
   c.fillStyle = c.createPattern(GRAIN, 'repeat'); c.fillRect(0, 0, W, H); c.restore();
 }
 let VIGNETTE = null;
@@ -203,7 +212,7 @@ function vignette(c, a = 1) {
     gr.addColorStop(0, 'rgba(0,0,0,0)'); gr.addColorStop(1, 'rgba(0,0,0,0.55)');
     g.fillStyle = gr; g.fillRect(0, 0, W, H);
   }
-  c.save(); c.globalAlpha = a; c.drawImage(VIGNETTE, 0, 0); c.restore();
+  c.save(); c.globalAlpha = a; c.drawImage(VIGNETTE, 0, 0, W, H); c.restore();
 }
 
 // draw one shot (with its camera) into context c at time t
@@ -216,7 +225,7 @@ function drawShot(c, s, t) {
   c.translate(-W / 2 - cam.x, -H / 2 - cam.y);
   if (s.bg) {
     const bgs = typeof s.bg === 'function' ? s.bg(t) : s.bg;
-    c.drawImage(bgCanvas(bgs), 0, 0);
+    c.drawImage(bgCanvas(bgs), 0, 0, W, H);
   }
   const st = { s, t, lt: t - s.start, dur: s.dur, k: (p, w) => K(s, p, w), cam };
   if (s.draw) s.draw(c, st);
@@ -246,7 +255,7 @@ function trans(a, b, t, p) {
   const kind = b.trans;
   if (kind === 'fade') {
     drawShot(ca, a, t); drawShot(cb, b, t);
-    ctx.drawImage(bufA, 0, 0); ctx.globalAlpha = E.io(p); ctx.drawImage(bufB, 0, 0); ctx.globalAlpha = 1; return;
+    ctx.drawImage(bufA, 0, 0, W, H); ctx.globalAlpha = E.io(p); ctx.drawImage(bufB, 0, 0, W, H); ctx.globalAlpha = 1; return;
   }
   if (kind === 'flash') {
     if (p < 0.5) drawShot(ctx, a, t); else drawShot(ctx, b, t);
@@ -263,8 +272,8 @@ function trans(a, b, t, p) {
     for (let k = 0; k < taps; k++) {
       const o = (k / (taps - 1) - 0.5) * 160 * blur * dir;
       ctx.globalAlpha = k === 0 ? 1 : 1 / (k + 1);
-      ctx.drawImage(bufA, -off + o, 0);
-      ctx.drawImage(bufB, W * dir - off + o, 0);
+      ctx.drawImage(bufA, -off + o, 0, W, H);
+      ctx.drawImage(bufB, W * dir - off + o, 0, W, H);
     }
     ctx.globalAlpha = 1; return;
   }
@@ -358,7 +367,7 @@ function drawCaptions(c, t) {
 // ---------- frame ----------
 let fontsReady = false;
 function renderAt(t) {
-  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  ctx.setTransform(SS, 0, 0, SS, 0, 0);
   ctx.globalAlpha = 1;
   ctx.fillStyle = '#000'; ctx.fillRect(0, 0, W, H);
   composite(t);
@@ -379,7 +388,7 @@ function collectCues() {
     const n = Math.max(3, Math.ceil(s.dur / 0.25));
     for (let i = 0; i <= n; i++) {
       const t = s.start + (s.dur * i) / n;
-      c.setTransform(1, 0, 0, 1, 0, 0);
+      c.setTransform(SS, 0, 0, SS, 0, 0);
       drawShot(c, s, Math.min(t, s.end - 0.001));
     }
   }

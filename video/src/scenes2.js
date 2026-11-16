@@ -55,7 +55,7 @@ shot({ at: 'Instead, when someone got sick', bg: 'market', amb: 'market', trans:
     const down = st.t > tSet;
     const lift = down ? 0 : 180;
     prop(c, st, 'mat', gx, GY - lift - 10, { s: 1.0 });
-    ch(c, st, 'you', { x: gx + 20, y: GY - lift - 40, s: 0.95, face: 'sad', green: true, lie: true, id: 'you' });
+    ch(c, st, 'bab_sick', { x: gx + 20, y: GY - lift - 40, s: 0.95, face: 'sad', green: true, lie: true, id: 'bab_sick' });
     if (!down || st.t < tSet + 1.2) {
       const ex = down ? (st.t - tSet - 0.3) * 900 : 0;
       ch(c, st, 'bab', { x: gx - 300 + Math.max(0, ex), y: GY, s: 1.0, face: 'neutral', pose: 'holdBoth', walk: !down, id: 'b1' });
@@ -67,7 +67,7 @@ shot({ at: 'Instead, when someone got sick', bg: 'market', amb: 'market', trans:
 shot({ at: 'Then anybody walking past', bg: 'market', amb: 'market', trans: 'cut', sfx: [['crowd_murmur', 0, 0.5]],
   draw: (c, st) => {
     prop(c, st, 'mat', 960, GY - 10, { s: 1.0 });
-    ch(c, st, 'you', { x: 980, y: GY - 40, s: 0.95, face: 'sad', green: true, lie: true, id: 'you' });
+    ch(c, st, 'bab_sick', { x: 980, y: GY - 40, s: 0.95, face: 'sad', green: true, lie: true, id: 'bab_sick' });
     const ppl = [['bab', 380, 'walking past', 'TRY ONIONS!'], ['bab_w', 1540, 'knew someone', 'MY COUSIN HAD THAT!'], ['bab_pass', 700, 'what worked', 'DRINK MORE BEER!']];
     ppl.forEach((p, i) => {
       const t0 = at(st, p[2]);
@@ -79,7 +79,7 @@ shot({ at: 'Then anybody walking past', bg: 'market', amb: 'market', trans: 'cut
 shot({ at: 'And according to Rod', bg: 'market', amb: 'market', trans: 'cut', sfx: [['whistle', 'in silence', 1]],
   draw: (c, st) => {
     prop(c, st, 'mat', 960, GY - 10, { s: 1.0 });
-    ch(c, st, 'you', { x: 980, y: GY - 40, s: 0.95, face: 'sad', green: true, lie: true, id: 'you' });
+    ch(c, st, 'bab_sick', { x: 980, y: GY - 40, s: 0.95, face: 'sad', green: true, lie: true, id: 'bab_sick' });
     const tw = at(st, 'in silence');
     const caught = st.t > tw;
     ch(c, st, 'bab', { x: 1650, y: GY, s: 1.0, flip: !caught || st.t < at(st, 'had to ask'), faces: [[0, 'sly'], ['in silence', 'shock'], ['had to ask', 'happytalk']], pose: caught ? 'scared' : 'hold', move: [[0, 1300, GY, tw - st.s.start]], walk: !caught, id: 'sneak' });
@@ -91,7 +91,7 @@ shot({ at: 'And according to Rod', bg: 'market', amb: 'market', trans: 'cut', sf
 shot({ at: 'So Babylon invented the comment section', bg: 'v_blue', trans: 'whip', sfx: [['dialup', 'internet', 0.6], ['keys', 0.15, 0.7], ['keys', 'thousand years', 0.6]],
   draw: (c, st) => {
     uiCard(c, 960, 520, 1100, 700, 'BABYLON MARKETPLACE  •  POST', [], {});
-    ch(c, st, 'you', { x: 560, y: 470, s: 0.42, face: 'sad', green: true, noShadow: true });
+    ch(c, st, 'bab_sick', { x: 560, y: 470, s: 0.42, face: 'sad', green: true, noShadow: true });
     txt(c, 'patient_on_mat:  "my stomach hurts :("', 680, 330, { size: 40, align: 'left', fill: '#22324f', lw: 0, shadow: false, font: '"Patrick Hand"' });
     const cm = [['wife_cousin_guy', 'my wife\'s cousin had that', 'comment section'], ['onion_fan', 'have u tried onions??', 'thousand years'], ['first_guy', 'first!', 'before the internet']];
     cm.forEach((m, i) => {
@@ -111,12 +111,12 @@ shot({ at: 'So Babylon invented the comment section', bg: 'v_blue', trans: 'whip
 shot({ at: 'Hi, sorry', bg: 'market', amb: 'market', trans: 'cut', off: -0.2, cam: { push: 0.05 },
   draw: (c, st) => {
     prop(c, st, 'mat', 900, 1000, { s: 1.6 });
-    ch(c, st, 'you', { x: 900, y: 1300, s: 2.0, face: 'sadtalk', green: true, pose: 'holdBoth', talk: ['Hi, sorry', 'three days'], sweat: true, id: 'you' });
+    ch(c, st, 'bab_sick', { x: 900, y: 1300, s: 2.0, face: 'sadtalk', green: true, pose: 'holdBoth', talk: ['Hi, sorry', 'three days'], sweat: true, id: 'bab_sick' });
   } });
 
 shot({ at: "Oh, my wife's cousin", bg: 'market', amb: 'market', trans: 'cut', off: -0.15, sfx: [['magic_bad', 'cursed', 0.8]],
   draw: (c, st) => {
-    ch(c, st, 'you', { x: 470, y: 1250, s: 1.6, faces: [[0, 'neutral'], ['being cursed', 'shock']], green: true, pose: 'holdBoth', id: 'you' });
+    ch(c, st, 'bab_sick', { x: 470, y: 1250, s: 1.6, faces: [[0, 'neutral'], ['being cursed', 'shock']], green: true, pose: 'holdBoth', id: 'bab_sick' });
     ch(c, st, 'bab_pass', { x: 1350, y: 1250, s: 1.7, flip: true, face: 'happy', pose: 'point', talk: ['Oh, my wife', 'cursed'], headTilt: -6 });
     if (after(st, 'cursed')) prop(c, st, 'curseCloud', 470, 300, { s: 1.4, enter: ['cursed', 'pop'] });
   } });
@@ -150,7 +150,7 @@ shot({ at: 'The ashipu was the exorcist', bg: 'surgery', amb: 'spooky', mus: 'sp
     ch(c, st, 'ashipu', { x: 560, y: GY, s: 1.2, face: after(st, 'work out') ? 'serious' : 'smug', pose: after(st, 'work out') ? 'reach' : 'hold', hold: { R: after(st, 'work out') ? 'mag' : 'incense' } });
     label(c, st, 'ASHIPU', 560, 160, 'ashipu', { size: 110, fill: '#c9a0ff' });
     label(c, st, '= EXORCIST', 560, 260, 'exorcist', { size: 60, fill: '#fff' });
-    ch(c, st, 'you', { x: 1350, y: GY, s: 1.1, face: 'nervous', green: true, sweat: true, id: 'you' });
+    ch(c, st, 'bab_sick', { x: 1350, y: GY, s: 1.1, face: 'nervous', green: true, sweat: true, id: 'bab_sick' });
     if (after(st, 'god')) { prop(c, st, 'crown', 1120, 330, { s: 0.9, enter: ['god', 'pop'] }); glow(c, 1120, 330, 120, 'rgba(255,230,120,0.6)'); }
     if (after(st, 'demon')) { c.save(); c.translate(1560, 320); c.scale(pr_(st, 'demon', 0.3, E.back), pr_(st, 'demon', 0.3, E.back)); circ(c, 0, 0, 60, { fill: '#d9342b', lw: 7 }); for (const s2 of [-1, 1]) shp(c, [[s2 * 30, -46], [s2 * 56, -100], [s2 * 50, -40]], { fill: '#fff', lw: 5 }); c.fillStyle = INK; c.beginPath(); c.arc(-20, -6, 8, 0, TAU); c.arc(20, -6, 8, 0, TAU); c.fill(); line(c, [[-24, 24], [0, 16], [24, 24]], { lw: 5 }); c.restore(); }
     if (after(st, 'or ghost')) { c.save(); c.translate(1350, 230 + Math.sin(st.t * 3) * 10); c.globalAlpha *= 0.85 * pr_(st, 'or ghost', 0.3); shp(c, [[-50, 60], [-56, -20], ...ellPts(0, -20, 56, 60, 16, Math.PI, TAU).slice(1, -1), [56, -20], [50, 60], [25, 40], [0, 64], [-25, 40]], { fill: '#eef6ff', lw: 6, stroke: '#9fb5cf' }); c.fillStyle = INK; c.beginPath(); c.arc(-18, -20, 8, 0, TAU); c.arc(18, -20, 8, 0, TAU); c.fill(); c.restore(); }
@@ -159,7 +159,7 @@ shot({ at: 'The ashipu was the exorcist', bg: 'surgery', amb: 'spooky', mus: 'sp
 shot({ at: 'Medical texts even name', bg: 'surgery', amb: 'spooky', trans: 'cut', sfx: [['boing', 'hand" of a god', 0.9], ['ghost_ooo', 'hand of a ghost', 0.8], ['boing', 'hand of a ghost', 0.6, 0, 0.6]],
   draw: (c, st) => {
     prop(c, st, 'tablet', 330, 640, { s: 1.6, rot: -0.08 });
-    ch(c, st, 'you', { x: 1150, y: GY, s: 1.15, faces: [[0, 'nervous'], ['hand" of a god', 'shock'], ['hand of a ghost', 'scared']], green: true, id: 'you' });
+    ch(c, st, 'bab_sick', { x: 1150, y: GY, s: 1.15, faces: [[0, 'nervous'], ['hand" of a god', 'shock'], ['hand of a ghost', 'scared']], green: true, id: 'bab_sick' });
     const poke = (t0, ghost) => {
       if (st.t < t0) return;
       const d = st.t - t0;
@@ -177,11 +177,11 @@ shot({ at: 'Medical texts even name', bg: 'surgery', amb: 'spooky', trans: 'cut'
 shot({ at: 'Imagine hearing that from your doctor', bg: 'clinic', amb: 'clinic', mus: 'babylon', trans: 'whip', sfx: [['phone_ring', 0.05, 0.9], ['ghost_ooo', "it's Grandpa", 0.8], ['pop', "it's Grandpa", 0.7]],
   draw: (c, st) => {
     // left: YOU on the phone
-    ch(c, st, 'you', { x: 480, y: GY, s: 1.15, faces: [[0, 'neutral'], ['Good news', 'happy'], ['Bad news', 'nervous'], ["it's Grandpa", 'shock']], pose: [[10, 6], [24, -150]], hold: { R: ['phone', { rot: 0.2, s: 0.8 }] }, sweat: after(st, 'Bad news'), id: 'you' });
+    ch(c, st, 'you_modern', { x: 480, y: GY, s: 1.15, faces: [[0, 'neutral'], ['Good news', 'happy'], ['Bad news', 'nervous'], ["it's Grandpa", 'shock']], pose: [[10, 6], [24, -150]], hold: { R: ['phone', { rot: 0.2, s: 0.8 }] }, sweat: after(st, 'Bad news'), id: 'you_modern' });
     if (after(st, "it's Grandpa")) prop(c, st, 'ghostGrandpa', 220, 760, { s: 0.75, enter: ["it's Grandpa", 'pop'], wave: true });
     // right: the ashipu calling from Babylon
     c.save(); c.beginPath(); c.rect(1000, 0, W - 1000, H); c.clip();
-    c.drawImage(bgCanvas('surgery'), 360, 0);
+    c.drawImage(bgCanvas('surgery'), 360, 0, W, H);
     ch(c, st, 'ashipu', { x: 1460, y: GY + 60, s: 1.15, flip: true, face: 'smug', pose: [[24, -150], [10, 6]], hold: { L: ['tablet', { s: 0.55, rot: 0.2 }] }, talk: ['Good news', "it's Grandpa"] });
     c.restore();
     line(c, [[1000, 0], [1000, H]], { lw: 16, stroke: '#111', amp: 0 });
@@ -226,7 +226,7 @@ shot({ at: 'How much is that', bg: 'v_navy', trans: 'whip',
 shot({ at: 'Incredible deal', bg: 'market', amb: 'market', trans: 'cut', sfx: [['scribble', 'Sign me up', 1]],
   draw: (c, st) => {
     rays(c, st.t, 'rgba(255,230,120,0.18)');
-    ch(c, st, 'you', { x: 820, y: GY, s: 1.25, face: 'grin', pose: [[28, -70], [40, -40]], hold: { R: 'quill', L: ['tablet', { s: 0.8 }] }, hops: ['Sign me up'], id: 'you' });
+    ch(c, st, 'bab_doc', { x: 820, y: GY, s: 1.25, face: 'grin', pose: [[28, -70], [40, -40]], hold: { R: 'quill', L: ['tablet', { s: 0.8 }] }, hops: ['Sign me up'], id: 'bab_doc' });
     popText(c, st, 'SIGN ME UP!', 1420, 300, at(st, 'Sign me up'), { size: 110, anim: 'slam', sfx: 'impact', wiggle: true });
     sparkles(c, 600, 300, 500, 400, st.t, 6);
   } });

@@ -1,7 +1,8 @@
 // Shared scene helpers + extra props used by the episode.
 'use strict';
 const GY = 975;                      // ground line for full-body shots
-const at = (st, p, w) => (typeof p === 'number' ? st.s.start + p : st.k(p, w));
+// numbers are offsets from the shot start, unless they are clearly absolute times (>= shot start - 1s)
+const at = (st, p, w) => (typeof p === 'number' ? (st.s.start > 2.5 && p >= st.s.start - 1 ? p : st.s.start + p) : st.k(p, w));
 const after = (st, p) => st.t >= at(st, p);
 const pr_ = (st, p, d = 0.4, e = E.out) => prog(st.t, at(st, p), d, e);
 
