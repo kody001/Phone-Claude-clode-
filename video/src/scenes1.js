@@ -113,6 +113,7 @@ function miniCard(c, st, x, y, t0, bgId, cap, inner) {
 }
 shot({ at: 'It involves a royal butt specialist', bg: 'v_navy', trans: 'cut', cam: { push: 0.04 },
   draw: (c, st) => {
+    popText(c, st, "ON TODAY'S MENU:", 960, 90, st.s.start + 0.05, { size: 70, anim: 'rise', sfx: 'swoosh_up', out: at(st, 'royal butt specialist') + 0.2 });
     miniCard(c, st, 520, 300, 'royal butt specialist', 'palace', 'ROYAL BUTT SPECIALIST', cc => ch(cc, st, 'iry', { x: 0, y: -40, s: 1.4, face: 'serious', pose: 'hips' }));
     miniCard(c, st, 1400, 300, 'a city where', 'market', 'EVERYONE IS YOUR DOCTOR', cc => { ch(cc, st, 'bab', { x: -360, y: -40, s: 1.2, face: 'talk' }); ch(cc, st, 'you', { x: 0, y: -40, s: 1.2, face: 'sad', green: true }); ch(cc, st, 'bab_pass', { x: 360, y: -40, s: 1.2, flip: true, face: 'happy', pose: 'point' }); });
     miniCard(c, st, 520, 740, 'a hospital that', 'abaton', 'THE NAP HOSPITAL', cc => { ch(cc, st, 'you', { x: 0, y: -60, s: 1.2, face: 'sleep', lie: true }); zzz(cc, 140, -320, st.t, 1.6); });

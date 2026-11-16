@@ -50,7 +50,7 @@ shot({ at: 'Around 430 BC', bg: 'study', amb: 'study', trans: 'whip', sfx: [['qu
 shot({ at: 'Instead, when someone got sick', bg: 'market', amb: 'market', trans: 'whip', sfx: [['footsteps', 'carried them', 0.7], ['thud', 'set them down', 1]],
   draw: (c, st) => {
     const tSet = at(st, 'set them down');
-    const carry = clamp((st.t - at(st, 'carried them')) / (tSet - at(st, 'carried them')));
+    const carry = clamp((st.t - st.s.start - 0.15) / (tSet - st.s.start - 0.15));
     const gx = lerp(-500, 960, E.out(carry));
     const down = st.t > tSet;
     const lift = down ? 0 : 180;
@@ -88,7 +88,7 @@ shot({ at: 'And according to Rod', bg: 'market', amb: 'market', trans: 'cut', sf
     label(c, st, 'NO SILENT WALK-BYS', 960, 150, 'in silence', { size: 64, fill: '#ff6b3a' });
   } });
 
-shot({ at: 'So Babylon invented the comment section', bg: 'v_blue', trans: 'whip', sfx: [['dialup', 'internet', 0.6]],
+shot({ at: 'So Babylon invented the comment section', bg: 'v_blue', trans: 'whip', sfx: [['dialup', 'internet', 0.6], ['keys', 0.15, 0.7], ['keys', 'thousand years', 0.6]],
   draw: (c, st) => {
     uiCard(c, 960, 520, 1100, 700, 'BABYLON MARKETPLACE  •  POST', [], {});
     ch(c, st, 'you', { x: 560, y: 470, s: 0.42, face: 'sad', green: true, noShadow: true });
@@ -233,6 +233,7 @@ shot({ at: 'Incredible deal', bg: 'market', amb: 'market', trans: 'cut', sfx: [[
 
 shot({ at: "Now, you'd expect the flip side", bg: 'v_white', trans: 'whip', vig: 0.3, sfx: [['paper_in', 'a fine', 0.8], ['pop', 'bad review', 0.7]],
   draw: (c, st) => {
+    popText(c, st, "YOU'D EXPECT...", 960, 130, st.s.start + 0.1, { size: 80, anim: 'rise', sfx: 'swoosh_up', fill: '#2f6fd6', stroke: '#fff' });
     if (after(st, 'a fine')) { const p = pr_(st, 'a fine', 0.35, E.back); c.save(); c.translate(560, 540); c.rotate(-0.06); c.scale(p, p); uiCard(c, 0, 0, 560, 560, 'FINE', ['Botched surgery', 'Amount: 1 goat', 'Pay by: whenever'], { head: '#e0262d' }); c.restore(); }
     if (after(st, 'bad review')) { const p = pr_(st, 'bad review', 0.35, E.back); c.save(); c.translate(1360, 540); c.rotate(0.05); c.scale(p, p); uiCard(c, 0, 0, 680, 440, 'REVIEW', ['', '"Would not get operated', ' on again."'], { head: '#2f6fd6' }); drawProp(c, st, 'stars', { n: 1 }); c.restore(); }
   } });

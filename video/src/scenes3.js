@@ -128,6 +128,7 @@ shot({ at: 'And they are wild', bg: 'sanctuary', amb: 'birds', trans: 'whip', sf
   draw: (c, st) => {
     ch(c, st, 'kleo', { x: 640, y: GY, s: 1.25, faces: [[0, 'neutral'], ['pregnant', 'bored'], ['Five.', 'nervous']], sweat: after(st, 'Five.'), enter: ['woman named Kleo', 'left'] });
     label(c, st, 'KLEO', 640, 260, 'Kleo', { size: 90, fill: '#ffd23f' });
+    popText(c, st, 'THE CLAIMS GET WILD', 960, 150, at(st, 'they are wild'), { size: 84, anim: 'slam', sfx: 'impact', out: at(st, 'woman named') });
     const t5 = at(st, 'five years');
     if (st.t > t5 - 0.2) { const n = Math.min(5, 1 + Math.floor((st.t - t5 + 0.2) * 4)); prop(c, st, 'calendar', 1350, 520, { s: 1.6, top: 'YEAR', num: String(n) }); }
     popText(c, st, 'PREGNANT FOR 5 YEARS', 1350, 800, at(st, 'pregnant'), { size: 70, anim: 'rise', sfx: 'swoosh_up' });
