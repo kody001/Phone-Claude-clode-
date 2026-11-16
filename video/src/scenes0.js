@@ -22,7 +22,7 @@ function label(c, st, s, x, y, t0, o = {}) {
   if (st.t < t) return;
   const p = prog(st.t, t, 0.35, E.back);
   if (o.ax !== undefined) arrow(c, x + (o.adx || 0), y + (o.ady || 30), o.ax, o.ay, { p: prog(st.t, t + 0.1, 0.3), color: o.acolor || '#ffffff', lw: 10, bend: o.bend || 40 });
-  txt(c, s, x, y, { size: o.size || 58, scale: p, fill: o.fill || '#ffffff', font: o.font || '"Luckiest Guy"', lw: o.lw === undefined ? 12 : o.lw, rot: o.rot || 0, stroke: o.stroke });
+  txt(c, s, x, y, { size: o.size || 58, scale: p, fill: o.fill || '#ffffff', font: o.font || '"Lilita One"', lw: o.lw === undefined ? 12 : o.lw, rot: o.rot || 0, stroke: o.stroke });
 }
 // red rubber stamp
 function stamp(c, st, s, x, y, t0, o = {}) {
@@ -32,7 +32,7 @@ function stamp(c, st, s, x, y, t0, o = {}) {
   const p = clamp((st.t - t) / 0.14);
   const sc = lerp(2.2, 1, E.out(p)) * (o.scale || 1);
   c.save(); c.translate(x, y); c.rotate(o.rot === undefined ? -0.14 : o.rot); c.scale(sc, sc); c.globalAlpha *= clamp(p * 2);
-  c.font = `${o.size || 110}px "Luckiest Guy"`; const w = c.measureText(s).width;
+  c.font = `${o.size || 110}px "Lilita One"`; const w = c.measureText(s).width;
   const col = o.color || '#e0262d';
   c.strokeStyle = col; c.lineWidth = 12; c.strokeRect(-w / 2 - 36, -(o.size || 110) * 0.72, w + 72, (o.size || 110) * 1.38);
   c.fillStyle = col; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText(s, 0, (o.size || 110) * 0.08);

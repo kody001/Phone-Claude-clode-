@@ -148,16 +148,16 @@ function txt(c, s, x, y, o = {}) {
   if (o.rot) c.rotate(o.rot);
   if (o.scale !== undefined) c.scale(o.scale, o.scale);
   c.globalAlpha *= o.alpha === undefined ? 1 : o.alpha;
-  c.font = `${o.weight || ''} ${size}px ${o.font || '"Luckiest Guy"'}`;
+  c.font = `${o.weight || ''} ${size}px ${o.font || '"Lilita One"'}`;
   c.textAlign = o.align || 'center';
   c.textBaseline = 'middle';
   c.lineJoin = 'round';
   const lines = String(s).split('\n');
   const lh = size * (o.lh || 1.08);
   lines.forEach((ln, i) => {
-    const yy = (i - (lines.length - 1) / 2) * lh + (o.font && o.font.includes('Luckiest') || !o.font ? size * 0.08 : 0);
-    if (o.shadow !== false) { c.fillStyle = o.shadowColor || 'rgba(0,0,0,0.6)'; c.fillText(ln, (o.sx || 0) + size * 0.04, yy + size * 0.08); if (o.lw !== 0) { c.lineWidth = (o.lw || size * 0.16); c.strokeStyle = o.shadowColor || 'rgba(0,0,0,0.6)'; c.strokeText(ln, size * 0.04, yy + size * 0.08); } }
-    if (o.lw !== 0) { c.lineWidth = o.lw || size * 0.16; c.strokeStyle = o.stroke || INK; c.strokeText(ln, 0, yy); }
+    const yy = (i - (lines.length - 1) / 2) * lh + (!o.font || o.font.includes('Lilita') ? size * 0.05 : 0);
+    if (o.shadow !== false) { c.save(); c.shadowColor = o.shadowColor || 'rgba(0,0,0,0.75)'; c.shadowBlur = size * 0.18; c.shadowOffsetY = size * 0.05; c.fillStyle = 'rgba(0,0,0,0.55)'; c.fillText(ln, size * 0.02, yy + size * 0.05); c.restore(); }
+    if (o.lw !== 0) { c.lineWidth = o.lw || size * 0.1; c.strokeStyle = o.stroke || 'rgba(20,12,8,0.9)'; c.strokeText(ln, 0, yy); }
     c.fillStyle = o.fill || '#ffd23f';
     c.fillText(ln, 0, yy);
   });
@@ -197,7 +197,7 @@ function listCard(c, st, title, items, times, o = {}) {
     popText(c, st, it, x, y0 + gap * (i + 1) + 20, times[i], { size: o.is || 70, anim: 'slam', sfx: 'thud', vol: 0.8, fill: o.itemFill || '#ffd23f' });
     if (o.strike && o.strike[i] !== undefined && st.t > o.strike[i]) {
       const p = prog(st.t, o.strike[i], 0.25);
-      c.save(); c.font = `${o.is || 70}px "Luckiest Guy"`; const w = c.measureText(it).width; c.restore();
+      c.save(); c.font = `${o.is || 70}px "Lilita One"`; const w = c.measureText(it).width; c.restore();
       line(c, [[x - w / 2 - 10, y0 + gap * (i + 1) + 26], [x - w / 2 - 10 + (w + 20) * p, y0 + gap * (i + 1) + 14]], { lw: 12, stroke: '#e0262d', seed: i });
       cue('scribble', o.strike[i], 0.7);
     }

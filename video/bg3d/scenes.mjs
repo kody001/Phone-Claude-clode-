@@ -72,7 +72,7 @@ const T = {
   glyphs: rep => tex('glyphs', 1024, 128, (c, w, h) => { noisy(c, w, h, '#d9b47a', 30, 61, 4); c.fillStyle = '#2f7fc1'; c.fillRect(0, 0, w, 14); c.fillRect(0, h - 14, w, 14); c.fillStyle = 'rgba(70,40,15,0.75)'; const r = rand(5); for (let x = 20; x < w; x += 46) { const k = Math.floor(r() * 5); c.beginPath(); if (k === 0) c.ellipse(x, 64, 14, 9, 0, 0, 7); else if (k === 1) { c.moveTo(x - 14, 84); c.lineTo(x, 44); c.lineTo(x + 14, 84); } else if (k === 2) c.rect(x - 4, 40, 8, 46); else if (k === 3) { c.arc(x, 56, 10, 0, 7); c.rect(x - 14, 78, 28, 6); } else { c.moveTo(x - 14, 70); c.quadraticCurveTo(x, 36, x + 14, 70); c.lineTo(x + 14, 78); c.lineTo(x - 14, 78); } c.fill(); } }, rep),
   carpet: rep => tex('carpet', 256, 256, (c, w, h) => { noisy(c, w, h, '#8a1f1f', 30, 67, 6); c.strokeStyle = '#d4a017'; c.lineWidth = 8; c.strokeRect(14, 14, w - 28, h - 28); }, rep),
   cityWin: rep => tex('citywin', 512, 512, (c, w, h) => { noisy(c, w, h, '#2b3348', 25, 71, 4); const r = rand(9); for (let y = 20; y < h; y += 46) for (let x = 16; x < w; x += 40) { c.fillStyle = r() > 0.45 ? `rgba(255,${200 + r() * 40},${110 + r() * 60},0.9)` : 'rgba(20,25,40,0.9)'; c.fillRect(x, y, 22, 28); } }, rep),
-  shelves: rep => tex('shelves', 512, 512, (c, w, h) => { noisy(c, w, h, '#4a3220', 25, 73, 3); for (let y = 0; y < h; y += 128) { c.fillStyle = '#2e1e10'; c.fillRect(0, y + 110, w, 18); for (let x = 10; x < w; x += 46) { c.fillStyle = ['#e8d7a8', '#d9c48f', '#f0e2bc'][(x / 46 | 0) % 3]; c.beginPath(); c.ellipse(x + 18, y + 80, 20, 28, 0, 0, 7); c.fill(); c.fillStyle = '#7a5230'; c.beginPath(); c.arc(x + 18, y + 80, 7, 0, 7); c.fill(); } } }, rep),
+  shelves: rep => tex('shelves2', 1024, 1024, (c, w, h) => { noisy(c, w, h, '#3a2414', 25, 73, 3); const cw = 170, chh = 150; for (let y = 10; y < h - 10; y += chh) for (let x = 10; x < w - 10; x += cw) { c.fillStyle = '#140a04'; c.fillRect(x + 10, y + 10, cw - 20, chh - 20); const r = rand(x * 7 + y); const n = 2 + Math.floor(r() * 4); for (let k = 0; k < n; k++) { const sx = x + 30 + r() * (cw - 70), sy = y + chh - 40 - r() * 30; c.fillStyle = ['#e8d7a8', '#d9c48f', '#f0e2bc'][k % 3]; c.fillRect(sx - 12, sy - 12, 60, 24); c.beginPath(); c.ellipse(sx - 12, sy, 9, 12, 0, 0, 7); c.fill(); c.fillStyle = '#7a5230'; c.beginPath(); c.ellipse(sx - 12, sy, 4, 6, 0, 0, 7); c.fill(); } } }, rep),
 };
 function sprite(key, w, h, paint) {
   if (!TEXCACHE['spr' + key]) {
@@ -134,6 +134,21 @@ function roomShell(w, h, d, wallM, floorM, ceilM) {
   if (ceilM) { const cl = new THREE.Mesh(new THREE.PlaneGeometry(w, d), ceilM); cl.rotation.x = Math.PI / 2; cl.position.y = h; scene.add(cl); }
 }
 
+function terracotta() { return mat(T.plaster('#b5652e', [1, 1]), { roughness: 0.8 }); }
+function pot(x, z, s = 1, m) {
+  const pts = []; for (let i = 0; i <= 10; i++) { const u = i / 10; pts.push(new THREE.Vector2((0.22 + Math.sin(u * Math.PI) * 0.28 - (u > 0.85 ? 0.1 : 0)) * s, u * 0.9 * s)); }
+  return add(new THREE.Mesh(new THREE.LatheGeometry(pts, 18), m || terracotta()), x, 0, z);
+}
+function basket(x, z, s = 1) { cyl(0.35 * s, 0.3 * s, mat(T.wood([2, 1]), { color: 0xc8a060 }), x, 0, z, 14, 0.42 * s); for (let i = 0; i < 4; i++) add(new THREE.Mesh(new THREE.SphereGeometry(0.11 * s, 8, 6), new THREE.MeshStandardMaterial({ color: [0xe74c3c, 0xf39c12, 0x27ae60, 0xd4a017][i] })), x + (i - 1.5) * 0.14 * s, 0.32 * s, z); }
+function banner(x, y, z, w, h, color, trim = 0xd4a017) { const b = new THREE.Mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshStandardMaterial({ color, roughness: 0.9, side: THREE.DoubleSide })); b.position.set(x, y, z); scene.add(b); const t = new THREE.Mesh(new THREE.PlaneGeometry(w, h * 0.08), new THREE.MeshStandardMaterial({ color: trim })); t.position.set(x, y - h * 0.42, z + 0.01); scene.add(t); }
+function statue(x, z, s, m, head = 'nemes') {
+  box(1.2 * s, 0.6 * s, 1.2 * s, m, x, 0, z); box(0.8 * s, 1.8 * s, 0.6 * s, m, x, 0.6 * s, z);
+  add(new THREE.Mesh(new THREE.SphereGeometry(0.32 * s, 16, 12), m), x, 2.7 * s, z);
+  if (head === 'nemes') { const h = new THREE.Mesh(new THREE.ConeGeometry(0.5 * s, 0.9 * s, 4), mat(T.plaster('#2f7fc1', [1, 1]))); add(h, x, 2.65 * s, z - 0.05, Math.PI / 4); }
+}
+function crate(x, z, s = 1) { box(0.8 * s, 0.7 * s, 0.8 * s, mat(T.wood([1, 1]), { color: 0xa07040 }), x, 0, z, 0.3); }
+function house(x, z, w, h, d, wallM, roofM, ry = 0) { box(w, h, d, wallM, x, 0, z, ry); if (roofM) { const r = add(new THREE.Mesh(new THREE.CylinderGeometry(0.01, w * 0.75, 2.6, 4, 1), roofM), x, h + 1.3, z, Math.PI / 4 + ry); r.scale.set(1, 1, d / w * 1.1); } for (let i = 0; i < Math.floor(w / 3); i++) { const win = new THREE.Mesh(new THREE.PlaneGeometry(0.8, 1.1), new THREE.MeshStandardMaterial({ color: 0x2a1c12 })); win.position.set(x - w / 2 + 1.5 + i * 3, h * 0.6, z + d / 2 + 0.02); scene.add(win); } }
+
 // ---------- scenes ----------
 const SCENES = {
   desert() {
@@ -148,13 +163,18 @@ const SCENES = {
   },
   palace() {
     scene.background = new THREE.Color(0x1a1008); scene.fog = new THREE.Fog(0x2a1a0c, 12, 40);
-    roomShell(26, 9, 30, mat(T.glyphs([3, 9])), mat(T.tiles([8, 8]), { color: 0xd8c09a }), mat(T.plaster('#6b4e2a', [4, 4])));
+    roomShell(26, 9, 30, mat(T.glyphs([3, 9])), mat(T.tiles([16, 16]), { color: 0xd8c09a }), mat(T.plaster('#6b4e2a', [4, 4])));
     const back = new THREE.Mesh(new THREE.PlaneGeometry(26, 9), mat(T.stone([5, 2]), { color: 0xf0d8b0 })); back.position.set(0, 4.5, -14.9); scene.add(back);
     const band = new THREE.Mesh(new THREE.PlaneGeometry(26, 1.2), mat(T.glyphs([4, 1]))); band.position.set(0, 7.2, -14.85); scene.add(band);
     const colM = mat(T.limestone([1, 3]), { color: 0xf6dfb8 }), capM = mat(T.plaster('#2f7fc1', [1, 1]));
     for (const x of [-9, -4.5, 4.5, 9]) for (const z of [-11, -5]) column(x, z, 8.2, 0.55, colM, capM);
     torch(-6.5, 3.2, -14.5); torch(6.5, 3.2, -14.5); torch(-12.6, 3.2, -4); torch(12.6, 3.2, -4);
-    scene.add(new THREE.AmbientLight(0x6a4a2a, 0.9));
+    scene.add(new THREE.AmbientLight(0x9a7a50, 2.2)); const sun = new THREE.DirectionalLight(0xffe0b0, 1.2); sun.position.set(6, 12, 8); scene.add(sun);
+    const ls = mat(T.limestone([1, 2]), { color: 0xf0d8b0 });
+    statue(-3.2, -14, 1.6, ls); statue(3.2, -14, 1.6, ls);
+    for (const x of [-6.75, 6.75]) banner(x, 5.6, -11.2, 1.6, 3.4, x < 0 ? 0x1f5fa8 : 0xa8322e);
+    for (const [x, z] of [[-11, -9], [11, -9], [-11, -2], [11, -2], [-7.5, -13], [7.5, -13]]) pot(x, z, 1.3);
+    bill(SPR.palm(), 2.4, 4.2, -12, 0, -12.5); bill(SPR.palm(), 2.4, 4.2, 12, 0, -12.5);
     const carpet = new THREE.Mesh(new THREE.PlaneGeometry(4, 24), mat(T.carpet([1, 6]))); carpet.rotation.x = -Math.PI / 2; carpet.position.set(0, 0.02, -3); scene.add(carpet);
     camera.position.set(0, 1.7, 10); camera.lookAt(0, 3.0, -10);
   },
@@ -162,6 +182,7 @@ const SCENES = {
     scene.background = new THREE.Color(0x0e0905); scene.fog = new THREE.Fog(0x140c06, 6, 24);
     roomShell(12, 6, 16, mat(T.stone([3, 2]), { color: 0xd8b888 }), mat(T.dirt([4, 4])), mat(T.darkStone([3, 3])));
     torch(-3.5, 2.6, -7.5, 14); torch(3.5, 2.6, -7.5, 14);
+    for (const [x, z] of [[-5, -6], [5, -6.5], [-5.2, -3]]) pot(x, z, 1.2, mat(T.limestone([1, 1]))); statue(0, -7.4, 1.2, mat(T.limestone([1, 2]), { color: 0xd8b888 }));
     scene.add(new THREE.AmbientLight(0x4a3018, 0.8));
     camera.position.set(0, 1.6, 6); camera.lookAt(0, 2.2, -8);
   },
@@ -181,14 +202,20 @@ const SCENES = {
   market() {
     sky('#79b8e8', '#f2dcb0', { clouds: 5 }); scene.fog = new THREE.Fog(0xe8d6b0, 30, 150);
     sunLight(0xfff0d0, 2.4, 25, 40, 20, 0xcfe6ff, 0xb08a5a, 0.8);
-    ground(mat(T.dirt([30, 30])), 260);
+    ground(mat(T.dirt([80, 80]), { color: 0xd8c0a0 }), 260);
     const mud = mat(T.mud([3, 3]), { color: 0xf0d8b8 });
     for (let i = 0; i < 4; i++) box(60 - i * 13, 7, 60 - i * 13, mat(T.mud([8 - i, 2])), 0, i * 7, -120);
     box(4, 28, 3, mud, 0, 0, -88);
     for (const [x, z, w, h] of [[-26, -40, 14, 7], [-24, -60, 10, 9], [24, -42, 16, 6], [28, -62, 12, 10], [-40, -25, 10, 6], [40, -26, 10, 7]]) { box(w, h, 8, mud, x, 0, z); box(w, 0.8, 8.4, mat(T.blueBrick([2, 1])), x, h - 1.6, z); }
     const cloth = [0xc0392b, 0x2e86c1, 0xd4a017, 0x27ae60];
     for (const [x, z, k] of [[-10, -14, 0], [10, -16, 1], [-16, -30, 2], [16, -32, 3]]) { box(5, 0.15, 3, new THREE.MeshStandardMaterial({ color: cloth[k], roughness: 0.9 }), x, 2.6, z); for (const sx of [-2.3, 2.3]) for (const sz of [-1.3, 1.3]) cyl(0.07, 2.6, mat(T.wood([1, 1])), x + sx, 0, z + sz, 6); box(4.4, 1, 2.4, mat(T.wood([2, 1])), x, 0, z); for (let j = 0; j < 6; j++) add(new THREE.Mesh(new THREE.SphereGeometry(0.22, 10, 8), new THREE.MeshStandardMaterial({ color: [0xe74c3c, 0xf39c12, 0x27ae60, 0x8e44ad][j % 4] })), x - 1.6 + j * 0.62, 1.15, z); }
-    for (const [x, z, s] of [[-6, -46, 9], [7, -50, 10], [-34, -50, 8], [36, -54, 9]]) bill(SPR.palm(), s * 0.55, s, x, 0, z);
+    for (const [x, z, s] of [[-6, -46, 9], [7, -50, 10], [-34, -50, 8], [36, -54, 9], [-48, -40, 9], [50, -44, 10]]) bill(SPR.palm(), s * 0.55, s, x, 0, z);
+    for (const [x, z] of [[-60, -30], [-58, -50], [60, -32], [62, -52], [-44, -70], [46, -72]]) house(x, z, 12, 7 + (x * 7 % 4), 9, mud, null);
+    // blue glazed gate (Ishtar style)
+    box(16, 14, 4, mat(T.blueBrick([4, 4])), -18, 0, -86); box(5, 9, 4.2, new THREE.MeshStandardMaterial({ color: 0x1a120a }), -18, 0, -86);
+    for (const sx of [-24, -12]) box(4, 17, 5, mat(T.blueBrick([1, 4])), sx, 0, -86);
+    for (const [x, z] of [[-13, -12], [-7, -13], [13, -14], [7, -15], [-19, -28], [19, -30]]) { pot(x, z, 1.1); basket(x + 1.2, z + 0.4, 1.2); }
+    for (const [x, z] of [[-10.5, -18], [11, -19]]) crate(x, z, 1.2);
     camera.position.set(0, 1.7, 10); camera.lookAt(0, 3.6, -40);
   },
   throne() {
@@ -198,7 +225,8 @@ const SCENES = {
     box(5, 1, 3, mat(T.marble([1, 1]), { color: 0xd4b070 }), 0, 0, -14); box(2.4, 4, 1, mat(T.plaster('#5b2a86', [1, 1])), 0, 1, -15);
     for (const x of [-8, 8]) for (const z of [-12, -4]) column(x, z, 9, 0.6, mat(T.mud([1, 3]), { color: 0xd8b88a }), mat(T.plaster('#d4a017', [1, 1])));
     torch(-11.6, 3.5, -8); torch(11.6, 3.5, -8); torch(-4, 3.5, -15.6); torch(4, 3.5, -15.6);
-    scene.add(new THREE.AmbientLight(0x2a2040, 1.2));
+    for (const x of [-8, 8]) banner(x, 6, -15.8, 2.2, 4, 0x5b2a86); for (const [x, z] of [[-10, -1], [10, -1], [-10, -10], [10, -10]]) pot(x, z, 1.3, mat(T.plaster('#d4a017', [1, 1]), { metalness: 0.3, roughness: 0.5 }));
+    scene.add(new THREE.AmbientLight(0x4a3a60, 1.8));
     camera.position.set(0, 1.7, 10); camera.lookAt(0, 3.0, -10);
   },
   surgery() {
@@ -208,6 +236,7 @@ const SCENES = {
     for (let i = 0; i < 5; i++) box(0.6, 0.8, 0.4, mat(T.plaster('#a8642e', [1, 1])), -5 + i * 0.9, 1.2, -7.6);
     box(5, 0.15, 0.6, mat(T.wood([2, 1])), -3.2, 1.2, -7.6);
     torch(-5.5, 2.4, -7.6, 12); torch(5.5, 2.4, -7.6, 12);
+    for (const [x, z] of [[-5.8, -5], [5.8, -6], [-6, -2]]) pot(x, z, 1.1); basket(5.2, -3, 1.1); crate(-5.5, -7, 1);
     scene.add(new THREE.AmbientLight(0x3a2614, 0.8));
     camera.position.set(0, 1.6, 6); camera.lookAt(0, 2.0, -8);
   },
@@ -223,6 +252,8 @@ const SCENES = {
     const roofG = new THREE.CylinderGeometry(0.01, 7, 24, 3, 1); roofG.rotateZ(Math.PI / 2); roofG.rotateX(Math.PI); const roof = add(new THREE.Mesh(roofG, marble), 10, 13.3, -50); roof.scale.set(1, 0.42, 1);
     for (const [x, z, s] of [[-14, -30, 12], [-19, -38, 14], [-26, -26, 11], [30, -34, 12]]) bill(SPR.cypress(), s * 0.25, s, x, 0, z);
     for (const [x, z] of [[-8, -20], [24, -22]]) bill(SPR.bush(), 6, 3, x, 0, z);
+    box(3, 1.4, 2, marble, -4, 0, -22); for (const [x, z] of [[-10, -12], [12, -14]]) { box(1.6, 1.6, 1.6, marble, x, 0, z); add(new THREE.Mesh(new THREE.SphereGeometry(0.5, 16, 12), marble), x, 3.9, z); box(0.8, 1.9, 0.6, marble, x, 1.6, z); }
+    for (const [x, z] of [[-6, -9], [7, -10]]) pot(x, z, 1.1, mat(T.plaster('#c87a3e', [1, 1])));
     camera.position.set(0, 1.7, 12); camera.lookAt(2, 4.0, -30);
   },
   abaton() {
@@ -240,12 +271,17 @@ const SCENES = {
   rome() {
     sky('#6db2ea', '#e6f3ff', { clouds: 6 }); scene.fog = new THREE.Fog(0xd8eaf8, 40, 200);
     sunLight(0xfff2dc, 2.6, 25, 45, 18, 0xd0e8ff, 0x9a8a70, 0.85);
-    ground(mat(T.paving([30, 30])), 260);
+    ground(mat(T.paving([70, 70])), 260);
     const walls = [['#e8c99a', -24, -40, 14, 12], ['#e3b98a', -26, -64, 12, 16], ['#efd6b0', 26, -42, 14, 11], ['#e1b48a', 28, -66, 14, 15]];
     for (const [col, x, z, w, h] of walls) { box(w, h, 10, mat(T.plaster(col, [3, 3])), x, 0, z); const r = add(new THREE.Mesh(new THREE.CylinderGeometry(0.01, w * 0.75, 4, 4, 1), mat(T.roof([4, 2]))), x, h + 2, z, Math.PI / 4); r.scale.set(1, 1, 0.72); }
     const marble = mat(T.marble([1, 2]));
     box(30, 1.4, 14, marble, 0, 0, -80); for (let i = 0; i < 8; i++) column(-12.25 + i * 3.5, -74, 12, 0.6, marble); box(30, 1.6, 14, marble, 0, 13.4, -80);
     const tri = new THREE.CylinderGeometry(0.01, 9, 30, 3, 1); tri.rotateZ(Math.PI / 2); const ped = add(new THREE.Mesh(tri, marble), 0, 17, -80); ped.scale.set(1, 0.45, 1);
+    for (const [x, z, w, h, col] of [[-44, -30, 12, 10, '#e8c99a'], [44, -30, 12, 9, '#efd6b0'], [-46, -54, 14, 13, '#d9a878'], [46, -56, 14, 12, '#e3b98a']]) house(x, z, w, h, 10, mat(T.plaster(col, [3, 3])), mat(T.roof([4, 2])));
+    box(2, 1.4, 2, marble, -9, 0, -26); add(new THREE.Mesh(new THREE.SphereGeometry(0.6, 16, 12), marble), -9, 3.6, -26); box(0.9, 2, 0.6, marble, -9, 1.4, -26);
+    cyl(2.6, 0.8, marble, 9, 0, -26, 24); cyl(2.2, 0.82, new THREE.MeshStandardMaterial({ color: 0x5fa8d0, roughness: 0.2 }), 9, 0.02, -26, 24);
+    for (const [x, z] of [[-14, -14], [14, -15], [-16, -34], [16, -36]]) pot(x, z, 1.2);
+    for (const [x, z, s2] of [[-30, -70, 12], [30, -72, 12]]) bill(SPR.cypress(), s2 * 0.25, s2, x, 0, z);
     camera.position.set(0, 1.7, 12); camera.lookAt(0, 4.5, -40);
   },
   farm() {
@@ -300,6 +336,9 @@ const SCENES = {
     const poster = new THREE.Mesh(new THREE.PlaneGeometry(1.4, 1.9), new THREE.MeshStandardMaterial({ color: 0xffffff })); poster.position.set(-3.4, 2.7, -7.95); scene.add(poster);
     const cross = new THREE.Mesh(new THREE.CircleGeometry(0.4, 24), new THREE.MeshStandardMaterial({ color: 0xe0626a })); cross.position.set(-3.4, 3.1, -7.93); scene.add(cross);
     bill(SPR.bush(), 1.4, 1.2, 2.4, 0, -7.3);
+    box(3.2, 1.1, 0.9, new THREE.MeshStandardMaterial({ color: 0x8aa5b5 }), -0.6, 0, -6.8); box(3.4, 0.08, 1.0, new THREE.MeshStandardMaterial({ color: 0xf0f0ec }), -0.6, 1.1, -6.8);
+        for (const [x, col] of [[-6.8, 0x8ec3e6], [2.8, 0xf4d06f]]) { const pst = new THREE.Mesh(new THREE.PlaneGeometry(1.1, 1.5), new THREE.MeshStandardMaterial({ color: col })); pst.position.set(x, 2.6, -7.95); scene.add(pst); }
+    for (let i = 0; i < 3; i++) { box(0.9, 0.12, 0.9, new THREE.MeshStandardMaterial({ color: 0x5a7f9a }), 7.2, 0.8, -5 + i * 1.1); box(0.1, 0.9, 0.9, new THREE.MeshStandardMaterial({ color: 0x5a7f9a }), 7.7, 0.85, -5 + i * 1.1); }
     const l = new THREE.PointLight(0xffffff, 40, 30, 1.2); l.position.set(0, 4.6, -2); l.castShadow = true; scene.add(l);
     scene.add(new THREE.AmbientLight(0xc8d8d0, 1.6));
     camera.position.set(0, 1.6, 7); camera.lookAt(0, 2.0, -8);
@@ -313,7 +352,7 @@ const SCENES = {
   },
   study() {
     scene.background = new THREE.Color(0x120b06); scene.fog = new THREE.Fog(0x1a1008, 10, 26);
-    roomShell(14, 6, 14, mat(T.shelves([3, 1.5])), mat(T.wood([4, 4])), mat(T.wood([3, 3])));
+    roomShell(14, 6, 14, mat(T.shelves([2, 1])), mat(T.wood([4, 4])), mat(T.wood([3, 3])));
     box(4, 0.15, 1.8, mat(T.wood([2, 1])), 2, 1.0, -4); for (const sx of [-1.8, 1.8]) box(0.15, 1, 1.6, mat(T.wood([1, 1])), 2 + sx, 0, -4);
     const lamp = new THREE.PointLight(0xffb060, 30, 18, 1.5); lamp.position.set(2.5, 2, -3.5); lamp.castShadow = true; scene.add(lamp); glowSprite(2.5, 1.5, -3.6, 1.6);
     scene.add(new THREE.AmbientLight(0x4a3018, 0.7));

@@ -273,4 +273,24 @@ BGS.map_france = c => {
   c.save(); trace(c, FR.map(p => frP(p[0], p[1])), true); c.clip(); c.fillStyle = 'rgba(40,90,40,0.15)'; for (let i = 0; i < 160; i++) { const p = frP(rr(i, -5, 9), rr(i + 1, 42, 51)); c.beginPath(); c.arc(p[0], p[1], 6 + rnd(i) * 10, 0, TAU); c.fill(); } c.restore();
   return 0;
 };
+// ---- rendered 3D environments (baked by render/bake_bgs.js into build/bg) ----
+const BG3D_IDS = ['abaton', 'cave', 'clinic', 'curia', 'desert', 'farm', 'market', 'palace', 'plague', 'rome', 'sanctuary', 'street', 'study', 'surgery', 'throne', 'tiber', 'tomb', 'waves'];
+const BG3D_IMG = {};
+function preloadBG3D() {
+  return Promise.all(BG3D_IDS.map(id => new Promise(res => {
+    const im = new Image();
+    im.onload = () => { BG3D_IMG[id] = im; res(); };
+    im.onerror = () => { console.warn('missing 3D background', id); res(); };
+    im.src = 'build/bg/' + id + '.jpg';
+  })));
+}
+for (const id of BG3D_IDS) {
+  const flat = BGS[id];
+  BGS[id] = c => {
+    const im = BG3D_IMG[id];
+    if (!im) return flat ? flat(c) : 0;
+    c.drawImage(im, 0, 0, W, H);
+    return 1.2;
+  };
+}
 window.BGS = BGS;

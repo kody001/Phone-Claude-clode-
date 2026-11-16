@@ -302,7 +302,7 @@ def main():
         if segs and segs[-1][0] == name and name not in ('sting',):
             continue
         segs.append([name, c['t']])
-    TARGET = dict(none=0, whisper=0.025, somber=0.04, sad=0.05, night=0.045, lullaby=0.045, spooky=0.05, dream=0.05, awe=0.055, title=0.11, sting=0.09,
+    TARGET = dict(none=0, whisper=0.025, somber=0.04, sad=0.05, night=0.045, lullaby=0.045, spooky=0.05, dream=0.05, awe=0.055, title=0.07, sting=0.06,
                   tension=0.06, party=0.05, jingle=0.07, chant=0.06, cabbage=0.08)
     for i, (name, t) in enumerate(segs):
         end = segs[i + 1][1] if i + 1 < len(segs) else TOTAL
@@ -311,7 +311,7 @@ def main():
             continue
         y = music.render_style(name, d + 0.8, seed=i)
         rms = np.sqrt((y[:N(max(0.5, min(d, 8)))] ** 2).mean()) + 1e-9
-        y = y / rms * TARGET.get(name, 0.065) * 0.92
+        y = y / rms * TARGET.get(name, 0.065) * 0.5
         L = min(len(y), N(d + 0.8))
         y = y[:L]
         fi = 0.004 if name in ('title', 'sting') or music.STYLES.get(name, {}).get('hit') else 0.25
@@ -319,8 +319,15 @@ def main():
         mix_into(mus, y, N(t))
     if os.environ.get('FINAL_FADE', '1') == '1':
         mus[-N(2.5):] *= np.linspace(1, 0, N(2.5))[:, None]
-    duck = 1 - 0.72 * vact
+    duck = 1 - 0.82 * vact
+    # keep the music out of the voice's range so the narration stays on top
+    mus = peak(mus, 2500, 0.7, -5)
     mus *= duck[:, None]
+    # hard ceiling: music may never be louder than ~8 dB below the narration's average level
+    vrms = np.sqrt(np.mean(voice[np.abs(voice) > 0.02] ** 2))
+    menv = envelope(mus.mean(axis=1), 0.02, 0.4)
+    ceiling = vrms * 10 ** (-8 / 20)
+    mus *= np.minimum(1.0, ceiling / np.maximum(menv, 1e-9))[:, None]
 
     # ---------- ambience ----------
     print('ambience...')
@@ -362,7 +369,7 @@ def main():
             y = SFXLIB.S[k](r)
         if y.ndim == 1:
             y = st(y)
-        g = c.get('v', 1) * SFX_GAIN.get(k, 0.55) * 0.55
+        g = c.get('v', 1) * SFX_GAIN.get(k, 0.55) * 0.47
         mix_into(fx, y * g, N(c['t']))
         cnt += 1
     print('   placed', cnt, 'sfx')

@@ -330,7 +330,7 @@ function drawCaptions(c, t) {
   if (t > ch.end) return;
   const fs = 66;
   c.save();
-  c.font = `${fs}px "Luckiest Guy"`;
+  c.font = `${fs}px "Lilita One"`;
   c.textBaseline = 'alphabetic';
   const texts = ch.ix.map(i => WORDS[i][0].replace(/^["“]|["”]$/g, '').toUpperCase());
   const space = fs * 0.28;
@@ -396,7 +396,8 @@ function collectCues() {
 }
 
 async function boot() {
-  await document.fonts.load('60px "Luckiest Guy"');
+  await document.fonts.load('60px "Lilita One"');
+  await preloadBG3D();
   await document.fonts.load('60px "Patrick Hand"');
   await document.fonts.load('700 60px "Cinzel"');
   finalizeShots();
