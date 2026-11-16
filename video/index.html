@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>What If You Got Sick in the Ancient World?</title>
+<style>
+@font-face { font-family: 'Luckiest Guy'; src: url(fonts/LuckiestGuy.woff2) format('woff2'); font-display: block; }
+@font-face { font-family: 'Patrick Hand'; src: url(fonts/PatrickHand.woff2) format('woff2'); font-display: block; }
+@font-face { font-family: 'Cinzel'; src: url(fonts/Cinzel.woff2) format('woff2'); font-weight: 400 900; font-display: block; }
+html, body { margin: 0; background: #000; overflow: hidden; }
+canvas { display: block; width: 1920px; height: 1080px; }
+body.preview canvas { width: 100vw; height: 56.25vw; max-height: 100vh; max-width: 177.78vh; margin: auto; }
+#ui { display: none; position: fixed; left: 0; right: 0; bottom: 0; padding: 8px 16px; background: rgba(0,0,0,0.6); color: #fff; font: 14px sans-serif; }
+#ui input { width: 70%; vertical-align: middle; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<div id="ui"><button id="play">Play / Pause</button> <input id="seek" type="range" min="0" step="0.01" value="0"> <span id="tc">0</span></div>
+<script src="data/words.js"></script>
+<script src="data/env.js"></script>
+<script src="src/core.js"></script>
+<script src="src/draw.js"></script>
+<script src="src/chars.js"></script>
+<script src="src/props.js"></script>
+<script src="src/bgs.js"></script>
+<script>
+  (function () {
+    const q = new URLSearchParams(location.search);
+    if (!q.has('render') && !q.has('t')) document.body.classList.add('preview');
+    const files = (q.get('scenes') || 'scenes0,scenes1,scenes2,scenes3,scenes4').split(',');
+    const next = i => {
+      if (i >= files.length) return boot().catch(e => { window.BOOT_ERROR = String(e && e.stack || e); console.error(e); });
+      const s = document.createElement('script');
+      s.src = 'src/' + files[i] + '.js';
+      s.onload = () => next(i + 1);
+      s.onerror = () => { window.BOOT_ERROR = 'failed to load ' + files[i]; };
+      document.body.appendChild(s);
+    };
+    window.onerror = (m, src, l, col, e) => { window.BOOT_ERROR = m + ' @' + src + ':' + l; };
+    next(0);
+  })();
+</script>
+</body>
+</html>
