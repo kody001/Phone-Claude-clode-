@@ -8,5 +8,5 @@ ffmpeg -v error -y -i build/mix.wav \
   -c:a pcm_f32le build/mix_master.wav
 ffmpeg -v error -y -i build/video_noaudio.mp4 -i build/mix_master.wav \
   -map 0:v -map 1:a -c:v copy -c:a aac -b:a 256k -ar 48000 -movflags +faststart -shortest \
-  "out/The Weird History of Ancient Medicine (4K).mp4"
-ffprobe -v error -show_entries format=duration,size:stream=codec_name,width,height,r_frame_rate -of compact "out/The Weird History of Ancient Medicine (4K).mp4"
+  "out/The Weird History of Ancient Medicine 4K.mp4"
+ffprobe -v error -show_entries format=duration,size:stream=codec_name,width,height,r_frame_rate -of compact "out/The Weird History of Ancient Medicine 4K.mp4"
