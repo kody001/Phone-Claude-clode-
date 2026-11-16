@@ -34,13 +34,17 @@ function trapPts(tw, bw, h, rt = 40, rb = 26, y0 = 0) {
   return p;
 }
 
-// ---- wobble ----
+// ---- hand-inked lines ----
+// Lines are static (no boil, like the reference): each shape gets a fixed, seeded hand-drawn irregularity
+// and its outline is drawn as a brush stroke whose width swells and tapers.
+let BOIL_ON = false;
 function wob(pts, closed, seed, amp, step = 13) {
   if (amp <= 0) return pts;
   const out = [];
   const n = pts.length, segs = closed ? n : n - 1;
   let acc = 0;
-  const ph1 = seed * 1.7 + BOILF * 2.39, ph2 = seed * 3.1 + BOILF * 1.13;
+  const bf = BOIL_ON ? BOILF : 0;
+  const ph1 = seed * 1.7 + bf * 2.39, ph2 = seed * 3.1 + bf * 1.13;
   for (let i = 0; i < segs; i++) {
     const a = pts[i], b = pts[(i + 1) % n];
     const dx = b[0] - a[0], dy = b[1] - a[1];
@@ -49,7 +53,7 @@ function wob(pts, closed, seed, amp, step = 13) {
     const nx = -dy / L, ny = dx / L;
     for (let k = 0; k < m; k++) {
       const u = k / m, d = acc + u * L;
-      const j = amp * (Math.sin(d * 0.023 + ph1) * 0.62 + Math.sin(d * 0.061 + ph2) * 0.38);
+      const j = amp * (Math.sin(d * 0.019 + ph1) * 0.62 + Math.sin(d * 0.047 + ph2) * 0.38);
       out.push([a[0] + dx * u + nx * j, a[1] + dy * u + ny * j]);
     }
     acc += L;
@@ -57,30 +61,76 @@ function wob(pts, closed, seed, amp, step = 13) {
   if (!closed) out.push(pts[n - 1].slice());
   return out;
 }
+function chaikin(p, closed, it = 2) {
+  for (let k = 0; k < it; k++) {
+    const q = [];
+    const n = p.length;
+    if (n < 3) return p;
+    if (!closed) q.push(p[0]);
+    const lim = closed ? n : n - 1;
+    for (let i = 0; i < lim; i++) {
+      const a = p[i], b = p[(i + 1) % n];
+      q.push([a[0] * 0.75 + b[0] * 0.25, a[1] * 0.75 + b[1] * 0.25], [a[0] * 0.25 + b[0] * 0.75, a[1] * 0.25 + b[1] * 0.75]);
+    }
+    if (!closed) q.push(p[n - 1]);
+    p = q;
+  }
+  return p;
+}
 function trace(c, p, closed) {
   c.beginPath();
-  const n = p.length;
+  if (p.length < 2) return;
+  c.moveTo(p[0][0], p[0][1]);
+  for (let i = 1; i < p.length; i++) c.lineTo(p[i][0], p[i][1]);
+  if (closed) c.closePath();
+}
+// brush outline as a filled ribbon
+function ink(c, q, closed, lw, color, seed) {
+  const n = q.length;
   if (n < 2) return;
+  const len = [0];
+  for (let i = 1; i < n; i++) len.push(len[i - 1] + Math.hypot(q[i][0] - q[i - 1][0], q[i][1] - q[i - 1][1]));
+  const total = len[n - 1] + (closed ? Math.hypot(q[0][0] - q[n - 1][0], q[0][1] - q[n - 1][1]) : 0) || 1;
+  const ph = seed * 2.17;
+  const L = [], Rr = [];
+  for (let i = 0; i < n; i++) {
+    const a = q[closed ? (i - 1 + n) % n : Math.max(0, i - 1)], b = q[closed ? (i + 1) % n : Math.min(n - 1, i + 1)];
+    let tx = b[0] - a[0], ty = b[1] - a[1];
+    const tl = Math.hypot(tx, ty) || 1; tx /= tl; ty /= tl;
+    const u = len[i] / total;
+    // pressure: slow swell along the stroke (brush look)
+    let w = lw * (0.86 + 0.16 * Math.sin(u * 6.283 * (closed ? 2 : 1.3) + ph) + 0.1 * Math.sin(u * 6.283 * 5 + ph * 1.7));
+    if (!closed) w *= 0.42 + 0.58 * Math.pow(Math.min(1, u / 0.18), 0.6) * Math.pow(Math.min(1, (1 - u) / 0.18), 0.6);
+    const h = w / 2;
+    L.push([q[i][0] - ty * h, q[i][1] + tx * h]);
+    Rr.push([q[i][0] + ty * h, q[i][1] - tx * h]);
+    if (i === 0) q._w0 = h; if (i === n - 1) q._w1 = h;
+  }
+  c.beginPath();
   if (closed) {
-    const m0 = [(p[n - 1][0] + p[0][0]) / 2, (p[n - 1][1] + p[0][1]) / 2];
-    c.moveTo(m0[0], m0[1]);
-    for (let i = 0; i < n; i++) { const a = p[i], b = p[(i + 1) % n]; c.quadraticCurveTo(a[0], a[1], (a[0] + b[0]) / 2, (a[1] + b[1]) / 2); }
-    c.closePath();
+    c.moveTo(L[0][0], L[0][1]); for (let i = 1; i < n; i++) c.lineTo(L[i][0], L[i][1]); c.closePath();
+    c.moveTo(Rr[n - 1][0], Rr[n - 1][1]); for (let i = n - 2; i >= 0; i--) c.lineTo(Rr[i][0], Rr[i][1]); c.closePath();
+    c.fillStyle = color; c.fill('nonzero');
+    // seam safety: thin stroke along the centre line hides any ribbon cracks at sharp corners
+    c.lineWidth = lw * 0.55; c.strokeStyle = color; c.lineJoin = 'round';
+    c.beginPath(); c.moveTo(q[0][0], q[0][1]); for (let i = 1; i < n; i++) c.lineTo(q[i][0], q[i][1]); c.closePath(); c.stroke();
   } else {
-    c.moveTo(p[0][0], p[0][1]);
-    for (let i = 1; i < n - 1; i++) { const a = p[i], b = p[i + 1]; c.quadraticCurveTo(a[0], a[1], (a[0] + b[0]) / 2, (a[1] + b[1]) / 2); }
-    c.lineTo(p[n - 1][0], p[n - 1][1]);
+    c.moveTo(L[0][0], L[0][1]); for (let i = 1; i < n; i++) c.lineTo(L[i][0], L[i][1]);
+    for (let i = n - 1; i >= 0; i--) c.lineTo(Rr[i][0], Rr[i][1]);
+    c.closePath(); c.fillStyle = color; c.fill('nonzero');
+    c.beginPath(); c.arc(q[0][0], q[0][1], q._w0, 0, TAU); c.arc(q[n - 1][0], q[n - 1][1], q._w1, 0, TAU); c.fill();
+    c.lineWidth = lw * 0.35; c.strokeStyle = color; c.lineJoin = 'round'; c.lineCap = 'round';
+    c.beginPath(); c.moveTo(q[0][0], q[0][1]); for (let i = 1; i < n; i++) c.lineTo(q[i][0], q[i][1]); c.stroke();
   }
 }
-// draw a shape: o = {fill, stroke, lw, closed, seed, amp, alpha}
+// draw a shape: o = {fill, stroke, lw, closed, seed, amp}
 function shp(c, pts, o = {}) {
   const closed = o.closed !== false;
-  const p = wob(pts, closed, o.seed || 1, o.amp === undefined ? 1.3 : o.amp);
-  trace(c, p, closed);
-  if (o.fill && closed) { c.fillStyle = o.fill; c.fill(); }
-  if (o.stroke !== null && o.lw !== 0) {
-    c.lineWidth = o.lw || 8; c.strokeStyle = o.stroke || INK; c.lineJoin = 'round'; c.lineCap = 'round'; c.stroke();
-  }
+  const seed = o.seed || 1;
+  const p = wob(pts, closed, seed, o.amp === undefined ? 1.6 : o.amp);
+  const q = p.length > 3 ? chaikin(p, closed, 2) : p;
+  if (o.fill && closed) { trace(c, q, true); c.fillStyle = o.fill; c.fill(); }
+  if (o.stroke !== null && o.lw !== 0) ink(c, q, closed, o.lw || 8, o.stroke || INK, seed);
 }
 const circ = (c, x, y, r, o = {}) => shp(c, ellPts(x, y, r, r, Math.max(18, Math.min(60, r * 0.6))), o);
 const ell = (c, x, y, rx, ry, o = {}) => shp(c, ellPts(x, y, rx, ry, Math.max(18, Math.min(60, Math.max(rx, ry) * 0.6))), o);

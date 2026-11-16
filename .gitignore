@@ -3,3 +3,4 @@ video/input/
 video/build/
 video/out/
 __pycache__/
+video/src/zz_test.js
