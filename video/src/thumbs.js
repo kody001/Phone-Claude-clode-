@@ -101,17 +101,18 @@ function vomitSpray(c, x0, y0, seed) {
   const cols = ['#9cc63a', '#86b02c', '#b8d850', '#6f9422'];
   c.save();
   for (let i = 0; i < 260; i++) {
-    const a = Math.PI + (rnd(seed, i) - 0.5) * 0.9 - 0.28, d = 20 + Math.pow(rnd(seed, i + 300), 0.7) * 520, r = (3 + rnd(seed, i + 600) * 15) * (1 - d / 700);
+    const a = Math.PI + (rnd(seed, i) - 0.5) * 0.85 + 0.06, d = 20 + Math.pow(rnd(seed, i + 300), 0.7) * 520, r = (3 + rnd(seed, i + 600) * 15) * (1 - d / 700);
     c.fillStyle = cols[i % 4]; c.globalAlpha = 0.75 + rnd(seed, i + 900) * 0.25;
     c.beginPath(); c.ellipse(x0 + Math.cos(a) * d, y0 + Math.sin(a) * d, r * 1.4, r, a, 0, TAU); c.fill();
   }
   c.globalAlpha = 1; c.fillStyle = '#8ab832';
-  c.beginPath(); c.moveTo(x0 + 10, y0 - 14); c.quadraticCurveTo(x0 - 150, y0 - 70, x0 - 300, y0 - 30); c.quadraticCurveTo(x0 - 160, y0 - 10, x0 + 10, y0 + 14); c.fill();
-  for (let i = 0; i < 16; i++) { const x = x0 - 60 - rnd(seed, i + 1200) * 380, y = y0 - 70 + rnd(seed, i + 1300) * 90, L = 30 + rnd(seed, i + 1400) * 160; c.fillStyle = cols[i % 3]; c.fillRect(x, y, 4 + rnd(seed, i) * 4, L); c.beginPath(); c.arc(x + 4, y + L, 5, 0, TAU); c.fill(); }
+  c.beginPath(); c.moveTo(x0 + 10, y0 - 12); c.quadraticCurveTo(x0 - 150, y0 - 22, x0 - 300, y0 + 50); c.quadraticCurveTo(x0 - 150, y0 + 26, x0 + 10, y0 + 14); c.fill();
+  for (let i = 0; i < 16; i++) { const x = x0 - 60 - rnd(seed, i + 1200) * 380, y = y0 - 10 + rnd(seed, i + 1300) * 80, L = 30 + rnd(seed, i + 1400) * 160; c.fillStyle = cols[i % 3]; c.fillRect(x, y, 4 + rnd(seed, i) * 4, L); c.beginPath(); c.arc(x + 4, y + L, 5, 0, TAU); c.fill(); }
   c.restore();
 }
 shot(Object.assign({ at: 300, bg: 'thumb_ripples', draw: (c, st) => {
   roundWord(c, 'DISGUSTING', 520, 200, 168, '#e8332a');
+  vomitSpray(c, 1468, 588, 77);
   roundWord(c, 'CURES', 520, 430, 220, '#e8332a');
   roundWord(c, 'IN', 520, 625, 110, '#ffffff');
   roundWord(c, 'HISTORY', 520, 850, 210, '#ffffff');
@@ -123,6 +124,8 @@ shot(Object.assign({ at: 300, bg: 'thumb_ripples', draw: (c, st) => {
       cc.save(); cc.translate(30, info.hy - 62); line(cc, [[-10, -10], [10, 10]], { lw: 5, stroke: '#c0302a' }); line(cc, [[10, -10], [-10, 10]], { lw: 5, stroke: '#c0302a' }); cc.restore();
       line(cc, [[40, -120], [56, -96]], { lw: 4 }); line(cc, [[56, -122], [40, -96]], { lw: 4 });
     } });
-  vomitSpray(c, 1440, 525, 77);
+  // stream leaving the mouth, drawn over the face (the spray itself sits behind the head so the bulging eye stays on top)
+  c.save(); c.fillStyle = '#8ab832'; c.beginPath(); c.moveTo(1500, 572); c.quadraticCurveTo(1420, 560, 1330, 600); c.quadraticCurveTo(1420, 600, 1500, 596); c.fill();
+  c.fillStyle = '#b8d850'; c.beginPath(); c.ellipse(1440, 584, 40, 7, 0.1, 0, TAU); c.fill(); c.restore();
   stink(c, 1140, 640, 3.3, '#b8a530', 3, 1.3);
 } }, thumbBase));

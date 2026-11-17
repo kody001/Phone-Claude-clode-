@@ -382,13 +382,22 @@ function drawHead(c, st, pr, seed, t, face, o, talking) {
     if (eyes === 'dot') { c.fillStyle = INK; c.beginPath(); c.ellipse(x + lx * 3, y + ly * 3, 9.5 * z, 12 * z, sd * 0.06, 0, TAU); c.fill(); }
     else if (eyes === 'wide') { ell(c, x, y - 3, 18 * z, 21 * z, { fill: '#fff', lw: 4.5, seed: seed + 72 + sd }); c.fillStyle = INK; c.beginPath(); c.arc(x + lx * 7, y - 2 + ly * 6, 6, 0, TAU); c.fill(); }
     else if (eyes === 'bulge') {
-      const ox = sd * 6;
-      ell(c, x + ox, y + 4, 27, 21, { fill: '#f2e3a2', lw: 6, seed: seed + 72 + sd });
-      c.fillStyle = INK; c.beginPath(); c.ellipse(x + ox - 9, y + 10, 8.5, 7.5, 0, 0, TAU); c.fill();
-      c.save(); c.beginPath(); c.ellipse(x + ox, y + 4, 27, 21, 0, 0, TAU); c.clip(); c.fillStyle = pr.skin; c.fillRect(x + ox - 30, y - 22, 60, 15 + (sd > 0 ? 3 : 0)); c.restore();
-      line(c, [[x + ox - 30, y - 6 + (sd < 0 ? 4 : -2)], [x + ox, y - 9], [x + ox + 30, y - 6 + (sd > 0 ? 6 : -1)]], { lw: 8, seed: seed + 73 + sd });
-      line(c, [[x + ox - 22, y + 30], [x + ox, y + 34], [x + ox + 20, y + 29]], { lw: 3.5, seed: seed + 76 + sd, stroke: 'rgba(40,20,10,0.6)' });
-      if (o.bruise && sd > 0) { c.fillStyle = 'rgba(88,40,150,0.8)'; c.beginPath(); c.ellipse(x + ox + 4, y + 22, 26, 9, -0.1, 0, Math.PI); c.fill(); }
+      // big almond eyes popping out of the face (left one sticks out past the head outline), heavy droopy lids
+      const E2 = sd < 0 ? { cx: -62, cy: 22, rx: 52, ry: 24, rot: -0.14, px: -24, py: 6 } : { cx: 40, cy: 26, rx: 48, ry: 23, rot: 0.06, px: -17, py: 5 };
+      c.save(); c.translate(E2.cx + lx * 6, E2.cy); c.rotate(E2.rot);
+      const eyePts = ellPts(0, 0, E2.rx, E2.ry, 30);
+      shp(c, eyePts, { fill: '#efe0a0', lw: 0, stroke: null, seed: seed + 72 + sd });
+      c.save(); c.beginPath(); c.ellipse(0, 0, E2.rx, E2.ry, 0, 0, TAU); c.clip();
+      c.fillStyle = 'rgba(190,150,60,0.25)'; c.fillRect(-E2.rx, E2.ry * 0.25, E2.rx * 2, E2.ry);
+      c.fillStyle = INK; c.beginPath(); c.ellipse(E2.px, E2.py, 14, 13, 0, 0, TAU); c.fill();
+      c.fillStyle = pr.skin; c.beginPath(); c.moveTo(-E2.rx - 4, -E2.ry - 4); c.lineTo(E2.rx + 4, -E2.ry - 4); c.lineTo(E2.rx + 4, -E2.ry * 0.25 + (sd > 0 ? 4 : 0)); c.quadraticCurveTo(0, -E2.ry * 0.55, -E2.rx - 4, -E2.ry * 0.15); c.closePath(); c.fill();
+      if (o.bruise && sd > 0) { c.fillStyle = 'rgba(80,36,150,0.85)'; c.beginPath(); c.ellipse(4, E2.ry * 0.95, E2.rx * 0.95, E2.ry * 0.55, 0, Math.PI, TAU); c.fill(); }
+      c.restore();
+      shp(c, eyePts, { lw: 6.5, seed: seed + 74 + sd });
+      // heavy eyelid
+      line(c, [[-E2.rx - 4, -E2.ry * 0.12], [-E2.rx * 0.3, -E2.ry * 0.5], [E2.rx * 0.4, -E2.ry * 0.45], [E2.rx + 3, -E2.ry * 0.2 + (sd > 0 ? 4 : 0)]], { lw: 9.5, seed: seed + 73 + sd });
+      if (o.bruise && sd > 0) line(c, [[-E2.rx * 0.85, E2.ry * 0.75], [0, E2.ry * 1.15], [E2.rx * 0.85, E2.ry * 0.7]], { lw: 5, stroke: '#5a2a96', seed: seed + 75 });
+      c.restore();
       continue;
     }
     else if (eyes === 'crazy') { const r = k ? 20 : 14; ell(c, x, y - 3, r, r * 1.1, { fill: '#fff9c4', lw: 4.5, seed: seed + 72 + sd }); c.fillStyle = INK; c.beginPath(); c.arc(x + (k ? 4 : -3), y - 1, k ? 4 : 5, 0, TAU); c.fill(); }
@@ -452,10 +461,11 @@ function drawHead(c, st, pr, seed, t, face, o, talking) {
   else if (mm === 'o') ell(c, mx, my + 4, 12, 16, { fill: red, lw: 5, seed: seed + 96 });
   else if (mm === 'smallo') ell(c, mx, my + 4, 7, 9, { fill: red, lw: 4.5, seed: seed + 96 });
   else if (mm === 'puke') {
+    const my0 = my; { const my = my0 + 26;
     shp(c, [[mx - 34, my - 2], [mx - 10, my - 12], [mx + 14, my - 10], [mx + 32, my - 4], [mx + 26, my + 20], [mx, my + 28], [mx - 26, my + 20]], { fill: '#9a2a24', lw: 6, seed: seed + 97 });
     for (const [tx, tw, th] of [[-24, 11, 12], [-10, 10, 9], [14, 11, 13]]) shp(c, rrectPts(mx + tx, my - 9, tw, th, 2), { fill: '#fffbe6', lw: 3, seed: seed + tx });
     c.save(); c.beginPath(); c.ellipse(mx - 2, my + 13, 26, 12, 0, 0, TAU); c.clip(); c.fillStyle = '#9cc63a'; c.fillRect(mx - 30, my + 4, 60, 30); c.restore();
-  }
+  } }
   else if (mm === 'grin') openMouth(34, 26, true, false);
   else if (mm === 'open') openMouth(32, 30, false, true);
   else if (mm === 'yell') openMouth(28, 42, true, true);
