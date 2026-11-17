@@ -27,7 +27,7 @@ async function renderChunk(port, idx, f0, f1, total) {
   if (SCALE !== 1) await page.evaluate((w, h) => { window._o = document.createElement('canvas'); window._o.width = w; window._o.height = h; }, W, H);
   const file = path.join(TMP, `chunk_${String(idx).padStart(3, '0')}.mp4`);
   const ff = spawn('ffmpeg', ['-v', 'error', '-y', '-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'mjpeg', '-i', '-',
-    '-c:v', 'libx264', '-preset', opts.preset || 'medium', '-crf', String(opts.crf || 18), ...(opts.maxrate ? ['-maxrate', opts.maxrate, '-bufsize', opts.bufsize || opts.maxrate] : []), ...(opts.tune ? ['-tune', opts.tune] : []), '-pix_fmt', 'yuv420p', '-r', String(FPS),
+    '-c:v', 'libx264', '-preset', opts.preset || 'medium', '-crf', String(opts.crf || 18), ...(opts.maxrate ? ['-maxrate', opts.maxrate, '-bufsize', opts.bufsize || opts.maxrate] : []), ...(opts.tune ? ['-tune', opts.tune] : []), ...(opts.level ? ['-level:v', opts.level] : []), ...(opts.refs ? ['-x264-params', 'ref=' + opts.refs] : []), '-pix_fmt', 'yuv420p', '-r', String(FPS),
     '-g', String(FPS * 2), '-bf', '2', '-movflags', '+faststart', file], { stdio: ['pipe', 'inherit', 'inherit'] });
   const done = new Promise((res, rej) => ff.on('close', c => (c === 0 ? res() : rej(new Error('ffmpeg exit ' + c)))));
   const t0 = Date.now();

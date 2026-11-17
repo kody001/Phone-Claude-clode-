@@ -397,6 +397,7 @@ function collectCues() {
 
 async function boot() {
   await document.fonts.load('60px "Lilita One"');
+  await document.fonts.load('60px "Anton"');
   await preloadBG3D();
   await document.fonts.load('60px "Patrick Hand"');
   await document.fonts.load('700 60px "Cinzel"');
