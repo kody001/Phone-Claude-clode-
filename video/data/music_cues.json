@@ -2,271 +2,271 @@
  {
   "file": "audio/music/00_whimsy.wav",
   "t0": 0.0,
-  "t1": 21.964,
+  "t1": 20.4,
   "mood": "whimsy",
   "db": -3,
-  "tempo": 109.3,
-  "bars": 10
+  "tempo": 105.9,
+  "bars": 9
  },
  {
   "file": "audio/music/01_wonder.wav",
-  "t0": 21.964,
-  "t1": 62.82,
+  "t0": 20.4,
+  "t1": 59.36,
   "mood": "wonder",
   "db": -2,
-  "tempo": 82.2,
+  "tempo": 86.2,
   "bars": 14
  },
  {
   "file": "audio/music/03_warm.wav",
-  "t0": 64.232,
-  "t1": 88.937,
+  "t0": 60.87,
+  "t1": 86.73,
   "mood": "warm",
   "db": -2,
-  "tempo": 77.7,
-  "bars": 8
+  "tempo": 83.5,
+  "bars": 9
  },
  {
   "file": "audio/music/04_comedy.wav",
-  "t0": 88.937,
-  "t1": 126.729,
+  "t0": 86.73,
+  "t1": 124.32,
   "mood": "comedy",
   "db": -4,
-  "tempo": 127.0,
+  "tempo": 127.7,
   "bars": 20
  },
  {
   "file": "audio/music/05_awkward.wav",
-  "t0": 126.729,
-  "t1": 177.715,
+  "t0": 124.32,
+  "t1": 177.47,
   "mood": "awkward",
   "db": -3,
-  "tempo": 98.9,
-  "bars": 21
+  "tempo": 99.3,
+  "bars": 22
  },
  {
   "file": "audio/music/06_fancy.wav",
-  "t0": 177.715,
-  "t1": 197.218,
+  "t0": 177.47,
+  "t1": 196.95,
   "mood": "fancy",
   "db": -3,
-  "tempo": 98.4,
+  "tempo": 98.6,
   "bars": 8
  },
  {
   "file": "audio/music/07_curious.wav",
-  "t0": 197.218,
-  "t1": 241.433,
+  "t0": 196.95,
+  "t1": 239.54,
   "mood": "curious",
   "db": -3,
-  "tempo": 86.8,
+  "tempo": 90.2,
   "bars": 16
  },
  {
   "file": "audio/music/08_chase.wav",
-  "t0": 241.433,
-  "t1": 273.79,
+  "t0": 239.54,
+  "t1": 272.01,
   "mood": "chase",
   "db": -4,
-  "tempo": 140.9,
+  "tempo": 140.4,
   "bars": 19
  },
  {
   "file": "audio/music/09_triumph.wav",
-  "t0": 273.79,
-  "t1": 287.421,
+  "t0": 272.01,
+  "t1": 284.97,
   "mood": "triumph",
   "db": -2,
-  "tempo": 105.6,
+  "tempo": 111.1,
   "bars": 6
  },
  {
   "file": "audio/music/10_sneaky.wav",
-  "t0": 287.421,
-  "t1": 328.417,
+  "t0": 284.97,
+  "t1": 329.26,
   "mood": "sneaky",
   "db": -3,
-  "tempo": 105.4,
-  "bars": 18
+  "tempo": 108.4,
+  "bars": 20
  },
  {
   "file": "audio/music/11_chat.wav",
-  "t0": 328.417,
-  "t1": 354.464,
+  "t0": 329.26,
+  "t1": 354.96,
   "mood": "chat",
   "db": -4,
-  "tempo": 101.4,
+  "tempo": 102.7,
   "bars": 11
  },
  {
   "file": "audio/music/12_heavy.wav",
-  "t0": 354.464,
-  "t1": 371.258,
+  "t0": 354.96,
+  "t1": 372.1,
   "mood": "heavy",
   "db": -3,
-  "tempo": 85.7,
-  "bars": 6
+  "tempo": 98.0,
+  "bars": 7
  },
  {
   "file": "audio/music/13_tension.wav",
-  "t0": 371.258,
-  "t1": 411.572,
+  "t0": 372.1,
+  "t1": 411.18,
   "mood": "tension",
   "db": -2,
-  "tempo": 71.4,
-  "bars": 12
+  "tempo": 67.6,
+  "bars": 11
  },
  {
   "file": "audio/music/14_sad.wav",
-  "t0": 411.572,
-  "t1": 418.866,
+  "t0": 411.18,
+  "t1": 418.74,
   "mood": "sad",
   "db": -1,
-  "tempo": 65.8,
+  "tempo": 63.5,
   "bars": 2
  },
  {
   "file": "audio/music/15_build.wav",
-  "t0": 418.866,
-  "t1": 440.874,
+  "t0": 418.74,
+  "t1": 441.63,
   "mood": "build",
   "db": -3,
-  "tempo": 120.0,
+  "tempo": 115.3,
   "bars": 11
  },
  {
   "file": "audio/music/16_uplift.wav",
-  "t0": 440.874,
-  "t1": 460.196,
+  "t0": 441.63,
+  "t1": 459.07,
   "mood": "uplift",
   "db": -3,
-  "tempo": 111.8,
-  "bars": 9
+  "tempo": 110.1,
+  "bars": 8
  },
  {
   "file": "audio/music/17_friend.wav",
-  "t0": 460.196,
-  "t1": 492.282,
+  "t0": 459.07,
+  "t1": 491.55,
   "mood": "friend",
   "db": -3,
-  "tempo": 97.2,
-  "bars": 13
+  "tempo": 103.4,
+  "bars": 14
  },
  {
   "file": "audio/music/18_montage.wav",
-  "t0": 492.282,
-  "t1": 537.484,
+  "t0": 491.55,
+  "t1": 538.75,
   "mood": "montage",
   "db": -4,
-  "tempo": 116.8,
-  "bars": 22
+  "tempo": 116.9,
+  "bars": 23
  },
  {
   "file": "audio/music/19_party.wav",
-  "t0": 537.484,
-  "t1": 555.046,
+  "t0": 538.75,
+  "t1": 556.82,
   "mood": "party",
   "db": -5,
-  "tempo": 123.0,
+  "tempo": 119.5,
   "bars": 9
  },
  {
   "file": "audio/music/20_bitter.wav",
-  "t0": 555.046,
-  "t1": 566.191,
+  "t0": 556.82,
+  "t1": 567.92,
   "mood": "bitter",
   "db": -2,
-  "tempo": 64.6,
+  "tempo": 64.9,
   "bars": 3
  },
  {
   "file": "audio/music/21_party.wav",
-  "t0": 566.191,
-  "t1": 575.589,
+  "t0": 567.92,
+  "t1": 577.08,
   "mood": "party",
   "db": -6,
-  "tempo": 127.7,
+  "tempo": 131.0,
   "bars": 5
  },
  {
   "file": "audio/music/22_tender.wav",
-  "t0": 575.589,
-  "t1": 607.445,
+  "t0": 577.08,
+  "t1": 608.16,
   "mood": "tender",
   "db": -2,
-  "tempo": 75.3,
-  "bars": 10
+  "tempo": 69.5,
+  "bars": 9
  },
  {
   "file": "audio/music/23_home.wav",
-  "t0": 607.445,
-  "t1": 640.527,
+  "t0": 608.16,
+  "t1": 640.25,
   "mood": "home",
   "db": -3,
-  "tempo": 97.9,
-  "bars": 18
+  "tempo": 95.4,
+  "bars": 17
  },
  {
   "file": "audio/music/24_sadturn.wav",
-  "t0": 640.527,
-  "t1": 681.583,
+  "t0": 640.25,
+  "t1": 680.06,
   "mood": "sadturn",
   "db": -2,
-  "tempo": 64.3,
+  "tempo": 66.3,
   "bars": 11
  },
  {
   "file": "audio/music/25_bubbles.wav",
-  "t0": 681.583,
-  "t1": 693.866,
+  "t0": 680.06,
+  "t1": 693.59,
   "mood": "bubbles",
   "db": -4,
-  "tempo": 117.2,
-  "bars": 6
+  "tempo": 124.2,
+  "bars": 7
  },
  {
   "file": "audio/music/26_reflect.wav",
-  "t0": 693.866,
-  "t1": 738.31,
+  "t0": 693.59,
+  "t1": 737.04,
   "mood": "reflect",
   "db": -2,
-  "tempo": 70.2,
+  "tempo": 71.8,
   "bars": 13
  },
  {
   "file": "audio/music/27_nostalgic.wav",
-  "t0": 738.31,
-  "t1": 779.763,
+  "t0": 737.04,
+  "t1": 779.49,
   "mood": "nostalgic",
   "db": -2,
-  "tempo": 81.1,
+  "tempo": 79.2,
   "bars": 14
  },
  {
   "file": "audio/music/28_joy.wav",
-  "t0": 779.763,
-  "t1": 812.852,
+  "t0": 779.49,
+  "t1": 810.56,
   "mood": "joy",
   "db": -3,
-  "tempo": 108.8,
-  "bars": 15
+  "tempo": 108.1,
+  "bars": 14
  },
  {
   "file": "audio/music/29_inspire.wav",
-  "t0": 812.852,
-  "t1": 869.17,
+  "t0": 810.56,
+  "t1": 866.7,
   "mood": "inspire",
   "db": -2,
-  "tempo": 85.2,
+  "tempo": 85.5,
   "bars": 20
  },
  {
   "file": "audio/music/30_outro.wav",
-  "t0": 869.17,
-  "t1": 885.553,
+  "t0": 866.7,
+  "t1": 881.437,
   "mood": "outro",
   "db": -2,
-  "tempo": 117.2,
-  "bars": 8
+  "tempo": 114.0,
+  "bars": 7
  }
 ]

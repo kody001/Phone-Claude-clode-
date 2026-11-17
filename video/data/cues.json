@@ -16,7 +16,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 2.649,
+  "t": 2.25,
   "id": "boom_soft",
   "gain": -8,
   "pan": 0,
@@ -24,7 +24,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 3.346,
+  "t": 3.05,
   "id": "heli_land",
   "gain": -2,
   "pan": 0,
@@ -32,7 +32,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 6.163,
+  "t": 5.61,
   "id": "heli_idle",
   "gain": -12,
   "pan": 0,
@@ -40,7 +40,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 6.363,
+  "t": 5.81,
   "id": "door_slide",
   "gain": -6,
   "pan": 0,
@@ -48,7 +48,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 7.513,
+  "t": 6.95,
   "id": "footstep_shoe",
   "gain": -8,
   "pan": 0,
@@ -56,7 +56,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 9.528,
+  "t": 8.455,
   "id": "sparkle",
   "gain": -8,
   "pan": 0,
@@ -64,7 +64,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 9.558,
+  "t": 8.485,
   "id": "ding_price",
   "gain": -6,
   "pan": 0,
@@ -72,7 +72,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 12.417,
+  "t": 11.27,
   "id": "footsteps_shoe",
   "gain": -10,
   "pan": 0,
@@ -80,7 +80,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 15.916,
+  "t": 15.08,
   "id": "whoosh_soft",
   "gain": -12,
   "pan": 0,
@@ -88,7 +88,7 @@
   "set": "void"
  },
  {
-  "t": 17.373,
+  "t": 16.58,
   "id": "ding_soft",
   "gain": -8,
   "pan": 0,
@@ -96,7 +96,7 @@
   "set": "void"
  },
  {
-  "t": 17.423,
+  "t": 16.63,
   "id": "zipper",
   "gain": -10,
   "pan": 0,
@@ -104,7 +104,7 @@
   "set": "void"
  },
  {
-  "t": 19.46,
+  "t": 18.41,
   "id": "gulp",
   "gain": -6,
   "pan": 0,
@@ -112,7 +112,7 @@
   "set": "void"
  },
  {
-  "t": 22.194,
+  "t": 20.63,
   "id": "riser_soft",
   "gain": -10,
   "pan": 0,
@@ -120,7 +120,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 22.794,
+  "t": 21.23,
   "id": "shimmer",
   "gain": -8,
   "pan": 0,
@@ -128,7 +128,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 26.856,
+  "t": 25.14,
   "id": "pin_drop",
   "gain": -6,
   "pan": 0,
@@ -136,7 +136,7 @@
   "set": "void"
  },
  {
-  "t": 27.106,
+  "t": 25.39,
   "id": "ding_price",
   "gain": -8,
   "pan": 0,
@@ -144,7 +144,7 @@
   "set": "void"
  },
  {
-  "t": 28.513,
+  "t": 26.92,
   "id": "coins",
   "gain": -10,
   "pan": 0,
@@ -152,7 +152,7 @@
   "set": "voidGold"
  },
  {
-  "t": 29.413,
+  "t": 27.82,
   "id": "coins",
   "gain": -12,
   "pan": 0,
@@ -160,7 +160,7 @@
   "set": "voidGold"
  },
  {
-  "t": 30.313,
+  "t": 28.72,
   "id": "coins",
   "gain": -12,
   "pan": 0,
@@ -168,7 +168,7 @@
   "set": "voidGold"
  },
  {
-  "t": 33.55,
+  "t": 31.73,
   "id": "record_scratch",
   "gain": -6,
   "pan": 0,
@@ -176,7 +176,7 @@
   "set": "voidGold"
  },
  {
-  "t": 34.686,
+  "t": 32.95,
   "id": "typing",
   "gain": -10,
   "pan": 0,
@@ -184,7 +184,7 @@
   "set": "bedroom"
  },
  {
-  "t": 38.463,
+  "t": 36.65,
   "id": "mailbox_creak",
   "gain": -6,
   "pan": 0,
@@ -192,7 +192,7 @@
   "set": "street"
  },
  {
-  "t": 38.963,
+  "t": 37.15,
   "id": "shimmer",
   "gain": -10,
   "pan": 0,
@@ -200,7 +200,7 @@
   "set": "street"
  },
  {
-  "t": 40.205,
+  "t": 38.53,
   "id": "sniffle",
   "gain": -8,
   "pan": 0,
@@ -208,7 +208,7 @@
   "set": "apartment:dawn"
  },
  {
-  "t": 42.133,
+  "t": 40.27,
   "id": "kid_cheer",
   "gain": -10,
   "pan": 0,
@@ -216,7 +216,7 @@
   "set": "apartment:dawn"
  },
  {
-  "t": 45.549,
+  "t": 43.24,
   "id": "phone_slide",
   "gain": -8,
   "pan": 0,
@@ -224,7 +224,7 @@
   "set": "void"
  },
  {
-  "t": 45.949,
+  "t": 43.64,
   "id": "coins_small",
   "gain": -10,
   "pan": 0,
@@ -232,7 +232,7 @@
   "set": "void"
  },
  {
-  "t": 49.642,
+  "t": 47.11,
   "id": "paper_bag",
   "gain": -6,
   "pan": 0,
@@ -240,7 +240,7 @@
   "set": "void"
  },
  {
-  "t": 51.346,
+  "t": 48.77,
   "id": "heartbeat",
   "gain": -10,
   "pan": 0,
@@ -248,7 +248,7 @@
   "set": "void"
  },
  {
-  "t": 51.346,
+  "t": 48.77,
   "id": "crowd_murmur",
   "gain": -18,
   "pan": 0,
@@ -256,7 +256,7 @@
   "set": "void"
  },
  {
-  "t": 57.123,
+  "t": 54.21,
   "id": "tick",
   "gain": -6,
   "pan": 0,
@@ -264,7 +264,7 @@
   "set": "void"
  },
  {
-  "t": 58.391,
+  "t": 55.32,
   "id": "tick",
   "gain": -6,
   "pan": 0,
@@ -272,7 +272,7 @@
   "set": "void"
  },
  {
-  "t": 61.385,
+  "t": 57.87,
   "id": "tick",
   "gain": -6,
   "pan": 0,
@@ -280,7 +280,7 @@
   "set": "void"
  },
  {
-  "t": 63.05,
+  "t": 59.59,
   "id": "title_hit",
   "gain": -2,
   "pan": 0,
@@ -288,7 +288,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 63.1,
+  "t": 59.64,
   "id": "whoosh_big",
   "gain": -6,
   "pan": 0,
@@ -296,7 +296,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 64.462,
+  "t": 61.1,
   "id": "amb_morning",
   "gain": -16,
   "pan": 0,
@@ -304,7 +304,7 @@
   "set": "apartment:dawn"
  },
  {
-  "t": 64.562,
+  "t": 61.2,
   "id": "alarm_beep",
   "gain": -8,
   "pan": 0,
@@ -312,7 +312,7 @@
   "set": "apartment:dawn"
  },
  {
-  "t": 64.562,
+  "t": 61.2,
   "id": "title_hit_soft",
   "gain": -8,
   "pan": 0,
@@ -320,7 +320,7 @@
   "set": "apartment:dawn"
  },
  {
-  "t": 66.582,
+  "t": 63.28,
   "id": "keys_jingle",
   "gain": -10,
   "pan": 0,
@@ -328,7 +328,7 @@
   "set": "apartment:dawn"
  },
  {
-  "t": 70.257,
+  "t": 67.2,
   "id": "kiss",
   "gain": -6,
   "pan": 0,
@@ -336,7 +336,7 @@
   "set": "apartment:dawn"
  },
  {
-  "t": 71.387,
+  "t": 68.24,
   "id": "paper_bag",
   "gain": -6,
   "pan": 0,
@@ -344,7 +344,7 @@
   "set": "apartment:dawn"
  },
  {
-  "t": 74.401,
+  "t": 71.47,
   "id": "knife_cut",
   "gain": -6,
   "pan": 0,
@@ -352,7 +352,7 @@
   "set": "apartment:dawn"
  },
  {
-  "t": 74.401,
+  "t": 71.47,
   "id": "sparkle",
   "gain": -14,
   "pan": 0,
@@ -360,7 +360,7 @@
   "set": "apartment:dawn"
  },
  {
-  "t": 77.101,
+  "t": 74.7,
   "id": "pop",
   "gain": -6,
   "pan": 0,
@@ -368,7 +368,7 @@
   "set": "void"
  },
  {
-  "t": 77.201,
+  "t": 74.8,
   "id": "cloth_flap",
   "gain": -8,
   "pan": 0,
@@ -376,7 +376,7 @@
   "set": "void"
  },
  {
-  "t": 80.139,
+  "t": 77.26,
   "id": "boing",
   "gain": -10,
   "pan": 0,
@@ -384,7 +384,7 @@
   "set": "void"
  },
  {
-  "t": 82.446,
+  "t": 79.74,
   "id": "cloth_flap",
   "gain": -8,
   "pan": 0,
@@ -392,7 +392,7 @@
   "set": "void"
  },
  {
-  "t": 82.946,
+  "t": 80.24,
   "id": "cloth_flap",
   "gain": -10,
   "pan": 0,
@@ -400,7 +400,7 @@
   "set": "void"
  },
  {
-  "t": 83.446,
+  "t": 80.74,
   "id": "cloth_flap",
   "gain": -10,
   "pan": 0,
@@ -408,7 +408,7 @@
   "set": "void"
  },
  {
-  "t": 84.583,
+  "t": 82.26,
   "id": "ding_soft",
   "gain": -10,
   "pan": 0,
@@ -416,7 +416,7 @@
   "set": "void"
  },
  {
-  "t": 87.821,
+  "t": 85.49,
   "id": "shrug_whoosh",
   "gain": -10,
   "pan": 0,
@@ -424,7 +424,7 @@
   "set": "void"
  },
  {
-  "t": 89.167,
+  "t": 86.96,
   "id": "bus_arrive",
   "gain": -4,
   "pan": 0,
@@ -432,7 +432,7 @@
   "set": "street"
  },
  {
-  "t": 90.867,
+  "t": 88.66,
   "id": "bus_door",
   "gain": -6,
   "pan": 0,
@@ -440,7 +440,7 @@
   "set": "street"
  },
  {
-  "t": 91.176,
+  "t": 89.27,
   "id": "bus_interior",
   "gain": -8,
   "pan": 0,
@@ -448,7 +448,7 @@
   "set": "busInterior"
  },
  {
-  "t": 93.293,
+  "t": 91.12,
   "id": "bus_leave",
   "gain": -4,
   "pan": 0,
@@ -456,7 +456,7 @@
   "set": "avenue"
  },
  {
-  "t": 99.001,
+  "t": 96.27,
   "id": "buzzer",
   "gain": -8,
   "pan": 0,
@@ -464,7 +464,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 102.625,
+  "t": 99.72,
   "id": "car_pass",
   "gain": -6,
   "pan": 0,
@@ -472,7 +472,7 @@
   "set": "avenue"
  },
  {
-  "t": 103.688,
+  "t": 101.03,
   "id": "car_pass",
   "gain": -6,
   "pan": 0,
@@ -480,7 +480,7 @@
   "set": "avenue"
  },
  {
-  "t": 105.344,
+  "t": 102.6,
   "id": "supercar_pass",
   "gain": -2,
   "pan": 0,
@@ -488,7 +488,7 @@
   "set": "avenue"
  },
  {
-  "t": 108.277,
+  "t": 105.56,
   "id": "footsteps_boot",
   "gain": -10,
   "pan": 0,
@@ -496,7 +496,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 108.877,
+  "t": 106.16,
   "id": "stop_whistle",
   "gain": -12,
   "pan": 0,
@@ -504,7 +504,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 112.507,
+  "t": 110.04,
   "id": "blink",
   "gain": -6,
   "pan": 0,
@@ -512,7 +512,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 112.807,
+  "t": 110.34,
   "id": "blink",
   "gain": -6,
   "pan": 0,
@@ -520,31 +520,23 @@
   "set": "schoolExt"
  },
  {
-  "t": 115.494,
-  "id": "glasses_slide",
-  "gain": -6,
+  "t": 113.18,
+  "id": "whoosh_soft",
+  "gain": -12,
   "pan": 0,
   "shot": "L19",
   "set": "schoolExt"
  },
  {
-  "t": 116.097,
-  "id": "whoosh_soft",
-  "gain": -12,
-  "pan": 0,
-  "shot": "L19:your",
-  "set": "schoolExt"
- },
- {
-  "t": 116.197,
+  "t": 113.28,
   "id": "ding_soft",
   "gain": -10,
   "pan": 0,
-  "shot": "L19:your",
+  "shot": "L19",
   "set": "schoolExt"
  },
  {
-  "t": 116.814,
+  "t": 114.28,
   "id": "whoosh_soft",
   "gain": -12,
   "pan": 0,
@@ -552,7 +544,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 116.914,
+  "t": 114.38,
   "id": "ding_soft",
   "gain": -10,
   "pan": 0,
@@ -560,7 +552,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 118.289,
+  "t": 116,
   "id": "whoosh_soft",
   "gain": -12,
   "pan": 0,
@@ -568,7 +560,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 118.489,
+  "t": 116.2,
   "id": "dun_dun",
   "gain": -6,
   "pan": 0,
@@ -576,7 +568,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 120.317,
+  "t": 117.78,
   "id": "paper_flip",
   "gain": -8,
   "pan": 0,
@@ -584,7 +576,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 121.227,
+  "t": 118.66,
   "id": "pop",
   "gain": -8,
   "pan": 0,
@@ -592,7 +584,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 121.577,
+  "t": 119.01,
   "id": "pop",
   "gain": -6,
   "pan": 0,
@@ -600,7 +592,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 121.927,
+  "t": 119.36,
   "id": "pop",
   "gain": -4,
   "pan": 0,
@@ -608,7 +600,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 123.811,
+  "t": 121.16,
   "id": "footsteps_boot",
   "gain": -12,
   "pan": 0,
@@ -616,7 +608,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 125.713,
+  "t": 123.34,
   "id": "sad_trombone",
   "gain": -6,
   "pan": 0,
@@ -624,7 +616,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 126.959,
+  "t": 124.55,
   "id": "amb_classroom",
   "gain": -16,
   "pan": 0,
@@ -632,7 +624,7 @@
   "set": "classroom"
  },
  {
-  "t": 126.959,
+  "t": 124.55,
   "id": "school_bell",
   "gain": -10,
   "pan": 0,
@@ -640,7 +632,7 @@
   "set": "classroom"
  },
  {
-  "t": 134.277,
+  "t": 131.72,
   "id": "amb_ocean",
   "gain": -12,
   "pan": 0,
@@ -648,7 +640,7 @@
   "set": "island"
  },
  {
-  "t": 134.277,
+  "t": 131.72,
   "id": "seagull",
   "gain": -14,
   "pan": 0,
@@ -656,7 +648,7 @@
   "set": "island"
  },
  {
-  "t": 141.262,
+  "t": 138.4,
   "id": "space_drone",
   "gain": -10,
   "pan": 0,
@@ -664,7 +656,7 @@
   "set": "edgeSpace"
  },
  {
-  "t": 141.262,
+  "t": 138.4,
   "id": "rocket_rumble",
   "gain": -14,
   "pan": 0,
@@ -672,7 +664,7 @@
   "set": "edgeSpace"
  },
  {
-  "t": 147.581,
+  "t": 145.49,
   "id": "boing_shock",
   "gain": -6,
   "pan": 0,
@@ -680,7 +672,7 @@
   "set": "classroom"
  },
  {
-  "t": 148.891,
+  "t": 146.92,
   "id": "record_scratch",
   "gain": -8,
   "pan": 0,
@@ -688,7 +680,7 @@
   "set": "classroom"
  },
  {
-  "t": 152.43,
+  "t": 150.12,
   "id": "whoosh_multi",
   "gain": -6,
   "pan": 0,
@@ -696,7 +688,7 @@
   "set": "classroom"
  },
  {
-  "t": 152.73,
+  "t": 150.42,
   "id": "chair_creak",
   "gain": -10,
   "pan": 0,
@@ -704,7 +696,7 @@
   "set": "classroom"
  },
  {
-  "t": 154.512,
+  "t": 152.75,
   "id": "thought_chime",
   "gain": -10,
   "pan": 0,
@@ -712,7 +704,7 @@
   "set": "classroom"
  },
  {
-  "t": 155.989,
+  "t": 154.43,
   "id": "scrub",
   "gain": -6,
   "pan": 0,
@@ -720,7 +712,7 @@
   "set": "carwash"
  },
  {
-  "t": 155.989,
+  "t": 154.43,
   "id": "water_spray",
   "gain": -14,
   "pan": 0,
@@ -728,7 +720,7 @@
   "set": "carwash"
  },
  {
-  "t": 157.972,
+  "t": 156.339,
   "id": "kid_giggle",
   "gain": -8,
   "pan": 0,
@@ -736,7 +728,7 @@
   "set": "void"
  },
  {
-  "t": 159.682,
+  "t": 158.31,
   "id": "cereal_crunch",
   "gain": -6,
   "pan": 0,
@@ -744,7 +736,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 161.583,
+  "t": 160.33,
   "id": "pop",
   "gain": -4,
   "pan": 0,
@@ -752,7 +744,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 165.283,
+  "t": 163.71,
   "id": "crickets",
   "gain": -6,
   "pan": 0,
@@ -760,7 +752,7 @@
   "set": "classroom"
  },
  {
-  "t": 165.283,
+  "t": 163.71,
   "id": "room_tone",
   "gain": -10,
   "pan": 0,
@@ -768,7 +760,7 @@
   "set": "classroom"
  },
  {
-  "t": 169.91,
+  "t": 168.46,
   "id": "whisper",
   "gain": -8,
   "pan": 0,
@@ -776,7 +768,7 @@
   "set": "classroom"
  },
  {
-  "t": 174.222,
+  "t": 173.84,
   "id": "space_whoosh",
   "gain": -8,
   "pan": 0,
@@ -784,7 +776,7 @@
   "set": "void"
  },
  {
-  "t": 174.522,
+  "t": 174.14,
   "id": "boing",
   "gain": -12,
   "pan": 0,
@@ -792,7 +784,7 @@
   "set": "void"
  },
  {
-  "t": 177.945,
+  "t": 177.7,
   "id": "school_bell",
   "gain": -6,
   "pan": 0,
@@ -800,7 +792,7 @@
   "set": "hallway"
  },
  {
-  "t": 178.145,
+  "t": 177.9,
   "id": "hallway_walla",
   "gain": -14,
   "pan": 0,
@@ -808,7 +800,7 @@
   "set": "hallway"
  },
  {
-  "t": 178.045,
+  "t": 177.8,
   "id": "footsteps_shoe",
   "gain": -12,
   "pan": 0,
@@ -816,7 +808,7 @@
   "set": "hallway"
  },
  {
-  "t": 179.484,
+  "t": 179.5,
   "id": "cafeteria_walla",
   "gain": -10,
   "pan": 0,
@@ -824,7 +816,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 179.484,
+  "t": 179.5,
   "id": "choir_aah",
   "gain": -8,
   "pan": 0,
@@ -832,7 +824,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 179.584,
+  "t": 179.6,
   "id": "shimmer",
   "gain": -8,
   "pan": 0,
@@ -840,7 +832,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 184.719,
+  "t": 184.66,
   "id": "knife_chop",
   "gain": -8,
   "pan": 0,
@@ -848,7 +840,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 185.745,
+  "t": 185.83,
   "id": "boiling",
   "gain": -10,
   "pan": 0,
@@ -856,7 +848,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 186.896,
+  "t": 186.81,
   "id": "choc_flow",
   "gain": -6,
   "pan": 0,
@@ -864,7 +856,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 191.485,
+  "t": 191.16,
   "id": "register_ding",
   "gain": -4,
   "pan": 0,
@@ -872,7 +864,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 192.218,
+  "t": 192.08,
   "id": "airhorn_cute",
   "gain": -8,
   "pan": 0,
@@ -880,7 +872,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 192.218,
+  "t": 192.08,
   "id": "choir_hit",
   "gain": -6,
   "pan": 0,
@@ -888,7 +880,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 192.218,
+  "t": 192.08,
   "id": "confetti",
   "gain": -6,
   "pan": 0,
@@ -896,7 +888,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 193.219,
+  "t": 193.14,
   "id": "emotional_swell",
   "gain": -8,
   "pan": 0,
@@ -904,7 +896,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 202.101,
+  "t": 201.95,
   "id": "chair_scrape",
   "gain": -8,
   "pan": 0,
@@ -912,7 +904,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 203.967,
+  "t": 203.8,
   "id": "paper_bag",
   "gain": -4,
   "pan": 0,
@@ -920,7 +912,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 205.021,
+  "t": 204.94,
   "id": "whoosh_multi",
   "gain": -8,
   "pan": 0,
@@ -928,7 +920,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 205.221,
+  "t": 205.14,
   "id": "crowd_gasp",
   "gain": -6,
   "pan": 0,
@@ -936,7 +928,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 207.08,
+  "t": 207.16,
   "id": "gasp_single",
   "gain": -6,
   "pan": 0,
@@ -944,7 +936,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 214.953,
+  "t": 214.23,
   "id": "camera_shutter",
   "gain": -4,
   "pan": 0,
@@ -952,7 +944,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 216.022,
+  "t": 214.99,
   "id": "phone_slide",
   "gain": -10,
   "pan": 0,
@@ -960,7 +952,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 217.275,
+  "t": 216.09,
   "id": "chewing",
   "gain": -8,
   "pan": 0,
@@ -968,7 +960,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 220.874,
+  "t": 219.17,
   "id": "nature_doc",
   "gain": -10,
   "pan": 0,
@@ -976,7 +968,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 224.06,
+  "t": 222.21,
   "id": "music_soft_turn",
   "gain": -10,
   "pan": 0,
@@ -984,7 +976,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 229.096,
+  "t": 226.85,
   "id": "ding_soft",
   "gain": -10,
   "pan": 0,
@@ -992,7 +984,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 230.485,
+  "t": 228.28,
   "id": "ding_soft",
   "gain": -10,
   "pan": 0,
@@ -1000,7 +992,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 236.31,
+  "t": 234.42,
   "id": "whoosh_digital",
   "gain": -8,
   "pan": 0,
@@ -1008,7 +1000,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 238.58,
+  "t": 236.8,
   "id": "curious_pluck",
   "gain": -8,
   "pan": 0,
@@ -1016,7 +1008,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 241.663,
+  "t": 239.77,
   "id": "amb_countryside",
   "gain": -12,
   "pan": 0,
@@ -1024,7 +1016,7 @@
   "set": "stables"
  },
  {
-  "t": 242.163,
+  "t": 240.27,
   "id": "horse_snort",
   "gain": -8,
   "pan": 0,
@@ -1032,7 +1024,7 @@
   "set": "stables"
  },
  {
-  "t": 243.201,
+  "t": 240.97,
   "id": "dodgeball",
   "gain": -8,
   "pan": 0,
@@ -1040,7 +1032,7 @@
   "set": "void"
  },
  {
-  "t": 243.601,
+  "t": 241.37,
   "id": "dodgeball",
   "gain": -10,
   "pan": 0,
@@ -1048,7 +1040,7 @@
   "set": "void"
  },
  {
-  "t": 244.001,
+  "t": 241.77,
   "id": "dodgeball",
   "gain": -10,
   "pan": 0,
@@ -1056,7 +1048,7 @@
   "set": "void"
  },
  {
-  "t": 247.529,
+  "t": 245.5,
   "id": "horse_neigh",
   "gain": -4,
   "pan": 0,
@@ -1064,7 +1056,7 @@
   "set": "stables"
  },
  {
-  "t": 247.529,
+  "t": 245.5,
   "id": "brass_sting",
   "gain": -8,
   "pan": 0,
@@ -1072,7 +1064,7 @@
   "set": "stables"
  },
  {
-  "t": 248.9,
+  "t": 247,
   "id": "heartbeat_fast",
   "gain": -6,
   "pan": 0,
@@ -1080,7 +1072,7 @@
   "set": "stables"
  },
  {
-  "t": 251.008,
+  "t": 249.39,
   "id": "horse_snort",
   "gain": -4,
   "pan": 0,
@@ -1088,7 +1080,7 @@
   "set": "stables"
  },
  {
-  "t": 256.463,
+  "t": 254.66,
   "id": "cloth_rustle",
   "gain": -8,
   "pan": 0,
@@ -1096,7 +1088,7 @@
   "set": "stables"
  },
  {
-  "t": 257.294,
+  "t": 255.67,
   "id": "hoof_step",
   "gain": -6,
   "pan": 0,
@@ -1104,7 +1096,7 @@
   "set": "stables"
  },
  {
-  "t": 259.52,
+  "t": 257.63,
   "id": "slide_whistle",
   "gain": -6,
   "pan": 0,
@@ -1112,7 +1104,7 @@
   "set": "stables"
  },
  {
-  "t": 260.776,
+  "t": 259.03,
   "id": "thud",
   "gain": -2,
   "pan": 0,
@@ -1120,7 +1112,7 @@
   "set": "stables"
  },
  {
-  "t": 261.369,
+  "t": 259.51,
   "id": "cartoon_tweet",
   "gain": -8,
   "pan": 0,
@@ -1128,7 +1120,7 @@
   "set": "stables"
  },
  {
-  "t": 264.351,
+  "t": 262.58,
   "id": "horse_chew",
   "gain": -6,
   "pan": 0,
@@ -1136,7 +1128,7 @@
   "set": "stables"
  },
  {
-  "t": 264.351,
+  "t": 262.58,
   "id": "cloth_rip",
   "gain": -8,
   "pan": 0,
@@ -1144,7 +1136,7 @@
   "set": "stables"
  },
  {
-  "t": 266.462,
+  "t": 264.71,
   "id": "kids_laugh",
   "gain": -8,
   "pan": 0,
@@ -1152,7 +1144,7 @@
   "set": "stables"
  },
  {
-  "t": 270.328,
+  "t": 269.02,
   "id": "plane_flyby",
   "gain": -14,
   "pan": 0,
@@ -1160,7 +1152,7 @@
   "set": "stables"
  },
  {
-  "t": 272.77,
+  "t": 271.11,
   "id": "buzzer",
   "gain": -10,
   "pan": 0,
@@ -1168,7 +1160,7 @@
   "set": "stables"
  },
  {
-  "t": 274.02,
+  "t": 272.24,
   "id": "horse_walk",
   "gain": -8,
   "pan": 0,
@@ -1176,7 +1168,7 @@
   "set": "stables"
  },
  {
-  "t": 276.822,
+  "t": 274.69,
   "id": "wobble",
   "gain": -8,
   "pan": 0,
@@ -1184,7 +1176,7 @@
   "set": "stables"
  },
  {
-  "t": 278.696,
+  "t": 276.58,
   "id": "success_sting",
   "gain": -4,
   "pan": 0,
@@ -1192,7 +1184,7 @@
   "set": "stables"
  },
  {
-  "t": 279.763,
+  "t": 277.86,
   "id": "clap_single",
   "gain": -10,
   "pan": 0,
@@ -1200,7 +1192,7 @@
   "set": "stables"
  },
  {
-  "t": 286.305,
+  "t": 284.01,
   "id": "inspire_swell",
   "gain": -6,
   "pan": 0,
@@ -1208,7 +1200,7 @@
   "set": "stables"
  },
  {
-  "t": 287.651,
+  "t": 285.2,
   "id": "hallway_walla",
   "gain": -16,
   "pan": 0,
@@ -1216,7 +1208,7 @@
   "set": "hallway"
  },
  {
-  "t": 289.699,
+  "t": 287.33,
   "id": "idea_ding",
   "gain": -6,
   "pan": 0,
@@ -1224,7 +1216,7 @@
   "set": "hallway"
  },
  {
-  "t": 291.52,
+  "t": 288.79,
   "id": "tick",
   "gain": -8,
   "pan": 0,
@@ -1232,7 +1224,7 @@
   "set": "hallway"
  },
  {
-  "t": 295.137,
+  "t": 293.25,
   "id": "tick",
   "gain": -8,
   "pan": 0,
@@ -1240,7 +1232,7 @@
   "set": "hallway"
  },
  {
-  "t": 296.41,
+  "t": 294.71,
   "id": "amb_ocean",
   "gain": -10,
   "pan": 0,
@@ -1248,7 +1240,7 @@
   "set": "ocean"
  },
  {
-  "t": 296.61,
+  "t": 294.91,
   "id": "yacht_horn",
   "gain": -14,
   "pan": 0,
@@ -1256,7 +1248,7 @@
   "set": "ocean"
  },
  {
-  "t": 299.337,
+  "t": 298.01,
   "id": "jet_flyby",
   "gain": -6,
   "pan": 0,
@@ -1264,7 +1256,7 @@
   "set": "sky"
  },
  {
-  "t": 302.95,
+  "t": 302.15,
   "id": "eye_roll",
   "gain": -10,
   "pan": 0,
@@ -1272,7 +1264,7 @@
   "set": "hallway"
  },
  {
-  "t": 303.896,
+  "t": 303.25,
   "id": "sneaky_pluck",
   "gain": -8,
   "pan": 0,
@@ -1280,7 +1272,7 @@
   "set": "void"
  },
  {
-  "t": 308.066,
+  "t": 308.05,
   "id": "swish_stealth",
   "gain": -6,
   "pan": 0,
@@ -1288,7 +1280,7 @@
   "set": "void"
  },
  {
-  "t": 311.105,
+  "t": 311.83,
   "id": "fancy_ding",
   "gain": -10,
   "pan": 0,
@@ -1296,7 +1288,7 @@
   "set": "hallway"
  },
  {
-  "t": 312.321,
+  "t": 313.46,
   "id": "fancy_ding",
   "gain": -10,
   "pan": 0,
@@ -1304,7 +1296,7 @@
   "set": "hallway"
  },
  {
-  "t": 313.942,
+  "t": 315.31,
   "id": "lawnmower",
   "gain": -8,
   "pan": 0,
@@ -1312,7 +1304,7 @@
   "set": "lawnYard"
  },
  {
-  "t": 313.942,
+  "t": 315.31,
   "id": "amb_birds",
   "gain": -14,
   "pan": 0,
@@ -1320,7 +1312,7 @@
   "set": "lawnYard"
  },
  {
-  "t": 321.049,
+  "t": 322.88,
   "id": "glass_crack",
   "gain": -6,
   "pan": 0,
@@ -1328,7 +1320,7 @@
   "set": "void"
  },
  {
-  "t": 324.183,
+  "t": 326.02,
   "id": "charge_beep",
   "gain": -10,
   "pan": 0,
@@ -1336,7 +1328,7 @@
   "set": "bedroom"
  },
  {
-  "t": 324.783,
+  "t": 326.62,
   "id": "charge_off",
   "gain": -10,
   "pan": 0,
@@ -1344,7 +1336,7 @@
   "set": "bedroom"
  },
  {
-  "t": 325.483,
+  "t": 327.32,
   "id": "charge_beep",
   "gain": -10,
   "pan": 0,
@@ -1352,7 +1344,7 @@
   "set": "bedroom"
  },
  {
-  "t": 326.283,
+  "t": 328.12,
   "id": "charge_off",
   "gain": -10,
   "pan": 0,
@@ -1360,7 +1352,7 @@
   "set": "bedroom"
  },
  {
-  "t": 328.647,
+  "t": 329.49,
   "id": "phone_slide",
   "gain": -6,
   "pan": 0,
@@ -1368,7 +1360,7 @@
   "set": "voidPink"
  },
  {
-  "t": 328.747,
+  "t": 329.59,
   "id": "notif_ping",
   "gain": -6,
   "pan": 0,
@@ -1376,7 +1368,7 @@
   "set": "voidPink"
  },
  {
-  "t": 333.055,
+  "t": 334.09,
   "id": "msg_pop",
   "gain": -8,
   "pan": 0,
@@ -1384,7 +1376,7 @@
   "set": "voidPink"
  },
  {
-  "t": 335.352,
+  "t": 336.31,
   "id": "msg_pop",
   "gain": -8,
   "pan": 0,
@@ -1392,7 +1384,7 @@
   "set": "voidPink"
  },
  {
-  "t": 337.233,
+  "t": 338.32,
   "id": "msg_pop",
   "gain": -6,
   "pan": 0,
@@ -1400,7 +1392,7 @@
   "set": "voidPink"
  },
  {
-  "t": 339.677,
+  "t": 340.7,
   "id": "reactions_burst",
   "gain": -6,
   "pan": 0,
@@ -1408,7 +1400,7 @@
   "set": "voidPink"
  },
  {
-  "t": 343.006,
+  "t": 343.77,
   "id": "notif_ping",
   "gain": -4,
   "pan": 0,
@@ -1416,7 +1408,7 @@
   "set": "void"
  },
  {
-  "t": 343.006,
+  "t": 343.77,
   "id": "dun_dun",
   "gain": -8,
   "pan": 0,
@@ -1424,7 +1416,7 @@
   "set": "void"
  },
  {
-  "t": 344.042,
+  "t": 344.62,
   "id": "phone_tap",
   "gain": -8,
   "pan": 0,
@@ -1432,7 +1424,7 @@
   "set": "void"
  },
  {
-  "t": 345.477,
+  "t": 346.15,
   "id": "heartbeat",
   "gain": -4,
   "pan": 0,
@@ -1440,7 +1432,7 @@
   "set": "void"
  },
  {
-  "t": 346.566,
+  "t": 346.87,
   "id": "heartbeat",
   "gain": -4,
   "pan": 0,
@@ -1448,7 +1440,7 @@
   "set": "void"
  },
  {
-  "t": 347.702,
+  "t": 347.65,
   "id": "impact_low",
   "gain": -2,
   "pan": 0,
@@ -1456,7 +1448,7 @@
   "set": "void"
  },
  {
-  "t": 347.582,
+  "t": 347.53,
   "id": "boing_shock",
   "gain": -6,
   "pan": 0,
@@ -1464,7 +1456,7 @@
   "set": "void"
  },
  {
-  "t": 349.458,
+  "t": 349.86,
   "id": "typing_phone",
   "gain": -6,
   "pan": 0,
@@ -1472,7 +1464,7 @@
   "set": "voidPink"
  },
  {
-  "t": 351.191,
+  "t": 352.17,
   "id": "msg_send",
   "gain": -6,
   "pan": 0,
@@ -1480,7 +1472,7 @@
   "set": "voidPink"
  },
  {
-  "t": 351.894,
+  "t": 352.7,
   "id": "phone_down",
   "gain": -6,
   "pan": 0,
@@ -1488,7 +1480,7 @@
   "set": "bedroom"
  },
  {
-  "t": 352.194,
+  "t": 353,
   "id": "slide_wood",
   "gain": -10,
   "pan": 0,
@@ -1496,7 +1488,7 @@
   "set": "bedroom"
  },
  {
-  "t": 358.31,
+  "t": 359.01,
   "id": "kids_laugh",
   "gain": -10,
   "pan": 0,
@@ -1504,7 +1496,7 @@
   "set": "hallway"
  },
  {
-  "t": 358.31,
+  "t": 359.01,
   "id": "fake_laugh",
   "gain": -8,
   "pan": 0,
@@ -1512,7 +1504,7 @@
   "set": "hallway"
  },
  {
-  "t": 363.871,
+  "t": 364.903,
   "id": "eye_roll",
   "gain": -10,
   "pan": 0,
@@ -1520,7 +1512,7 @@
   "set": "bedroom"
  },
  {
-  "t": 365.136,
+  "t": 366.61,
   "id": "box_thud",
   "gain": -8,
   "pan": 0,
@@ -1528,7 +1520,7 @@
   "set": "voidDark"
  },
  {
-  "t": 366.656,
+  "t": 367.75,
   "id": "box_thud",
   "gain": -8,
   "pan": 0,
@@ -1536,7 +1528,7 @@
   "set": "voidDark"
  },
  {
-  "t": 368.14,
+  "t": 369.6,
   "id": "box_thud",
   "gain": -8,
   "pan": 0,
@@ -1544,7 +1536,7 @@
   "set": "voidDark"
  },
  {
-  "t": 369.45,
+  "t": 370.8,
   "id": "box_thud",
   "gain": -6,
   "pan": 0,
@@ -1552,7 +1544,7 @@
   "set": "voidDark"
  },
  {
-  "t": 365.136,
+  "t": 366.61,
   "id": "tension_drone",
   "gain": -12,
   "pan": 0,
@@ -1560,7 +1552,7 @@
   "set": "voidDark"
  },
  {
-  "t": 373.731,
+  "t": 374.56,
   "id": "boxes_crash",
   "gain": -2,
   "pan": 0,
@@ -1568,7 +1560,7 @@
   "set": "voidDark"
  },
  {
-  "t": 374.864,
+  "t": 375.58,
   "id": "bus_leave",
   "gain": -6,
   "pan": 0,
@@ -1576,7 +1568,7 @@
   "set": "avenue"
  },
  {
-  "t": 379.283,
+  "t": 380,
   "id": "car_slow",
   "gain": -4,
   "pan": 0,
@@ -1584,7 +1576,7 @@
   "set": "avenue"
  },
  {
-  "t": 381.603,
+  "t": 382.1,
   "id": "window_roll",
   "gain": -6,
   "pan": 0,
@@ -1592,7 +1584,7 @@
   "set": "avenue"
  },
  {
-  "t": 383.191,
+  "t": 383.72,
   "id": "villain_sting",
   "gain": -6,
   "pan": 0,
@@ -1600,7 +1592,7 @@
   "set": "avenue"
  },
  {
-  "t": 385.916,
+  "t": 386.36,
   "id": "camera_shutter",
   "gain": 0,
   "pan": 0,
@@ -1608,7 +1600,7 @@
   "set": "avenue"
  },
  {
-  "t": 385.916,
+  "t": 386.36,
   "id": "impact_low",
   "gain": -6,
   "pan": 0,
@@ -1616,7 +1608,7 @@
   "set": "avenue"
  },
  {
-  "t": 389.073,
+  "t": 389.17,
   "id": "phone_buzz_rapid",
   "gain": -4,
   "pan": 0,
@@ -1624,7 +1616,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 389.073,
+  "t": 389.17,
   "id": "notif_spam",
   "gain": -6,
   "pan": 0,
@@ -1632,7 +1624,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 390.954,
+  "t": 391.14,
   "id": "msg_pop",
   "gain": -6,
   "pan": 0,
@@ -1640,7 +1632,7 @@
   "set": "voidDark"
  },
  {
-  "t": 393.702,
+  "t": 393.68,
   "id": "dun_dun",
   "gain": -8,
   "pan": 0,
@@ -1648,7 +1640,7 @@
   "set": "voidDark"
  },
  {
-  "t": 395.227,
+  "t": 395.14,
   "id": "msg_pop",
   "gain": -6,
   "pan": 0,
@@ -1656,7 +1648,7 @@
   "set": "voidDark"
  },
  {
-  "t": 397.552,
+  "t": 397.55,
   "id": "reactions_burst",
   "gain": -6,
   "pan": 0,
@@ -1664,7 +1656,7 @@
   "set": "voidDark"
  },
  {
-  "t": 395.427,
+  "t": 395.34,
   "id": "kids_laugh",
   "gain": -16,
   "pan": 0,
@@ -1672,7 +1664,7 @@
   "set": "voidDark"
  },
  {
-  "t": 397.932,
+  "t": 397.81,
   "id": "notif_spam",
   "gain": -4,
   "pan": 0,
@@ -1680,7 +1672,7 @@
   "set": "voidDark"
  },
  {
-  "t": 397.932,
+  "t": 397.81,
   "id": "msg_pop_rapid",
   "gain": -6,
   "pan": 0,
@@ -1688,7 +1680,7 @@
   "set": "voidDark"
  },
  {
-  "t": 403.035,
+  "t": 402.95,
   "id": "room_silence",
   "gain": -8,
   "pan": 0,
@@ -1696,7 +1688,7 @@
   "set": "classroom"
  },
  {
-  "t": 404.615,
+  "t": 404.37,
   "id": "snicker",
   "gain": -8,
   "pan": 0,
@@ -1704,7 +1696,7 @@
   "set": "classroom"
  },
  {
-  "t": 407.756,
+  "t": 407.42,
   "id": "sad_note",
   "gain": -10,
   "pan": 0,
@@ -1712,7 +1704,7 @@
   "set": "classroom"
  },
  {
-  "t": 411.802,
+  "t": 411.41,
   "id": "rain_window",
   "gain": -8,
   "pan": 0,
@@ -1720,7 +1712,7 @@
   "set": "bedroom"
  },
  {
-  "t": 411.802,
+  "t": 411.41,
   "id": "sad_piano",
   "gain": -6,
   "pan": 0,
@@ -1728,7 +1720,7 @@
   "set": "bedroom"
  },
  {
-  "t": 419.096,
+  "t": 418.97,
   "id": "amb_city",
   "gain": -14,
   "pan": 0,
@@ -1736,7 +1728,7 @@
   "set": "street"
  },
  {
-  "t": 419.096,
+  "t": 418.97,
   "id": "bus_idle",
   "gain": -10,
   "pan": 0,
@@ -1744,7 +1736,7 @@
   "set": "street"
  },
  {
-  "t": 420.822,
+  "t": 420.61,
   "id": "bus_door",
   "gain": -8,
   "pan": 0,
@@ -1752,7 +1744,7 @@
   "set": "street"
  },
  {
-  "t": 419.096,
+  "t": 418.97,
   "id": "hopeful_pluck",
   "gain": -10,
   "pan": 0,
@@ -1760,7 +1752,7 @@
   "set": "street"
  },
  {
-  "t": 422.383,
+  "t": 422.08,
   "id": "footsteps_confident",
   "gain": -8,
   "pan": 0,
@@ -1768,7 +1760,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 422.383,
+  "t": 422.08,
   "id": "build_drums",
   "gain": -8,
   "pan": 0,
@@ -1776,7 +1768,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 426.154,
+  "t": 426.94,
   "id": "car_idle",
   "gain": -14,
   "pan": 0,
@@ -1784,7 +1776,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 427.374,
+  "t": 428.35,
   "id": "heli_idle",
   "gain": -14,
   "pan": 0,
@@ -1792,7 +1784,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 432.697,
+  "t": 433.28,
   "id": "kids_snicker",
   "gain": -8,
   "pan": 0,
@@ -1800,7 +1792,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 436.141,
+  "t": 436.7,
   "id": "coin_single",
   "gain": -8,
   "pan": 0,
@@ -1808,7 +1800,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 437.097,
+  "t": 437.81,
   "id": "ding_price",
   "gain": -6,
   "pan": 0,
@@ -1816,7 +1808,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 440.135,
+  "t": 440.83,
   "id": "clock_ding",
   "gain": -6,
   "pan": 0,
@@ -1824,7 +1816,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 441.104,
+  "t": 441.86,
   "id": "crowd_laugh",
   "gain": -4,
   "pan": 0,
@@ -1832,7 +1824,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 443.838,
+  "t": 444.082,
   "id": "warm_swell",
   "gain": -8,
   "pan": 0,
@@ -1840,7 +1832,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 445.994,
+  "t": 446.26,
   "id": "mouth_pop",
   "gain": -8,
   "pan": 0,
@@ -1848,7 +1840,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 447.264,
+  "t": 447.48,
   "id": "mouth_pop",
   "gain": -10,
   "pan": 0,
@@ -1856,7 +1848,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 448.254,
+  "t": 448.27,
   "id": "mouth_pop",
   "gain": -8,
   "pan": 0,
@@ -1864,7 +1856,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 450.913,
+  "t": 450.47,
   "id": "sneak_away",
   "gain": -8,
   "pan": 0,
@@ -1872,7 +1864,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 452.089,
+  "t": 451.77,
   "id": "warm_pad",
   "gain": -8,
   "pan": 0,
@@ -1880,7 +1872,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 457.037,
+  "t": 456.61,
   "id": "release_whoosh",
   "gain": -6,
   "pan": 0,
@@ -1888,7 +1880,7 @@
   "set": "voidPink"
  },
  {
-  "t": 457.137,
+  "t": 456.71,
   "id": "sigh_relief",
   "gain": -10,
   "pan": 0,
@@ -1896,7 +1888,7 @@
   "set": "voidPink"
  },
  {
-  "t": 460.426,
+  "t": 459.3,
   "id": "phone_slide",
   "gain": -8,
   "pan": 0,
@@ -1904,7 +1896,7 @@
   "set": "voidPink"
  },
  {
-  "t": 466.477,
+  "t": 465.44,
   "id": "msg_pop",
   "gain": -4,
   "pan": 0,
@@ -1912,7 +1904,7 @@
   "set": "voidPink"
  },
  {
-  "t": 468.67,
+  "t": 467.34,
   "id": "hearts_pop",
   "gain": -6,
   "pan": 0,
@@ -1920,7 +1912,7 @@
   "set": "voidPink"
  },
  {
-  "t": 470.487,
+  "t": 468.79,
   "id": "cafeteria_walla",
   "gain": -14,
   "pan": 0,
@@ -1928,7 +1920,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 474.295,
+  "t": 472.083,
   "id": "chair_scrape",
   "gain": -6,
   "pan": 0,
@@ -1936,7 +1928,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 476.343,
+  "t": 474.12,
   "id": "friend_chime",
   "gain": -8,
   "pan": 0,
@@ -1944,7 +1936,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 481.452,
+  "t": 480.12,
   "id": "bread_tear",
   "gain": -4,
   "pan": 0,
@@ -1952,7 +1944,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 482.989,
+  "t": 481.68,
   "id": "slide_plate",
   "gain": -10,
   "pan": 0,
@@ -1960,7 +1952,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 483.765,
+  "t": 482.36,
   "id": "sweet_chime",
   "gain": -8,
   "pan": 0,
@@ -1968,7 +1960,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 484.835,
+  "t": 483.6,
   "id": "crunch_bite",
   "gain": -4,
   "pan": 0,
@@ -1976,7 +1968,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 486.274,
+  "t": 485.09,
   "id": "sparkle",
   "gain": -6,
   "pan": 0,
@@ -1984,7 +1976,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 488.947,
+  "t": 488.08,
   "id": "knife_drop",
   "gain": -10,
   "pan": 0,
@@ -1992,7 +1984,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 489.671,
+  "t": 489.09,
   "id": "kids_laugh_two",
   "gain": -8,
   "pan": 0,
@@ -2000,7 +1992,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 491.895,
+  "t": 491.12,
   "id": "friend_sting",
   "gain": -6,
   "pan": 0,
@@ -2008,7 +2000,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 495.505,
+  "t": 494.88,
   "id": "question_pops",
   "gain": -6,
   "pan": 0,
@@ -2016,7 +2008,7 @@
   "set": "hallway"
  },
  {
-  "t": 499.171,
+  "t": 499.01,
   "id": "gasp_single",
   "gain": -8,
   "pan": 0,
@@ -2024,7 +2016,7 @@
   "set": "hallway"
  },
  {
-  "t": 504.833,
+  "t": 504.2,
   "id": "washer_start",
   "gain": -6,
   "pan": 0,
@@ -2032,7 +2024,7 @@
   "set": "laundry"
  },
  {
-  "t": 504.833,
+  "t": 504.2,
   "id": "washer_spin",
   "gain": -10,
   "pan": 0,
@@ -2040,7 +2032,7 @@
   "set": "laundry"
  },
  {
-  "t": 505.819,
+  "t": 505.13,
   "id": "kid_cheer",
   "gain": -6,
   "pan": 0,
@@ -2048,7 +2040,7 @@
   "set": "laundry"
  },
  {
-  "t": 508.952,
+  "t": 508.65,
   "id": "tick",
   "gain": -6,
   "pan": 0,
@@ -2056,7 +2048,7 @@
   "set": "voidGold"
  },
  {
-  "t": 509.252,
+  "t": 508.95,
   "id": "tick",
   "gain": -6,
   "pan": 0,
@@ -2064,7 +2056,7 @@
   "set": "voidGold"
  },
  {
-  "t": 509.552,
+  "t": 509.25,
   "id": "tick",
   "gain": -6,
   "pan": 0,
@@ -2072,7 +2064,7 @@
   "set": "voidGold"
  },
  {
-  "t": 509.852,
+  "t": 509.55,
   "id": "tick",
   "gain": -6,
   "pan": 0,
@@ -2080,7 +2072,7 @@
   "set": "voidGold"
  },
  {
-  "t": 519.179,
+  "t": 519.27,
   "id": "sneaky_pluck",
   "gain": -8,
   "pan": 0,
@@ -2088,7 +2080,7 @@
   "set": "classroom"
  },
  {
-  "t": 521.747,
+  "t": 521.81,
   "id": "whisper",
   "gain": -6,
   "pan": 0,
@@ -2096,7 +2088,7 @@
   "set": "classroom"
  },
  {
-  "t": 529.099,
+  "t": 530,
   "id": "door_slam",
   "gain": -10,
   "pan": 0,
@@ -2104,7 +2096,7 @@
   "set": "classroom"
  },
  {
-  "t": 530.109,
+  "t": 530.83,
   "id": "sad_trombone_short",
   "gain": -10,
   "pan": 0,
@@ -2112,7 +2104,7 @@
   "set": "classroom"
  },
  {
-  "t": 531.4,
+  "t": 532.34,
   "id": "pencil_write",
   "gain": -10,
   "pan": 0,
@@ -2120,7 +2112,7 @@
   "set": "classroom"
  },
  {
-  "t": 534.488,
+  "t": 535.79,
   "id": "burp_cartoon",
   "gain": -10,
   "pan": 0,
@@ -2128,7 +2120,7 @@
   "set": "classroom"
  },
  {
-  "t": 537.714,
+  "t": 538.98,
   "id": "magic_chime",
   "gain": -6,
   "pan": 0,
@@ -2136,7 +2128,7 @@
   "set": "void"
  },
  {
-  "t": 538.214,
+  "t": 539.48,
   "id": "party_horn",
   "gain": -10,
   "pan": 0,
@@ -2144,7 +2136,7 @@
   "set": "void"
  },
  {
-  "t": 541.088,
+  "t": 542.52,
   "id": "party_walla",
   "gain": -10,
   "pan": 0,
@@ -2152,7 +2144,7 @@
   "set": "mansion"
  },
  {
-  "t": 541.088,
+  "t": 542.52,
   "id": "party_music_far",
   "gain": -10,
   "pan": 0,
@@ -2160,7 +2152,7 @@
   "set": "mansion"
  },
  {
-  "t": 541.388,
+  "t": 542.82,
   "id": "choir_aah",
   "gain": -10,
   "pan": 0,
@@ -2168,7 +2160,7 @@
   "set": "mansion"
  },
  {
-  "t": 546.689,
+  "t": 548.89,
   "id": "band_live",
   "gain": -6,
   "pan": 0,
@@ -2176,7 +2168,7 @@
   "set": "mansion"
  },
  {
-  "t": 547.976,
+  "t": 549.98,
   "id": "sizzle",
   "gain": -8,
   "pan": 0,
@@ -2184,7 +2176,7 @@
   "set": "mansion"
  },
  {
-  "t": 549.173,
+  "t": 551.51,
   "id": "carnival_music",
   "gain": -10,
   "pan": 0,
@@ -2192,7 +2184,7 @@
   "set": "mansion"
  },
  {
-  "t": 549.173,
+  "t": 551.51,
   "id": "ferris_creak",
   "gain": -12,
   "pan": 0,
@@ -2200,7 +2192,7 @@
   "set": "mansion"
  },
  {
-  "t": 552.15,
+  "t": 554.27,
   "id": "record_scratch",
   "gain": -6,
   "pan": 0,
@@ -2208,7 +2200,7 @@
   "set": "mansion"
  },
  {
-  "t": 552.15,
+  "t": 554.27,
   "id": "giraffe_chew",
   "gain": -10,
   "pan": 0,
@@ -2216,7 +2208,7 @@
   "set": "mansion"
  },
  {
-  "t": 553.257,
+  "t": 555.3,
   "id": "question_pop",
   "gain": -8,
   "pan": 0,
@@ -2224,7 +2216,7 @@
   "set": "mansion"
  },
  {
-  "t": 560.031,
+  "t": 561.41,
   "id": "video_msg",
   "gain": -6,
   "pan": 0,
@@ -2232,7 +2224,7 @@
   "set": "mansion"
  },
  {
-  "t": 565.029,
+  "t": 566.79,
   "id": "pocket",
   "gain": -10,
   "pan": 0,
@@ -2240,7 +2232,7 @@
   "set": "mansion"
  },
  {
-  "t": 565.029,
+  "t": 566.79,
   "id": "sad_note",
   "gain": -10,
   "pan": 0,
@@ -2248,7 +2240,7 @@
   "set": "mansion"
  },
  {
-  "t": 568.131,
+  "t": 569.85,
   "id": "gift_rustle",
   "gain": -8,
   "pan": 0,
@@ -2256,7 +2248,7 @@
   "set": "mansion"
  },
  {
-  "t": 569.43,
+  "t": 571.17,
   "id": "console_beep",
   "gain": -8,
   "pan": 0,
@@ -2264,7 +2256,7 @@
   "set": "mansion"
  },
  {
-  "t": 572.566,
+  "t": 574.13,
   "id": "supercar_pass",
   "gain": -4,
   "pan": 0,
@@ -2272,7 +2264,7 @@
   "set": "mansion"
  },
  {
-  "t": 572.566,
+  "t": 574.13,
   "id": "tada",
   "gain": -10,
   "pan": 0,
@@ -2280,7 +2272,7 @@
   "set": "mansion"
  },
  {
-  "t": 574.455,
+  "t": 576.14,
   "id": "sad_trombone_short",
   "gain": -12,
   "pan": 0,
@@ -2288,7 +2280,7 @@
   "set": "mansion"
  },
  {
-  "t": 577.536,
+  "t": 578.94,
   "id": "paper_rustle",
   "gain": -8,
   "pan": 0,
@@ -2296,7 +2288,7 @@
   "set": "mansion"
  },
  {
-  "t": 582.914,
+  "t": 583.91,
   "id": "tender_pluck",
   "gain": -8,
   "pan": 0,
@@ -2304,7 +2296,7 @@
   "set": "mansion"
  },
  {
-  "t": 584.671,
+  "t": 586.02,
   "id": "cloth_rustle",
   "gain": -10,
   "pan": 0,
@@ -2312,7 +2304,7 @@
   "set": "mansion"
  },
  {
-  "t": 584.771,
+  "t": 586.12,
   "id": "awkward_pluck",
   "gain": -8,
   "pan": 0,
@@ -2320,7 +2312,7 @@
   "set": "mansion"
  },
  {
-  "t": 588.42,
+  "t": 589.59,
   "id": "book_open",
   "gain": -6,
   "pan": 0,
@@ -2328,7 +2320,7 @@
   "set": "mansion"
  },
  {
-  "t": 590.387,
+  "t": 591.78,
   "id": "page_flip",
   "gain": -8,
   "pan": 0,
@@ -2336,7 +2328,7 @@
   "set": "mansion"
  },
  {
-  "t": 591.327,
+  "t": 592.61,
   "id": "page_flip",
   "gain": -8,
   "pan": 0,
@@ -2344,7 +2336,7 @@
   "set": "mansion"
  },
  {
-  "t": 592.366,
+  "t": 593.63,
   "id": "page_flip",
   "gain": -8,
   "pan": 0,
@@ -2352,7 +2344,7 @@
   "set": "mansion"
  },
  {
-  "t": 593.342,
+  "t": 594.44,
   "id": "emotional_swell",
   "gain": -8,
   "pan": 0,
@@ -2360,7 +2352,7 @@
   "set": "mansion"
  },
  {
-  "t": 596.663,
+  "t": 597.98,
   "id": "shrug_whoosh",
   "gain": -10,
   "pan": 0,
@@ -2368,7 +2360,7 @@
   "set": "mansion"
  },
  {
-  "t": 598.571,
+  "t": 599.97,
   "id": "crickets",
   "gain": -12,
   "pan": 0,
@@ -2376,7 +2368,7 @@
   "set": "mansion"
  },
  {
-  "t": 598.571,
+  "t": 599.97,
   "id": "party_music_far",
   "gain": -18,
   "pan": 0,
@@ -2384,7 +2376,7 @@
   "set": "mansion"
  },
  {
-  "t": 604.69,
+  "t": 605.71,
   "id": "page_flip",
   "gain": -12,
   "pan": 0,
@@ -2392,7 +2384,7 @@
   "set": "mansion"
  },
  {
-  "t": 605.09,
+  "t": 606.11,
   "id": "warm_pad",
   "gain": -8,
   "pan": 0,
@@ -2400,7 +2392,7 @@
   "set": "mansion"
  },
  {
-  "t": 607.675,
+  "t": 608.39,
   "id": "door_open",
   "gain": -6,
   "pan": 0,
@@ -2408,7 +2400,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 607.675,
+  "t": 608.39,
   "id": "amb_apartment",
   "gain": -14,
   "pan": 0,
@@ -2416,7 +2408,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 611.712,
+  "t": 612.77,
   "id": "pop",
   "gain": -6,
   "pan": 0,
@@ -2424,7 +2416,7 @@
   "set": "void"
  },
  {
-  "t": 614.647,
+  "t": 615.78,
   "id": "couch_creak",
   "gain": -8,
   "pan": 0,
@@ -2432,7 +2424,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 619.435,
+  "t": 620.01,
   "id": "goose_honk",
   "gain": -2,
   "pan": 0,
@@ -2440,7 +2432,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 619.435,
+  "t": 620.01,
   "id": "radiator_clank",
   "gain": -6,
   "pan": 0,
@@ -2448,7 +2440,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 620.227,
+  "t": 621.04,
   "id": "sweet_chime",
   "gain": -8,
   "pan": 0,
@@ -2456,7 +2448,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 622.103,
+  "t": 623.4,
   "id": "dinner_clatter",
   "gain": -10,
   "pan": 0,
@@ -2464,7 +2456,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 622.503,
+  "t": 623.8,
   "id": "plate_set",
   "gain": -8,
   "pan": 0,
@@ -2472,7 +2464,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 624.29,
+  "t": 625.56,
   "id": "fancy_ding",
   "gain": -8,
   "pan": 0,
@@ -2480,7 +2472,7 @@
   "set": "theoDining"
  },
  {
-  "t": 629.965,
+  "t": 630.91,
   "id": "chewing",
   "gain": -8,
   "pan": 0,
@@ -2488,7 +2480,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 629.965,
+  "t": 630.91,
   "id": "plate_stack",
   "gain": -8,
   "pan": 0,
@@ -2496,7 +2488,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 631.558,
+  "t": 632.56,
   "id": "question_pops",
   "gain": -8,
   "pan": 0,
@@ -2504,7 +2496,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 631.558,
+  "t": 632.56,
   "id": "kid_chatter",
   "gain": -10,
   "pan": 0,
@@ -2512,7 +2504,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 634.519,
+  "t": 635.43,
   "id": "dad_joke_drum",
   "gain": -10,
   "pan": 0,
@@ -2520,7 +2512,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 638.718,
+  "t": 638.38,
   "id": "family_laugh",
   "gain": -4,
   "pan": 0,
@@ -2528,7 +2520,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 640.757,
+  "t": 640.48,
   "id": "music_drop",
   "gain": -6,
   "pan": 0,
@@ -2536,7 +2528,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 640.957,
+  "t": 640.68,
   "id": "laugh_fade",
   "gain": -12,
   "pan": 0,
@@ -2544,7 +2536,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 646.309,
+  "t": 646.36,
   "id": "soft_piano",
   "gain": -8,
   "pan": 0,
@@ -2552,7 +2544,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 657.262,
+  "t": 656.56,
   "id": "big_room_echo",
   "gain": -10,
   "pan": 0,
@@ -2560,7 +2552,7 @@
   "set": "theoDining"
  },
  {
-  "t": 657.262,
+  "t": 656.56,
   "id": "clock_tick",
   "gain": -10,
   "pan": 0,
@@ -2568,7 +2560,7 @@
   "set": "theoDining"
  },
  {
-  "t": 658.395,
+  "t": 657.48,
   "id": "ding_soft",
   "gain": -14,
   "pan": 0,
@@ -2576,7 +2568,7 @@
   "set": "theoDining"
  },
  {
-  "t": 660.499,
+  "t": 659.32,
   "id": "ding_soft",
   "gain": -14,
   "pan": 0,
@@ -2584,7 +2576,7 @@
   "set": "theoDining"
  },
  {
-  "t": 665.552,
+  "t": 663.99,
   "id": "whoosh_big",
   "gain": -6,
   "pan": 0,
@@ -2592,7 +2584,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 665.552,
+  "t": 663.99,
   "id": "reverse_swell",
   "gain": -8,
   "pan": 0,
@@ -2600,7 +2592,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 669.662,
+  "t": 668.75,
   "id": "tick",
   "gain": -8,
   "pan": 0,
@@ -2608,7 +2600,7 @@
   "set": "voidDark"
  },
  {
-  "t": 670.602,
+  "t": 669.63,
   "id": "tick",
   "gain": -8,
   "pan": 0,
@@ -2616,7 +2608,7 @@
   "set": "voidDark"
  },
  {
-  "t": 671.695,
+  "t": 670.43,
   "id": "tick",
   "gain": -8,
   "pan": 0,
@@ -2624,7 +2616,7 @@
   "set": "voidDark"
  },
  {
-  "t": 673.054,
+  "t": 672,
   "id": "shrink_whoosh",
   "gain": -6,
   "pan": 0,
@@ -2632,7 +2624,7 @@
   "set": "voidDark"
  },
  {
-  "t": 676.978,
+  "t": 675.74,
   "id": "gold_shimmer",
   "gain": -6,
   "pan": 0,
@@ -2640,7 +2632,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 678.319,
+  "t": 677.12,
   "id": "warm_pad",
   "gain": -8,
   "pan": 0,
@@ -2648,7 +2640,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 681.813,
+  "t": 680.29,
   "id": "water_running",
   "gain": -10,
   "pan": 0,
@@ -2656,7 +2648,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 687.252,
+  "t": 686.87,
   "id": "soap_squirt",
   "gain": -6,
   "pan": 0,
@@ -2664,7 +2656,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 689.192,
+  "t": 688.85,
   "id": "bubbles_grow",
   "gain": -4,
   "pan": 0,
@@ -2672,7 +2664,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 691.265,
+  "t": 691.05,
   "id": "mom_laugh",
   "gain": -6,
   "pan": 0,
@@ -2680,7 +2672,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 694.096,
+  "t": 693.82,
   "id": "envelope_slide",
   "gain": -6,
   "pan": 0,
@@ -2688,7 +2680,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 699.941,
+  "t": 699.82,
   "id": "success_sting",
   "gain": -6,
   "pan": 0,
@@ -2696,7 +2688,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 705.224,
+  "t": 704.58,
   "id": "phone_buzz",
   "gain": -4,
   "pan": 0,
@@ -2704,7 +2696,7 @@
   "set": "void"
  },
  {
-  "t": 706.266,
+  "t": 705.82,
   "id": "notif_ping",
   "gain": -6,
   "pan": 0,
@@ -2712,7 +2704,7 @@
   "set": "void"
  },
  {
-  "t": 711.582,
+  "t": 711.3,
   "id": "card_whoosh",
   "gain": -6,
   "pan": 0,
@@ -2720,7 +2712,7 @@
   "set": "voidPink"
  },
  {
-  "t": 711.832,
+  "t": 711.55,
   "id": "card_whoosh",
   "gain": -6,
   "pan": 0,
@@ -2728,7 +2720,7 @@
   "set": "voidPink"
  },
  {
-  "t": 711.982,
+  "t": 711.7,
   "id": "decision_hit",
   "gain": -6,
   "pan": 0,
@@ -2736,7 +2728,7 @@
   "set": "voidPink"
  },
  {
-  "t": 721.033,
+  "t": 719.81,
   "id": "amb_birds",
   "gain": -14,
   "pan": 0,
@@ -2744,7 +2736,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 721.033,
+  "t": 719.81,
   "id": "tender_piano",
   "gain": -8,
   "pan": 0,
@@ -2752,7 +2744,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 728.238,
+  "t": 726.4,
   "id": "amb_city",
   "gain": -14,
   "pan": 0,
@@ -2760,7 +2752,7 @@
   "set": "street"
  },
  {
-  "t": 731.848,
+  "t": 730.37,
   "id": "friends_laugh",
   "gain": -8,
   "pan": 0,
@@ -2768,7 +2760,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 731.848,
+  "t": 730.37,
   "id": "warm_pad",
   "gain": -10,
   "pan": 0,
@@ -2776,7 +2768,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 735.54,
+  "t": 734.36,
   "id": "clock_tick",
   "gain": -6,
   "pan": 0,
@@ -2784,7 +2776,7 @@
   "set": "bedroom"
  },
  {
-  "t": 738.54,
+  "t": 737.27,
   "id": "nostalgic_piano",
   "gain": -6,
   "pan": 0,
@@ -2792,7 +2784,7 @@
   "set": "hallway"
  },
  {
-  "t": 738.54,
+  "t": 737.27,
   "id": "footsteps_shoe",
   "gain": -12,
   "pan": 0,
@@ -2800,7 +2792,7 @@
   "set": "hallway"
  },
  {
-  "t": 742.464,
+  "t": 741.76,
   "id": "choc_flow",
   "gain": -10,
   "pan": 0,
@@ -2808,7 +2800,7 @@
   "set": "cafeteria"
  },
  {
-  "t": 744.319,
+  "t": 743.69,
   "id": "horse_chew",
   "gain": -6,
   "pan": 0,
@@ -2816,7 +2808,7 @@
   "set": "stables"
  },
  {
-  "t": 747.315,
+  "t": 746.77,
   "id": "horse_snort",
   "gain": -8,
   "pan": 0,
@@ -2824,7 +2816,7 @@
   "set": "stables"
  },
  {
-  "t": 750.898,
+  "t": 750.402,
   "id": "echo_memory",
   "gain": -8,
   "pan": 0,
@@ -2832,7 +2824,7 @@
   "set": "classroom"
  },
  {
-  "t": 751.54,
+  "t": 751.29,
   "id": "amb_birds",
   "gain": -14,
   "pan": 0,
@@ -2840,7 +2832,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 756.25,
+  "t": 755.81,
   "id": "idea_ding",
   "gain": -8,
   "pan": 0,
@@ -2848,7 +2840,7 @@
   "set": "schoolExt"
  },
  {
-  "t": 757.768,
+  "t": 757.33,
   "id": "reflective_pad",
   "gain": -8,
   "pan": 0,
@@ -2856,7 +2848,7 @@
   "set": "void"
  },
  {
-  "t": 763.37,
+  "t": 762.99,
   "id": "warm_swell",
   "gain": -8,
   "pan": 0,
@@ -2864,7 +2856,7 @@
   "set": "void"
  },
  {
-  "t": 765.052,
+  "t": 764.82,
   "id": "coins",
   "gain": -12,
   "pan": 0,
@@ -2872,7 +2864,7 @@
   "set": "voidGold"
  },
  {
-  "t": 766.901,
+  "t": 766.67,
   "id": "gold_shimmer",
   "gain": -8,
   "pan": 0,
@@ -2880,7 +2872,7 @@
   "set": "voidGold"
  },
  {
-  "t": 768.317,
+  "t": 768.46,
   "id": "knife_cut",
   "gain": -8,
   "pan": 0,
@@ -2888,7 +2880,7 @@
   "set": "apartment:dawn"
  },
  {
-  "t": 770.655,
+  "t": 770.57,
   "id": "family_laugh",
   "gain": -12,
   "pan": 0,
@@ -2896,7 +2888,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 775.806,
+  "t": 775.31,
   "id": "sweet_chime",
   "gain": -6,
   "pan": 0,
@@ -2904,7 +2896,7 @@
   "set": "mansion"
  },
  {
-  "t": 776.669,
+  "t": 776.3,
   "id": "pen_sign",
   "gain": -4,
   "pan": 0,
@@ -2912,7 +2904,7 @@
   "set": "bedroom"
  },
  {
-  "t": 778.865,
+  "t": 778.61,
   "id": "triumph_sting",
   "gain": -4,
   "pan": 0,
@@ -2920,7 +2912,7 @@
   "set": "bedroom"
  },
  {
-  "t": 779.993,
+  "t": 779.72,
   "id": "amb_autumn",
   "gain": -12,
   "pan": 0,
@@ -2928,7 +2920,7 @@
   "set": "street:fall"
  },
  {
-  "t": 779.993,
+  "t": 779.72,
   "id": "leaves_rustle",
   "gain": -14,
   "pan": 0,
@@ -2936,7 +2928,7 @@
   "set": "street:fall"
  },
  {
-  "t": 779.993,
+  "t": 779.72,
   "id": "new_day_pad",
   "gain": -8,
   "pan": 0,
@@ -2944,7 +2936,7 @@
   "set": "street:fall"
  },
  {
-  "t": 786.14,
+  "t": 785.57,
   "id": "footsteps_shoe",
   "gain": -6,
   "pan": 0,
@@ -2952,7 +2944,7 @@
   "set": "street:fall"
  },
  {
-  "t": 789.4,
+  "t": 787.88,
   "id": "reveal_sting",
   "gain": -6,
   "pan": 0,
@@ -2960,7 +2952,7 @@
   "set": "street:fall"
  },
  {
-  "t": 793.827,
+  "t": 791.81,
   "id": "limo_leave",
   "gain": -10,
   "pan": 0,
@@ -2968,7 +2960,7 @@
   "set": "street:fall"
  },
  {
-  "t": 801.925,
+  "t": 799.37,
   "id": "paper_bag",
   "gain": -8,
   "pan": 0,
@@ -2976,7 +2968,7 @@
   "set": "street:fall"
  },
  {
-  "t": 805.851,
+  "t": 802.94,
   "id": "paper_bag",
   "gain": -6,
   "pan": 0,
@@ -2984,7 +2976,7 @@
   "set": "void"
  },
  {
-  "t": 806.891,
+  "t": 804.2,
   "id": "sparkle",
   "gain": -4,
   "pan": 0,
@@ -2992,7 +2984,7 @@
   "set": "void"
  },
  {
-  "t": 806.891,
+  "t": 804.2,
   "id": "warm_hit",
   "gain": -8,
   "pan": 0,
@@ -3000,7 +2992,7 @@
   "set": "void"
  },
  {
-  "t": 808.39,
+  "t": 805.71,
   "id": "bus_arrive",
   "gain": -6,
   "pan": 0,
@@ -3008,7 +3000,7 @@
   "set": "street:fall"
  },
  {
-  "t": 810.09,
+  "t": 807.41,
   "id": "bus_door",
   "gain": -8,
   "pan": 0,
@@ -3016,7 +3008,7 @@
   "set": "street:fall"
  },
  {
-  "t": 811.59,
+  "t": 808.91,
   "id": "bus_leave",
   "gain": -6,
   "pan": 0,
@@ -3024,7 +3016,7 @@
   "set": "street:fall"
  },
  {
-  "t": 808.39,
+  "t": 805.71,
   "id": "joy_theme",
   "gain": -6,
   "pan": 0,
@@ -3032,7 +3024,7 @@
   "set": "street:fall"
  },
  {
-  "t": 813.082,
+  "t": 810.79,
   "id": "outro_swell",
   "gain": -6,
   "pan": 0,
@@ -3040,7 +3032,7 @@
   "set": "void"
  },
  {
-  "t": 817.973,
+  "t": 815.65,
   "id": "space_whoosh",
   "gain": -10,
   "pan": 0,
@@ -3048,7 +3040,7 @@
   "set": "void"
  },
  {
-  "t": 823.139,
+  "t": 820.97,
   "id": "kids_snicker",
   "gain": -12,
   "pan": 0,
@@ -3056,7 +3048,7 @@
   "set": "void"
  },
  {
-  "t": 828.111,
+  "t": 825.65,
   "id": "tick",
   "gain": -6,
   "pan": 0,
@@ -3064,7 +3056,7 @@
   "set": "voidPink"
  },
  {
-  "t": 830.157,
+  "t": 827.74,
   "id": "tick",
   "gain": -6,
   "pan": 0,
@@ -3072,7 +3064,7 @@
   "set": "voidPink"
  },
  {
-  "t": 831.708,
+  "t": 829.26,
   "id": "tick",
   "gain": -6,
   "pan": 0,
@@ -3080,7 +3072,7 @@
   "set": "voidPink"
  },
  {
-  "t": 834.818,
+  "t": 832.31,
   "id": "yawn",
   "gain": -6,
   "pan": 0,
@@ -3088,7 +3080,7 @@
   "set": "hallway"
  },
  {
-  "t": 835.418,
+  "t": 832.91,
   "id": "yawn",
   "gain": -10,
   "pan": 0,
@@ -3096,7 +3088,7 @@
   "set": "hallway"
  },
  {
-  "t": 838.682,
+  "t": 836.11,
   "id": "warm_theme",
   "gain": -6,
   "pan": 0,
@@ -3104,7 +3096,7 @@
   "set": "voidPink"
  },
  {
-  "t": 845.973,
+  "t": 843.43,
   "id": "pop_big",
   "gain": -6,
   "pan": 0,
@@ -3112,7 +3104,7 @@
   "set": "voidGold"
  },
  {
-  "t": 848.255,
+  "t": 845.62,
   "id": "pop_big",
   "gain": -6,
   "pan": 0,
@@ -3120,7 +3112,7 @@
   "set": "voidGold"
  },
  {
-  "t": 850.743,
+  "t": 847.89,
   "id": "pop_big",
   "gain": -6,
   "pan": 0,
@@ -3128,7 +3120,7 @@
   "set": "voidGold"
  },
  {
-  "t": 845.973,
+  "t": 843.43,
   "id": "coins",
   "gain": -12,
   "pan": 0,
@@ -3136,7 +3128,7 @@
   "set": "voidGold"
  },
  {
-  "t": 852.539,
+  "t": 849.61,
   "id": "family_laugh",
   "gain": -14,
   "pan": 0,
@@ -3144,7 +3136,7 @@
   "set": "apartment:night"
  },
  {
-  "t": 854.992,
+  "t": 852.33,
   "id": "friend_chime",
   "gain": -10,
   "pan": 0,
@@ -3152,7 +3144,7 @@
   "set": "street:fall"
  },
  {
-  "t": 858.419,
+  "t": 855.31,
   "id": "build_drums",
   "gain": -10,
   "pan": 0,
@@ -3160,7 +3152,7 @@
   "set": "void"
  },
  {
-  "t": 863.62,
+  "t": 860.52,
   "id": "card_whoosh",
   "gain": -6,
   "pan": 0,
@@ -3168,7 +3160,7 @@
   "set": "void"
  },
  {
-  "t": 868,
+  "t": 864.89,
   "id": "warm_hit",
   "gain": -6,
   "pan": 0,
@@ -3176,7 +3168,7 @@
   "set": "void"
  },
  {
-  "t": 869.6,
+  "t": 867.13,
   "id": "pop",
   "gain": -6,
   "pan": 0,
@@ -3184,7 +3176,7 @@
   "set": "void"
  },
  {
-  "t": 871.742,
+  "t": 868.85,
   "id": "pop_big",
   "gain": -4,
   "pan": 0,
@@ -3192,7 +3184,7 @@
   "set": "void"
  },
  {
-  "t": 871.742,
+  "t": 868.85,
   "id": "bell_ding",
   "gain": -6,
   "pan": 0,
@@ -3200,7 +3192,7 @@
   "set": "void"
  },
  {
-  "t": 869.4,
+  "t": 866.93,
   "id": "outro_theme",
   "gain": -6,
   "pan": 0,
@@ -3208,7 +3200,7 @@
   "set": "void"
  },
  {
-  "t": 877.834,
+  "t": 874.12,
   "id": "end_sting",
   "gain": -6,
   "pan": 0,

@@ -321,12 +321,6 @@ export default function (S) {
   }, { sfx: [[0.1, 'blink', -6], [0.4, 'blink', -6]] });
 
   S('L19', 'schoolExt', (c) => {
-    const gd = c.actor('guard').place(0.6, 2.6, 0.05); gd.expr('deadpan');
-    c.cam.path([[0, [0.35, 2.2, 4.9], [0.6, 2.08, 2.6], 32], [c.T, [0.4, 2.2, 4.6], [0.6, 2.08, 2.6], 30]], E.sine);
-    return (t) => { gd.sunglasses.position.y = -tw(t, 0.1, 0.45, 0, 0.09); gd.state.look = [0, 0.3]; };
-  }, { sfx: [[0.1, 'glasses_slide', -6]] });
-
-  S('L19:your', 'schoolExt', (c) => {
     const k = c.actor('kid').place(0.3, 4.2, Math.PI); k.expr('worried');
     c.cam.path([[0, [0.6, 0.35, 2.9], [0.3, 0.1, 4.2], 34], [c.T, [0.7, 0.3, 3.2], [0.3, 0.05, 4.2], 30]], E.sine);
     c.ov.tag(() => k.legs[0].knee.localToWorld(new THREE.Vector3(0, -0.36, 0.08)), 'Worn-out sneakers', 0.15, c.T, { dx: 220, dy: -140 });

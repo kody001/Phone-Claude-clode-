@@ -8,3 +8,4 @@ audio/stems/
 *.mp4
 __pycache__/
 audio/voicepool/
+audio/user/
