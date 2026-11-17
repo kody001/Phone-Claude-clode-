@@ -1,0 +1,30 @@
+<!doctype html><html><body><canvas id=o width=1920 height=1080></canvas>
+<script type="importmap">{ "imports": { "three": "../../node_modules/three/build/three.module.js", "three/addons/": "../../node_modules/three/examples/jsm/" } }</script>
+<script type="module">
+import * as THREE from 'three';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+const W=1920,H=1080;
+window.bench = async (opts) => {
+  const res = {};
+  const c = document.createElement('canvas'); c.width=W*opts.scale; c.height=H*opts.scale;
+  const r = new THREE.WebGLRenderer({canvas:c, antialias:opts.aa, preserveDrawingBuffer:true});
+  r.setSize(W*opts.scale,H*opts.scale,false);
+  const scene = new THREE.Scene(); scene.background = new THREE.Color('#4020c0');
+  if (opts.env) { const pm = new THREE.PMREMGenerator(r); scene.environment = pm.fromScene(new RoomEnvironment(), 0.04).texture; }
+  scene.add(new THREE.HemisphereLight('#fff','#444',1)); const d = new THREE.DirectionalLight('#fff',2); d.position.set(3,5,4); scene.add(d);
+  const M = opts.mat==='std' ? THREE.MeshStandardMaterial : opts.mat==='lambert' ? THREE.MeshLambertMaterial : opts.mat==='phong'? THREE.MeshPhongMaterial : THREE.MeshBasicMaterial;
+  const floor = new THREE.Mesh(new THREE.PlaneGeometry(40,40), new M({color:'#8060ff'})); floor.rotation.x=-Math.PI/2; scene.add(floor);
+  for (let i=0;i<opts.n;i++){ const m=new THREE.Mesh(new THREE.SphereGeometry(0.5,32,24), new M({color:'#ffffff'})); m.position.set((i%10)-5, 0.5+Math.floor(i/10)*0.3, -Math.floor(i/10)); scene.add(m); }
+  const cam = new THREE.PerspectiveCamera(40, W/H, 0.1, 100); cam.position.set(0,2,8); cam.lookAt(0,0.5,0);
+  const out = document.getElementById('o').getContext('2d');
+  const buf = new Uint8Array(W*opts.scale*H*opts.scale*4); const gl = r.getContext();
+  const T = (f)=>{const t=performance.now(); f(); return performance.now()-t;};
+  for (let k=0;k<3;k++){ r.render(scene,cam); out.drawImage(c,0,0,W,H); out.getImageData(0,0,1,1); }
+  res.render_readPixels = T(()=>{ r.render(scene,cam); gl.readPixels(0,0,W*opts.scale,H*opts.scale,gl.RGBA,gl.UNSIGNED_BYTE,buf); });
+  res.render_drawImage_getpx = T(()=>{ r.render(scene,cam); out.drawImage(c,0,0,W,H); out.getImageData(0,0,1,1); });
+  res.toDataURL = T(()=>{ document.getElementById('o').toDataURL('image/jpeg',0.92); });
+  res.clearOnly = T(()=>{ r.setClearColor('#000'); r.clear(); gl.readPixels(0,0,4,4,gl.RGBA,gl.UNSIGNED_BYTE,buf); });
+  r.dispose(); return res;
+};
+window.ready=true;
+</script></body></html>

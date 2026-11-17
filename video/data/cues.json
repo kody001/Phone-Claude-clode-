@@ -1,0 +1,3218 @@
+[
+ {
+  "t": 0,
+  "id": "amb_birds",
+  "gain": -14,
+  "pan": 0,
+  "shot": "T0",
+  "set": "schoolExt"
+ },
+ {
+  "t": 0.2,
+  "id": "whoosh_soft",
+  "gain": -10,
+  "pan": 0,
+  "shot": "T0",
+  "set": "schoolExt"
+ },
+ {
+  "t": 2.649,
+  "id": "boom_soft",
+  "gain": -8,
+  "pan": 0,
+  "shot": "T0",
+  "set": "schoolExt"
+ },
+ {
+  "t": 3.346,
+  "id": "heli_land",
+  "gain": -2,
+  "pan": 0,
+  "shot": "L0:and",
+  "set": "schoolExt"
+ },
+ {
+  "t": 6.163,
+  "id": "heli_idle",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L1",
+  "set": "schoolExt"
+ },
+ {
+  "t": 6.363,
+  "id": "door_slide",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L1",
+  "set": "schoolExt"
+ },
+ {
+  "t": 7.513,
+  "id": "footstep_shoe",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L1",
+  "set": "schoolExt"
+ },
+ {
+  "t": 9.528,
+  "id": "sparkle",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L1",
+  "set": "schoolExt"
+ },
+ {
+  "t": 9.558,
+  "id": "ding_price",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L1:sunglasses",
+  "set": "schoolExt"
+ },
+ {
+  "t": 12.417,
+  "id": "footsteps_shoe",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L2",
+  "set": "schoolExt"
+ },
+ {
+  "t": 15.916,
+  "id": "whoosh_soft",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L3",
+  "set": "void"
+ },
+ {
+  "t": 17.373,
+  "id": "ding_soft",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L3:you#2",
+  "set": "void"
+ },
+ {
+  "t": 17.423,
+  "id": "zipper",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L3:you#2",
+  "set": "void"
+ },
+ {
+  "t": 19.46,
+  "id": "gulp",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L4",
+  "set": "void"
+ },
+ {
+  "t": 22.194,
+  "id": "riser_soft",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L5",
+  "set": "schoolExt"
+ },
+ {
+  "t": 22.794,
+  "id": "shimmer",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L5",
+  "set": "schoolExt"
+ },
+ {
+  "t": 26.856,
+  "id": "pin_drop",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L5:the",
+  "set": "void"
+ },
+ {
+  "t": 27.106,
+  "id": "ding_price",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L5:the",
+  "set": "void"
+ },
+ {
+  "t": 28.513,
+  "id": "coins",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L5:a",
+  "set": "voidGold"
+ },
+ {
+  "t": 29.413,
+  "id": "coins",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L5:a",
+  "set": "voidGold"
+ },
+ {
+  "t": 30.313,
+  "id": "coins",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L5:a",
+  "set": "voidGold"
+ },
+ {
+  "t": 33.55,
+  "id": "record_scratch",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L6",
+  "set": "voidGold"
+ },
+ {
+  "t": 34.686,
+  "id": "typing",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L7",
+  "set": "bedroom"
+ },
+ {
+  "t": 38.463,
+  "id": "mailbox_creak",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L7:one#2",
+  "set": "street"
+ },
+ {
+  "t": 38.963,
+  "id": "shimmer",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L7:one#2",
+  "set": "street"
+ },
+ {
+  "t": 40.205,
+  "id": "sniffle",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L7:your",
+  "set": "apartment:dawn"
+ },
+ {
+  "t": 42.133,
+  "id": "kid_cheer",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L7:your",
+  "set": "apartment:dawn"
+ },
+ {
+  "t": 45.549,
+  "id": "phone_slide",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L8",
+  "set": "void"
+ },
+ {
+  "t": 45.949,
+  "id": "coins_small",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L8",
+  "set": "void"
+ },
+ {
+  "t": 49.642,
+  "id": "paper_bag",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L8",
+  "set": "void"
+ },
+ {
+  "t": 51.346,
+  "id": "heartbeat",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L9",
+  "set": "void"
+ },
+ {
+  "t": 51.346,
+  "id": "crowd_murmur",
+  "gain": -18,
+  "pan": 0,
+  "shot": "L9",
+  "set": "void"
+ },
+ {
+  "t": 57.123,
+  "id": "tick",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L9:would#2",
+  "set": "void"
+ },
+ {
+  "t": 58.391,
+  "id": "tick",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L9:would#2",
+  "set": "void"
+ },
+ {
+  "t": 61.385,
+  "id": "tick",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L9:would#2",
+  "set": "void"
+ },
+ {
+  "t": 63.05,
+  "id": "title_hit",
+  "gain": -2,
+  "pan": 0,
+  "shot": "L10",
+  "set": "schoolExt"
+ },
+ {
+  "t": 63.1,
+  "id": "whoosh_big",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L10",
+  "set": "schoolExt"
+ },
+ {
+  "t": 64.462,
+  "id": "amb_morning",
+  "gain": -16,
+  "pan": 0,
+  "shot": "L11",
+  "set": "apartment:dawn"
+ },
+ {
+  "t": 64.562,
+  "id": "alarm_beep",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L11",
+  "set": "apartment:dawn"
+ },
+ {
+  "t": 64.562,
+  "id": "title_hit_soft",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L11",
+  "set": "apartment:dawn"
+ },
+ {
+  "t": 66.582,
+  "id": "keys_jingle",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L11",
+  "set": "apartment:dawn"
+ },
+ {
+  "t": 70.257,
+  "id": "kiss",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L11:she",
+  "set": "apartment:dawn"
+ },
+ {
+  "t": 71.387,
+  "id": "paper_bag",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L11:she",
+  "set": "apartment:dawn"
+ },
+ {
+  "t": 74.401,
+  "id": "knife_cut",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L11:peanut",
+  "set": "apartment:dawn"
+ },
+ {
+  "t": 74.401,
+  "id": "sparkle",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L11:peanut",
+  "set": "apartment:dawn"
+ },
+ {
+  "t": 77.101,
+  "id": "pop",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L12",
+  "set": "void"
+ },
+ {
+  "t": 77.201,
+  "id": "cloth_flap",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L12",
+  "set": "void"
+ },
+ {
+  "t": 80.139,
+  "id": "boing",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L12",
+  "set": "void"
+ },
+ {
+  "t": 82.446,
+  "id": "cloth_flap",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L12:sleeves",
+  "set": "void"
+ },
+ {
+  "t": 82.946,
+  "id": "cloth_flap",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L12:sleeves",
+  "set": "void"
+ },
+ {
+  "t": 83.446,
+  "id": "cloth_flap",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L12:sleeves",
+  "set": "void"
+ },
+ {
+  "t": 84.583,
+  "id": "ding_soft",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L12:look",
+  "set": "void"
+ },
+ {
+  "t": 87.821,
+  "id": "shrug_whoosh",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L13",
+  "set": "void"
+ },
+ {
+  "t": 89.167,
+  "id": "bus_arrive",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L14",
+  "set": "street"
+ },
+ {
+  "t": 90.867,
+  "id": "bus_door",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L14",
+  "set": "street"
+ },
+ {
+  "t": 91.176,
+  "id": "bus_interior",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L14:two#2",
+  "set": "busInterior"
+ },
+ {
+  "t": 93.293,
+  "id": "bus_leave",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L15",
+  "set": "avenue"
+ },
+ {
+  "t": 99.001,
+  "id": "buzzer",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L15:because",
+  "set": "schoolExt"
+ },
+ {
+  "t": 102.625,
+  "id": "car_pass",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L16",
+  "set": "avenue"
+ },
+ {
+  "t": 103.688,
+  "id": "car_pass",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L16",
+  "set": "avenue"
+ },
+ {
+  "t": 105.344,
+  "id": "supercar_pass",
+  "gain": -2,
+  "pan": 0,
+  "shot": "L16",
+  "set": "avenue"
+ },
+ {
+  "t": 108.277,
+  "id": "footsteps_boot",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L17",
+  "set": "schoolExt"
+ },
+ {
+  "t": 108.877,
+  "id": "stop_whistle",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L17",
+  "set": "schoolExt"
+ },
+ {
+  "t": 112.507,
+  "id": "blink",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L18",
+  "set": "schoolExt"
+ },
+ {
+  "t": 112.807,
+  "id": "blink",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L18",
+  "set": "schoolExt"
+ },
+ {
+  "t": 115.494,
+  "id": "glasses_slide",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L19",
+  "set": "schoolExt"
+ },
+ {
+  "t": 116.097,
+  "id": "whoosh_soft",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L19:your",
+  "set": "schoolExt"
+ },
+ {
+  "t": 116.197,
+  "id": "ding_soft",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L19:your",
+  "set": "schoolExt"
+ },
+ {
+  "t": 116.814,
+  "id": "whoosh_soft",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L19:he#2",
+  "set": "schoolExt"
+ },
+ {
+  "t": 116.914,
+  "id": "ding_soft",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L19:he#2",
+  "set": "schoolExt"
+ },
+ {
+  "t": 118.289,
+  "id": "whoosh_soft",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L19:he#3",
+  "set": "schoolExt"
+ },
+ {
+  "t": 118.489,
+  "id": "dun_dun",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L19:he#3",
+  "set": "schoolExt"
+ },
+ {
+  "t": 120.317,
+  "id": "paper_flip",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L20",
+  "set": "schoolExt"
+ },
+ {
+  "t": 121.227,
+  "id": "pop",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L20",
+  "set": "schoolExt"
+ },
+ {
+  "t": 121.577,
+  "id": "pop",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L20",
+  "set": "schoolExt"
+ },
+ {
+  "t": 121.927,
+  "id": "pop",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L20",
+  "set": "schoolExt"
+ },
+ {
+  "t": 123.811,
+  "id": "footsteps_boot",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L21",
+  "set": "schoolExt"
+ },
+ {
+  "t": 125.713,
+  "id": "sad_trombone",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L22",
+  "set": "schoolExt"
+ },
+ {
+  "t": 126.959,
+  "id": "amb_classroom",
+  "gain": -16,
+  "pan": 0,
+  "shot": "L23",
+  "set": "classroom"
+ },
+ {
+  "t": 126.959,
+  "id": "school_bell",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L23",
+  "set": "classroom"
+ },
+ {
+  "t": 134.277,
+  "id": "amb_ocean",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L24:my",
+  "set": "island"
+ },
+ {
+  "t": 134.277,
+  "id": "seagull",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L24:my",
+  "set": "island"
+ },
+ {
+  "t": 141.262,
+  "id": "space_drone",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L25:we",
+  "set": "edgeSpace"
+ },
+ {
+  "t": 141.262,
+  "id": "rocket_rumble",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L25:we",
+  "set": "edgeSpace"
+ },
+ {
+  "t": 147.581,
+  "id": "boing_shock",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L26",
+  "set": "classroom"
+ },
+ {
+  "t": 148.891,
+  "id": "record_scratch",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L26",
+  "set": "classroom"
+ },
+ {
+  "t": 152.43,
+  "id": "whoosh_multi",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L28",
+  "set": "classroom"
+ },
+ {
+  "t": 152.73,
+  "id": "chair_creak",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L28",
+  "set": "classroom"
+ },
+ {
+  "t": 154.512,
+  "id": "thought_chime",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L29",
+  "set": "classroom"
+ },
+ {
+  "t": 155.989,
+  "id": "scrub",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L29:working",
+  "set": "carwash"
+ },
+ {
+  "t": 155.989,
+  "id": "water_spray",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L29:working",
+  "set": "carwash"
+ },
+ {
+  "t": 157.972,
+  "id": "kid_giggle",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L29:babysitting",
+  "set": "void"
+ },
+ {
+  "t": 159.682,
+  "id": "cereal_crunch",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L29:eating",
+  "set": "apartment:night"
+ },
+ {
+  "t": 161.583,
+  "id": "pop",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L29:eating",
+  "set": "apartment:night"
+ },
+ {
+  "t": 165.283,
+  "id": "crickets",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L31",
+  "set": "classroom"
+ },
+ {
+  "t": 165.283,
+  "id": "room_tone",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L31",
+  "set": "classroom"
+ },
+ {
+  "t": 169.91,
+  "id": "whisper",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L32",
+  "set": "classroom"
+ },
+ {
+  "t": 174.222,
+  "id": "space_whoosh",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L34",
+  "set": "void"
+ },
+ {
+  "t": 174.522,
+  "id": "boing",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L34",
+  "set": "void"
+ },
+ {
+  "t": 177.945,
+  "id": "school_bell",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L35",
+  "set": "hallway"
+ },
+ {
+  "t": 178.145,
+  "id": "hallway_walla",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L35",
+  "set": "hallway"
+ },
+ {
+  "t": 178.045,
+  "id": "footsteps_shoe",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L35",
+  "set": "hallway"
+ },
+ {
+  "t": 179.484,
+  "id": "cafeteria_walla",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L36",
+  "set": "cafeteria"
+ },
+ {
+  "t": 179.484,
+  "id": "choir_aah",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L36",
+  "set": "cafeteria"
+ },
+ {
+  "t": 179.584,
+  "id": "shimmer",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L36",
+  "set": "cafeteria"
+ },
+ {
+  "t": 184.719,
+  "id": "knife_chop",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L36:sushi",
+  "set": "cafeteria"
+ },
+ {
+  "t": 185.745,
+  "id": "boiling",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L36:pasta",
+  "set": "cafeteria"
+ },
+ {
+  "t": 186.896,
+  "id": "choc_flow",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L36:and",
+  "set": "cafeteria"
+ },
+ {
+  "t": 191.485,
+  "id": "register_ding",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L37",
+  "set": "cafeteria"
+ },
+ {
+  "t": 192.218,
+  "id": "airhorn_cute",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L38",
+  "set": "cafeteria"
+ },
+ {
+  "t": 192.218,
+  "id": "choir_hit",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L38",
+  "set": "cafeteria"
+ },
+ {
+  "t": 192.218,
+  "id": "confetti",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L38",
+  "set": "cafeteria"
+ },
+ {
+  "t": 193.219,
+  "id": "emotional_swell",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L39",
+  "set": "cafeteria"
+ },
+ {
+  "t": 202.101,
+  "id": "chair_scrape",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L40",
+  "set": "cafeteria"
+ },
+ {
+  "t": 203.967,
+  "id": "paper_bag",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L40",
+  "set": "cafeteria"
+ },
+ {
+  "t": 205.021,
+  "id": "whoosh_multi",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L41",
+  "set": "cafeteria"
+ },
+ {
+  "t": 205.221,
+  "id": "crowd_gasp",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L41",
+  "set": "cafeteria"
+ },
+ {
+  "t": 207.08,
+  "id": "gasp_single",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L42",
+  "set": "cafeteria"
+ },
+ {
+  "t": 214.953,
+  "id": "camera_shutter",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L44",
+  "set": "cafeteria"
+ },
+ {
+  "t": 216.022,
+  "id": "phone_slide",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L44",
+  "set": "cafeteria"
+ },
+ {
+  "t": 217.275,
+  "id": "chewing",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L45",
+  "set": "cafeteria"
+ },
+ {
+  "t": 220.874,
+  "id": "nature_doc",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L45",
+  "set": "cafeteria"
+ },
+ {
+  "t": 224.06,
+  "id": "music_soft_turn",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L46",
+  "set": "cafeteria"
+ },
+ {
+  "t": 229.096,
+  "id": "ding_soft",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L46",
+  "set": "cafeteria"
+ },
+ {
+  "t": 230.485,
+  "id": "ding_soft",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L46",
+  "set": "cafeteria"
+ },
+ {
+  "t": 236.31,
+  "id": "whoosh_digital",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L47",
+  "set": "cafeteria"
+ },
+ {
+  "t": 238.58,
+  "id": "curious_pluck",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L48",
+  "set": "cafeteria"
+ },
+ {
+  "t": 241.663,
+  "id": "amb_countryside",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L49",
+  "set": "stables"
+ },
+ {
+  "t": 242.163,
+  "id": "horse_snort",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L49",
+  "set": "stables"
+ },
+ {
+  "t": 243.201,
+  "id": "dodgeball",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L49:at",
+  "set": "void"
+ },
+ {
+  "t": 243.601,
+  "id": "dodgeball",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L49:at",
+  "set": "void"
+ },
+ {
+  "t": 244.001,
+  "id": "dodgeball",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L49:at",
+  "set": "void"
+ },
+ {
+  "t": 247.529,
+  "id": "horse_neigh",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L49:at#2",
+  "set": "stables"
+ },
+ {
+  "t": 247.529,
+  "id": "brass_sting",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L49:at#2",
+  "set": "stables"
+ },
+ {
+  "t": 248.9,
+  "id": "heartbeat_fast",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L50",
+  "set": "stables"
+ },
+ {
+  "t": 251.008,
+  "id": "horse_snort",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L50",
+  "set": "stables"
+ },
+ {
+  "t": 256.463,
+  "id": "cloth_rustle",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L52",
+  "set": "stables"
+ },
+ {
+  "t": 257.294,
+  "id": "hoof_step",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L52",
+  "set": "stables"
+ },
+ {
+  "t": 259.52,
+  "id": "slide_whistle",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L52",
+  "set": "stables"
+ },
+ {
+  "t": 260.776,
+  "id": "thud",
+  "gain": -2,
+  "pan": 0,
+  "shot": "L52",
+  "set": "stables"
+ },
+ {
+  "t": 261.369,
+  "id": "cartoon_tweet",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L53",
+  "set": "stables"
+ },
+ {
+  "t": 264.351,
+  "id": "horse_chew",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L53",
+  "set": "stables"
+ },
+ {
+  "t": 264.351,
+  "id": "cloth_rip",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L53",
+  "set": "stables"
+ },
+ {
+  "t": 266.462,
+  "id": "kids_laugh",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L53:and",
+  "set": "stables"
+ },
+ {
+  "t": 270.328,
+  "id": "plane_flyby",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L53:and",
+  "set": "stables"
+ },
+ {
+  "t": 272.77,
+  "id": "buzzer",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L53:and",
+  "set": "stables"
+ },
+ {
+  "t": 274.02,
+  "id": "horse_walk",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L54",
+  "set": "stables"
+ },
+ {
+  "t": 276.822,
+  "id": "wobble",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L54",
+  "set": "stables"
+ },
+ {
+  "t": 278.696,
+  "id": "success_sting",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L54",
+  "set": "stables"
+ },
+ {
+  "t": 279.763,
+  "id": "clap_single",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L55",
+  "set": "stables"
+ },
+ {
+  "t": 286.305,
+  "id": "inspire_swell",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L55",
+  "set": "stables"
+ },
+ {
+  "t": 287.651,
+  "id": "hallway_walla",
+  "gain": -16,
+  "pan": 0,
+  "shot": "L56",
+  "set": "hallway"
+ },
+ {
+  "t": 289.699,
+  "id": "idea_ding",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L56",
+  "set": "hallway"
+ },
+ {
+  "t": 291.52,
+  "id": "tick",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L57",
+  "set": "hallway"
+ },
+ {
+  "t": 295.137,
+  "id": "tick",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L57",
+  "set": "hallway"
+ },
+ {
+  "t": 296.41,
+  "id": "amb_ocean",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L58",
+  "set": "ocean"
+ },
+ {
+  "t": 296.61,
+  "id": "yacht_horn",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L58",
+  "set": "ocean"
+ },
+ {
+  "t": 299.337,
+  "id": "jet_flyby",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L58:or",
+  "set": "sky"
+ },
+ {
+  "t": 302.95,
+  "id": "eye_roll",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L58:ugh",
+  "set": "hallway"
+ },
+ {
+  "t": 303.896,
+  "id": "sneaky_pluck",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L59",
+  "set": "void"
+ },
+ {
+  "t": 308.066,
+  "id": "swish_stealth",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L59",
+  "set": "void"
+ },
+ {
+  "t": 311.105,
+  "id": "fancy_ding",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L60",
+  "set": "hallway"
+ },
+ {
+  "t": 312.321,
+  "id": "fancy_ding",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L60",
+  "set": "hallway"
+ },
+ {
+  "t": 313.942,
+  "id": "lawnmower",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L61",
+  "set": "lawnYard"
+ },
+ {
+  "t": 313.942,
+  "id": "amb_birds",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L61",
+  "set": "lawnYard"
+ },
+ {
+  "t": 321.049,
+  "id": "glass_crack",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L62",
+  "set": "void"
+ },
+ {
+  "t": 324.183,
+  "id": "charge_beep",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L62:it",
+  "set": "bedroom"
+ },
+ {
+  "t": 324.783,
+  "id": "charge_off",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L62:it",
+  "set": "bedroom"
+ },
+ {
+  "t": 325.483,
+  "id": "charge_beep",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L62:it",
+  "set": "bedroom"
+ },
+ {
+  "t": 326.283,
+  "id": "charge_off",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L62:it",
+  "set": "bedroom"
+ },
+ {
+  "t": 328.647,
+  "id": "phone_slide",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L63",
+  "set": "voidPink"
+ },
+ {
+  "t": 328.747,
+  "id": "notif_ping",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L63",
+  "set": "voidPink"
+ },
+ {
+  "t": 333.055,
+  "id": "msg_pop",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L63",
+  "set": "voidPink"
+ },
+ {
+  "t": 335.352,
+  "id": "msg_pop",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L63",
+  "set": "voidPink"
+ },
+ {
+  "t": 337.233,
+  "id": "msg_pop",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L64",
+  "set": "voidPink"
+ },
+ {
+  "t": 339.677,
+  "id": "reactions_burst",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L64",
+  "set": "voidPink"
+ },
+ {
+  "t": 343.006,
+  "id": "notif_ping",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L66",
+  "set": "void"
+ },
+ {
+  "t": 343.006,
+  "id": "dun_dun",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L66",
+  "set": "void"
+ },
+ {
+  "t": 344.042,
+  "id": "phone_tap",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L67",
+  "set": "void"
+ },
+ {
+  "t": 345.477,
+  "id": "heartbeat",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L67",
+  "set": "void"
+ },
+ {
+  "t": 346.566,
+  "id": "heartbeat",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L67",
+  "set": "void"
+ },
+ {
+  "t": 347.702,
+  "id": "impact_low",
+  "gain": -2,
+  "pan": 0,
+  "shot": "L67",
+  "set": "void"
+ },
+ {
+  "t": 347.582,
+  "id": "boing_shock",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L67:dollars",
+  "set": "void"
+ },
+ {
+  "t": 349.458,
+  "id": "typing_phone",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L68",
+  "set": "voidPink"
+ },
+ {
+  "t": 351.191,
+  "id": "msg_send",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L68",
+  "set": "voidPink"
+ },
+ {
+  "t": 351.894,
+  "id": "phone_down",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L68:you#2",
+  "set": "bedroom"
+ },
+ {
+  "t": 352.194,
+  "id": "slide_wood",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L68:you#2",
+  "set": "bedroom"
+ },
+ {
+  "t": 358.31,
+  "id": "kids_laugh",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L69",
+  "set": "hallway"
+ },
+ {
+  "t": 358.31,
+  "id": "fake_laugh",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L69",
+  "set": "hallway"
+ },
+ {
+  "t": 363.871,
+  "id": "eye_roll",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L69:you#3",
+  "set": "bedroom"
+ },
+ {
+  "t": 365.136,
+  "id": "box_thud",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L70",
+  "set": "voidDark"
+ },
+ {
+  "t": 366.656,
+  "id": "box_thud",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L70",
+  "set": "voidDark"
+ },
+ {
+  "t": 368.14,
+  "id": "box_thud",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L70",
+  "set": "voidDark"
+ },
+ {
+  "t": 369.45,
+  "id": "box_thud",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L70",
+  "set": "voidDark"
+ },
+ {
+  "t": 365.136,
+  "id": "tension_drone",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L70",
+  "set": "voidDark"
+ },
+ {
+  "t": 373.731,
+  "id": "boxes_crash",
+  "gain": -2,
+  "pan": 0,
+  "shot": "L71",
+  "set": "voidDark"
+ },
+ {
+  "t": 374.864,
+  "id": "bus_leave",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L72",
+  "set": "avenue"
+ },
+ {
+  "t": 379.283,
+  "id": "car_slow",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L72",
+  "set": "avenue"
+ },
+ {
+  "t": 381.603,
+  "id": "window_roll",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L73",
+  "set": "avenue"
+ },
+ {
+  "t": 383.191,
+  "id": "villain_sting",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L73",
+  "set": "avenue"
+ },
+ {
+  "t": 385.916,
+  "id": "camera_shutter",
+  "gain": 0,
+  "pan": 0,
+  "shot": "L74",
+  "set": "avenue"
+ },
+ {
+  "t": 385.916,
+  "id": "impact_low",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L74",
+  "set": "avenue"
+ },
+ {
+  "t": 389.073,
+  "id": "phone_buzz_rapid",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L75",
+  "set": "schoolExt"
+ },
+ {
+  "t": 389.073,
+  "id": "notif_spam",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L75",
+  "set": "schoolExt"
+ },
+ {
+  "t": 390.954,
+  "id": "msg_pop",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L76",
+  "set": "voidDark"
+ },
+ {
+  "t": 393.702,
+  "id": "dun_dun",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L76",
+  "set": "voidDark"
+ },
+ {
+  "t": 395.227,
+  "id": "msg_pop",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L77",
+  "set": "voidDark"
+ },
+ {
+  "t": 397.552,
+  "id": "reactions_burst",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L77",
+  "set": "voidDark"
+ },
+ {
+  "t": 395.427,
+  "id": "kids_laugh",
+  "gain": -16,
+  "pan": 0,
+  "shot": "L77",
+  "set": "voidDark"
+ },
+ {
+  "t": 397.932,
+  "id": "notif_spam",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L78",
+  "set": "voidDark"
+ },
+ {
+  "t": 397.932,
+  "id": "msg_pop_rapid",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L78",
+  "set": "voidDark"
+ },
+ {
+  "t": 403.035,
+  "id": "room_silence",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L79",
+  "set": "classroom"
+ },
+ {
+  "t": 404.615,
+  "id": "snicker",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L79",
+  "set": "classroom"
+ },
+ {
+  "t": 407.756,
+  "id": "sad_note",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L79",
+  "set": "classroom"
+ },
+ {
+  "t": 411.802,
+  "id": "rain_window",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L80",
+  "set": "bedroom"
+ },
+ {
+  "t": 411.802,
+  "id": "sad_piano",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L80",
+  "set": "bedroom"
+ },
+ {
+  "t": 419.096,
+  "id": "amb_city",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L81",
+  "set": "street"
+ },
+ {
+  "t": 419.096,
+  "id": "bus_idle",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L81",
+  "set": "street"
+ },
+ {
+  "t": 420.822,
+  "id": "bus_door",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L81",
+  "set": "street"
+ },
+ {
+  "t": 419.096,
+  "id": "hopeful_pluck",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L81",
+  "set": "street"
+ },
+ {
+  "t": 422.383,
+  "id": "footsteps_confident",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L82",
+  "set": "schoolExt"
+ },
+ {
+  "t": 422.383,
+  "id": "build_drums",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L82",
+  "set": "schoolExt"
+ },
+ {
+  "t": 426.154,
+  "id": "car_idle",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L82",
+  "set": "schoolExt"
+ },
+ {
+  "t": 427.374,
+  "id": "heli_idle",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L82",
+  "set": "schoolExt"
+ },
+ {
+  "t": 432.697,
+  "id": "kids_snicker",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L83",
+  "set": "schoolExt"
+ },
+ {
+  "t": 436.141,
+  "id": "coin_single",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L84",
+  "set": "schoolExt"
+ },
+ {
+  "t": 437.097,
+  "id": "ding_price",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L84:your",
+  "set": "schoolExt"
+ },
+ {
+  "t": 440.135,
+  "id": "clock_ding",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L84:your",
+  "set": "schoolExt"
+ },
+ {
+  "t": 441.104,
+  "id": "crowd_laugh",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L85",
+  "set": "schoolExt"
+ },
+ {
+  "t": 443.838,
+  "id": "warm_swell",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L85",
+  "set": "schoolExt"
+ },
+ {
+  "t": 445.994,
+  "id": "mouth_pop",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L86",
+  "set": "schoolExt"
+ },
+ {
+  "t": 447.264,
+  "id": "mouth_pop",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L86",
+  "set": "schoolExt"
+ },
+ {
+  "t": 448.254,
+  "id": "mouth_pop",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L86",
+  "set": "schoolExt"
+ },
+ {
+  "t": 450.913,
+  "id": "sneak_away",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L86",
+  "set": "schoolExt"
+ },
+ {
+  "t": 452.089,
+  "id": "warm_pad",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L87",
+  "set": "schoolExt"
+ },
+ {
+  "t": 457.037,
+  "id": "release_whoosh",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L88",
+  "set": "voidPink"
+ },
+ {
+  "t": 457.137,
+  "id": "sigh_relief",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L88",
+  "set": "voidPink"
+ },
+ {
+  "t": 460.426,
+  "id": "phone_slide",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L89",
+  "set": "voidPink"
+ },
+ {
+  "t": 466.477,
+  "id": "msg_pop",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L89",
+  "set": "voidPink"
+ },
+ {
+  "t": 468.67,
+  "id": "hearts_pop",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L89",
+  "set": "voidPink"
+ },
+ {
+  "t": 470.487,
+  "id": "cafeteria_walla",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L90",
+  "set": "cafeteria"
+ },
+ {
+  "t": 474.295,
+  "id": "chair_scrape",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L90",
+  "set": "cafeteria"
+ },
+ {
+  "t": 476.343,
+  "id": "friend_chime",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L91",
+  "set": "cafeteria"
+ },
+ {
+  "t": 481.452,
+  "id": "bread_tear",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L93",
+  "set": "cafeteria"
+ },
+ {
+  "t": 482.989,
+  "id": "slide_plate",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L93",
+  "set": "cafeteria"
+ },
+ {
+  "t": 483.765,
+  "id": "sweet_chime",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L93",
+  "set": "cafeteria"
+ },
+ {
+  "t": 484.835,
+  "id": "crunch_bite",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L94",
+  "set": "cafeteria"
+ },
+ {
+  "t": 486.274,
+  "id": "sparkle",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L94",
+  "set": "cafeteria"
+ },
+ {
+  "t": 488.947,
+  "id": "knife_drop",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L94",
+  "set": "cafeteria"
+ },
+ {
+  "t": 489.671,
+  "id": "kids_laugh_two",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L95",
+  "set": "cafeteria"
+ },
+ {
+  "t": 491.895,
+  "id": "friend_sting",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L95",
+  "set": "cafeteria"
+ },
+ {
+  "t": 495.505,
+  "id": "question_pops",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L96",
+  "set": "hallway"
+ },
+ {
+  "t": 499.171,
+  "id": "gasp_single",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L98",
+  "set": "hallway"
+ },
+ {
+  "t": 504.833,
+  "id": "washer_start",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L99",
+  "set": "laundry"
+ },
+ {
+  "t": 504.833,
+  "id": "washer_spin",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L99",
+  "set": "laundry"
+ },
+ {
+  "t": 505.819,
+  "id": "kid_cheer",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L99",
+  "set": "laundry"
+ },
+ {
+  "t": 508.952,
+  "id": "tick",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L100",
+  "set": "voidGold"
+ },
+ {
+  "t": 509.252,
+  "id": "tick",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L100",
+  "set": "voidGold"
+ },
+ {
+  "t": 509.552,
+  "id": "tick",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L100",
+  "set": "voidGold"
+ },
+ {
+  "t": 509.852,
+  "id": "tick",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L100",
+  "set": "voidGold"
+ },
+ {
+  "t": 519.179,
+  "id": "sneaky_pluck",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L101",
+  "set": "classroom"
+ },
+ {
+  "t": 521.747,
+  "id": "whisper",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L101",
+  "set": "classroom"
+ },
+ {
+  "t": 529.099,
+  "id": "door_slam",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L103",
+  "set": "classroom"
+ },
+ {
+  "t": 530.109,
+  "id": "sad_trombone_short",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L103",
+  "set": "classroom"
+ },
+ {
+  "t": 531.4,
+  "id": "pencil_write",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L104",
+  "set": "classroom"
+ },
+ {
+  "t": 534.488,
+  "id": "burp_cartoon",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L104",
+  "set": "classroom"
+ },
+ {
+  "t": 537.714,
+  "id": "magic_chime",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L105",
+  "set": "void"
+ },
+ {
+  "t": 538.214,
+  "id": "party_horn",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L105",
+  "set": "void"
+ },
+ {
+  "t": 541.088,
+  "id": "party_walla",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L106",
+  "set": "mansion"
+ },
+ {
+  "t": 541.088,
+  "id": "party_music_far",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L106",
+  "set": "mansion"
+ },
+ {
+  "t": 541.388,
+  "id": "choir_aah",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L106",
+  "set": "mansion"
+ },
+ {
+  "t": 546.689,
+  "id": "band_live",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L106:there's",
+  "set": "mansion"
+ },
+ {
+  "t": 547.976,
+  "id": "sizzle",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L106:a#3",
+  "set": "mansion"
+ },
+ {
+  "t": 549.173,
+  "id": "carnival_music",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L106:a#4",
+  "set": "mansion"
+ },
+ {
+  "t": 549.173,
+  "id": "ferris_creak",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L106:a#4",
+  "set": "mansion"
+ },
+ {
+  "t": 552.15,
+  "id": "record_scratch",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L106:and",
+  "set": "mansion"
+ },
+ {
+  "t": 552.15,
+  "id": "giraffe_chew",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L106:and",
+  "set": "mansion"
+ },
+ {
+  "t": 553.257,
+  "id": "question_pop",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L107",
+  "set": "mansion"
+ },
+ {
+  "t": 560.031,
+  "id": "video_msg",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L108",
+  "set": "mansion"
+ },
+ {
+  "t": 565.029,
+  "id": "pocket",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L108",
+  "set": "mansion"
+ },
+ {
+  "t": 565.029,
+  "id": "sad_note",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L108",
+  "set": "mansion"
+ },
+ {
+  "t": 568.131,
+  "id": "gift_rustle",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L109",
+  "set": "mansion"
+ },
+ {
+  "t": 569.43,
+  "id": "console_beep",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L109",
+  "set": "mansion"
+ },
+ {
+  "t": 572.566,
+  "id": "supercar_pass",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L109",
+  "set": "mansion"
+ },
+ {
+  "t": 572.566,
+  "id": "tada",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L109",
+  "set": "mansion"
+ },
+ {
+  "t": 574.455,
+  "id": "sad_trombone_short",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L109",
+  "set": "mansion"
+ },
+ {
+  "t": 577.536,
+  "id": "paper_rustle",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L110",
+  "set": "mansion"
+ },
+ {
+  "t": 582.914,
+  "id": "tender_pluck",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L110",
+  "set": "mansion"
+ },
+ {
+  "t": 584.671,
+  "id": "cloth_rustle",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L111",
+  "set": "mansion"
+ },
+ {
+  "t": 584.771,
+  "id": "awkward_pluck",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L111",
+  "set": "mansion"
+ },
+ {
+  "t": 588.42,
+  "id": "book_open",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L112",
+  "set": "mansion"
+ },
+ {
+  "t": 590.387,
+  "id": "page_flip",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L112",
+  "set": "mansion"
+ },
+ {
+  "t": 591.327,
+  "id": "page_flip",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L112",
+  "set": "mansion"
+ },
+ {
+  "t": 592.366,
+  "id": "page_flip",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L112",
+  "set": "mansion"
+ },
+ {
+  "t": 593.342,
+  "id": "emotional_swell",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L113",
+  "set": "mansion"
+ },
+ {
+  "t": 596.663,
+  "id": "shrug_whoosh",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L114",
+  "set": "mansion"
+ },
+ {
+  "t": 598.571,
+  "id": "crickets",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L115",
+  "set": "mansion"
+ },
+ {
+  "t": 598.571,
+  "id": "party_music_far",
+  "gain": -18,
+  "pan": 0,
+  "shot": "L115",
+  "set": "mansion"
+ },
+ {
+  "t": 604.69,
+  "id": "page_flip",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L115:and",
+  "set": "mansion"
+ },
+ {
+  "t": 605.09,
+  "id": "warm_pad",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L115:and",
+  "set": "mansion"
+ },
+ {
+  "t": 607.675,
+  "id": "door_open",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L116",
+  "set": "apartment:night"
+ },
+ {
+  "t": 607.675,
+  "id": "amb_apartment",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L116",
+  "set": "apartment:night"
+ },
+ {
+  "t": 611.712,
+  "id": "pop",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L116:your",
+  "set": "void"
+ },
+ {
+  "t": 614.647,
+  "id": "couch_creak",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L116:the",
+  "set": "apartment:night"
+ },
+ {
+  "t": 619.435,
+  "id": "goose_honk",
+  "gain": -2,
+  "pan": 0,
+  "shot": "L116:the",
+  "set": "apartment:night"
+ },
+ {
+  "t": 619.435,
+  "id": "radiator_clank",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L116:the",
+  "set": "apartment:night"
+ },
+ {
+  "t": 620.227,
+  "id": "sweet_chime",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L117",
+  "set": "apartment:night"
+ },
+ {
+  "t": 622.103,
+  "id": "dinner_clatter",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L118",
+  "set": "apartment:night"
+ },
+ {
+  "t": 622.503,
+  "id": "plate_set",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L118",
+  "set": "apartment:night"
+ },
+ {
+  "t": 624.29,
+  "id": "fancy_ding",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L118:at",
+  "set": "theoDining"
+ },
+ {
+  "t": 629.965,
+  "id": "chewing",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L118:here",
+  "set": "apartment:night"
+ },
+ {
+  "t": 629.965,
+  "id": "plate_stack",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L118:here",
+  "set": "apartment:night"
+ },
+ {
+  "t": 631.558,
+  "id": "question_pops",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L118:your#2",
+  "set": "apartment:night"
+ },
+ {
+  "t": 631.558,
+  "id": "kid_chatter",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L118:your#2",
+  "set": "apartment:night"
+ },
+ {
+  "t": 634.519,
+  "id": "dad_joke_drum",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L118:your#3",
+  "set": "apartment:night"
+ },
+ {
+  "t": 638.718,
+  "id": "family_laugh",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L119",
+  "set": "apartment:night"
+ },
+ {
+  "t": 640.757,
+  "id": "music_drop",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L120",
+  "set": "apartment:night"
+ },
+ {
+  "t": 640.957,
+  "id": "laugh_fade",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L120",
+  "set": "apartment:night"
+ },
+ {
+  "t": 646.309,
+  "id": "soft_piano",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L122",
+  "set": "apartment:night"
+ },
+ {
+  "t": 657.262,
+  "id": "big_room_echo",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L124:my",
+  "set": "theoDining"
+ },
+ {
+  "t": 657.262,
+  "id": "clock_tick",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L124:my",
+  "set": "theoDining"
+ },
+ {
+  "t": 658.395,
+  "id": "ding_soft",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L124:my",
+  "set": "theoDining"
+ },
+ {
+  "t": 660.499,
+  "id": "ding_soft",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L124:my",
+  "set": "theoDining"
+ },
+ {
+  "t": 665.552,
+  "id": "whoosh_big",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L125",
+  "set": "apartment:night"
+ },
+ {
+  "t": 665.552,
+  "id": "reverse_swell",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L125",
+  "set": "apartment:night"
+ },
+ {
+  "t": 669.662,
+  "id": "tick",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L126",
+  "set": "voidDark"
+ },
+ {
+  "t": 670.602,
+  "id": "tick",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L126",
+  "set": "voidDark"
+ },
+ {
+  "t": 671.695,
+  "id": "tick",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L126",
+  "set": "voidDark"
+ },
+ {
+  "t": 673.054,
+  "id": "shrink_whoosh",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L126",
+  "set": "voidDark"
+ },
+ {
+  "t": 676.978,
+  "id": "gold_shimmer",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L126:sitting",
+  "set": "apartment:night"
+ },
+ {
+  "t": 678.319,
+  "id": "warm_pad",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L127",
+  "set": "apartment:night"
+ },
+ {
+  "t": 681.813,
+  "id": "water_running",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L128",
+  "set": "apartment:night"
+ },
+ {
+  "t": 687.252,
+  "id": "soap_squirt",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L128",
+  "set": "apartment:night"
+ },
+ {
+  "t": 689.192,
+  "id": "bubbles_grow",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L128",
+  "set": "apartment:night"
+ },
+ {
+  "t": 691.265,
+  "id": "mom_laugh",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L128",
+  "set": "apartment:night"
+ },
+ {
+  "t": 694.096,
+  "id": "envelope_slide",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L129",
+  "set": "apartment:night"
+ },
+ {
+  "t": 699.941,
+  "id": "success_sting",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L129",
+  "set": "apartment:night"
+ },
+ {
+  "t": 705.224,
+  "id": "phone_buzz",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L130",
+  "set": "void"
+ },
+ {
+  "t": 706.266,
+  "id": "notif_ping",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L130",
+  "set": "void"
+ },
+ {
+  "t": 711.582,
+  "id": "card_whoosh",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L131",
+  "set": "voidPink"
+ },
+ {
+  "t": 711.832,
+  "id": "card_whoosh",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L131",
+  "set": "voidPink"
+ },
+ {
+  "t": 711.982,
+  "id": "decision_hit",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L131",
+  "set": "voidPink"
+ },
+ {
+  "t": 721.033,
+  "id": "amb_birds",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L132",
+  "set": "schoolExt"
+ },
+ {
+  "t": 721.033,
+  "id": "tender_piano",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L132",
+  "set": "schoolExt"
+ },
+ {
+  "t": 728.238,
+  "id": "amb_city",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L133",
+  "set": "street"
+ },
+ {
+  "t": 731.848,
+  "id": "friends_laugh",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L133:but",
+  "set": "cafeteria"
+ },
+ {
+  "t": 731.848,
+  "id": "warm_pad",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L133:but",
+  "set": "cafeteria"
+ },
+ {
+  "t": 735.54,
+  "id": "clock_tick",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L134",
+  "set": "bedroom"
+ },
+ {
+  "t": 738.54,
+  "id": "nostalgic_piano",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L135",
+  "set": "hallway"
+ },
+ {
+  "t": 738.54,
+  "id": "footsteps_shoe",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L135",
+  "set": "hallway"
+ },
+ {
+  "t": 742.464,
+  "id": "choc_flow",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L135:past",
+  "set": "cafeteria"
+ },
+ {
+  "t": 744.319,
+  "id": "horse_chew",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L135:past#2",
+  "set": "stables"
+ },
+ {
+  "t": 747.315,
+  "id": "horse_snort",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L135:past#2",
+  "set": "stables"
+ },
+ {
+  "t": 750.898,
+  "id": "echo_memory",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L135:past#3",
+  "set": "classroom"
+ },
+ {
+  "t": 751.54,
+  "id": "amb_birds",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L135:past#4",
+  "set": "schoolExt"
+ },
+ {
+  "t": 756.25,
+  "id": "idea_ding",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L136",
+  "set": "schoolExt"
+ },
+ {
+  "t": 757.768,
+  "id": "reflective_pad",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L137",
+  "set": "void"
+ },
+ {
+  "t": 763.37,
+  "id": "warm_swell",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L137",
+  "set": "void"
+ },
+ {
+  "t": 765.052,
+  "id": "coins",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L138",
+  "set": "voidGold"
+ },
+ {
+  "t": 766.901,
+  "id": "gold_shimmer",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L138",
+  "set": "voidGold"
+ },
+ {
+  "t": 768.317,
+  "id": "knife_cut",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L138:a",
+  "set": "apartment:dawn"
+ },
+ {
+  "t": 770.655,
+  "id": "family_laugh",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L138:a#2",
+  "set": "apartment:night"
+ },
+ {
+  "t": 775.806,
+  "id": "sweet_chime",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L138:and",
+  "set": "mansion"
+ },
+ {
+  "t": 776.669,
+  "id": "pen_sign",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L139",
+  "set": "bedroom"
+ },
+ {
+  "t": 778.865,
+  "id": "triumph_sting",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L139",
+  "set": "bedroom"
+ },
+ {
+  "t": 779.993,
+  "id": "amb_autumn",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L140",
+  "set": "street:fall"
+ },
+ {
+  "t": 779.993,
+  "id": "leaves_rustle",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L140",
+  "set": "street:fall"
+ },
+ {
+  "t": 779.993,
+  "id": "new_day_pad",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L140",
+  "set": "street:fall"
+ },
+ {
+  "t": 786.14,
+  "id": "footsteps_shoe",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L141",
+  "set": "street:fall"
+ },
+ {
+  "t": 789.4,
+  "id": "reveal_sting",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L141",
+  "set": "street:fall"
+ },
+ {
+  "t": 793.827,
+  "id": "limo_leave",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L142",
+  "set": "street:fall"
+ },
+ {
+  "t": 801.925,
+  "id": "paper_bag",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L144",
+  "set": "street:fall"
+ },
+ {
+  "t": 805.851,
+  "id": "paper_bag",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L145",
+  "set": "void"
+ },
+ {
+  "t": 806.891,
+  "id": "sparkle",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L145",
+  "set": "void"
+ },
+ {
+  "t": 806.891,
+  "id": "warm_hit",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L145",
+  "set": "void"
+ },
+ {
+  "t": 808.39,
+  "id": "bus_arrive",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L146",
+  "set": "street:fall"
+ },
+ {
+  "t": 810.09,
+  "id": "bus_door",
+  "gain": -8,
+  "pan": 0,
+  "shot": "L146",
+  "set": "street:fall"
+ },
+ {
+  "t": 811.59,
+  "id": "bus_leave",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L146",
+  "set": "street:fall"
+ },
+ {
+  "t": 808.39,
+  "id": "joy_theme",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L146",
+  "set": "street:fall"
+ },
+ {
+  "t": 813.082,
+  "id": "outro_swell",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L147",
+  "set": "void"
+ },
+ {
+  "t": 817.973,
+  "id": "space_whoosh",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L148",
+  "set": "void"
+ },
+ {
+  "t": 823.139,
+  "id": "kids_snicker",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L148",
+  "set": "void"
+ },
+ {
+  "t": 828.111,
+  "id": "tick",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L149",
+  "set": "voidPink"
+ },
+ {
+  "t": 830.157,
+  "id": "tick",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L149",
+  "set": "voidPink"
+ },
+ {
+  "t": 831.708,
+  "id": "tick",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L149",
+  "set": "voidPink"
+ },
+ {
+  "t": 834.818,
+  "id": "yawn",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L149:rich",
+  "set": "hallway"
+ },
+ {
+  "t": 835.418,
+  "id": "yawn",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L149:rich",
+  "set": "hallway"
+ },
+ {
+  "t": 838.682,
+  "id": "warm_theme",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L150",
+  "set": "voidPink"
+ },
+ {
+  "t": 845.973,
+  "id": "pop_big",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L151",
+  "set": "voidGold"
+ },
+ {
+  "t": 848.255,
+  "id": "pop_big",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L151",
+  "set": "voidGold"
+ },
+ {
+  "t": 850.743,
+  "id": "pop_big",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L151",
+  "set": "voidGold"
+ },
+ {
+  "t": 845.973,
+  "id": "coins",
+  "gain": -12,
+  "pan": 0,
+  "shot": "L151",
+  "set": "voidGold"
+ },
+ {
+  "t": 852.539,
+  "id": "family_laugh",
+  "gain": -14,
+  "pan": 0,
+  "shot": "L152",
+  "set": "apartment:night"
+ },
+ {
+  "t": 854.992,
+  "id": "friend_chime",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L152:and",
+  "set": "street:fall"
+ },
+ {
+  "t": 858.419,
+  "id": "build_drums",
+  "gain": -10,
+  "pan": 0,
+  "shot": "L153",
+  "set": "void"
+ },
+ {
+  "t": 863.62,
+  "id": "card_whoosh",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L153",
+  "set": "void"
+ },
+ {
+  "t": 868,
+  "id": "warm_hit",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L153",
+  "set": "void"
+ },
+ {
+  "t": 869.6,
+  "id": "pop",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L154",
+  "set": "void"
+ },
+ {
+  "t": 871.742,
+  "id": "pop_big",
+  "gain": -4,
+  "pan": 0,
+  "shot": "L154",
+  "set": "void"
+ },
+ {
+  "t": 871.742,
+  "id": "bell_ding",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L154",
+  "set": "void"
+ },
+ {
+  "t": 869.4,
+  "id": "outro_theme",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L154",
+  "set": "void"
+ },
+ {
+  "t": 877.834,
+  "id": "end_sting",
+  "gain": -6,
+  "pan": 0,
+  "shot": "L154e+0.4",
+  "set": "voidPink"
+ }
+]

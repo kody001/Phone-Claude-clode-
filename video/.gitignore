@@ -1,0 +1,10 @@
+node_modules/
+models/
+out/
+audio/*.wav
+audio/sfx/
+audio/music/
+audio/stems/
+*.mp4
+__pycache__/
+audio/voicepool/

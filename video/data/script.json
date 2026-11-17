@@ -1,0 +1,13427 @@
+[
+ {
+  "id": 0,
+  "tag": "surprise",
+  "text": "Imagine walking up to your new school on the FIRST day... and a helicopter lands right in front of you.",
+  "words": [
+   {
+    "t": "Imagine",
+    "n": "imagine",
+    "emph": false
+   },
+   {
+    "t": "walking",
+    "n": "walking",
+    "emph": false
+   },
+   {
+    "t": "up",
+    "n": "up",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "new",
+    "n": "new",
+    "emph": false
+   },
+   {
+    "t": "school",
+    "n": "school",
+    "emph": false
+   },
+   {
+    "t": "on",
+    "n": "on",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "FIRST",
+    "n": "first",
+    "emph": true
+   },
+   {
+    "t": "day...",
+    "n": "day",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "helicopter",
+    "n": "helicopter",
+    "emph": false
+   },
+   {
+    "t": "lands",
+    "n": "lands",
+    "emph": false
+   },
+   {
+    "t": "right",
+    "n": "right",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "front",
+    "n": "front",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 1,
+  "tag": null,
+  "text": "The doors open. A kid steps out... wearing sunglasses that cost more than your mom's car.",
+  "words": [
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "doors",
+    "n": "doors",
+    "emph": false
+   },
+   {
+    "t": "open.",
+    "n": "open",
+    "emph": false
+   },
+   {
+    "t": "A",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "kid",
+    "n": "kid",
+    "emph": false
+   },
+   {
+    "t": "steps",
+    "n": "steps",
+    "emph": false
+   },
+   {
+    "t": "out...",
+    "n": "out",
+    "emph": false
+   },
+   {
+    "t": "wearing",
+    "n": "wearing",
+    "emph": false
+   },
+   {
+    "t": "sunglasses",
+    "n": "sunglasses",
+    "emph": false
+   },
+   {
+    "t": "that",
+    "n": "that",
+    "emph": false
+   },
+   {
+    "t": "cost",
+    "n": "cost",
+    "emph": false
+   },
+   {
+    "t": "more",
+    "n": "more",
+    "emph": false
+   },
+   {
+    "t": "than",
+    "n": "than",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "mom's",
+    "n": "mom's",
+    "emph": false
+   },
+   {
+    "t": "car.",
+    "n": "car",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "tag": null,
+  "text": "He doesn't even look at you.",
+  "words": [
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "doesn't",
+    "n": "doesn't",
+    "emph": false
+   },
+   {
+    "t": "even",
+    "n": "even",
+    "emph": false
+   },
+   {
+    "t": "look",
+    "n": "look",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "tag": "confusion",
+  "text": "You look down at your backpack. The zipper's broken. You fixed it with a safety pin.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "look",
+    "n": "look",
+    "emph": false
+   },
+   {
+    "t": "down",
+    "n": "down",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "backpack.",
+    "n": "backpack",
+    "emph": false
+   },
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "zipper's",
+    "n": "zipper's",
+    "emph": false
+   },
+   {
+    "t": "broken.",
+    "n": "broken",
+    "emph": false
+   },
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "fixed",
+    "n": "fixed",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "with",
+    "n": "with",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "safety",
+    "n": "safety",
+    "emph": false
+   },
+   {
+    "t": "pin.",
+    "n": "pin",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "tag": null,
+  "text": "Yeah... this is going to be interesting.",
+  "words": [
+   {
+    "t": "Yeah...",
+    "n": "yeah",
+    "emph": false
+   },
+   {
+    "t": "this",
+    "n": "this",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "going",
+    "n": "going",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "be",
+    "n": "be",
+    "emph": false
+   },
+   {
+    "t": "interesting.",
+    "n": "interesting",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "tag": "more expressive",
+  "text": "Because somehow... you just got accepted into Goldcrest Academy. The most expensive school in the world. A school where EVERY single student comes from a billionaire family.",
+  "words": [
+   {
+    "t": "Because",
+    "n": "because",
+    "emph": false
+   },
+   {
+    "t": "somehow...",
+    "n": "somehow",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "just",
+    "n": "just",
+    "emph": false
+   },
+   {
+    "t": "got",
+    "n": "got",
+    "emph": false
+   },
+   {
+    "t": "accepted",
+    "n": "accepted",
+    "emph": false
+   },
+   {
+    "t": "into",
+    "n": "into",
+    "emph": false
+   },
+   {
+    "t": "Goldcrest",
+    "n": "goldcrest",
+    "emph": false
+   },
+   {
+    "t": "Academy.",
+    "n": "academy",
+    "emph": false
+   },
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "most",
+    "n": "most",
+    "emph": false
+   },
+   {
+    "t": "expensive",
+    "n": "expensive",
+    "emph": false
+   },
+   {
+    "t": "school",
+    "n": "school",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "world.",
+    "n": "world",
+    "emph": false
+   },
+   {
+    "t": "A",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "school",
+    "n": "school",
+    "emph": false
+   },
+   {
+    "t": "where",
+    "n": "where",
+    "emph": false
+   },
+   {
+    "t": "EVERY",
+    "n": "every",
+    "emph": true
+   },
+   {
+    "t": "single",
+    "n": "single",
+    "emph": false
+   },
+   {
+    "t": "student",
+    "n": "student",
+    "emph": false
+   },
+   {
+    "t": "comes",
+    "n": "comes",
+    "emph": false
+   },
+   {
+    "t": "from",
+    "n": "from",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "billionaire",
+    "n": "billionaire",
+    "emph": false
+   },
+   {
+    "t": "family.",
+    "n": "family",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "tag": null,
+  "text": "Every student... except you.",
+  "words": [
+   {
+    "t": "Every",
+    "n": "every",
+    "emph": false
+   },
+   {
+    "t": "student...",
+    "n": "student",
+    "emph": false
+   },
+   {
+    "t": "except",
+    "n": "except",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "tag": null,
+  "text": "You got in on a full scholarship. One essay contest. One lucky letter in the mailbox. Your mom cried when she read it. Your little brother asked if you were going to be famous now.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "got",
+    "n": "got",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "on",
+    "n": "on",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "full",
+    "n": "full",
+    "emph": false
+   },
+   {
+    "t": "scholarship.",
+    "n": "scholarship",
+    "emph": false
+   },
+   {
+    "t": "One",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "essay",
+    "n": "essay",
+    "emph": false
+   },
+   {
+    "t": "contest.",
+    "n": "contest",
+    "emph": false
+   },
+   {
+    "t": "One",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "lucky",
+    "n": "lucky",
+    "emph": false
+   },
+   {
+    "t": "letter",
+    "n": "letter",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "mailbox.",
+    "n": "mailbox",
+    "emph": false
+   },
+   {
+    "t": "Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "mom",
+    "n": "mom",
+    "emph": false
+   },
+   {
+    "t": "cried",
+    "n": "cried",
+    "emph": false
+   },
+   {
+    "t": "when",
+    "n": "when",
+    "emph": false
+   },
+   {
+    "t": "she",
+    "n": "she",
+    "emph": false
+   },
+   {
+    "t": "read",
+    "n": "read",
+    "emph": false
+   },
+   {
+    "t": "it.",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "little",
+    "n": "little",
+    "emph": false
+   },
+   {
+    "t": "brother",
+    "n": "brother",
+    "emph": false
+   },
+   {
+    "t": "asked",
+    "n": "asked",
+    "emph": false
+   },
+   {
+    "t": "if",
+    "n": "if",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "were",
+    "n": "were",
+    "emph": false
+   },
+   {
+    "t": "going",
+    "n": "going",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "be",
+    "n": "be",
+    "emph": false
+   },
+   {
+    "t": "famous",
+    "n": "famous",
+    "emph": false
+   },
+   {
+    "t": "now.",
+    "n": "now",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "tag": null,
+  "text": "And now you're here... with forty-seven dollars in your bank account and a sandwich in a paper bag.",
+  "words": [
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "now",
+    "n": "now",
+    "emph": false
+   },
+   {
+    "t": "you're",
+    "n": "you're",
+    "emph": false
+   },
+   {
+    "t": "here...",
+    "n": "here",
+    "emph": false
+   },
+   {
+    "t": "with",
+    "n": "with",
+    "emph": false
+   },
+   {
+    "t": "forty-seven",
+    "n": "forty-seven",
+    "emph": false
+   },
+   {
+    "t": "dollars",
+    "n": "dollars",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "bank",
+    "n": "bank",
+    "emph": false
+   },
+   {
+    "t": "account",
+    "n": "account",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "sandwich",
+    "n": "sandwich",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "paper",
+    "n": "paper",
+    "emph": false
+   },
+   {
+    "t": "bag.",
+    "n": "bag",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "tag": "more expressive",
+  "text": "So... what would ACTUALLY happen if you were the only poor kid at a billionaires-only school? Would you fit in? Would they find out? And most importantly... would you even WANT to stay?",
+  "words": [
+   {
+    "t": "So...",
+    "n": "so",
+    "emph": false
+   },
+   {
+    "t": "what",
+    "n": "what",
+    "emph": false
+   },
+   {
+    "t": "would",
+    "n": "would",
+    "emph": false
+   },
+   {
+    "t": "ACTUALLY",
+    "n": "actually",
+    "emph": true
+   },
+   {
+    "t": "happen",
+    "n": "happen",
+    "emph": false
+   },
+   {
+    "t": "if",
+    "n": "if",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "were",
+    "n": "were",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "only",
+    "n": "only",
+    "emph": false
+   },
+   {
+    "t": "poor",
+    "n": "poor",
+    "emph": false
+   },
+   {
+    "t": "kid",
+    "n": "kid",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "billionaires-only",
+    "n": "billionaires-only",
+    "emph": false
+   },
+   {
+    "t": "school?",
+    "n": "school",
+    "emph": false
+   },
+   {
+    "t": "Would",
+    "n": "would",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "fit",
+    "n": "fit",
+    "emph": false
+   },
+   {
+    "t": "in?",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "Would",
+    "n": "would",
+    "emph": false
+   },
+   {
+    "t": "they",
+    "n": "they",
+    "emph": false
+   },
+   {
+    "t": "find",
+    "n": "find",
+    "emph": false
+   },
+   {
+    "t": "out?",
+    "n": "out",
+    "emph": false
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "most",
+    "n": "most",
+    "emph": false
+   },
+   {
+    "t": "importantly...",
+    "n": "importantly",
+    "emph": false
+   },
+   {
+    "t": "would",
+    "n": "would",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "even",
+    "n": "even",
+    "emph": false
+   },
+   {
+    "t": "WANT",
+    "n": "want",
+    "emph": true
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "stay?",
+    "n": "stay",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "tag": "enthusiasm",
+  "text": "Let's find out.",
+  "words": [
+   {
+    "t": "Let's",
+    "n": "let's",
+    "emph": false
+   },
+   {
+    "t": "find",
+    "n": "find",
+    "emph": false
+   },
+   {
+    "t": "out.",
+    "n": "out",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "tag": "less expressive",
+  "text": "It all starts at six in the morning. Your mom is already leaving for her first shift at the diner. She kisses your forehead and hands you a paper bag. \"Peanut butter and jelly. Cut diagonal. Just how you like it.\"",
+  "words": [
+   {
+    "t": "It",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "all",
+    "n": "all",
+    "emph": false
+   },
+   {
+    "t": "starts",
+    "n": "starts",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "six",
+    "n": "six",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "morning.",
+    "n": "morning",
+    "emph": false
+   },
+   {
+    "t": "Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "mom",
+    "n": "mom",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "already",
+    "n": "already",
+    "emph": false
+   },
+   {
+    "t": "leaving",
+    "n": "leaving",
+    "emph": false
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "her",
+    "n": "her",
+    "emph": false
+   },
+   {
+    "t": "first",
+    "n": "first",
+    "emph": false
+   },
+   {
+    "t": "shift",
+    "n": "shift",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "diner.",
+    "n": "diner",
+    "emph": false
+   },
+   {
+    "t": "She",
+    "n": "she",
+    "emph": false
+   },
+   {
+    "t": "kisses",
+    "n": "kisses",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "forehead",
+    "n": "forehead",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "hands",
+    "n": "hands",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "paper",
+    "n": "paper",
+    "emph": false
+   },
+   {
+    "t": "bag.",
+    "n": "bag",
+    "emph": false
+   },
+   {
+    "t": "\"Peanut",
+    "n": "peanut",
+    "emph": false
+   },
+   {
+    "t": "butter",
+    "n": "butter",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "jelly.",
+    "n": "jelly",
+    "emph": false
+   },
+   {
+    "t": "Cut",
+    "n": "cut",
+    "emph": false
+   },
+   {
+    "t": "diagonal.",
+    "n": "diagonal",
+    "emph": false
+   },
+   {
+    "t": "Just",
+    "n": "just",
+    "emph": false
+   },
+   {
+    "t": "how",
+    "n": "how",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "like",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "it.\"",
+    "n": "it",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "tag": null,
+  "text": "Your uniform came from the school's donation bin. The blazer is two sizes too big. The sleeves swallow your hands. You look like a kid wearing his dad's suit to a job interview.",
+  "words": [
+   {
+    "t": "Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "uniform",
+    "n": "uniform",
+    "emph": false
+   },
+   {
+    "t": "came",
+    "n": "came",
+    "emph": false
+   },
+   {
+    "t": "from",
+    "n": "from",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "school's",
+    "n": "school's",
+    "emph": false
+   },
+   {
+    "t": "donation",
+    "n": "donation",
+    "emph": false
+   },
+   {
+    "t": "bin.",
+    "n": "bin",
+    "emph": false
+   },
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "blazer",
+    "n": "blazer",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "two",
+    "n": "two",
+    "emph": false
+   },
+   {
+    "t": "sizes",
+    "n": "sizes",
+    "emph": false
+   },
+   {
+    "t": "too",
+    "n": "too",
+    "emph": false
+   },
+   {
+    "t": "big.",
+    "n": "big",
+    "emph": false
+   },
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "sleeves",
+    "n": "sleeves",
+    "emph": false
+   },
+   {
+    "t": "swallow",
+    "n": "swallow",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "hands.",
+    "n": "hands",
+    "emph": false
+   },
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "look",
+    "n": "look",
+    "emph": false
+   },
+   {
+    "t": "like",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "kid",
+    "n": "kid",
+    "emph": false
+   },
+   {
+    "t": "wearing",
+    "n": "wearing",
+    "emph": false
+   },
+   {
+    "t": "his",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "dad's",
+    "n": "dad's",
+    "emph": false
+   },
+   {
+    "t": "suit",
+    "n": "suit",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "job",
+    "n": "job",
+    "emph": false
+   },
+   {
+    "t": "interview.",
+    "n": "interview",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "tag": "amusement",
+  "text": "It'll have to do.",
+  "words": [
+   {
+    "t": "It'll",
+    "n": "it'll",
+    "emph": false
+   },
+   {
+    "t": "have",
+    "n": "have",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "do.",
+    "n": "do",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "tag": null,
+  "text": "You take two buses to get to school. Two... buses.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "take",
+    "n": "take",
+    "emph": false
+   },
+   {
+    "t": "two",
+    "n": "two",
+    "emph": false
+   },
+   {
+    "t": "buses",
+    "n": "buses",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "get",
+    "n": "get",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "school.",
+    "n": "school",
+    "emph": false
+   },
+   {
+    "t": "Two...",
+    "n": "two",
+    "emph": false
+   },
+   {
+    "t": "buses.",
+    "n": "buses",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "tag": null,
+  "text": "The second one drops you off half a mile from the front gate... because apparently, the city bus isn't ALLOWED to stop in front of Goldcrest.",
+  "words": [
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "second",
+    "n": "second",
+    "emph": false
+   },
+   {
+    "t": "one",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "drops",
+    "n": "drops",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "off",
+    "n": "off",
+    "emph": false
+   },
+   {
+    "t": "half",
+    "n": "half",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "mile",
+    "n": "mile",
+    "emph": false
+   },
+   {
+    "t": "from",
+    "n": "from",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "front",
+    "n": "front",
+    "emph": false
+   },
+   {
+    "t": "gate...",
+    "n": "gate",
+    "emph": false
+   },
+   {
+    "t": "because",
+    "n": "because",
+    "emph": false
+   },
+   {
+    "t": "apparently,",
+    "n": "apparently",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "city",
+    "n": "city",
+    "emph": false
+   },
+   {
+    "t": "bus",
+    "n": "bus",
+    "emph": false
+   },
+   {
+    "t": "isn't",
+    "n": "isn't",
+    "emph": false
+   },
+   {
+    "t": "ALLOWED",
+    "n": "allowed",
+    "emph": true
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "stop",
+    "n": "stop",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "front",
+    "n": "front",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "Goldcrest.",
+    "n": "goldcrest",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "tag": null,
+  "text": "So you walk. Past a limo. Then another limo. Then a car you've only ever seen in video games.",
+  "words": [
+   {
+    "t": "So",
+    "n": "so",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "walk.",
+    "n": "walk",
+    "emph": false
+   },
+   {
+    "t": "Past",
+    "n": "past",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "limo.",
+    "n": "limo",
+    "emph": false
+   },
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "another",
+    "n": "another",
+    "emph": false
+   },
+   {
+    "t": "limo.",
+    "n": "limo",
+    "emph": false
+   },
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "car",
+    "n": "car",
+    "emph": false
+   },
+   {
+    "t": "you've",
+    "n": "you've",
+    "emph": false
+   },
+   {
+    "t": "only",
+    "n": "only",
+    "emph": false
+   },
+   {
+    "t": "ever",
+    "n": "ever",
+    "emph": false
+   },
+   {
+    "t": "seen",
+    "n": "seen",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "video",
+    "n": "video",
+    "emph": false
+   },
+   {
+    "t": "games.",
+    "n": "games",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "tag": "surprise",
+  "text": "At the gate, a security guard stops you. \"Deliveries go around the back.\"",
+  "words": [
+   {
+    "t": "At",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "gate,",
+    "n": "gate",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "security",
+    "n": "security",
+    "emph": false
+   },
+   {
+    "t": "guard",
+    "n": "guard",
+    "emph": false
+   },
+   {
+    "t": "stops",
+    "n": "stops",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "\"Deliveries",
+    "n": "deliveries",
+    "emph": false
+   },
+   {
+    "t": "go",
+    "n": "go",
+    "emph": false
+   },
+   {
+    "t": "around",
+    "n": "around",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "back.\"",
+    "n": "back",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "tag": "confusion",
+  "text": "You blink. \"I... go here.\"",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "blink.",
+    "n": "blink",
+    "emph": false
+   },
+   {
+    "t": "\"I...",
+    "n": "i",
+    "emph": false
+   },
+   {
+    "t": "go",
+    "n": "go",
+    "emph": false
+   },
+   {
+    "t": "here.\"",
+    "n": "here",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 19,
+  "tag": null,
+  "text": "He looks at your shoes. He looks at your backpack. He looks at the safety pin.",
+  "words": [
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "looks",
+    "n": "looks",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "shoes.",
+    "n": "shoes",
+    "emph": false
+   },
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "looks",
+    "n": "looks",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "backpack.",
+    "n": "backpack",
+    "emph": false
+   },
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "looks",
+    "n": "looks",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "safety",
+    "n": "safety",
+    "emph": false
+   },
+   {
+    "t": "pin.",
+    "n": "pin",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "tag": null,
+  "text": "Then he checks the list... three times.",
+  "words": [
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "he",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "checks",
+    "n": "checks",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "list...",
+    "n": "list",
+    "emph": false
+   },
+   {
+    "t": "three",
+    "n": "three",
+    "emph": false
+   },
+   {
+    "t": "times.",
+    "n": "times",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "tag": null,
+  "text": "\"Huh. Welcome to Goldcrest.\"",
+  "words": [
+   {
+    "t": "\"Huh.",
+    "n": "huh",
+    "emph": false
+   },
+   {
+    "t": "Welcome",
+    "n": "welcome",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "Goldcrest.\"",
+    "n": "goldcrest",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "tag": "amusement",
+  "text": "Great start.",
+  "words": [
+   {
+    "t": "Great",
+    "n": "great",
+    "emph": false
+   },
+   {
+    "t": "start.",
+    "n": "start",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "tag": null,
+  "text": "Your first class is history. The teacher asks everyone to share what they did over the summer.",
+  "words": [
+   {
+    "t": "Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "first",
+    "n": "first",
+    "emph": false
+   },
+   {
+    "t": "class",
+    "n": "class",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "history.",
+    "n": "history",
+    "emph": false
+   },
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "teacher",
+    "n": "teacher",
+    "emph": false
+   },
+   {
+    "t": "asks",
+    "n": "asks",
+    "emph": false
+   },
+   {
+    "t": "everyone",
+    "n": "everyone",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "share",
+    "n": "share",
+    "emph": false
+   },
+   {
+    "t": "what",
+    "n": "what",
+    "emph": false
+   },
+   {
+    "t": "they",
+    "n": "they",
+    "emph": false
+   },
+   {
+    "t": "did",
+    "n": "did",
+    "emph": false
+   },
+   {
+    "t": "over",
+    "n": "over",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "summer.",
+    "n": "summer",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 24,
+  "tag": null,
+  "text": "The girl in the front row goes first. \"My dad bought me an island. It's small though. Like... only one beach.\"",
+  "words": [
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "girl",
+    "n": "girl",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "front",
+    "n": "front",
+    "emph": false
+   },
+   {
+    "t": "row",
+    "n": "row",
+    "emph": false
+   },
+   {
+    "t": "goes",
+    "n": "goes",
+    "emph": false
+   },
+   {
+    "t": "first.",
+    "n": "first",
+    "emph": false
+   },
+   {
+    "t": "\"My",
+    "n": "my",
+    "emph": false
+   },
+   {
+    "t": "dad",
+    "n": "dad",
+    "emph": false
+   },
+   {
+    "t": "bought",
+    "n": "bought",
+    "emph": false
+   },
+   {
+    "t": "me",
+    "n": "me",
+    "emph": false
+   },
+   {
+    "t": "an",
+    "n": "an",
+    "emph": false
+   },
+   {
+    "t": "island.",
+    "n": "island",
+    "emph": false
+   },
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "small",
+    "n": "small",
+    "emph": false
+   },
+   {
+    "t": "though.",
+    "n": "though",
+    "emph": false
+   },
+   {
+    "t": "Like...",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "only",
+    "n": "only",
+    "emph": false
+   },
+   {
+    "t": "one",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "beach.\"",
+    "n": "beach",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "tag": null,
+  "text": "The boy next to her nods. \"We went to space. Well... the edge of space. It was mid.\"",
+  "words": [
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "boy",
+    "n": "boy",
+    "emph": false
+   },
+   {
+    "t": "next",
+    "n": "next",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "her",
+    "n": "her",
+    "emph": false
+   },
+   {
+    "t": "nods.",
+    "n": "nods",
+    "emph": false
+   },
+   {
+    "t": "\"We",
+    "n": "we",
+    "emph": false
+   },
+   {
+    "t": "went",
+    "n": "went",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "space.",
+    "n": "space",
+    "emph": false
+   },
+   {
+    "t": "Well...",
+    "n": "well",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "edge",
+    "n": "edge",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "space.",
+    "n": "space",
+    "emph": false
+   },
+   {
+    "t": "It",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "was",
+    "n": "was",
+    "emph": false
+   },
+   {
+    "t": "mid.\"",
+    "n": "mid",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 26,
+  "tag": "awe",
+  "text": "Mid. He went to SPACE... and it was mid.",
+  "words": [
+   {
+    "t": "Mid.",
+    "n": "mid",
+    "emph": false
+   },
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "went",
+    "n": "went",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "SPACE...",
+    "n": "space",
+    "emph": true
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "was",
+    "n": "was",
+    "emph": false
+   },
+   {
+    "t": "mid.",
+    "n": "mid",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "tag": null,
+  "text": "Then the teacher looks at you. \"And you?\"",
+  "words": [
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "teacher",
+    "n": "teacher",
+    "emph": false
+   },
+   {
+    "t": "looks",
+    "n": "looks",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "\"And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "you?\"",
+    "n": "you",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "tag": null,
+  "text": "Twenty-three faces turn around.",
+  "words": [
+   {
+    "t": "Twenty-three",
+    "n": "twenty-three",
+    "emph": false
+   },
+   {
+    "t": "faces",
+    "n": "faces",
+    "emph": false
+   },
+   {
+    "t": "turn",
+    "n": "turn",
+    "emph": false
+   },
+   {
+    "t": "around.",
+    "n": "around",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "tag": null,
+  "text": "You think about your summer. Working at your uncle's car wash. Babysitting your little brother. Eating cereal for dinner... twice.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "think",
+    "n": "think",
+    "emph": false
+   },
+   {
+    "t": "about",
+    "n": "about",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "summer.",
+    "n": "summer",
+    "emph": false
+   },
+   {
+    "t": "Working",
+    "n": "working",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "uncle's",
+    "n": "uncle's",
+    "emph": false
+   },
+   {
+    "t": "car",
+    "n": "car",
+    "emph": false
+   },
+   {
+    "t": "wash.",
+    "n": "wash",
+    "emph": false
+   },
+   {
+    "t": "Babysitting",
+    "n": "babysitting",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "little",
+    "n": "little",
+    "emph": false
+   },
+   {
+    "t": "brother.",
+    "n": "brother",
+    "emph": false
+   },
+   {
+    "t": "Eating",
+    "n": "eating",
+    "emph": false
+   },
+   {
+    "t": "cereal",
+    "n": "cereal",
+    "emph": false
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "dinner...",
+    "n": "dinner",
+    "emph": false
+   },
+   {
+    "t": "twice.",
+    "n": "twice",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "tag": "less expressive",
+  "text": "\"I... worked at a car wash.\"",
+  "words": [
+   {
+    "t": "\"I...",
+    "n": "i",
+    "emph": false
+   },
+   {
+    "t": "worked",
+    "n": "worked",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "car",
+    "n": "car",
+    "emph": false
+   },
+   {
+    "t": "wash.\"",
+    "n": "wash",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "tag": null,
+  "text": "Silence. Complete... silence.",
+  "words": [
+   {
+    "t": "Silence.",
+    "n": "silence",
+    "emph": false
+   },
+   {
+    "t": "Complete...",
+    "n": "complete",
+    "emph": false
+   },
+   {
+    "t": "silence.",
+    "n": "silence",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "tag": null,
+  "text": "Then someone whispers, \"Wait... like, you OWNED it?\"",
+  "words": [
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "someone",
+    "n": "someone",
+    "emph": false
+   },
+   {
+    "t": "whispers,",
+    "n": "whispers",
+    "emph": false
+   },
+   {
+    "t": "\"Wait...",
+    "n": "wait",
+    "emph": false
+   },
+   {
+    "t": "like,",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "OWNED",
+    "n": "owned",
+    "emph": true
+   },
+   {
+    "t": "it?\"",
+    "n": "it",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "tag": null,
+  "text": "\"No. I washed the cars.\"",
+  "words": [
+   {
+    "t": "\"No.",
+    "n": "no",
+    "emph": false
+   },
+   {
+    "t": "I",
+    "n": "i",
+    "emph": false
+   },
+   {
+    "t": "washed",
+    "n": "washed",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "cars.\"",
+    "n": "cars",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "tag": "amusement",
+  "text": "The whole room stares at you like you just said you live on the moon.",
+  "words": [
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "whole",
+    "n": "whole",
+    "emph": false
+   },
+   {
+    "t": "room",
+    "n": "room",
+    "emph": false
+   },
+   {
+    "t": "stares",
+    "n": "stares",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "like",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "just",
+    "n": "just",
+    "emph": false
+   },
+   {
+    "t": "said",
+    "n": "said",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "live",
+    "n": "live",
+    "emph": false
+   },
+   {
+    "t": "on",
+    "n": "on",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "moon.",
+    "n": "moon",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "tag": null,
+  "text": "Then comes lunch.",
+  "words": [
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "comes",
+    "n": "comes",
+    "emph": false
+   },
+   {
+    "t": "lunch.",
+    "n": "lunch",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 36,
+  "tag": "awe",
+  "text": "The Goldcrest cafeteria isn't a cafeteria. It's a five-star restaurant. There's a sushi chef. A pasta station. And a chocolate fountain that is TALLER than you.",
+  "words": [
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "Goldcrest",
+    "n": "goldcrest",
+    "emph": false
+   },
+   {
+    "t": "cafeteria",
+    "n": "cafeteria",
+    "emph": false
+   },
+   {
+    "t": "isn't",
+    "n": "isn't",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "cafeteria.",
+    "n": "cafeteria",
+    "emph": false
+   },
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "five-star",
+    "n": "five-star",
+    "emph": false
+   },
+   {
+    "t": "restaurant.",
+    "n": "restaurant",
+    "emph": false
+   },
+   {
+    "t": "There's",
+    "n": "there's",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "sushi",
+    "n": "sushi",
+    "emph": false
+   },
+   {
+    "t": "chef.",
+    "n": "chef",
+    "emph": false
+   },
+   {
+    "t": "A",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "pasta",
+    "n": "pasta",
+    "emph": false
+   },
+   {
+    "t": "station.",
+    "n": "station",
+    "emph": false
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "chocolate",
+    "n": "chocolate",
+    "emph": false
+   },
+   {
+    "t": "fountain",
+    "n": "fountain",
+    "emph": false
+   },
+   {
+    "t": "that",
+    "n": "that",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "TALLER",
+    "n": "taller",
+    "emph": true
+   },
+   {
+    "t": "than",
+    "n": "than",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 37,
+  "tag": null,
+  "text": "And everything... is free.",
+  "words": [
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "everything...",
+    "n": "everything",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "free.",
+    "n": "free",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 38,
+  "tag": "elation",
+  "text": "FREE.",
+  "words": [
+   {
+    "t": "FREE.",
+    "n": "free",
+    "emph": true
+   }
+  ]
+ },
+ {
+  "id": 39,
+  "tag": null,
+  "text": "You stand there for a moment... trying to decide whether you should cry.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "stand",
+    "n": "stand",
+    "emph": false
+   },
+   {
+    "t": "there",
+    "n": "there",
+    "emph": false
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "moment...",
+    "n": "moment",
+    "emph": false
+   },
+   {
+    "t": "trying",
+    "n": "trying",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "decide",
+    "n": "decide",
+    "emph": false
+   },
+   {
+    "t": "whether",
+    "n": "whether",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "should",
+    "n": "should",
+    "emph": false
+   },
+   {
+    "t": "cry.",
+    "n": "cry",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 40,
+  "tag": null,
+  "text": "Then you remember the paper bag in your hand. Your mom woke up early to make this. So you sit down... and you open it.",
+  "words": [
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "remember",
+    "n": "remember",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "paper",
+    "n": "paper",
+    "emph": false
+   },
+   {
+    "t": "bag",
+    "n": "bag",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "hand.",
+    "n": "hand",
+    "emph": false
+   },
+   {
+    "t": "Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "mom",
+    "n": "mom",
+    "emph": false
+   },
+   {
+    "t": "woke",
+    "n": "woke",
+    "emph": false
+   },
+   {
+    "t": "up",
+    "n": "up",
+    "emph": false
+   },
+   {
+    "t": "early",
+    "n": "early",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "make",
+    "n": "make",
+    "emph": false
+   },
+   {
+    "t": "this.",
+    "n": "this",
+    "emph": false
+   },
+   {
+    "t": "So",
+    "n": "so",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "sit",
+    "n": "sit",
+    "emph": false
+   },
+   {
+    "t": "down...",
+    "n": "down",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "open",
+    "n": "open",
+    "emph": false
+   },
+   {
+    "t": "it.",
+    "n": "it",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 41,
+  "tag": "confusion",
+  "text": "Every head at the table turns.",
+  "words": [
+   {
+    "t": "Every",
+    "n": "every",
+    "emph": false
+   },
+   {
+    "t": "head",
+    "n": "head",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "table",
+    "n": "table",
+    "emph": false
+   },
+   {
+    "t": "turns.",
+    "n": "turns",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 42,
+  "tag": null,
+  "text": "\"Is that... a SANDWICH?\"",
+  "words": [
+   {
+    "t": "\"Is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "that...",
+    "n": "that",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "SANDWICH?\"",
+    "n": "sandwich",
+    "emph": true
+   }
+  ]
+ },
+ {
+  "id": 43,
+  "tag": null,
+  "text": "\"Did someone make that? Like... with their HANDS?\"",
+  "words": [
+   {
+    "t": "\"Did",
+    "n": "did",
+    "emph": false
+   },
+   {
+    "t": "someone",
+    "n": "someone",
+    "emph": false
+   },
+   {
+    "t": "make",
+    "n": "make",
+    "emph": false
+   },
+   {
+    "t": "that?",
+    "n": "that",
+    "emph": false
+   },
+   {
+    "t": "Like...",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "with",
+    "n": "with",
+    "emph": false
+   },
+   {
+    "t": "their",
+    "n": "their",
+    "emph": false
+   },
+   {
+    "t": "HANDS?\"",
+    "n": "hands",
+    "emph": true
+   }
+  ]
+ },
+ {
+  "id": 44,
+  "tag": null,
+  "text": "One kid asks if he can take a picture of it. For his story.",
+  "words": [
+   {
+    "t": "One",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "kid",
+    "n": "kid",
+    "emph": false
+   },
+   {
+    "t": "asks",
+    "n": "asks",
+    "emph": false
+   },
+   {
+    "t": "if",
+    "n": "if",
+    "emph": false
+   },
+   {
+    "t": "he",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "can",
+    "n": "can",
+    "emph": false
+   },
+   {
+    "t": "take",
+    "n": "take",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "picture",
+    "n": "picture",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "it.",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "For",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "his",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "story.",
+    "n": "story",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 45,
+  "tag": null,
+  "text": "You eat your peanut butter and jelly in total silence... while everyone watches you like you're a nature documentary.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "eat",
+    "n": "eat",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "peanut",
+    "n": "peanut",
+    "emph": false
+   },
+   {
+    "t": "butter",
+    "n": "butter",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "jelly",
+    "n": "jelly",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "total",
+    "n": "total",
+    "emph": false
+   },
+   {
+    "t": "silence...",
+    "n": "silence",
+    "emph": false
+   },
+   {
+    "t": "while",
+    "n": "while",
+    "emph": false
+   },
+   {
+    "t": "everyone",
+    "n": "everyone",
+    "emph": false
+   },
+   {
+    "t": "watches",
+    "n": "watches",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "like",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "you're",
+    "n": "you're",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "nature",
+    "n": "nature",
+    "emph": false
+   },
+   {
+    "t": "documentary.",
+    "n": "documentary",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 46,
+  "tag": "less expressive",
+  "text": "That's when you notice him. A quiet kid sitting alone at the very end of the room. Expensive watch. Perfect haircut. Nobody next to him.",
+  "words": [
+   {
+    "t": "That's",
+    "n": "that's",
+    "emph": false
+   },
+   {
+    "t": "when",
+    "n": "when",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "notice",
+    "n": "notice",
+    "emph": false
+   },
+   {
+    "t": "him.",
+    "n": "him",
+    "emph": false
+   },
+   {
+    "t": "A",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "quiet",
+    "n": "quiet",
+    "emph": false
+   },
+   {
+    "t": "kid",
+    "n": "kid",
+    "emph": false
+   },
+   {
+    "t": "sitting",
+    "n": "sitting",
+    "emph": false
+   },
+   {
+    "t": "alone",
+    "n": "alone",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "very",
+    "n": "very",
+    "emph": false
+   },
+   {
+    "t": "end",
+    "n": "end",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "room.",
+    "n": "room",
+    "emph": false
+   },
+   {
+    "t": "Expensive",
+    "n": "expensive",
+    "emph": false
+   },
+   {
+    "t": "watch.",
+    "n": "watch",
+    "emph": false
+   },
+   {
+    "t": "Perfect",
+    "n": "perfect",
+    "emph": false
+   },
+   {
+    "t": "haircut.",
+    "n": "haircut",
+    "emph": false
+   },
+   {
+    "t": "Nobody",
+    "n": "nobody",
+    "emph": false
+   },
+   {
+    "t": "next",
+    "n": "next",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "him.",
+    "n": "him",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 47,
+  "tag": null,
+  "text": "His name is Theo. His family owns... basically half the internet.",
+  "words": [
+   {
+    "t": "His",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "name",
+    "n": "name",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "Theo.",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "His",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "family",
+    "n": "family",
+    "emph": false
+   },
+   {
+    "t": "owns...",
+    "n": "owns",
+    "emph": false
+   },
+   {
+    "t": "basically",
+    "n": "basically",
+    "emph": false
+   },
+   {
+    "t": "half",
+    "n": "half",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "internet.",
+    "n": "internet",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 48,
+  "tag": null,
+  "text": "And for some reason... he's staring at your sandwich too.",
+  "words": [
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "some",
+    "n": "some",
+    "emph": false
+   },
+   {
+    "t": "reason...",
+    "n": "reason",
+    "emph": false
+   },
+   {
+    "t": "he's",
+    "n": "he's",
+    "emph": false
+   },
+   {
+    "t": "staring",
+    "n": "staring",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "sandwich",
+    "n": "sandwich",
+    "emph": false
+   },
+   {
+    "t": "too.",
+    "n": "too",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 49,
+  "tag": null,
+  "text": "Then there's gym class. At your old school, gym meant dodgeball. At Goldcrest... it means HORSEBACK riding.",
+  "words": [
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "there's",
+    "n": "there's",
+    "emph": false
+   },
+   {
+    "t": "gym",
+    "n": "gym",
+    "emph": false
+   },
+   {
+    "t": "class.",
+    "n": "class",
+    "emph": false
+   },
+   {
+    "t": "At",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "old",
+    "n": "old",
+    "emph": false
+   },
+   {
+    "t": "school,",
+    "n": "school",
+    "emph": false
+   },
+   {
+    "t": "gym",
+    "n": "gym",
+    "emph": false
+   },
+   {
+    "t": "meant",
+    "n": "meant",
+    "emph": false
+   },
+   {
+    "t": "dodgeball.",
+    "n": "dodgeball",
+    "emph": false
+   },
+   {
+    "t": "At",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "Goldcrest...",
+    "n": "goldcrest",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "means",
+    "n": "means",
+    "emph": false
+   },
+   {
+    "t": "HORSEBACK",
+    "n": "horseback",
+    "emph": true
+   },
+   {
+    "t": "riding.",
+    "n": "riding",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 50,
+  "tag": "fear",
+  "text": "You've never been this close to a horse. And the horse can tell.",
+  "words": [
+   {
+    "t": "You've",
+    "n": "you've",
+    "emph": false
+   },
+   {
+    "t": "never",
+    "n": "never",
+    "emph": false
+   },
+   {
+    "t": "been",
+    "n": "been",
+    "emph": false
+   },
+   {
+    "t": "this",
+    "n": "this",
+    "emph": false
+   },
+   {
+    "t": "close",
+    "n": "close",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "horse.",
+    "n": "horse",
+    "emph": false
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "horse",
+    "n": "horse",
+    "emph": false
+   },
+   {
+    "t": "can",
+    "n": "can",
+    "emph": false
+   },
+   {
+    "t": "tell.",
+    "n": "tell",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 51,
+  "tag": null,
+  "text": "The instructor smiles. \"Just show him who's in charge.\"",
+  "words": [
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "instructor",
+    "n": "instructor",
+    "emph": false
+   },
+   {
+    "t": "smiles.",
+    "n": "smiles",
+    "emph": false
+   },
+   {
+    "t": "\"Just",
+    "n": "just",
+    "emph": false
+   },
+   {
+    "t": "show",
+    "n": "show",
+    "emph": false
+   },
+   {
+    "t": "him",
+    "n": "him",
+    "emph": false
+   },
+   {
+    "t": "who's",
+    "n": "who's",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "charge.\"",
+    "n": "charge",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 52,
+  "tag": null,
+  "text": "You climb on. The horse takes one step... and you slide right off the other side.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "climb",
+    "n": "climb",
+    "emph": false
+   },
+   {
+    "t": "on.",
+    "n": "on",
+    "emph": false
+   },
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "horse",
+    "n": "horse",
+    "emph": false
+   },
+   {
+    "t": "takes",
+    "n": "takes",
+    "emph": false
+   },
+   {
+    "t": "one",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "step...",
+    "n": "step",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "slide",
+    "n": "slide",
+    "emph": false
+   },
+   {
+    "t": "right",
+    "n": "right",
+    "emph": false
+   },
+   {
+    "t": "off",
+    "n": "off",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "other",
+    "n": "other",
+    "emph": false
+   },
+   {
+    "t": "side.",
+    "n": "side",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 53,
+  "tag": "amusement",
+  "text": "Twenty minutes later, you've fallen off four times. The horse has eaten part of your sleeve. And Preston, the loudest kid in your class, is filming the whole thing. His family owns four airlines... and zero manners.",
+  "words": [
+   {
+    "t": "Twenty",
+    "n": "twenty",
+    "emph": false
+   },
+   {
+    "t": "minutes",
+    "n": "minutes",
+    "emph": false
+   },
+   {
+    "t": "later,",
+    "n": "later",
+    "emph": false
+   },
+   {
+    "t": "you've",
+    "n": "you've",
+    "emph": false
+   },
+   {
+    "t": "fallen",
+    "n": "fallen",
+    "emph": false
+   },
+   {
+    "t": "off",
+    "n": "off",
+    "emph": false
+   },
+   {
+    "t": "four",
+    "n": "four",
+    "emph": false
+   },
+   {
+    "t": "times.",
+    "n": "times",
+    "emph": false
+   },
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "horse",
+    "n": "horse",
+    "emph": false
+   },
+   {
+    "t": "has",
+    "n": "has",
+    "emph": false
+   },
+   {
+    "t": "eaten",
+    "n": "eaten",
+    "emph": false
+   },
+   {
+    "t": "part",
+    "n": "part",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "sleeve.",
+    "n": "sleeve",
+    "emph": false
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "Preston,",
+    "n": "preston",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "loudest",
+    "n": "loudest",
+    "emph": false
+   },
+   {
+    "t": "kid",
+    "n": "kid",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "class,",
+    "n": "class",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "filming",
+    "n": "filming",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "whole",
+    "n": "whole",
+    "emph": false
+   },
+   {
+    "t": "thing.",
+    "n": "thing",
+    "emph": false
+   },
+   {
+    "t": "His",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "family",
+    "n": "family",
+    "emph": false
+   },
+   {
+    "t": "owns",
+    "n": "owns",
+    "emph": false
+   },
+   {
+    "t": "four",
+    "n": "four",
+    "emph": false
+   },
+   {
+    "t": "airlines...",
+    "n": "airlines",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "zero",
+    "n": "zero",
+    "emph": false
+   },
+   {
+    "t": "manners.",
+    "n": "manners",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 54,
+  "tag": null,
+  "text": "But on the fifth try... you stay on. Wobbly. Terrified. But ON.",
+  "words": [
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "on",
+    "n": "on",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "fifth",
+    "n": "fifth",
+    "emph": false
+   },
+   {
+    "t": "try...",
+    "n": "try",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "stay",
+    "n": "stay",
+    "emph": false
+   },
+   {
+    "t": "on.",
+    "n": "on",
+    "emph": false
+   },
+   {
+    "t": "Wobbly.",
+    "n": "wobbly",
+    "emph": false
+   },
+   {
+    "t": "Terrified.",
+    "n": "terrified",
+    "emph": false
+   },
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "ON.",
+    "n": "on",
+    "emph": true
+   }
+  ]
+ },
+ {
+  "id": 55,
+  "tag": "pride",
+  "text": "The instructor nods. \"Not bad for a first timer.\" Maybe you don't know how to ride a horse. But you DO know how to keep getting back up.",
+  "words": [
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "instructor",
+    "n": "instructor",
+    "emph": false
+   },
+   {
+    "t": "nods.",
+    "n": "nods",
+    "emph": false
+   },
+   {
+    "t": "\"Not",
+    "n": "not",
+    "emph": false
+   },
+   {
+    "t": "bad",
+    "n": "bad",
+    "emph": false
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "first",
+    "n": "first",
+    "emph": false
+   },
+   {
+    "t": "timer.\"",
+    "n": "timer",
+    "emph": false
+   },
+   {
+    "t": "Maybe",
+    "n": "maybe",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "don't",
+    "n": "don't",
+    "emph": false
+   },
+   {
+    "t": "know",
+    "n": "know",
+    "emph": false
+   },
+   {
+    "t": "how",
+    "n": "how",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "ride",
+    "n": "ride",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "horse.",
+    "n": "horse",
+    "emph": false
+   },
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "DO",
+    "n": "do",
+    "emph": true
+   },
+   {
+    "t": "know",
+    "n": "know",
+    "emph": false
+   },
+   {
+    "t": "how",
+    "n": "how",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "keep",
+    "n": "keep",
+    "emph": false
+   },
+   {
+    "t": "getting",
+    "n": "getting",
+    "emph": false
+   },
+   {
+    "t": "back",
+    "n": "back",
+    "emph": false
+   },
+   {
+    "t": "up.",
+    "n": "up",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 56,
+  "tag": null,
+  "text": "By the end of the first week, you've learned something important.",
+  "words": [
+   {
+    "t": "By",
+    "n": "by",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "end",
+    "n": "end",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "first",
+    "n": "first",
+    "emph": false
+   },
+   {
+    "t": "week,",
+    "n": "week",
+    "emph": false
+   },
+   {
+    "t": "you've",
+    "n": "you've",
+    "emph": false
+   },
+   {
+    "t": "learned",
+    "n": "learned",
+    "emph": false
+   },
+   {
+    "t": "something",
+    "n": "something",
+    "emph": false
+   },
+   {
+    "t": "important.",
+    "n": "important",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 57,
+  "tag": null,
+  "text": "Nobody here talks about money. Because nobody here has ever had to THINK about money.",
+  "words": [
+   {
+    "t": "Nobody",
+    "n": "nobody",
+    "emph": false
+   },
+   {
+    "t": "here",
+    "n": "here",
+    "emph": false
+   },
+   {
+    "t": "talks",
+    "n": "talks",
+    "emph": false
+   },
+   {
+    "t": "about",
+    "n": "about",
+    "emph": false
+   },
+   {
+    "t": "money.",
+    "n": "money",
+    "emph": false
+   },
+   {
+    "t": "Because",
+    "n": "because",
+    "emph": false
+   },
+   {
+    "t": "nobody",
+    "n": "nobody",
+    "emph": false
+   },
+   {
+    "t": "here",
+    "n": "here",
+    "emph": false
+   },
+   {
+    "t": "has",
+    "n": "has",
+    "emph": false
+   },
+   {
+    "t": "ever",
+    "n": "ever",
+    "emph": false
+   },
+   {
+    "t": "had",
+    "n": "had",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "THINK",
+    "n": "think",
+    "emph": true
+   },
+   {
+    "t": "about",
+    "n": "about",
+    "emph": false
+   },
+   {
+    "t": "money.",
+    "n": "money",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 58,
+  "tag": null,
+  "text": "They just say things like, \"We're summering in Monaco.\" Or, \"My dad's pilot is sick, so we have to fly commercial. Ugh.\"",
+  "words": [
+   {
+    "t": "They",
+    "n": "they",
+    "emph": false
+   },
+   {
+    "t": "just",
+    "n": "just",
+    "emph": false
+   },
+   {
+    "t": "say",
+    "n": "say",
+    "emph": false
+   },
+   {
+    "t": "things",
+    "n": "things",
+    "emph": false
+   },
+   {
+    "t": "like,",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "\"We're",
+    "n": "we're",
+    "emph": false
+   },
+   {
+    "t": "summering",
+    "n": "summering",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "Monaco.\"",
+    "n": "monaco",
+    "emph": false
+   },
+   {
+    "t": "Or,",
+    "n": "or",
+    "emph": false
+   },
+   {
+    "t": "\"My",
+    "n": "my",
+    "emph": false
+   },
+   {
+    "t": "dad's",
+    "n": "dad's",
+    "emph": false
+   },
+   {
+    "t": "pilot",
+    "n": "pilot",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "sick,",
+    "n": "sick",
+    "emph": false
+   },
+   {
+    "t": "so",
+    "n": "so",
+    "emph": false
+   },
+   {
+    "t": "we",
+    "n": "we",
+    "emph": false
+   },
+   {
+    "t": "have",
+    "n": "have",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "fly",
+    "n": "fly",
+    "emph": false
+   },
+   {
+    "t": "commercial.",
+    "n": "commercial",
+    "emph": false
+   },
+   {
+    "t": "Ugh.\"",
+    "n": "ugh",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 59,
+  "tag": "determination",
+  "text": "So you make a decision. If you want to survive here... you're going to blend in.",
+  "words": [
+   {
+    "t": "So",
+    "n": "so",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "make",
+    "n": "make",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "decision.",
+    "n": "decision",
+    "emph": false
+   },
+   {
+    "t": "If",
+    "n": "if",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "want",
+    "n": "want",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "survive",
+    "n": "survive",
+    "emph": false
+   },
+   {
+    "t": "here...",
+    "n": "here",
+    "emph": false
+   },
+   {
+    "t": "you're",
+    "n": "you're",
+    "emph": false
+   },
+   {
+    "t": "going",
+    "n": "going",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "blend",
+    "n": "blend",
+    "emph": false
+   },
+   {
+    "t": "in.",
+    "n": "in",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 60,
+  "tag": null,
+  "text": "You start using new words. You say \"summering.\" You say \"my family's company.\"",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "start",
+    "n": "start",
+    "emph": false
+   },
+   {
+    "t": "using",
+    "n": "using",
+    "emph": false
+   },
+   {
+    "t": "new",
+    "n": "new",
+    "emph": false
+   },
+   {
+    "t": "words.",
+    "n": "words",
+    "emph": false
+   },
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "say",
+    "n": "say",
+    "emph": false
+   },
+   {
+    "t": "\"summering.\"",
+    "n": "summering",
+    "emph": false
+   },
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "say",
+    "n": "say",
+    "emph": false
+   },
+   {
+    "t": "\"my",
+    "n": "my",
+    "emph": false
+   },
+   {
+    "t": "family's",
+    "n": "family's",
+    "emph": false
+   },
+   {
+    "t": "company.\"",
+    "n": "company",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 61,
+  "tag": "amusement",
+  "text": "Technically... your dad DOES have a company. It's a lawn mowing business. It has one employee. It's him.",
+  "words": [
+   {
+    "t": "Technically...",
+    "n": "technically",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "dad",
+    "n": "dad",
+    "emph": false
+   },
+   {
+    "t": "DOES",
+    "n": "does",
+    "emph": true
+   },
+   {
+    "t": "have",
+    "n": "have",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "company.",
+    "n": "company",
+    "emph": false
+   },
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "lawn",
+    "n": "lawn",
+    "emph": false
+   },
+   {
+    "t": "mowing",
+    "n": "mowing",
+    "emph": false
+   },
+   {
+    "t": "business.",
+    "n": "business",
+    "emph": false
+   },
+   {
+    "t": "It",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "has",
+    "n": "has",
+    "emph": false
+   },
+   {
+    "t": "one",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "employee.",
+    "n": "employee",
+    "emph": false
+   },
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "him.",
+    "n": "him",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 62,
+  "tag": null,
+  "text": "Meanwhile, your phone has a crack across the screen. It only charges if you hold the cable at one very specific angle.",
+  "words": [
+   {
+    "t": "Meanwhile,",
+    "n": "meanwhile",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "phone",
+    "n": "phone",
+    "emph": false
+   },
+   {
+    "t": "has",
+    "n": "has",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "crack",
+    "n": "crack",
+    "emph": false
+   },
+   {
+    "t": "across",
+    "n": "across",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "screen.",
+    "n": "screen",
+    "emph": false
+   },
+   {
+    "t": "It",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "only",
+    "n": "only",
+    "emph": false
+   },
+   {
+    "t": "charges",
+    "n": "charges",
+    "emph": false
+   },
+   {
+    "t": "if",
+    "n": "if",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "hold",
+    "n": "hold",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "cable",
+    "n": "cable",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "one",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "very",
+    "n": "very",
+    "emph": false
+   },
+   {
+    "t": "specific",
+    "n": "specific",
+    "emph": false
+   },
+   {
+    "t": "angle.",
+    "n": "angle",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 63,
+  "tag": null,
+  "text": "Then someone adds you to the class group chat. It's called \"Goldcrest Elite.\" There are forty-one people inside... and they're all planning a ski trip.",
+  "words": [
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "someone",
+    "n": "someone",
+    "emph": false
+   },
+   {
+    "t": "adds",
+    "n": "adds",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "class",
+    "n": "class",
+    "emph": false
+   },
+   {
+    "t": "group",
+    "n": "group",
+    "emph": false
+   },
+   {
+    "t": "chat.",
+    "n": "chat",
+    "emph": false
+   },
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "called",
+    "n": "called",
+    "emph": false
+   },
+   {
+    "t": "\"Goldcrest",
+    "n": "goldcrest",
+    "emph": false
+   },
+   {
+    "t": "Elite.\"",
+    "n": "elite",
+    "emph": false
+   },
+   {
+    "t": "There",
+    "n": "there",
+    "emph": false
+   },
+   {
+    "t": "are",
+    "n": "are",
+    "emph": false
+   },
+   {
+    "t": "forty-one",
+    "n": "forty-one",
+    "emph": false
+   },
+   {
+    "t": "people",
+    "n": "people",
+    "emph": false
+   },
+   {
+    "t": "inside...",
+    "n": "inside",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "they're",
+    "n": "they're",
+    "emph": false
+   },
+   {
+    "t": "all",
+    "n": "all",
+    "emph": false
+   },
+   {
+    "t": "planning",
+    "n": "planning",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "ski",
+    "n": "ski",
+    "emph": false
+   },
+   {
+    "t": "trip.",
+    "n": "trip",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 64,
+  "tag": null,
+  "text": "\"Who's flying private to Switzerland?\"",
+  "words": [
+   {
+    "t": "\"Who's",
+    "n": "who's",
+    "emph": false
+   },
+   {
+    "t": "flying",
+    "n": "flying",
+    "emph": false
+   },
+   {
+    "t": "private",
+    "n": "private",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "Switzerland?\"",
+    "n": "switzerland",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 65,
+  "tag": null,
+  "text": "Thirty-nine thumbs up.",
+  "words": [
+   {
+    "t": "Thirty-nine",
+    "n": "thirty-nine",
+    "emph": false
+   },
+   {
+    "t": "thumbs",
+    "n": "thumbs",
+    "emph": false
+   },
+   {
+    "t": "up.",
+    "n": "up",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 66,
+  "tag": null,
+  "text": "Then somebody tags you. \"You coming?\"",
+  "words": [
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "somebody",
+    "n": "somebody",
+    "emph": false
+   },
+   {
+    "t": "tags",
+    "n": "tags",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "\"You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "coming?\"",
+    "n": "coming",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 67,
+  "tag": null,
+  "text": "You check the price. Forty... thousand... dollars.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "check",
+    "n": "check",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "price.",
+    "n": "price",
+    "emph": false
+   },
+   {
+    "t": "Forty...",
+    "n": "forty",
+    "emph": false
+   },
+   {
+    "t": "thousand...",
+    "n": "thousand",
+    "emph": false
+   },
+   {
+    "t": "dollars.",
+    "n": "dollars",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 68,
+  "tag": "fear",
+  "text": "You type, \"Can't. Family stuff.\" Then you put your phone face down... like it might bite you.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "type,",
+    "n": "type",
+    "emph": false
+   },
+   {
+    "t": "\"Can't.",
+    "n": "can't",
+    "emph": false
+   },
+   {
+    "t": "Family",
+    "n": "family",
+    "emph": false
+   },
+   {
+    "t": "stuff.\"",
+    "n": "stuff",
+    "emph": false
+   },
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "put",
+    "n": "put",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "phone",
+    "n": "phone",
+    "emph": false
+   },
+   {
+    "t": "face",
+    "n": "face",
+    "emph": false
+   },
+   {
+    "t": "down...",
+    "n": "down",
+    "emph": false
+   },
+   {
+    "t": "like",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "might",
+    "n": "might",
+    "emph": false
+   },
+   {
+    "t": "bite",
+    "n": "bite",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 69,
+  "tag": null,
+  "text": "And for a while... it works. Nobody knows. You laugh at their jokes about yachts. You nod when they complain about their maids. You even practice saying \"ugh\" in the mirror.",
+  "words": [
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "while...",
+    "n": "while",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "works.",
+    "n": "works",
+    "emph": false
+   },
+   {
+    "t": "Nobody",
+    "n": "nobody",
+    "emph": false
+   },
+   {
+    "t": "knows.",
+    "n": "knows",
+    "emph": false
+   },
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "laugh",
+    "n": "laugh",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "their",
+    "n": "their",
+    "emph": false
+   },
+   {
+    "t": "jokes",
+    "n": "jokes",
+    "emph": false
+   },
+   {
+    "t": "about",
+    "n": "about",
+    "emph": false
+   },
+   {
+    "t": "yachts.",
+    "n": "yachts",
+    "emph": false
+   },
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "nod",
+    "n": "nod",
+    "emph": false
+   },
+   {
+    "t": "when",
+    "n": "when",
+    "emph": false
+   },
+   {
+    "t": "they",
+    "n": "they",
+    "emph": false
+   },
+   {
+    "t": "complain",
+    "n": "complain",
+    "emph": false
+   },
+   {
+    "t": "about",
+    "n": "about",
+    "emph": false
+   },
+   {
+    "t": "their",
+    "n": "their",
+    "emph": false
+   },
+   {
+    "t": "maids.",
+    "n": "maids",
+    "emph": false
+   },
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "even",
+    "n": "even",
+    "emph": false
+   },
+   {
+    "t": "practice",
+    "n": "practice",
+    "emph": false
+   },
+   {
+    "t": "saying",
+    "n": "saying",
+    "emph": false
+   },
+   {
+    "t": "\"ugh\"",
+    "n": "ugh",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "mirror.",
+    "n": "mirror",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 70,
+  "tag": "sadness",
+  "text": "But every day... it gets a little heavier. Because every lie needs ANOTHER lie to hold it up.",
+  "words": [
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "every",
+    "n": "every",
+    "emph": false
+   },
+   {
+    "t": "day...",
+    "n": "day",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "gets",
+    "n": "gets",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "little",
+    "n": "little",
+    "emph": false
+   },
+   {
+    "t": "heavier.",
+    "n": "heavier",
+    "emph": false
+   },
+   {
+    "t": "Because",
+    "n": "because",
+    "emph": false
+   },
+   {
+    "t": "every",
+    "n": "every",
+    "emph": false
+   },
+   {
+    "t": "lie",
+    "n": "lie",
+    "emph": false
+   },
+   {
+    "t": "needs",
+    "n": "needs",
+    "emph": false
+   },
+   {
+    "t": "ANOTHER",
+    "n": "another",
+    "emph": true
+   },
+   {
+    "t": "lie",
+    "n": "lie",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "hold",
+    "n": "hold",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "up.",
+    "n": "up",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 71,
+  "tag": null,
+  "text": "Then, three weeks in... it all falls apart.",
+  "words": [
+   {
+    "t": "Then,",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "three",
+    "n": "three",
+    "emph": false
+   },
+   {
+    "t": "weeks",
+    "n": "weeks",
+    "emph": false
+   },
+   {
+    "t": "in...",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "all",
+    "n": "all",
+    "emph": false
+   },
+   {
+    "t": "falls",
+    "n": "falls",
+    "emph": false
+   },
+   {
+    "t": "apart.",
+    "n": "apart",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 72,
+  "tag": null,
+  "text": "You're stepping off the city bus. Same stop. Half a mile from school. And a car slows down right next to you.",
+  "words": [
+   {
+    "t": "You're",
+    "n": "you're",
+    "emph": false
+   },
+   {
+    "t": "stepping",
+    "n": "stepping",
+    "emph": false
+   },
+   {
+    "t": "off",
+    "n": "off",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "city",
+    "n": "city",
+    "emph": false
+   },
+   {
+    "t": "bus.",
+    "n": "bus",
+    "emph": false
+   },
+   {
+    "t": "Same",
+    "n": "same",
+    "emph": false
+   },
+   {
+    "t": "stop.",
+    "n": "stop",
+    "emph": false
+   },
+   {
+    "t": "Half",
+    "n": "half",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "mile",
+    "n": "mile",
+    "emph": false
+   },
+   {
+    "t": "from",
+    "n": "from",
+    "emph": false
+   },
+   {
+    "t": "school.",
+    "n": "school",
+    "emph": false
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "car",
+    "n": "car",
+    "emph": false
+   },
+   {
+    "t": "slows",
+    "n": "slows",
+    "emph": false
+   },
+   {
+    "t": "down",
+    "n": "down",
+    "emph": false
+   },
+   {
+    "t": "right",
+    "n": "right",
+    "emph": false
+   },
+   {
+    "t": "next",
+    "n": "next",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 73,
+  "tag": null,
+  "text": "The window rolls down. It's Preston.",
+  "words": [
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "window",
+    "n": "window",
+    "emph": false
+   },
+   {
+    "t": "rolls",
+    "n": "rolls",
+    "emph": false
+   },
+   {
+    "t": "down.",
+    "n": "down",
+    "emph": false
+   },
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "Preston.",
+    "n": "preston",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 74,
+  "tag": null,
+  "text": "He holds up his phone. Click.",
+  "words": [
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "holds",
+    "n": "holds",
+    "emph": false
+   },
+   {
+    "t": "up",
+    "n": "up",
+    "emph": false
+   },
+   {
+    "t": "his",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "phone.",
+    "n": "phone",
+    "emph": false
+   },
+   {
+    "t": "Click.",
+    "n": "click",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 75,
+  "tag": "fear",
+  "text": "By the time you reach the front gate... the group chat has exploded.",
+  "words": [
+   {
+    "t": "By",
+    "n": "by",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "time",
+    "n": "time",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "reach",
+    "n": "reach",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "front",
+    "n": "front",
+    "emph": false
+   },
+   {
+    "t": "gate...",
+    "n": "gate",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "group",
+    "n": "group",
+    "emph": false
+   },
+   {
+    "t": "chat",
+    "n": "chat",
+    "emph": false
+   },
+   {
+    "t": "has",
+    "n": "has",
+    "emph": false
+   },
+   {
+    "t": "exploded.",
+    "n": "exploded",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 76,
+  "tag": null,
+  "text": "A photo of you. Stepping off the bus. Safety pin and all.",
+  "words": [
+   {
+    "t": "A",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "photo",
+    "n": "photo",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "Stepping",
+    "n": "stepping",
+    "emph": false
+   },
+   {
+    "t": "off",
+    "n": "off",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "bus.",
+    "n": "bus",
+    "emph": false
+   },
+   {
+    "t": "Safety",
+    "n": "safety",
+    "emph": false
+   },
+   {
+    "t": "pin",
+    "n": "pin",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "all.",
+    "n": "all",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 77,
+  "tag": null,
+  "text": "\"Since when does family stuff mean the CITY bus?\"",
+  "words": [
+   {
+    "t": "\"Since",
+    "n": "since",
+    "emph": false
+   },
+   {
+    "t": "when",
+    "n": "when",
+    "emph": false
+   },
+   {
+    "t": "does",
+    "n": "does",
+    "emph": false
+   },
+   {
+    "t": "family",
+    "n": "family",
+    "emph": false
+   },
+   {
+    "t": "stuff",
+    "n": "stuff",
+    "emph": false
+   },
+   {
+    "t": "mean",
+    "n": "mean",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "CITY",
+    "n": "city",
+    "emph": true
+   },
+   {
+    "t": "bus?\"",
+    "n": "bus",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 78,
+  "tag": null,
+  "text": "One hundred and twelve messages. In ten minutes.",
+  "words": [
+   {
+    "t": "One",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "hundred",
+    "n": "hundred",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "twelve",
+    "n": "twelve",
+    "emph": false
+   },
+   {
+    "t": "messages.",
+    "n": "messages",
+    "emph": false
+   },
+   {
+    "t": "In",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "ten",
+    "n": "ten",
+    "emph": false
+   },
+   {
+    "t": "minutes.",
+    "n": "minutes",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 79,
+  "tag": null,
+  "text": "You walk into class. Everybody goes quiet. Somebody laughs. Somebody else pretends not to. Even the teacher gives you a look of pity... which is somehow WORSE.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "walk",
+    "n": "walk",
+    "emph": false
+   },
+   {
+    "t": "into",
+    "n": "into",
+    "emph": false
+   },
+   {
+    "t": "class.",
+    "n": "class",
+    "emph": false
+   },
+   {
+    "t": "Everybody",
+    "n": "everybody",
+    "emph": false
+   },
+   {
+    "t": "goes",
+    "n": "goes",
+    "emph": false
+   },
+   {
+    "t": "quiet.",
+    "n": "quiet",
+    "emph": false
+   },
+   {
+    "t": "Somebody",
+    "n": "somebody",
+    "emph": false
+   },
+   {
+    "t": "laughs.",
+    "n": "laughs",
+    "emph": false
+   },
+   {
+    "t": "Somebody",
+    "n": "somebody",
+    "emph": false
+   },
+   {
+    "t": "else",
+    "n": "else",
+    "emph": false
+   },
+   {
+    "t": "pretends",
+    "n": "pretends",
+    "emph": false
+   },
+   {
+    "t": "not",
+    "n": "not",
+    "emph": false
+   },
+   {
+    "t": "to.",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "Even",
+    "n": "even",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "teacher",
+    "n": "teacher",
+    "emph": false
+   },
+   {
+    "t": "gives",
+    "n": "gives",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "look",
+    "n": "look",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "pity...",
+    "n": "pity",
+    "emph": false
+   },
+   {
+    "t": "which",
+    "n": "which",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "somehow",
+    "n": "somehow",
+    "emph": false
+   },
+   {
+    "t": "WORSE.",
+    "n": "worse",
+    "emph": true
+   }
+  ]
+ },
+ {
+  "id": 80,
+  "tag": "sadness",
+  "text": "And that night... you sit on your bed in your tiny room, and for the first time... you seriously think about quitting.",
+  "words": [
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "that",
+    "n": "that",
+    "emph": false
+   },
+   {
+    "t": "night...",
+    "n": "night",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "sit",
+    "n": "sit",
+    "emph": false
+   },
+   {
+    "t": "on",
+    "n": "on",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "bed",
+    "n": "bed",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "tiny",
+    "n": "tiny",
+    "emph": false
+   },
+   {
+    "t": "room,",
+    "n": "room",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "first",
+    "n": "first",
+    "emph": false
+   },
+   {
+    "t": "time...",
+    "n": "time",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "seriously",
+    "n": "seriously",
+    "emph": false
+   },
+   {
+    "t": "think",
+    "n": "think",
+    "emph": false
+   },
+   {
+    "t": "about",
+    "n": "about",
+    "emph": false
+   },
+   {
+    "t": "quitting.",
+    "n": "quitting",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 81,
+  "tag": null,
+  "text": "But the next morning... you get on the bus anyway.",
+  "words": [
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "next",
+    "n": "next",
+    "emph": false
+   },
+   {
+    "t": "morning...",
+    "n": "morning",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "get",
+    "n": "get",
+    "emph": false
+   },
+   {
+    "t": "on",
+    "n": "on",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "bus",
+    "n": "bus",
+    "emph": false
+   },
+   {
+    "t": "anyway.",
+    "n": "anyway",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 82,
+  "tag": null,
+  "text": "And this time, you don't hide. You walk right up to the front gate. Past the limos. Past the helicopter.",
+  "words": [
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "this",
+    "n": "this",
+    "emph": false
+   },
+   {
+    "t": "time,",
+    "n": "time",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "don't",
+    "n": "don't",
+    "emph": false
+   },
+   {
+    "t": "hide.",
+    "n": "hide",
+    "emph": false
+   },
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "walk",
+    "n": "walk",
+    "emph": false
+   },
+   {
+    "t": "right",
+    "n": "right",
+    "emph": false
+   },
+   {
+    "t": "up",
+    "n": "up",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "front",
+    "n": "front",
+    "emph": false
+   },
+   {
+    "t": "gate.",
+    "n": "gate",
+    "emph": false
+   },
+   {
+    "t": "Past",
+    "n": "past",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "limos.",
+    "n": "limos",
+    "emph": false
+   },
+   {
+    "t": "Past",
+    "n": "past",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "helicopter.",
+    "n": "helicopter",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 83,
+  "tag": "determination",
+  "text": "Preston is waiting with his friends. \"Hey... how was the BUS?\"",
+  "words": [
+   {
+    "t": "Preston",
+    "n": "preston",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "waiting",
+    "n": "waiting",
+    "emph": false
+   },
+   {
+    "t": "with",
+    "n": "with",
+    "emph": false
+   },
+   {
+    "t": "his",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "friends.",
+    "n": "friends",
+    "emph": false
+   },
+   {
+    "t": "\"Hey...",
+    "n": "hey",
+    "emph": false
+   },
+   {
+    "t": "how",
+    "n": "how",
+    "emph": false
+   },
+   {
+    "t": "was",
+    "n": "was",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "BUS?\"",
+    "n": "bus",
+    "emph": true
+   }
+  ]
+ },
+ {
+  "id": 84,
+  "tag": null,
+  "text": "You smile. \"Great, actually. It cost two dollars. Your shoes cost two THOUSAND. And we both got here at eight o'clock.\"",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "smile.",
+    "n": "smile",
+    "emph": false
+   },
+   {
+    "t": "\"Great,",
+    "n": "great",
+    "emph": false
+   },
+   {
+    "t": "actually.",
+    "n": "actually",
+    "emph": false
+   },
+   {
+    "t": "It",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "cost",
+    "n": "cost",
+    "emph": false
+   },
+   {
+    "t": "two",
+    "n": "two",
+    "emph": false
+   },
+   {
+    "t": "dollars.",
+    "n": "dollars",
+    "emph": false
+   },
+   {
+    "t": "Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "shoes",
+    "n": "shoes",
+    "emph": false
+   },
+   {
+    "t": "cost",
+    "n": "cost",
+    "emph": false
+   },
+   {
+    "t": "two",
+    "n": "two",
+    "emph": false
+   },
+   {
+    "t": "THOUSAND.",
+    "n": "thousand",
+    "emph": true
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "we",
+    "n": "we",
+    "emph": false
+   },
+   {
+    "t": "both",
+    "n": "both",
+    "emph": false
+   },
+   {
+    "t": "got",
+    "n": "got",
+    "emph": false
+   },
+   {
+    "t": "here",
+    "n": "here",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "eight",
+    "n": "eight",
+    "emph": false
+   },
+   {
+    "t": "o'clock.\"",
+    "n": "o'clock",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 85,
+  "tag": "surprise",
+  "text": "A few people laugh. But this time... they're not laughing at you.",
+  "words": [
+   {
+    "t": "A",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "few",
+    "n": "few",
+    "emph": false
+   },
+   {
+    "t": "people",
+    "n": "people",
+    "emph": false
+   },
+   {
+    "t": "laugh.",
+    "n": "laugh",
+    "emph": false
+   },
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "this",
+    "n": "this",
+    "emph": false
+   },
+   {
+    "t": "time...",
+    "n": "time",
+    "emph": false
+   },
+   {
+    "t": "they're",
+    "n": "they're",
+    "emph": false
+   },
+   {
+    "t": "not",
+    "n": "not",
+    "emph": false
+   },
+   {
+    "t": "laughing",
+    "n": "laughing",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 86,
+  "tag": null,
+  "text": "Preston opens his mouth. Closes it. Opens it again. Then he just... walks away.",
+  "words": [
+   {
+    "t": "Preston",
+    "n": "preston",
+    "emph": false
+   },
+   {
+    "t": "opens",
+    "n": "opens",
+    "emph": false
+   },
+   {
+    "t": "his",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "mouth.",
+    "n": "mouth",
+    "emph": false
+   },
+   {
+    "t": "Closes",
+    "n": "closes",
+    "emph": false
+   },
+   {
+    "t": "it.",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "Opens",
+    "n": "opens",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "again.",
+    "n": "again",
+    "emph": false
+   },
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "he",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "just...",
+    "n": "just",
+    "emph": false
+   },
+   {
+    "t": "walks",
+    "n": "walks",
+    "emph": false
+   },
+   {
+    "t": "away.",
+    "n": "away",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 87,
+  "tag": "relief",
+  "text": "And you realize something. Being poor at this school was never the hardest part.",
+  "words": [
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "realize",
+    "n": "realize",
+    "emph": false
+   },
+   {
+    "t": "something.",
+    "n": "something",
+    "emph": false
+   },
+   {
+    "t": "Being",
+    "n": "being",
+    "emph": false
+   },
+   {
+    "t": "poor",
+    "n": "poor",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "this",
+    "n": "this",
+    "emph": false
+   },
+   {
+    "t": "school",
+    "n": "school",
+    "emph": false
+   },
+   {
+    "t": "was",
+    "n": "was",
+    "emph": false
+   },
+   {
+    "t": "never",
+    "n": "never",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "hardest",
+    "n": "hardest",
+    "emph": false
+   },
+   {
+    "t": "part.",
+    "n": "part",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 88,
+  "tag": null,
+  "text": "Pretending NOT to be... that was the hardest part.",
+  "words": [
+   {
+    "t": "Pretending",
+    "n": "pretending",
+    "emph": false
+   },
+   {
+    "t": "NOT",
+    "n": "not",
+    "emph": true
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "be...",
+    "n": "be",
+    "emph": false
+   },
+   {
+    "t": "that",
+    "n": "that",
+    "emph": false
+   },
+   {
+    "t": "was",
+    "n": "was",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "hardest",
+    "n": "hardest",
+    "emph": false
+   },
+   {
+    "t": "part.",
+    "n": "part",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 89,
+  "tag": null,
+  "text": "By second period, a new message pops up in the group chat. It's from a girl you've barely spoken to. \"Honestly? That was iconic.\" Fourteen people heart it.",
+  "words": [
+   {
+    "t": "By",
+    "n": "by",
+    "emph": false
+   },
+   {
+    "t": "second",
+    "n": "second",
+    "emph": false
+   },
+   {
+    "t": "period,",
+    "n": "period",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "new",
+    "n": "new",
+    "emph": false
+   },
+   {
+    "t": "message",
+    "n": "message",
+    "emph": false
+   },
+   {
+    "t": "pops",
+    "n": "pops",
+    "emph": false
+   },
+   {
+    "t": "up",
+    "n": "up",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "group",
+    "n": "group",
+    "emph": false
+   },
+   {
+    "t": "chat.",
+    "n": "chat",
+    "emph": false
+   },
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "from",
+    "n": "from",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "girl",
+    "n": "girl",
+    "emph": false
+   },
+   {
+    "t": "you've",
+    "n": "you've",
+    "emph": false
+   },
+   {
+    "t": "barely",
+    "n": "barely",
+    "emph": false
+   },
+   {
+    "t": "spoken",
+    "n": "spoken",
+    "emph": false
+   },
+   {
+    "t": "to.",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "\"Honestly?",
+    "n": "honestly",
+    "emph": false
+   },
+   {
+    "t": "That",
+    "n": "that",
+    "emph": false
+   },
+   {
+    "t": "was",
+    "n": "was",
+    "emph": false
+   },
+   {
+    "t": "iconic.\"",
+    "n": "iconic",
+    "emph": false
+   },
+   {
+    "t": "Fourteen",
+    "n": "fourteen",
+    "emph": false
+   },
+   {
+    "t": "people",
+    "n": "people",
+    "emph": false
+   },
+   {
+    "t": "heart",
+    "n": "heart",
+    "emph": false
+   },
+   {
+    "t": "it.",
+    "n": "it",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 90,
+  "tag": null,
+  "text": "At lunch, you sit down with your paper bag. And this time... someone sits down across from you.",
+  "words": [
+   {
+    "t": "At",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "lunch,",
+    "n": "lunch",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "sit",
+    "n": "sit",
+    "emph": false
+   },
+   {
+    "t": "down",
+    "n": "down",
+    "emph": false
+   },
+   {
+    "t": "with",
+    "n": "with",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "paper",
+    "n": "paper",
+    "emph": false
+   },
+   {
+    "t": "bag.",
+    "n": "bag",
+    "emph": false
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "this",
+    "n": "this",
+    "emph": false
+   },
+   {
+    "t": "time...",
+    "n": "time",
+    "emph": false
+   },
+   {
+    "t": "someone",
+    "n": "someone",
+    "emph": false
+   },
+   {
+    "t": "sits",
+    "n": "sits",
+    "emph": false
+   },
+   {
+    "t": "down",
+    "n": "down",
+    "emph": false
+   },
+   {
+    "t": "across",
+    "n": "across",
+    "emph": false
+   },
+   {
+    "t": "from",
+    "n": "from",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 91,
+  "tag": null,
+  "text": "It's Theo.",
+  "words": [
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "Theo.",
+    "n": "theo",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 92,
+  "tag": "affection",
+  "text": "He looks at your sandwich. Then he quietly asks, \"Is it good?\"",
+  "words": [
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "looks",
+    "n": "looks",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "sandwich.",
+    "n": "sandwich",
+    "emph": false
+   },
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "he",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "quietly",
+    "n": "quietly",
+    "emph": false
+   },
+   {
+    "t": "asks,",
+    "n": "asks",
+    "emph": false
+   },
+   {
+    "t": "\"Is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "good?\"",
+    "n": "good",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 93,
+  "tag": null,
+  "text": "You tear it in half... and give him the bigger piece.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "tear",
+    "n": "tear",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "half...",
+    "n": "half",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "give",
+    "n": "give",
+    "emph": false
+   },
+   {
+    "t": "him",
+    "n": "him",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "bigger",
+    "n": "bigger",
+    "emph": false
+   },
+   {
+    "t": "piece.",
+    "n": "piece",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 94,
+  "tag": null,
+  "text": "He takes one bite. His eyes go wide. \"Why is this BETTER than the sushi?\"",
+  "words": [
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "takes",
+    "n": "takes",
+    "emph": false
+   },
+   {
+    "t": "one",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "bite.",
+    "n": "bite",
+    "emph": false
+   },
+   {
+    "t": "His",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "eyes",
+    "n": "eyes",
+    "emph": false
+   },
+   {
+    "t": "go",
+    "n": "go",
+    "emph": false
+   },
+   {
+    "t": "wide.",
+    "n": "wide",
+    "emph": false
+   },
+   {
+    "t": "\"Why",
+    "n": "why",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "this",
+    "n": "this",
+    "emph": false
+   },
+   {
+    "t": "BETTER",
+    "n": "better",
+    "emph": true
+   },
+   {
+    "t": "than",
+    "n": "than",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "sushi?\"",
+    "n": "sushi",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 95,
+  "tag": "amusement",
+  "text": "And just like that... you have a friend.",
+  "words": [
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "just",
+    "n": "just",
+    "emph": false
+   },
+   {
+    "t": "like",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "that...",
+    "n": "that",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "have",
+    "n": "have",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "friend.",
+    "n": "friend",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 96,
+  "tag": null,
+  "text": "Over the next few weeks, something strange happens. People start asking YOU questions.",
+  "words": [
+   {
+    "t": "Over",
+    "n": "over",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "next",
+    "n": "next",
+    "emph": false
+   },
+   {
+    "t": "few",
+    "n": "few",
+    "emph": false
+   },
+   {
+    "t": "weeks,",
+    "n": "weeks",
+    "emph": false
+   },
+   {
+    "t": "something",
+    "n": "something",
+    "emph": false
+   },
+   {
+    "t": "strange",
+    "n": "strange",
+    "emph": false
+   },
+   {
+    "t": "happens.",
+    "n": "happens",
+    "emph": false
+   },
+   {
+    "t": "People",
+    "n": "people",
+    "emph": false
+   },
+   {
+    "t": "start",
+    "n": "start",
+    "emph": false
+   },
+   {
+    "t": "asking",
+    "n": "asking",
+    "emph": false
+   },
+   {
+    "t": "YOU",
+    "n": "you",
+    "emph": true
+   },
+   {
+    "t": "questions.",
+    "n": "questions",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 97,
+  "tag": null,
+  "text": "\"What's a coupon?\"",
+  "words": [
+   {
+    "t": "\"What's",
+    "n": "what's",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "coupon?\"",
+    "n": "coupon",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 98,
+  "tag": null,
+  "text": "\"Wait... you have to PAY for your phone every month?\"",
+  "words": [
+   {
+    "t": "\"Wait...",
+    "n": "wait",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "have",
+    "n": "have",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "PAY",
+    "n": "pay",
+    "emph": true
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "phone",
+    "n": "phone",
+    "emph": false
+   },
+   {
+    "t": "every",
+    "n": "every",
+    "emph": false
+   },
+   {
+    "t": "month?\"",
+    "n": "month",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 99,
+  "tag": null,
+  "text": "One girl asks you how to do laundry. You show her. She calls it the most exciting thing she's ever done.",
+  "words": [
+   {
+    "t": "One",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "girl",
+    "n": "girl",
+    "emph": false
+   },
+   {
+    "t": "asks",
+    "n": "asks",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "how",
+    "n": "how",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "do",
+    "n": "do",
+    "emph": false
+   },
+   {
+    "t": "laundry.",
+    "n": "laundry",
+    "emph": false
+   },
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "show",
+    "n": "show",
+    "emph": false
+   },
+   {
+    "t": "her.",
+    "n": "her",
+    "emph": false
+   },
+   {
+    "t": "She",
+    "n": "she",
+    "emph": false
+   },
+   {
+    "t": "calls",
+    "n": "calls",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "most",
+    "n": "most",
+    "emph": false
+   },
+   {
+    "t": "exciting",
+    "n": "exciting",
+    "emph": false
+   },
+   {
+    "t": "thing",
+    "n": "thing",
+    "emph": false
+   },
+   {
+    "t": "she's",
+    "n": "she's",
+    "emph": false
+   },
+   {
+    "t": "ever",
+    "n": "ever",
+    "emph": false
+   },
+   {
+    "t": "done.",
+    "n": "done",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 100,
+  "tag": "amusement",
+  "text": "Turns out... you know a LOT of things they don't.",
+  "words": [
+   {
+    "t": "Turns",
+    "n": "turns",
+    "emph": false
+   },
+   {
+    "t": "out...",
+    "n": "out",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "know",
+    "n": "know",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "LOT",
+    "n": "lot",
+    "emph": true
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "things",
+    "n": "things",
+    "emph": false
+   },
+   {
+    "t": "they",
+    "n": "they",
+    "emph": false
+   },
+   {
+    "t": "don't.",
+    "n": "don't",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 101,
+  "tag": null,
+  "text": "Even Preston changes... a little. One afternoon, right before a big math test, he walks up to your desk. He looks around to make sure nobody's watching. Then he whispers, \"Can you... help me study?\"",
+  "words": [
+   {
+    "t": "Even",
+    "n": "even",
+    "emph": false
+   },
+   {
+    "t": "Preston",
+    "n": "preston",
+    "emph": false
+   },
+   {
+    "t": "changes...",
+    "n": "changes",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "little.",
+    "n": "little",
+    "emph": false
+   },
+   {
+    "t": "One",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "afternoon,",
+    "n": "afternoon",
+    "emph": false
+   },
+   {
+    "t": "right",
+    "n": "right",
+    "emph": false
+   },
+   {
+    "t": "before",
+    "n": "before",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "big",
+    "n": "big",
+    "emph": false
+   },
+   {
+    "t": "math",
+    "n": "math",
+    "emph": false
+   },
+   {
+    "t": "test,",
+    "n": "test",
+    "emph": false
+   },
+   {
+    "t": "he",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "walks",
+    "n": "walks",
+    "emph": false
+   },
+   {
+    "t": "up",
+    "n": "up",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "desk.",
+    "n": "desk",
+    "emph": false
+   },
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "looks",
+    "n": "looks",
+    "emph": false
+   },
+   {
+    "t": "around",
+    "n": "around",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "make",
+    "n": "make",
+    "emph": false
+   },
+   {
+    "t": "sure",
+    "n": "sure",
+    "emph": false
+   },
+   {
+    "t": "nobody's",
+    "n": "nobody's",
+    "emph": false
+   },
+   {
+    "t": "watching.",
+    "n": "watching",
+    "emph": false
+   },
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "he",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "whispers,",
+    "n": "whispers",
+    "emph": false
+   },
+   {
+    "t": "\"Can",
+    "n": "can",
+    "emph": false
+   },
+   {
+    "t": "you...",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "help",
+    "n": "help",
+    "emph": false
+   },
+   {
+    "t": "me",
+    "n": "me",
+    "emph": false
+   },
+   {
+    "t": "study?\"",
+    "n": "study",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 102,
+  "tag": "surprise",
+  "text": "You stare at him. \"Can't your dad just hire a tutor?\"",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "stare",
+    "n": "stare",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "him.",
+    "n": "him",
+    "emph": false
+   },
+   {
+    "t": "\"Can't",
+    "n": "can't",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "dad",
+    "n": "dad",
+    "emph": false
+   },
+   {
+    "t": "just",
+    "n": "just",
+    "emph": false
+   },
+   {
+    "t": "hire",
+    "n": "hire",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "tutor?\"",
+    "n": "tutor",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 103,
+  "tag": null,
+  "text": "\"He did. Three of them. They all quit.\"",
+  "words": [
+   {
+    "t": "\"He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "did.",
+    "n": "did",
+    "emph": false
+   },
+   {
+    "t": "Three",
+    "n": "three",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "them.",
+    "n": "them",
+    "emph": false
+   },
+   {
+    "t": "They",
+    "n": "they",
+    "emph": false
+   },
+   {
+    "t": "all",
+    "n": "all",
+    "emph": false
+   },
+   {
+    "t": "quit.\"",
+    "n": "quit",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 104,
+  "tag": "amusement",
+  "text": "So you help him. He's still loud. He still has zero manners. But he never mentions the bus again.",
+  "words": [
+   {
+    "t": "So",
+    "n": "so",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "help",
+    "n": "help",
+    "emph": false
+   },
+   {
+    "t": "him.",
+    "n": "him",
+    "emph": false
+   },
+   {
+    "t": "He's",
+    "n": "he's",
+    "emph": false
+   },
+   {
+    "t": "still",
+    "n": "still",
+    "emph": false
+   },
+   {
+    "t": "loud.",
+    "n": "loud",
+    "emph": false
+   },
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "still",
+    "n": "still",
+    "emph": false
+   },
+   {
+    "t": "has",
+    "n": "has",
+    "emph": false
+   },
+   {
+    "t": "zero",
+    "n": "zero",
+    "emph": false
+   },
+   {
+    "t": "manners.",
+    "n": "manners",
+    "emph": false
+   },
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "he",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "never",
+    "n": "never",
+    "emph": false
+   },
+   {
+    "t": "mentions",
+    "n": "mentions",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "bus",
+    "n": "bus",
+    "emph": false
+   },
+   {
+    "t": "again.",
+    "n": "again",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 105,
+  "tag": null,
+  "text": "A month later, Theo invites you to his birthday party.",
+  "words": [
+   {
+    "t": "A",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "month",
+    "n": "month",
+    "emph": false
+   },
+   {
+    "t": "later,",
+    "n": "later",
+    "emph": false
+   },
+   {
+    "t": "Theo",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "invites",
+    "n": "invites",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "his",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "birthday",
+    "n": "birthday",
+    "emph": false
+   },
+   {
+    "t": "party.",
+    "n": "party",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 106,
+  "tag": "awe",
+  "text": "It's at his house. Except \"house\" is the wrong word. It's more like... a small country. There's a live band. A private chef. A Ferris wheel. And for some reason... a giraffe.",
+  "words": [
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "his",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "house.",
+    "n": "house",
+    "emph": false
+   },
+   {
+    "t": "Except",
+    "n": "except",
+    "emph": false
+   },
+   {
+    "t": "\"house\"",
+    "n": "house",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "wrong",
+    "n": "wrong",
+    "emph": false
+   },
+   {
+    "t": "word.",
+    "n": "word",
+    "emph": false
+   },
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "more",
+    "n": "more",
+    "emph": false
+   },
+   {
+    "t": "like...",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "small",
+    "n": "small",
+    "emph": false
+   },
+   {
+    "t": "country.",
+    "n": "country",
+    "emph": false
+   },
+   {
+    "t": "There's",
+    "n": "there's",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "live",
+    "n": "live",
+    "emph": false
+   },
+   {
+    "t": "band.",
+    "n": "band",
+    "emph": false
+   },
+   {
+    "t": "A",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "private",
+    "n": "private",
+    "emph": false
+   },
+   {
+    "t": "chef.",
+    "n": "chef",
+    "emph": false
+   },
+   {
+    "t": "A",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "Ferris",
+    "n": "ferris",
+    "emph": false
+   },
+   {
+    "t": "wheel.",
+    "n": "wheel",
+    "emph": false
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "some",
+    "n": "some",
+    "emph": false
+   },
+   {
+    "t": "reason...",
+    "n": "reason",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "giraffe.",
+    "n": "giraffe",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 107,
+  "tag": null,
+  "text": "Nobody explains the giraffe.",
+  "words": [
+   {
+    "t": "Nobody",
+    "n": "nobody",
+    "emph": false
+   },
+   {
+    "t": "explains",
+    "n": "explains",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "giraffe.",
+    "n": "giraffe",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 108,
+  "tag": null,
+  "text": "Halfway through the party, Theo's parents send a video message from another country. \"Happy birthday, champ!\" It's thirty seconds long. Theo watches it once... and puts his phone away.",
+  "words": [
+   {
+    "t": "Halfway",
+    "n": "halfway",
+    "emph": false
+   },
+   {
+    "t": "through",
+    "n": "through",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "party,",
+    "n": "party",
+    "emph": false
+   },
+   {
+    "t": "Theo's",
+    "n": "theo's",
+    "emph": false
+   },
+   {
+    "t": "parents",
+    "n": "parents",
+    "emph": false
+   },
+   {
+    "t": "send",
+    "n": "send",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "video",
+    "n": "video",
+    "emph": false
+   },
+   {
+    "t": "message",
+    "n": "message",
+    "emph": false
+   },
+   {
+    "t": "from",
+    "n": "from",
+    "emph": false
+   },
+   {
+    "t": "another",
+    "n": "another",
+    "emph": false
+   },
+   {
+    "t": "country.",
+    "n": "country",
+    "emph": false
+   },
+   {
+    "t": "\"Happy",
+    "n": "happy",
+    "emph": false
+   },
+   {
+    "t": "birthday,",
+    "n": "birthday",
+    "emph": false
+   },
+   {
+    "t": "champ!\"",
+    "n": "champ",
+    "emph": false
+   },
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "thirty",
+    "n": "thirty",
+    "emph": false
+   },
+   {
+    "t": "seconds",
+    "n": "seconds",
+    "emph": false
+   },
+   {
+    "t": "long.",
+    "n": "long",
+    "emph": false
+   },
+   {
+    "t": "Theo",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "watches",
+    "n": "watches",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "once...",
+    "n": "once",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "puts",
+    "n": "puts",
+    "emph": false
+   },
+   {
+    "t": "his",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "phone",
+    "n": "phone",
+    "emph": false
+   },
+   {
+    "t": "away.",
+    "n": "away",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 109,
+  "tag": null,
+  "text": "Everybody brings gifts. Designer watches. Gaming consoles. One kid gives Theo an actual CAR. Theo is thirteen. He can't drive.",
+  "words": [
+   {
+    "t": "Everybody",
+    "n": "everybody",
+    "emph": false
+   },
+   {
+    "t": "brings",
+    "n": "brings",
+    "emph": false
+   },
+   {
+    "t": "gifts.",
+    "n": "gifts",
+    "emph": false
+   },
+   {
+    "t": "Designer",
+    "n": "designer",
+    "emph": false
+   },
+   {
+    "t": "watches.",
+    "n": "watches",
+    "emph": false
+   },
+   {
+    "t": "Gaming",
+    "n": "gaming",
+    "emph": false
+   },
+   {
+    "t": "consoles.",
+    "n": "consoles",
+    "emph": false
+   },
+   {
+    "t": "One",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "kid",
+    "n": "kid",
+    "emph": false
+   },
+   {
+    "t": "gives",
+    "n": "gives",
+    "emph": false
+   },
+   {
+    "t": "Theo",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "an",
+    "n": "an",
+    "emph": false
+   },
+   {
+    "t": "actual",
+    "n": "actual",
+    "emph": false
+   },
+   {
+    "t": "CAR.",
+    "n": "car",
+    "emph": true
+   },
+   {
+    "t": "Theo",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "thirteen.",
+    "n": "thirteen",
+    "emph": false
+   },
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "can't",
+    "n": "can't",
+    "emph": false
+   },
+   {
+    "t": "drive.",
+    "n": "drive",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 110,
+  "tag": null,
+  "text": "You look down at your gift. It's a comic book. You drew it yourself. It's about Theo... as a superhero. It took you three weeks.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "look",
+    "n": "look",
+    "emph": false
+   },
+   {
+    "t": "down",
+    "n": "down",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "gift.",
+    "n": "gift",
+    "emph": false
+   },
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "comic",
+    "n": "comic",
+    "emph": false
+   },
+   {
+    "t": "book.",
+    "n": "book",
+    "emph": false
+   },
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "drew",
+    "n": "drew",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "yourself.",
+    "n": "yourself",
+    "emph": false
+   },
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "about",
+    "n": "about",
+    "emph": false
+   },
+   {
+    "t": "Theo...",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "as",
+    "n": "as",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "superhero.",
+    "n": "superhero",
+    "emph": false
+   },
+   {
+    "t": "It",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "took",
+    "n": "took",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "three",
+    "n": "three",
+    "emph": false
+   },
+   {
+    "t": "weeks.",
+    "n": "weeks",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 111,
+  "tag": "fear",
+  "text": "You almost hide it behind your back.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "almost",
+    "n": "almost",
+    "emph": false
+   },
+   {
+    "t": "hide",
+    "n": "hide",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "behind",
+    "n": "behind",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "back.",
+    "n": "back",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 112,
+  "tag": null,
+  "text": "But Theo sees it. He opens it right there. And he reads every... single... page.",
+  "words": [
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "Theo",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "sees",
+    "n": "sees",
+    "emph": false
+   },
+   {
+    "t": "it.",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "opens",
+    "n": "opens",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "right",
+    "n": "right",
+    "emph": false
+   },
+   {
+    "t": "there.",
+    "n": "there",
+    "emph": false
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "he",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "reads",
+    "n": "reads",
+    "emph": false
+   },
+   {
+    "t": "every...",
+    "n": "every",
+    "emph": false
+   },
+   {
+    "t": "single...",
+    "n": "single",
+    "emph": false
+   },
+   {
+    "t": "page.",
+    "n": "page",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 113,
+  "tag": null,
+  "text": "Then he looks up. \"You made this? For ME?\"",
+  "words": [
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "he",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "looks",
+    "n": "looks",
+    "emph": false
+   },
+   {
+    "t": "up.",
+    "n": "up",
+    "emph": false
+   },
+   {
+    "t": "\"You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "made",
+    "n": "made",
+    "emph": false
+   },
+   {
+    "t": "this?",
+    "n": "this",
+    "emph": false
+   },
+   {
+    "t": "For",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "ME?\"",
+    "n": "me",
+    "emph": true
+   }
+  ]
+ },
+ {
+  "id": 114,
+  "tag": null,
+  "text": "You shrug. \"Yeah.\"",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "shrug.",
+    "n": "shrug",
+    "emph": false
+   },
+   {
+    "t": "\"Yeah.\"",
+    "n": "yeah",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 115,
+  "tag": "affection",
+  "text": "He doesn't say anything else. But at the end of the night, the car is still sitting in the driveway with a bow on it. And the comic book... is in his hands.",
+  "words": [
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "doesn't",
+    "n": "doesn't",
+    "emph": false
+   },
+   {
+    "t": "say",
+    "n": "say",
+    "emph": false
+   },
+   {
+    "t": "anything",
+    "n": "anything",
+    "emph": false
+   },
+   {
+    "t": "else.",
+    "n": "else",
+    "emph": false
+   },
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "end",
+    "n": "end",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "night,",
+    "n": "night",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "car",
+    "n": "car",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "still",
+    "n": "still",
+    "emph": false
+   },
+   {
+    "t": "sitting",
+    "n": "sitting",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "driveway",
+    "n": "driveway",
+    "emph": false
+   },
+   {
+    "t": "with",
+    "n": "with",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "bow",
+    "n": "bow",
+    "emph": false
+   },
+   {
+    "t": "on",
+    "n": "on",
+    "emph": false
+   },
+   {
+    "t": "it.",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "comic",
+    "n": "comic",
+    "emph": false
+   },
+   {
+    "t": "book...",
+    "n": "book",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "his",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "hands.",
+    "n": "hands",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 116,
+  "tag": null,
+  "text": "A few weeks later, you invite Theo over for dinner. You're nervous. Your whole apartment could fit inside his bathroom. The couch is older than both of you. And the radiator makes a noise like an angry goose.",
+  "words": [
+   {
+    "t": "A",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "few",
+    "n": "few",
+    "emph": false
+   },
+   {
+    "t": "weeks",
+    "n": "weeks",
+    "emph": false
+   },
+   {
+    "t": "later,",
+    "n": "later",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "invite",
+    "n": "invite",
+    "emph": false
+   },
+   {
+    "t": "Theo",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "over",
+    "n": "over",
+    "emph": false
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "dinner.",
+    "n": "dinner",
+    "emph": false
+   },
+   {
+    "t": "You're",
+    "n": "you're",
+    "emph": false
+   },
+   {
+    "t": "nervous.",
+    "n": "nervous",
+    "emph": false
+   },
+   {
+    "t": "Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "whole",
+    "n": "whole",
+    "emph": false
+   },
+   {
+    "t": "apartment",
+    "n": "apartment",
+    "emph": false
+   },
+   {
+    "t": "could",
+    "n": "could",
+    "emph": false
+   },
+   {
+    "t": "fit",
+    "n": "fit",
+    "emph": false
+   },
+   {
+    "t": "inside",
+    "n": "inside",
+    "emph": false
+   },
+   {
+    "t": "his",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "bathroom.",
+    "n": "bathroom",
+    "emph": false
+   },
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "couch",
+    "n": "couch",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "older",
+    "n": "older",
+    "emph": false
+   },
+   {
+    "t": "than",
+    "n": "than",
+    "emph": false
+   },
+   {
+    "t": "both",
+    "n": "both",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "radiator",
+    "n": "radiator",
+    "emph": false
+   },
+   {
+    "t": "makes",
+    "n": "makes",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "noise",
+    "n": "noise",
+    "emph": false
+   },
+   {
+    "t": "like",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "an",
+    "n": "an",
+    "emph": false
+   },
+   {
+    "t": "angry",
+    "n": "angry",
+    "emph": false
+   },
+   {
+    "t": "goose.",
+    "n": "goose",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 117,
+  "tag": null,
+  "text": "But Theo doesn't seem to notice.",
+  "words": [
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "Theo",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "doesn't",
+    "n": "doesn't",
+    "emph": false
+   },
+   {
+    "t": "seem",
+    "n": "seem",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "notice.",
+    "n": "notice",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 118,
+  "tag": "contentment",
+  "text": "Your mom makes her famous spaghetti. At Theo's house, the chef makes food look like art. Here... it just tastes like home. Theo eats three plates. Your little brother asks Theo four hundred questions. Your dad tells the SAME terrible joke he tells every single night.",
+  "words": [
+   {
+    "t": "Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "mom",
+    "n": "mom",
+    "emph": false
+   },
+   {
+    "t": "makes",
+    "n": "makes",
+    "emph": false
+   },
+   {
+    "t": "her",
+    "n": "her",
+    "emph": false
+   },
+   {
+    "t": "famous",
+    "n": "famous",
+    "emph": false
+   },
+   {
+    "t": "spaghetti.",
+    "n": "spaghetti",
+    "emph": false
+   },
+   {
+    "t": "At",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "Theo's",
+    "n": "theo's",
+    "emph": false
+   },
+   {
+    "t": "house,",
+    "n": "house",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "chef",
+    "n": "chef",
+    "emph": false
+   },
+   {
+    "t": "makes",
+    "n": "makes",
+    "emph": false
+   },
+   {
+    "t": "food",
+    "n": "food",
+    "emph": false
+   },
+   {
+    "t": "look",
+    "n": "look",
+    "emph": false
+   },
+   {
+    "t": "like",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "art.",
+    "n": "art",
+    "emph": false
+   },
+   {
+    "t": "Here...",
+    "n": "here",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "just",
+    "n": "just",
+    "emph": false
+   },
+   {
+    "t": "tastes",
+    "n": "tastes",
+    "emph": false
+   },
+   {
+    "t": "like",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "home.",
+    "n": "home",
+    "emph": false
+   },
+   {
+    "t": "Theo",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "eats",
+    "n": "eats",
+    "emph": false
+   },
+   {
+    "t": "three",
+    "n": "three",
+    "emph": false
+   },
+   {
+    "t": "plates.",
+    "n": "plates",
+    "emph": false
+   },
+   {
+    "t": "Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "little",
+    "n": "little",
+    "emph": false
+   },
+   {
+    "t": "brother",
+    "n": "brother",
+    "emph": false
+   },
+   {
+    "t": "asks",
+    "n": "asks",
+    "emph": false
+   },
+   {
+    "t": "Theo",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "four",
+    "n": "four",
+    "emph": false
+   },
+   {
+    "t": "hundred",
+    "n": "hundred",
+    "emph": false
+   },
+   {
+    "t": "questions.",
+    "n": "questions",
+    "emph": false
+   },
+   {
+    "t": "Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "dad",
+    "n": "dad",
+    "emph": false
+   },
+   {
+    "t": "tells",
+    "n": "tells",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "SAME",
+    "n": "same",
+    "emph": true
+   },
+   {
+    "t": "terrible",
+    "n": "terrible",
+    "emph": false
+   },
+   {
+    "t": "joke",
+    "n": "joke",
+    "emph": false
+   },
+   {
+    "t": "he",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "tells",
+    "n": "tells",
+    "emph": false
+   },
+   {
+    "t": "every",
+    "n": "every",
+    "emph": false
+   },
+   {
+    "t": "single",
+    "n": "single",
+    "emph": false
+   },
+   {
+    "t": "night.",
+    "n": "night",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 119,
+  "tag": null,
+  "text": "And everybody laughs anyway.",
+  "words": [
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "everybody",
+    "n": "everybody",
+    "emph": false
+   },
+   {
+    "t": "laughs",
+    "n": "laughs",
+    "emph": false
+   },
+   {
+    "t": "anyway.",
+    "n": "anyway",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 120,
+  "tag": null,
+  "text": "Then you notice Theo isn't laughing. He's just... quiet.",
+  "words": [
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "notice",
+    "n": "notice",
+    "emph": false
+   },
+   {
+    "t": "Theo",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "isn't",
+    "n": "isn't",
+    "emph": false
+   },
+   {
+    "t": "laughing.",
+    "n": "laughing",
+    "emph": false
+   },
+   {
+    "t": "He's",
+    "n": "he's",
+    "emph": false
+   },
+   {
+    "t": "just...",
+    "n": "just",
+    "emph": false
+   },
+   {
+    "t": "quiet.",
+    "n": "quiet",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 121,
+  "tag": "confusion",
+  "text": "\"You okay?\"",
+  "words": [
+   {
+    "t": "\"You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "okay?\"",
+    "n": "okay",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 122,
+  "tag": "sadness",
+  "text": "He nods. Then he says something you'll never forget. \"Do you guys eat together... like... every night?\"",
+  "words": [
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "nods.",
+    "n": "nods",
+    "emph": false
+   },
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "he",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "says",
+    "n": "says",
+    "emph": false
+   },
+   {
+    "t": "something",
+    "n": "something",
+    "emph": false
+   },
+   {
+    "t": "you'll",
+    "n": "you'll",
+    "emph": false
+   },
+   {
+    "t": "never",
+    "n": "never",
+    "emph": false
+   },
+   {
+    "t": "forget.",
+    "n": "forget",
+    "emph": false
+   },
+   {
+    "t": "\"Do",
+    "n": "do",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "guys",
+    "n": "guys",
+    "emph": false
+   },
+   {
+    "t": "eat",
+    "n": "eat",
+    "emph": false
+   },
+   {
+    "t": "together...",
+    "n": "together",
+    "emph": false
+   },
+   {
+    "t": "like...",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "every",
+    "n": "every",
+    "emph": false
+   },
+   {
+    "t": "night?\"",
+    "n": "night",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 123,
+  "tag": null,
+  "text": "\"Yeah? Don't you?\"",
+  "words": [
+   {
+    "t": "\"Yeah?",
+    "n": "yeah",
+    "emph": false
+   },
+   {
+    "t": "Don't",
+    "n": "don't",
+    "emph": false
+   },
+   {
+    "t": "you?\"",
+    "n": "you",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 124,
+  "tag": null,
+  "text": "He looks down at his plate. \"My parents are in Tokyo this month. Before that, it was London. I usually eat with the chef.\"",
+  "words": [
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "looks",
+    "n": "looks",
+    "emph": false
+   },
+   {
+    "t": "down",
+    "n": "down",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "his",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "plate.",
+    "n": "plate",
+    "emph": false
+   },
+   {
+    "t": "\"My",
+    "n": "my",
+    "emph": false
+   },
+   {
+    "t": "parents",
+    "n": "parents",
+    "emph": false
+   },
+   {
+    "t": "are",
+    "n": "are",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "Tokyo",
+    "n": "tokyo",
+    "emph": false
+   },
+   {
+    "t": "this",
+    "n": "this",
+    "emph": false
+   },
+   {
+    "t": "month.",
+    "n": "month",
+    "emph": false
+   },
+   {
+    "t": "Before",
+    "n": "before",
+    "emph": false
+   },
+   {
+    "t": "that,",
+    "n": "that",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "was",
+    "n": "was",
+    "emph": false
+   },
+   {
+    "t": "London.",
+    "n": "london",
+    "emph": false
+   },
+   {
+    "t": "I",
+    "n": "i",
+    "emph": false
+   },
+   {
+    "t": "usually",
+    "n": "usually",
+    "emph": false
+   },
+   {
+    "t": "eat",
+    "n": "eat",
+    "emph": false
+   },
+   {
+    "t": "with",
+    "n": "with",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "chef.\"",
+    "n": "chef",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 125,
+  "tag": "sadness",
+  "text": "And suddenly... the whole picture flips upside down.",
+  "words": [
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "suddenly...",
+    "n": "suddenly",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "whole",
+    "n": "whole",
+    "emph": false
+   },
+   {
+    "t": "picture",
+    "n": "picture",
+    "emph": false
+   },
+   {
+    "t": "flips",
+    "n": "flips",
+    "emph": false
+   },
+   {
+    "t": "upside",
+    "n": "upside",
+    "emph": false
+   },
+   {
+    "t": "down.",
+    "n": "down",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 126,
+  "tag": "longing",
+  "text": "For months, you thought Theo had everything. The money. The houses. The helicopters. But sitting at your tiny kitchen table... he looks at your family like YOU'RE the rich one.",
+  "words": [
+   {
+    "t": "For",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "months,",
+    "n": "months",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "thought",
+    "n": "thought",
+    "emph": false
+   },
+   {
+    "t": "Theo",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "had",
+    "n": "had",
+    "emph": false
+   },
+   {
+    "t": "everything.",
+    "n": "everything",
+    "emph": false
+   },
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "money.",
+    "n": "money",
+    "emph": false
+   },
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "houses.",
+    "n": "houses",
+    "emph": false
+   },
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "helicopters.",
+    "n": "helicopters",
+    "emph": false
+   },
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "sitting",
+    "n": "sitting",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "tiny",
+    "n": "tiny",
+    "emph": false
+   },
+   {
+    "t": "kitchen",
+    "n": "kitchen",
+    "emph": false
+   },
+   {
+    "t": "table...",
+    "n": "table",
+    "emph": false
+   },
+   {
+    "t": "he",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "looks",
+    "n": "looks",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "family",
+    "n": "family",
+    "emph": false
+   },
+   {
+    "t": "like",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "YOU'RE",
+    "n": "you're",
+    "emph": true
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "rich",
+    "n": "rich",
+    "emph": false
+   },
+   {
+    "t": "one.",
+    "n": "one",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 127,
+  "tag": null,
+  "text": "And maybe... in some ways... you are.",
+  "words": [
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "maybe...",
+    "n": "maybe",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "some",
+    "n": "some",
+    "emph": false
+   },
+   {
+    "t": "ways...",
+    "n": "ways",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "are.",
+    "n": "are",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 128,
+  "tag": "amusement",
+  "text": "After dinner, Theo insists on helping with the dishes. He has never washed a dish in his life. He uses half a bottle of soap. The kitchen turns into a bubble bath. Your mom laughs so hard she has to sit down.",
+  "words": [
+   {
+    "t": "After",
+    "n": "after",
+    "emph": false
+   },
+   {
+    "t": "dinner,",
+    "n": "dinner",
+    "emph": false
+   },
+   {
+    "t": "Theo",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "insists",
+    "n": "insists",
+    "emph": false
+   },
+   {
+    "t": "on",
+    "n": "on",
+    "emph": false
+   },
+   {
+    "t": "helping",
+    "n": "helping",
+    "emph": false
+   },
+   {
+    "t": "with",
+    "n": "with",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "dishes.",
+    "n": "dishes",
+    "emph": false
+   },
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "has",
+    "n": "has",
+    "emph": false
+   },
+   {
+    "t": "never",
+    "n": "never",
+    "emph": false
+   },
+   {
+    "t": "washed",
+    "n": "washed",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "dish",
+    "n": "dish",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "his",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "life.",
+    "n": "life",
+    "emph": false
+   },
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "uses",
+    "n": "uses",
+    "emph": false
+   },
+   {
+    "t": "half",
+    "n": "half",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "bottle",
+    "n": "bottle",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "soap.",
+    "n": "soap",
+    "emph": false
+   },
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "kitchen",
+    "n": "kitchen",
+    "emph": false
+   },
+   {
+    "t": "turns",
+    "n": "turns",
+    "emph": false
+   },
+   {
+    "t": "into",
+    "n": "into",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "bubble",
+    "n": "bubble",
+    "emph": false
+   },
+   {
+    "t": "bath.",
+    "n": "bath",
+    "emph": false
+   },
+   {
+    "t": "Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "mom",
+    "n": "mom",
+    "emph": false
+   },
+   {
+    "t": "laughs",
+    "n": "laughs",
+    "emph": false
+   },
+   {
+    "t": "so",
+    "n": "so",
+    "emph": false
+   },
+   {
+    "t": "hard",
+    "n": "hard",
+    "emph": false
+   },
+   {
+    "t": "she",
+    "n": "she",
+    "emph": false
+   },
+   {
+    "t": "has",
+    "n": "has",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "sit",
+    "n": "sit",
+    "emph": false
+   },
+   {
+    "t": "down.",
+    "n": "down",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 129,
+  "tag": null,
+  "text": "At the end of the year... a letter arrives. The same envelope. The same golden logo. Your scholarship has been renewed... for next year.",
+  "words": [
+   {
+    "t": "At",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "end",
+    "n": "end",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "year...",
+    "n": "year",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "letter",
+    "n": "letter",
+    "emph": false
+   },
+   {
+    "t": "arrives.",
+    "n": "arrives",
+    "emph": false
+   },
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "same",
+    "n": "same",
+    "emph": false
+   },
+   {
+    "t": "envelope.",
+    "n": "envelope",
+    "emph": false
+   },
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "same",
+    "n": "same",
+    "emph": false
+   },
+   {
+    "t": "golden",
+    "n": "golden",
+    "emph": false
+   },
+   {
+    "t": "logo.",
+    "n": "logo",
+    "emph": false
+   },
+   {
+    "t": "Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "scholarship",
+    "n": "scholarship",
+    "emph": false
+   },
+   {
+    "t": "has",
+    "n": "has",
+    "emph": false
+   },
+   {
+    "t": "been",
+    "n": "been",
+    "emph": false
+   },
+   {
+    "t": "renewed...",
+    "n": "renewed",
+    "emph": false
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "next",
+    "n": "next",
+    "emph": false
+   },
+   {
+    "t": "year.",
+    "n": "year",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 130,
+  "tag": null,
+  "text": "But at the same time... your phone buzzes. It's your old friends from your old school. \"Bro, you coming back next year? We miss you.\"",
+  "words": [
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "same",
+    "n": "same",
+    "emph": false
+   },
+   {
+    "t": "time...",
+    "n": "time",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "phone",
+    "n": "phone",
+    "emph": false
+   },
+   {
+    "t": "buzzes.",
+    "n": "buzzes",
+    "emph": false
+   },
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "old",
+    "n": "old",
+    "emph": false
+   },
+   {
+    "t": "friends",
+    "n": "friends",
+    "emph": false
+   },
+   {
+    "t": "from",
+    "n": "from",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "old",
+    "n": "old",
+    "emph": false
+   },
+   {
+    "t": "school.",
+    "n": "school",
+    "emph": false
+   },
+   {
+    "t": "\"Bro,",
+    "n": "bro",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "coming",
+    "n": "coming",
+    "emph": false
+   },
+   {
+    "t": "back",
+    "n": "back",
+    "emph": false
+   },
+   {
+    "t": "next",
+    "n": "next",
+    "emph": false
+   },
+   {
+    "t": "year?",
+    "n": "year",
+    "emph": false
+   },
+   {
+    "t": "We",
+    "n": "we",
+    "emph": false
+   },
+   {
+    "t": "miss",
+    "n": "miss",
+    "emph": false
+   },
+   {
+    "t": "you.\"",
+    "n": "you",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 131,
+  "tag": "longing",
+  "text": "Two choices. Stay at Goldcrest... where you'll always be the kid who takes the bus. Or go back... where nobody cares how much your shoes cost.",
+  "words": [
+   {
+    "t": "Two",
+    "n": "two",
+    "emph": false
+   },
+   {
+    "t": "choices.",
+    "n": "choices",
+    "emph": false
+   },
+   {
+    "t": "Stay",
+    "n": "stay",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "Goldcrest...",
+    "n": "goldcrest",
+    "emph": false
+   },
+   {
+    "t": "where",
+    "n": "where",
+    "emph": false
+   },
+   {
+    "t": "you'll",
+    "n": "you'll",
+    "emph": false
+   },
+   {
+    "t": "always",
+    "n": "always",
+    "emph": false
+   },
+   {
+    "t": "be",
+    "n": "be",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "kid",
+    "n": "kid",
+    "emph": false
+   },
+   {
+    "t": "who",
+    "n": "who",
+    "emph": false
+   },
+   {
+    "t": "takes",
+    "n": "takes",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "bus.",
+    "n": "bus",
+    "emph": false
+   },
+   {
+    "t": "Or",
+    "n": "or",
+    "emph": false
+   },
+   {
+    "t": "go",
+    "n": "go",
+    "emph": false
+   },
+   {
+    "t": "back...",
+    "n": "back",
+    "emph": false
+   },
+   {
+    "t": "where",
+    "n": "where",
+    "emph": false
+   },
+   {
+    "t": "nobody",
+    "n": "nobody",
+    "emph": false
+   },
+   {
+    "t": "cares",
+    "n": "cares",
+    "emph": false
+   },
+   {
+    "t": "how",
+    "n": "how",
+    "emph": false
+   },
+   {
+    "t": "much",
+    "n": "much",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "shoes",
+    "n": "shoes",
+    "emph": false
+   },
+   {
+    "t": "cost.",
+    "n": "cost",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 132,
+  "tag": null,
+  "text": "Theo finds out. He doesn't say much. Just, \"It's your choice. But lunch is going to be really boring without you.\"",
+  "words": [
+   {
+    "t": "Theo",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "finds",
+    "n": "finds",
+    "emph": false
+   },
+   {
+    "t": "out.",
+    "n": "out",
+    "emph": false
+   },
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "doesn't",
+    "n": "doesn't",
+    "emph": false
+   },
+   {
+    "t": "say",
+    "n": "say",
+    "emph": false
+   },
+   {
+    "t": "much.",
+    "n": "much",
+    "emph": false
+   },
+   {
+    "t": "Just,",
+    "n": "just",
+    "emph": false
+   },
+   {
+    "t": "\"It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "choice.",
+    "n": "choice",
+    "emph": false
+   },
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "lunch",
+    "n": "lunch",
+    "emph": false
+   },
+   {
+    "t": "is",
+    "n": "is",
+    "emph": false
+   },
+   {
+    "t": "going",
+    "n": "going",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "be",
+    "n": "be",
+    "emph": false
+   },
+   {
+    "t": "really",
+    "n": "really",
+    "emph": false
+   },
+   {
+    "t": "boring",
+    "n": "boring",
+    "emph": false
+   },
+   {
+    "t": "without",
+    "n": "without",
+    "emph": false
+   },
+   {
+    "t": "you.\"",
+    "n": "you",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 133,
+  "tag": null,
+  "text": "Your old friends know the real you. They've seen you at your worst. But at Goldcrest... you've started building something too.",
+  "words": [
+   {
+    "t": "Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "old",
+    "n": "old",
+    "emph": false
+   },
+   {
+    "t": "friends",
+    "n": "friends",
+    "emph": false
+   },
+   {
+    "t": "know",
+    "n": "know",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "real",
+    "n": "real",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "They've",
+    "n": "they've",
+    "emph": false
+   },
+   {
+    "t": "seen",
+    "n": "seen",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "worst.",
+    "n": "worst",
+    "emph": false
+   },
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "Goldcrest...",
+    "n": "goldcrest",
+    "emph": false
+   },
+   {
+    "t": "you've",
+    "n": "you've",
+    "emph": false
+   },
+   {
+    "t": "started",
+    "n": "started",
+    "emph": false
+   },
+   {
+    "t": "building",
+    "n": "building",
+    "emph": false
+   },
+   {
+    "t": "something",
+    "n": "something",
+    "emph": false
+   },
+   {
+    "t": "too.",
+    "n": "too",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 134,
+  "tag": null,
+  "text": "You stare at the letter... for a long time.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "stare",
+    "n": "stare",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "letter...",
+    "n": "letter",
+    "emph": false
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "long",
+    "n": "long",
+    "emph": false
+   },
+   {
+    "t": "time.",
+    "n": "time",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 135,
+  "tag": null,
+  "text": "On your last day of the school year, you walk through the halls one more time. Past the chocolate fountain. Past the stables, where the horse tries to eat your sleeve one last time. Past the classroom where you first said the words \"car wash.\" Past the front gate... where you told Preston about the two-dollar bus.",
+  "words": [
+   {
+    "t": "On",
+    "n": "on",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "last",
+    "n": "last",
+    "emph": false
+   },
+   {
+    "t": "day",
+    "n": "day",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "school",
+    "n": "school",
+    "emph": false
+   },
+   {
+    "t": "year,",
+    "n": "year",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "walk",
+    "n": "walk",
+    "emph": false
+   },
+   {
+    "t": "through",
+    "n": "through",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "halls",
+    "n": "halls",
+    "emph": false
+   },
+   {
+    "t": "one",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "more",
+    "n": "more",
+    "emph": false
+   },
+   {
+    "t": "time.",
+    "n": "time",
+    "emph": false
+   },
+   {
+    "t": "Past",
+    "n": "past",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "chocolate",
+    "n": "chocolate",
+    "emph": false
+   },
+   {
+    "t": "fountain.",
+    "n": "fountain",
+    "emph": false
+   },
+   {
+    "t": "Past",
+    "n": "past",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "stables,",
+    "n": "stables",
+    "emph": false
+   },
+   {
+    "t": "where",
+    "n": "where",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "horse",
+    "n": "horse",
+    "emph": false
+   },
+   {
+    "t": "tries",
+    "n": "tries",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "eat",
+    "n": "eat",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "sleeve",
+    "n": "sleeve",
+    "emph": false
+   },
+   {
+    "t": "one",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "last",
+    "n": "last",
+    "emph": false
+   },
+   {
+    "t": "time.",
+    "n": "time",
+    "emph": false
+   },
+   {
+    "t": "Past",
+    "n": "past",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "classroom",
+    "n": "classroom",
+    "emph": false
+   },
+   {
+    "t": "where",
+    "n": "where",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "first",
+    "n": "first",
+    "emph": false
+   },
+   {
+    "t": "said",
+    "n": "said",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "words",
+    "n": "words",
+    "emph": false
+   },
+   {
+    "t": "\"car",
+    "n": "car",
+    "emph": false
+   },
+   {
+    "t": "wash.\"",
+    "n": "wash",
+    "emph": false
+   },
+   {
+    "t": "Past",
+    "n": "past",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "front",
+    "n": "front",
+    "emph": false
+   },
+   {
+    "t": "gate...",
+    "n": "gate",
+    "emph": false
+   },
+   {
+    "t": "where",
+    "n": "where",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "told",
+    "n": "told",
+    "emph": false
+   },
+   {
+    "t": "Preston",
+    "n": "preston",
+    "emph": false
+   },
+   {
+    "t": "about",
+    "n": "about",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "two-dollar",
+    "n": "two-dollar",
+    "emph": false
+   },
+   {
+    "t": "bus.",
+    "n": "bus",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 136,
+  "tag": "contentment",
+  "text": "And you realize something.",
+  "words": [
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "realize",
+    "n": "realize",
+    "emph": false
+   },
+   {
+    "t": "something.",
+    "n": "something",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 137,
+  "tag": null,
+  "text": "At first, you thought you didn't belong here. That you had to change who you were... just to fit in. But that wasn't true.",
+  "words": [
+   {
+    "t": "At",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "first,",
+    "n": "first",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "thought",
+    "n": "thought",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "didn't",
+    "n": "didn't",
+    "emph": false
+   },
+   {
+    "t": "belong",
+    "n": "belong",
+    "emph": false
+   },
+   {
+    "t": "here.",
+    "n": "here",
+    "emph": false
+   },
+   {
+    "t": "That",
+    "n": "that",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "had",
+    "n": "had",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "change",
+    "n": "change",
+    "emph": false
+   },
+   {
+    "t": "who",
+    "n": "who",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "were...",
+    "n": "were",
+    "emph": false
+   },
+   {
+    "t": "just",
+    "n": "just",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "fit",
+    "n": "fit",
+    "emph": false
+   },
+   {
+    "t": "in.",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "that",
+    "n": "that",
+    "emph": false
+   },
+   {
+    "t": "wasn't",
+    "n": "wasn't",
+    "emph": false
+   },
+   {
+    "t": "true.",
+    "n": "true",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 138,
+  "tag": null,
+  "text": "They had more money. But you had things money can't buy. A mom who cuts your sandwich diagonal. A family that eats dinner together. And a friend... who liked your comic book more than a CAR.",
+  "words": [
+   {
+    "t": "They",
+    "n": "they",
+    "emph": false
+   },
+   {
+    "t": "had",
+    "n": "had",
+    "emph": false
+   },
+   {
+    "t": "more",
+    "n": "more",
+    "emph": false
+   },
+   {
+    "t": "money.",
+    "n": "money",
+    "emph": false
+   },
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "had",
+    "n": "had",
+    "emph": false
+   },
+   {
+    "t": "things",
+    "n": "things",
+    "emph": false
+   },
+   {
+    "t": "money",
+    "n": "money",
+    "emph": false
+   },
+   {
+    "t": "can't",
+    "n": "can't",
+    "emph": false
+   },
+   {
+    "t": "buy.",
+    "n": "buy",
+    "emph": false
+   },
+   {
+    "t": "A",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "mom",
+    "n": "mom",
+    "emph": false
+   },
+   {
+    "t": "who",
+    "n": "who",
+    "emph": false
+   },
+   {
+    "t": "cuts",
+    "n": "cuts",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "sandwich",
+    "n": "sandwich",
+    "emph": false
+   },
+   {
+    "t": "diagonal.",
+    "n": "diagonal",
+    "emph": false
+   },
+   {
+    "t": "A",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "family",
+    "n": "family",
+    "emph": false
+   },
+   {
+    "t": "that",
+    "n": "that",
+    "emph": false
+   },
+   {
+    "t": "eats",
+    "n": "eats",
+    "emph": false
+   },
+   {
+    "t": "dinner",
+    "n": "dinner",
+    "emph": false
+   },
+   {
+    "t": "together.",
+    "n": "together",
+    "emph": false
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "friend...",
+    "n": "friend",
+    "emph": false
+   },
+   {
+    "t": "who",
+    "n": "who",
+    "emph": false
+   },
+   {
+    "t": "liked",
+    "n": "liked",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "comic",
+    "n": "comic",
+    "emph": false
+   },
+   {
+    "t": "book",
+    "n": "book",
+    "emph": false
+   },
+   {
+    "t": "more",
+    "n": "more",
+    "emph": false
+   },
+   {
+    "t": "than",
+    "n": "than",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "CAR.",
+    "n": "car",
+    "emph": true
+   }
+  ]
+ },
+ {
+  "id": 139,
+  "tag": "determination",
+  "text": "That night... you sign the letter. You're staying.",
+  "words": [
+   {
+    "t": "That",
+    "n": "that",
+    "emph": false
+   },
+   {
+    "t": "night...",
+    "n": "night",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "sign",
+    "n": "sign",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "letter.",
+    "n": "letter",
+    "emph": false
+   },
+   {
+    "t": "You're",
+    "n": "you're",
+    "emph": false
+   },
+   {
+    "t": "staying.",
+    "n": "staying",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 140,
+  "tag": null,
+  "text": "The next September, you're standing at the bus stop again. Same safety pin. Same paper bag.",
+  "words": [
+   {
+    "t": "The",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "next",
+    "n": "next",
+    "emph": false
+   },
+   {
+    "t": "September,",
+    "n": "september",
+    "emph": false
+   },
+   {
+    "t": "you're",
+    "n": "you're",
+    "emph": false
+   },
+   {
+    "t": "standing",
+    "n": "standing",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "bus",
+    "n": "bus",
+    "emph": false
+   },
+   {
+    "t": "stop",
+    "n": "stop",
+    "emph": false
+   },
+   {
+    "t": "again.",
+    "n": "again",
+    "emph": false
+   },
+   {
+    "t": "Same",
+    "n": "same",
+    "emph": false
+   },
+   {
+    "t": "safety",
+    "n": "safety",
+    "emph": false
+   },
+   {
+    "t": "pin.",
+    "n": "pin",
+    "emph": false
+   },
+   {
+    "t": "Same",
+    "n": "same",
+    "emph": false
+   },
+   {
+    "t": "paper",
+    "n": "paper",
+    "emph": false
+   },
+   {
+    "t": "bag.",
+    "n": "bag",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 141,
+  "tag": "surprise",
+  "text": "Then you hear footsteps. You turn around... and it's Theo. Standing at YOUR bus stop. Holding a paper bag of his own.",
+  "words": [
+   {
+    "t": "Then",
+    "n": "then",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "hear",
+    "n": "hear",
+    "emph": false
+   },
+   {
+    "t": "footsteps.",
+    "n": "footsteps",
+    "emph": false
+   },
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "turn",
+    "n": "turn",
+    "emph": false
+   },
+   {
+    "t": "around...",
+    "n": "around",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "it's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "Theo.",
+    "n": "theo",
+    "emph": false
+   },
+   {
+    "t": "Standing",
+    "n": "standing",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "YOUR",
+    "n": "your",
+    "emph": true
+   },
+   {
+    "t": "bus",
+    "n": "bus",
+    "emph": false
+   },
+   {
+    "t": "stop.",
+    "n": "stop",
+    "emph": false
+   },
+   {
+    "t": "Holding",
+    "n": "holding",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "paper",
+    "n": "paper",
+    "emph": false
+   },
+   {
+    "t": "bag",
+    "n": "bag",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "his",
+    "n": "his",
+    "emph": false
+   },
+   {
+    "t": "own.",
+    "n": "own",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 142,
+  "tag": null,
+  "text": "\"I told my driver I'd take the bus today.\"",
+  "words": [
+   {
+    "t": "\"I",
+    "n": "i",
+    "emph": false
+   },
+   {
+    "t": "told",
+    "n": "told",
+    "emph": false
+   },
+   {
+    "t": "my",
+    "n": "my",
+    "emph": false
+   },
+   {
+    "t": "driver",
+    "n": "driver",
+    "emph": false
+   },
+   {
+    "t": "I'd",
+    "n": "i'd",
+    "emph": false
+   },
+   {
+    "t": "take",
+    "n": "take",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "bus",
+    "n": "bus",
+    "emph": false
+   },
+   {
+    "t": "today.\"",
+    "n": "today",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 143,
+  "tag": null,
+  "text": "You stare at him. \"You know it's TWO buses, right?\"",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "stare",
+    "n": "stare",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "him.",
+    "n": "him",
+    "emph": false
+   },
+   {
+    "t": "\"You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "know",
+    "n": "know",
+    "emph": false
+   },
+   {
+    "t": "it's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "TWO",
+    "n": "two",
+    "emph": true
+   },
+   {
+    "t": "buses,",
+    "n": "buses",
+    "emph": false
+   },
+   {
+    "t": "right?\"",
+    "n": "right",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 144,
+  "tag": "amusement",
+  "text": "\"Yeah. I've been practicing.\" He holds up the bag. \"Your mom taught me how to make the sandwich.\"",
+  "words": [
+   {
+    "t": "\"Yeah.",
+    "n": "yeah",
+    "emph": false
+   },
+   {
+    "t": "I've",
+    "n": "i've",
+    "emph": false
+   },
+   {
+    "t": "been",
+    "n": "been",
+    "emph": false
+   },
+   {
+    "t": "practicing.\"",
+    "n": "practicing",
+    "emph": false
+   },
+   {
+    "t": "He",
+    "n": "he",
+    "emph": false
+   },
+   {
+    "t": "holds",
+    "n": "holds",
+    "emph": false
+   },
+   {
+    "t": "up",
+    "n": "up",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "bag.",
+    "n": "bag",
+    "emph": false
+   },
+   {
+    "t": "\"Your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "mom",
+    "n": "mom",
+    "emph": false
+   },
+   {
+    "t": "taught",
+    "n": "taught",
+    "emph": false
+   },
+   {
+    "t": "me",
+    "n": "me",
+    "emph": false
+   },
+   {
+    "t": "how",
+    "n": "how",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "make",
+    "n": "make",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "sandwich.\"",
+    "n": "sandwich",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 145,
+  "tag": null,
+  "text": "You check. It's cut diagonal.",
+  "words": [
+   {
+    "t": "You",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "check.",
+    "n": "check",
+    "emph": false
+   },
+   {
+    "t": "It's",
+    "n": "it's",
+    "emph": false
+   },
+   {
+    "t": "cut",
+    "n": "cut",
+    "emph": false
+   },
+   {
+    "t": "diagonal.",
+    "n": "diagonal",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 146,
+  "tag": "elation",
+  "text": "And for the first time... the first day at Goldcrest doesn't feel scary at all.",
+  "words": [
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "first",
+    "n": "first",
+    "emph": false
+   },
+   {
+    "t": "time...",
+    "n": "time",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "first",
+    "n": "first",
+    "emph": false
+   },
+   {
+    "t": "day",
+    "n": "day",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "Goldcrest",
+    "n": "goldcrest",
+    "emph": false
+   },
+   {
+    "t": "doesn't",
+    "n": "doesn't",
+    "emph": false
+   },
+   {
+    "t": "feel",
+    "n": "feel",
+    "emph": false
+   },
+   {
+    "t": "scary",
+    "n": "scary",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "all.",
+    "n": "all",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 147,
+  "tag": "more expressive",
+  "text": "So... what if you REALLY were the only poor kid at a billionaires-only school?",
+  "words": [
+   {
+    "t": "So...",
+    "n": "so",
+    "emph": false
+   },
+   {
+    "t": "what",
+    "n": "what",
+    "emph": false
+   },
+   {
+    "t": "if",
+    "n": "if",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "REALLY",
+    "n": "really",
+    "emph": true
+   },
+   {
+    "t": "were",
+    "n": "were",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "only",
+    "n": "only",
+    "emph": false
+   },
+   {
+    "t": "poor",
+    "n": "poor",
+    "emph": false
+   },
+   {
+    "t": "kid",
+    "n": "kid",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "billionaires-only",
+    "n": "billionaires-only",
+    "emph": false
+   },
+   {
+    "t": "school?",
+    "n": "school",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 148,
+  "tag": null,
+  "text": "At first, it would probably feel like walking onto another planet. People would stare. Some would laugh. And you might feel like you had to pretend... just to survive.",
+  "words": [
+   {
+    "t": "At",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "first,",
+    "n": "first",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "would",
+    "n": "would",
+    "emph": false
+   },
+   {
+    "t": "probably",
+    "n": "probably",
+    "emph": false
+   },
+   {
+    "t": "feel",
+    "n": "feel",
+    "emph": false
+   },
+   {
+    "t": "like",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "walking",
+    "n": "walking",
+    "emph": false
+   },
+   {
+    "t": "onto",
+    "n": "onto",
+    "emph": false
+   },
+   {
+    "t": "another",
+    "n": "another",
+    "emph": false
+   },
+   {
+    "t": "planet.",
+    "n": "planet",
+    "emph": false
+   },
+   {
+    "t": "People",
+    "n": "people",
+    "emph": false
+   },
+   {
+    "t": "would",
+    "n": "would",
+    "emph": false
+   },
+   {
+    "t": "stare.",
+    "n": "stare",
+    "emph": false
+   },
+   {
+    "t": "Some",
+    "n": "some",
+    "emph": false
+   },
+   {
+    "t": "would",
+    "n": "would",
+    "emph": false
+   },
+   {
+    "t": "laugh.",
+    "n": "laugh",
+    "emph": false
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "might",
+    "n": "might",
+    "emph": false
+   },
+   {
+    "t": "feel",
+    "n": "feel",
+    "emph": false
+   },
+   {
+    "t": "like",
+    "n": "like",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "had",
+    "n": "had",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "pretend...",
+    "n": "pretend",
+    "emph": false
+   },
+   {
+    "t": "just",
+    "n": "just",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "survive.",
+    "n": "survive",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 149,
+  "tag": null,
+  "text": "Some things would be surprisingly fun. Others would be embarrassing. And plenty of things wouldn't be as different as you expected. Rich or not... everybody still hates Monday mornings.",
+  "words": [
+   {
+    "t": "Some",
+    "n": "some",
+    "emph": false
+   },
+   {
+    "t": "things",
+    "n": "things",
+    "emph": false
+   },
+   {
+    "t": "would",
+    "n": "would",
+    "emph": false
+   },
+   {
+    "t": "be",
+    "n": "be",
+    "emph": false
+   },
+   {
+    "t": "surprisingly",
+    "n": "surprisingly",
+    "emph": false
+   },
+   {
+    "t": "fun.",
+    "n": "fun",
+    "emph": false
+   },
+   {
+    "t": "Others",
+    "n": "others",
+    "emph": false
+   },
+   {
+    "t": "would",
+    "n": "would",
+    "emph": false
+   },
+   {
+    "t": "be",
+    "n": "be",
+    "emph": false
+   },
+   {
+    "t": "embarrassing.",
+    "n": "embarrassing",
+    "emph": false
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "plenty",
+    "n": "plenty",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "things",
+    "n": "things",
+    "emph": false
+   },
+   {
+    "t": "wouldn't",
+    "n": "wouldn't",
+    "emph": false
+   },
+   {
+    "t": "be",
+    "n": "be",
+    "emph": false
+   },
+   {
+    "t": "as",
+    "n": "as",
+    "emph": false
+   },
+   {
+    "t": "different",
+    "n": "different",
+    "emph": false
+   },
+   {
+    "t": "as",
+    "n": "as",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "expected.",
+    "n": "expected",
+    "emph": false
+   },
+   {
+    "t": "Rich",
+    "n": "rich",
+    "emph": false
+   },
+   {
+    "t": "or",
+    "n": "or",
+    "emph": false
+   },
+   {
+    "t": "not...",
+    "n": "not",
+    "emph": false
+   },
+   {
+    "t": "everybody",
+    "n": "everybody",
+    "emph": false
+   },
+   {
+    "t": "still",
+    "n": "still",
+    "emph": false
+   },
+   {
+    "t": "hates",
+    "n": "hates",
+    "emph": false
+   },
+   {
+    "t": "Monday",
+    "n": "monday",
+    "emph": false
+   },
+   {
+    "t": "mornings.",
+    "n": "mornings",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 150,
+  "tag": "affection",
+  "text": "But the biggest surprise might not be how different their lives are. It might be how much they're missing... that YOU already have.",
+  "words": [
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "biggest",
+    "n": "biggest",
+    "emph": false
+   },
+   {
+    "t": "surprise",
+    "n": "surprise",
+    "emph": false
+   },
+   {
+    "t": "might",
+    "n": "might",
+    "emph": false
+   },
+   {
+    "t": "not",
+    "n": "not",
+    "emph": false
+   },
+   {
+    "t": "be",
+    "n": "be",
+    "emph": false
+   },
+   {
+    "t": "how",
+    "n": "how",
+    "emph": false
+   },
+   {
+    "t": "different",
+    "n": "different",
+    "emph": false
+   },
+   {
+    "t": "their",
+    "n": "their",
+    "emph": false
+   },
+   {
+    "t": "lives",
+    "n": "lives",
+    "emph": false
+   },
+   {
+    "t": "are.",
+    "n": "are",
+    "emph": false
+   },
+   {
+    "t": "It",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "might",
+    "n": "might",
+    "emph": false
+   },
+   {
+    "t": "be",
+    "n": "be",
+    "emph": false
+   },
+   {
+    "t": "how",
+    "n": "how",
+    "emph": false
+   },
+   {
+    "t": "much",
+    "n": "much",
+    "emph": false
+   },
+   {
+    "t": "they're",
+    "n": "they're",
+    "emph": false
+   },
+   {
+    "t": "missing...",
+    "n": "missing",
+    "emph": false
+   },
+   {
+    "t": "that",
+    "n": "that",
+    "emph": false
+   },
+   {
+    "t": "YOU",
+    "n": "you",
+    "emph": true
+   },
+   {
+    "t": "already",
+    "n": "already",
+    "emph": false
+   },
+   {
+    "t": "have.",
+    "n": "have",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 151,
+  "tag": null,
+  "text": "Because money can buy a helicopter. It can buy an island. It can even buy a giraffe for a birthday party.",
+  "words": [
+   {
+    "t": "Because",
+    "n": "because",
+    "emph": false
+   },
+   {
+    "t": "money",
+    "n": "money",
+    "emph": false
+   },
+   {
+    "t": "can",
+    "n": "can",
+    "emph": false
+   },
+   {
+    "t": "buy",
+    "n": "buy",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "helicopter.",
+    "n": "helicopter",
+    "emph": false
+   },
+   {
+    "t": "It",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "can",
+    "n": "can",
+    "emph": false
+   },
+   {
+    "t": "buy",
+    "n": "buy",
+    "emph": false
+   },
+   {
+    "t": "an",
+    "n": "an",
+    "emph": false
+   },
+   {
+    "t": "island.",
+    "n": "island",
+    "emph": false
+   },
+   {
+    "t": "It",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "can",
+    "n": "can",
+    "emph": false
+   },
+   {
+    "t": "even",
+    "n": "even",
+    "emph": false
+   },
+   {
+    "t": "buy",
+    "n": "buy",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "giraffe",
+    "n": "giraffe",
+    "emph": false
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "birthday",
+    "n": "birthday",
+    "emph": false
+   },
+   {
+    "t": "party.",
+    "n": "party",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 152,
+  "tag": null,
+  "text": "But it can't buy dinner with people who love you. And it can't buy a friend who shows up at your bus stop.",
+  "words": [
+   {
+    "t": "But",
+    "n": "but",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "can't",
+    "n": "can't",
+    "emph": false
+   },
+   {
+    "t": "buy",
+    "n": "buy",
+    "emph": false
+   },
+   {
+    "t": "dinner",
+    "n": "dinner",
+    "emph": false
+   },
+   {
+    "t": "with",
+    "n": "with",
+    "emph": false
+   },
+   {
+    "t": "people",
+    "n": "people",
+    "emph": false
+   },
+   {
+    "t": "who",
+    "n": "who",
+    "emph": false
+   },
+   {
+    "t": "love",
+    "n": "love",
+    "emph": false
+   },
+   {
+    "t": "you.",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "And",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "it",
+    "n": "it",
+    "emph": false
+   },
+   {
+    "t": "can't",
+    "n": "can't",
+    "emph": false
+   },
+   {
+    "t": "buy",
+    "n": "buy",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "friend",
+    "n": "friend",
+    "emph": false
+   },
+   {
+    "t": "who",
+    "n": "who",
+    "emph": false
+   },
+   {
+    "t": "shows",
+    "n": "shows",
+    "emph": false
+   },
+   {
+    "t": "up",
+    "n": "up",
+    "emph": false
+   },
+   {
+    "t": "at",
+    "n": "at",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "bus",
+    "n": "bus",
+    "emph": false
+   },
+   {
+    "t": "stop.",
+    "n": "stop",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 153,
+  "tag": "more expressive",
+  "text": "So here's the ultimate question. If you walked into a school full of billionaires tomorrow... would you pretend to be one of them? Or would you show up with your paper bag... and be EXACTLY who you are?",
+  "words": [
+   {
+    "t": "So",
+    "n": "so",
+    "emph": false
+   },
+   {
+    "t": "here's",
+    "n": "here's",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "ultimate",
+    "n": "ultimate",
+    "emph": false
+   },
+   {
+    "t": "question.",
+    "n": "question",
+    "emph": false
+   },
+   {
+    "t": "If",
+    "n": "if",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "walked",
+    "n": "walked",
+    "emph": false
+   },
+   {
+    "t": "into",
+    "n": "into",
+    "emph": false
+   },
+   {
+    "t": "a",
+    "n": "a",
+    "emph": false
+   },
+   {
+    "t": "school",
+    "n": "school",
+    "emph": false
+   },
+   {
+    "t": "full",
+    "n": "full",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "billionaires",
+    "n": "billionaires",
+    "emph": false
+   },
+   {
+    "t": "tomorrow...",
+    "n": "tomorrow",
+    "emph": false
+   },
+   {
+    "t": "would",
+    "n": "would",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "pretend",
+    "n": "pretend",
+    "emph": false
+   },
+   {
+    "t": "to",
+    "n": "to",
+    "emph": false
+   },
+   {
+    "t": "be",
+    "n": "be",
+    "emph": false
+   },
+   {
+    "t": "one",
+    "n": "one",
+    "emph": false
+   },
+   {
+    "t": "of",
+    "n": "of",
+    "emph": false
+   },
+   {
+    "t": "them?",
+    "n": "them",
+    "emph": false
+   },
+   {
+    "t": "Or",
+    "n": "or",
+    "emph": false
+   },
+   {
+    "t": "would",
+    "n": "would",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "show",
+    "n": "show",
+    "emph": false
+   },
+   {
+    "t": "up",
+    "n": "up",
+    "emph": false
+   },
+   {
+    "t": "with",
+    "n": "with",
+    "emph": false
+   },
+   {
+    "t": "your",
+    "n": "your",
+    "emph": false
+   },
+   {
+    "t": "paper",
+    "n": "paper",
+    "emph": false
+   },
+   {
+    "t": "bag...",
+    "n": "bag",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "be",
+    "n": "be",
+    "emph": false
+   },
+   {
+    "t": "EXACTLY",
+    "n": "exactly",
+    "emph": true
+   },
+   {
+    "t": "who",
+    "n": "who",
+    "emph": false
+   },
+   {
+    "t": "you",
+    "n": "you",
+    "emph": false
+   },
+   {
+    "t": "are?",
+    "n": "are",
+    "emph": false
+   }
+  ]
+ },
+ {
+  "id": 154,
+  "tag": "enthusiasm",
+  "text": "Tell us what you'd do in the comments... and subscribe for more animated what if scenarios, impossible situations, and strange adventures.",
+  "words": [
+   {
+    "t": "Tell",
+    "n": "tell",
+    "emph": false
+   },
+   {
+    "t": "us",
+    "n": "us",
+    "emph": false
+   },
+   {
+    "t": "what",
+    "n": "what",
+    "emph": false
+   },
+   {
+    "t": "you'd",
+    "n": "you'd",
+    "emph": false
+   },
+   {
+    "t": "do",
+    "n": "do",
+    "emph": false
+   },
+   {
+    "t": "in",
+    "n": "in",
+    "emph": false
+   },
+   {
+    "t": "the",
+    "n": "the",
+    "emph": false
+   },
+   {
+    "t": "comments...",
+    "n": "comments",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "subscribe",
+    "n": "subscribe",
+    "emph": false
+   },
+   {
+    "t": "for",
+    "n": "for",
+    "emph": false
+   },
+   {
+    "t": "more",
+    "n": "more",
+    "emph": false
+   },
+   {
+    "t": "animated",
+    "n": "animated",
+    "emph": false
+   },
+   {
+    "t": "what",
+    "n": "what",
+    "emph": false
+   },
+   {
+    "t": "if",
+    "n": "if",
+    "emph": false
+   },
+   {
+    "t": "scenarios,",
+    "n": "scenarios",
+    "emph": false
+   },
+   {
+    "t": "impossible",
+    "n": "impossible",
+    "emph": false
+   },
+   {
+    "t": "situations,",
+    "n": "situations",
+    "emph": false
+   },
+   {
+    "t": "and",
+    "n": "and",
+    "emph": false
+   },
+   {
+    "t": "strange",
+    "n": "strange",
+    "emph": false
+   },
+   {
+    "t": "adventures.",
+    "n": "adventures",
+    "emph": false
+   }
+  ]
+ }
+]
