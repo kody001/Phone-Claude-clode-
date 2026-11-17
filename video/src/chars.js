@@ -57,6 +57,7 @@ const FACES = {
   yell: ['dot', 'angry', 'yell'], sly: ['half', 'raise', 'smirk'], smugtalk: ['half', 'flat', 'talk'], angrytalk: ['dot', 'angry', 'talk'],
   sadtalk: ['dot', 'sad', 'talk'], happytalk: ['dot', null, 'talk'], dizzy: ['spiral', null, 'wavy'], teeth: ['wide', 'sad', 'teeth'],
   crazy: ['crazy', null, 'grin'], derp: ['crazy', null, 'buck'],
+  gross: ['bulge', null, 'puke'],
 };
 
 const POSES = {
@@ -380,6 +381,16 @@ function drawHead(c, st, pr, seed, t, face, o, talking) {
     if (blink) { line(c, [[x - 11, y + 1], [x, y + 3], [x + 11, y + 1]], { lw: 5.5, seed: seed + 71 + sd }); continue; }
     if (eyes === 'dot') { c.fillStyle = INK; c.beginPath(); c.ellipse(x + lx * 3, y + ly * 3, 9.5 * z, 12 * z, sd * 0.06, 0, TAU); c.fill(); }
     else if (eyes === 'wide') { ell(c, x, y - 3, 18 * z, 21 * z, { fill: '#fff', lw: 4.5, seed: seed + 72 + sd }); c.fillStyle = INK; c.beginPath(); c.arc(x + lx * 7, y - 2 + ly * 6, 6, 0, TAU); c.fill(); }
+    else if (eyes === 'bulge') {
+      const ox = sd * 6;
+      ell(c, x + ox, y + 4, 27, 21, { fill: '#f2e3a2', lw: 6, seed: seed + 72 + sd });
+      c.fillStyle = INK; c.beginPath(); c.ellipse(x + ox - 9, y + 10, 8.5, 7.5, 0, 0, TAU); c.fill();
+      c.save(); c.beginPath(); c.ellipse(x + ox, y + 4, 27, 21, 0, 0, TAU); c.clip(); c.fillStyle = pr.skin; c.fillRect(x + ox - 30, y - 22, 60, 15 + (sd > 0 ? 3 : 0)); c.restore();
+      line(c, [[x + ox - 30, y - 6 + (sd < 0 ? 4 : -2)], [x + ox, y - 9], [x + ox + 30, y - 6 + (sd > 0 ? 6 : -1)]], { lw: 8, seed: seed + 73 + sd });
+      line(c, [[x + ox - 22, y + 30], [x + ox, y + 34], [x + ox + 20, y + 29]], { lw: 3.5, seed: seed + 76 + sd, stroke: 'rgba(40,20,10,0.6)' });
+      if (o.bruise && sd > 0) { c.fillStyle = 'rgba(88,40,150,0.8)'; c.beginPath(); c.ellipse(x + ox + 4, y + 22, 26, 9, -0.1, 0, Math.PI); c.fill(); }
+      continue;
+    }
     else if (eyes === 'crazy') { const r = k ? 20 : 14; ell(c, x, y - 3, r, r * 1.1, { fill: '#fff9c4', lw: 4.5, seed: seed + 72 + sd }); c.fillStyle = INK; c.beginPath(); c.arc(x + (k ? 4 : -3), y - 1, k ? 4 : 5, 0, TAU); c.fill(); }
     else if (eyes === 'half' || eyes === 'sleepy') {
       c.fillStyle = INK; c.beginPath(); c.ellipse(x + lx * 3, y + 2, 10 * z, 11 * z, 0, 0, TAU); c.fill();
@@ -440,6 +451,11 @@ function drawHead(c, st, pr, seed, t, face, o, talking) {
   else if (mm === 'buck') { line(c, [[mx - 18, my - 2], [mx, my + 2], [mx + 18, my - 3]], ml); shp(c, rrectPts(mx - 11, my - 1, 10, 13, 2), { fill: '#fff', lw: 3.5, seed }); shp(c, rrectPts(mx + 1, my - 1, 10, 13, 2), { fill: '#fff', lw: 3.5, seed: seed + 1 }); }
   else if (mm === 'o') ell(c, mx, my + 4, 12, 16, { fill: red, lw: 5, seed: seed + 96 });
   else if (mm === 'smallo') ell(c, mx, my + 4, 7, 9, { fill: red, lw: 4.5, seed: seed + 96 });
+  else if (mm === 'puke') {
+    shp(c, [[mx - 34, my - 2], [mx - 10, my - 12], [mx + 14, my - 10], [mx + 32, my - 4], [mx + 26, my + 20], [mx, my + 28], [mx - 26, my + 20]], { fill: '#9a2a24', lw: 6, seed: seed + 97 });
+    for (const [tx, tw, th] of [[-24, 11, 12], [-10, 10, 9], [14, 11, 13]]) shp(c, rrectPts(mx + tx, my - 9, tw, th, 2), { fill: '#fffbe6', lw: 3, seed: seed + tx });
+    c.save(); c.beginPath(); c.ellipse(mx - 2, my + 13, 26, 12, 0, 0, TAU); c.clip(); c.fillStyle = '#9cc63a'; c.fillRect(mx - 30, my + 4, 60, 30); c.restore();
+  }
   else if (mm === 'grin') openMouth(34, 26, true, false);
   else if (mm === 'open') openMouth(32, 30, false, true);
   else if (mm === 'yell') openMouth(28, 42, true, true);

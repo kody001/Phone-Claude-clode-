@@ -76,3 +76,53 @@ shot(Object.assign({ at: 200, bg: 'thumb_sand', draw: (c, st) => {
   grungeWord(c, 'IN', 1430, 700, 110, BLK, { grunge: 0.2 });
   grungeWord(c, 'HISTORY', 1430, 880, 220, BLK, { grunge: 0.25 });
 } }, thumbBase));
+
+// 4) DISGUSTING CURES IN HISTORY — modelled on the reference "BRUTAL SPORTS IN HISTORY" thumbnail
+BGS.thumb_ripples = c => {
+  c.fillStyle = '#d6bf96'; c.fillRect(0, 0, W, H);
+  for (let y = -30, k = 0; y < H + 40; y += 30, k++) {
+    const amp = 10 + rnd(k, 1) * 12, f = 0.0035 + rnd(k, 2) * 0.003, ph = rnd(k, 3) * 6;
+    const path = (dy) => { c.beginPath(); for (let x = -20; x <= W + 20; x += 16) c.lineTo(x, y + dy + Math.sin(x * f + ph) * amp + Math.sin(x * f * 2.7 + ph * 2) * amp * 0.4); };
+    path(7); c.strokeStyle = 'rgba(110,80,40,0.30)'; c.lineWidth = 12; c.stroke();
+    path(0); c.strokeStyle = 'rgba(255,246,222,0.32)'; c.lineWidth = 8; c.stroke();
+  }
+  for (let i = 0; i < 12000; i++) { c.fillStyle = `rgba(${90 + rnd(i, 4) * 100},${70 + rnd(i, 5) * 70},${40 + rnd(i, 6) * 40},${0.05 + rnd(i, 7) * 0.08})`; c.fillRect(rnd(i, 8) * W, rnd(i, 9) * H, 2, 2); }
+  c.fillStyle = radial(c, W * 0.45, H * 0.45, 200, W * 0.75, [[0, 'rgba(0,0,0,0)'], [1, 'rgba(60,35,10,0.45)']]); c.fillRect(0, 0, W, H);
+  return 3.5;
+};
+function roundWord(c, s, x, y, size, fill) {
+  c.save(); c.font = `${size}px "Lilita One"`; c.textAlign = 'center'; c.textBaseline = 'middle'; c.lineJoin = 'round';
+  c.fillStyle = 'rgba(0,0,0,0.55)'; c.strokeStyle = 'rgba(0,0,0,0.55)'; c.lineWidth = size * 0.2; c.strokeText(s, x + size * 0.04, y + size * 0.07); c.fillText(s, x + size * 0.04, y + size * 0.07);
+  c.strokeStyle = '#140c0a'; c.lineWidth = size * 0.17; c.strokeText(s, x, y);
+  c.fillStyle = fill; c.fillText(s, x, y);
+  c.restore();
+}
+function vomitSpray(c, x0, y0, seed) {
+  const cols = ['#9cc63a', '#86b02c', '#b8d850', '#6f9422'];
+  c.save();
+  for (let i = 0; i < 260; i++) {
+    const a = Math.PI + (rnd(seed, i) - 0.5) * 0.9 - 0.28, d = 20 + Math.pow(rnd(seed, i + 300), 0.7) * 520, r = (3 + rnd(seed, i + 600) * 15) * (1 - d / 700);
+    c.fillStyle = cols[i % 4]; c.globalAlpha = 0.75 + rnd(seed, i + 900) * 0.25;
+    c.beginPath(); c.ellipse(x0 + Math.cos(a) * d, y0 + Math.sin(a) * d, r * 1.4, r, a, 0, TAU); c.fill();
+  }
+  c.globalAlpha = 1; c.fillStyle = '#8ab832';
+  c.beginPath(); c.moveTo(x0 + 10, y0 - 14); c.quadraticCurveTo(x0 - 150, y0 - 70, x0 - 300, y0 - 30); c.quadraticCurveTo(x0 - 160, y0 - 10, x0 + 10, y0 + 14); c.fill();
+  for (let i = 0; i < 16; i++) { const x = x0 - 60 - rnd(seed, i + 1200) * 380, y = y0 - 70 + rnd(seed, i + 1300) * 90, L = 30 + rnd(seed, i + 1400) * 160; c.fillStyle = cols[i % 3]; c.fillRect(x, y, 4 + rnd(seed, i) * 4, L); c.beginPath(); c.arc(x + 4, y + L, 5, 0, TAU); c.fill(); }
+  c.restore();
+}
+shot(Object.assign({ at: 300, bg: 'thumb_ripples', draw: (c, st) => {
+  roundWord(c, 'DISGUSTING', 520, 200, 168, '#e8332a');
+  roundWord(c, 'CURES', 520, 430, 220, '#e8332a');
+  roundWord(c, 'IN', 520, 625, 110, '#ffffff');
+  roundWord(c, 'HISTORY', 520, 850, 210, '#ffffff');
+  prop(c, st, 'jar', 1140, 840, { s: 1.75, rot: -0.12 });
+  flies(c, 1150, 640, 4.7, 5, 1.7);
+  ch(c, st, 'roman_pat', { x: 1610, y: 1010, s: 2.05, lean: -16, face: 'gross', bruise: true, pre: { skin: '#fbf9f4', color: '#c62a22', hair: 'none', bags: 0 }, arms: [[95, 35], [40, -60]], noShadow: true,
+    after: (cc, info) => {
+      // forehead wound and body stitches like the reference
+      cc.save(); cc.translate(30, info.hy - 62); line(cc, [[-10, -10], [10, 10]], { lw: 5, stroke: '#c0302a' }); line(cc, [[10, -10], [-10, 10]], { lw: 5, stroke: '#c0302a' }); cc.restore();
+      line(cc, [[40, -120], [56, -96]], { lw: 4 }); line(cc, [[56, -122], [40, -96]], { lw: 4 });
+    } });
+  vomitSpray(c, 1440, 525, 77);
+  stink(c, 1140, 640, 3.3, '#b8a530', 3, 1.3);
+} }, thumbBase));
