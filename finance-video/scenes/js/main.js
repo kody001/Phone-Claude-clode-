@@ -10,6 +10,7 @@ if (params.has('render')) document.body.classList.add('render');
 window.READY = (async () => {
   const fonts = ['700 40px Kalam', '400 40px Kalam', '400 20px Inter', '600 20px Inter', '700 20px Inter', '800 20px Inter', '900 20px Inter', '700 20px Merriweather', '400 20px Merriweather'];
   await Promise.all(fonts.map(f => document.fonts.load(f)));
+  await MP.ready;
   RESOLVED = resolveAll();
   return { duration: WORDS.duration, shots: RESOLVED.length, errors: ERRORS.slice() };
 })();

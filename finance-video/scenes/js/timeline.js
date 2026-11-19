@@ -197,6 +197,9 @@ function drawCharacter(ctx, e, t, fx) {
   if (e.squash) st.squash = e.squash;
   // pose
   const ps = seqAt(e.poseSeq, t);
+  let out;
+  if (isM) out = drawMascotPuppet(ctx, e, t, fx, st, ps, fs.cur, talk, walking);
+  else {
   const hands = {};
   for (const side of ['L', 'R']) {
     const mk = (entry) => {
@@ -218,7 +221,8 @@ function drawCharacter(ctx, e, t, fx) {
     hands[side] = h;
   }
   st.hands = hands;
-  const out = isM ? drawMascot(ctx, st, t) : drawStick(ctx, cast, st, t);
+  out = drawStick(ctx, cast, st, t);
+  }
   // held prop
   if (e.hold && t >= e.hold.t0) {
     const side = e.hold.side || 'R';
