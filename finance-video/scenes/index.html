@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Center Bill</title>
+<style>
+  @font-face { font-family: 'Kalam'; font-weight: 400; src: url(../assets/fonts/kalam-latin-400-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Kalam'; font-weight: 700; src: url(../assets/fonts/kalam-latin-700-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 400; src: url(../assets/fonts/inter-latin-400-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 500; src: url(../assets/fonts/inter-latin-400-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 600; src: url(../assets/fonts/inter-latin-600-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 700; src: url(../assets/fonts/inter-latin-700-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 800; src: url(../assets/fonts/inter-latin-800-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 900; src: url(../assets/fonts/inter-latin-900-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Merriweather'; font-weight: 400; src: url(../assets/fonts/merriweather-latin-400-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Merriweather'; font-weight: 700; src: url(../assets/fonts/merriweather-latin-700-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Merriweather'; font-weight: 900; src: url(../assets/fonts/merriweather-latin-900-normal.woff2) format('woff2'); }
+  :root { --bg: #f1f2f4; --fg: #1b1b1b; --muted: #5d6670; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #15171a; --fg: #eceff2; --muted: #9aa3ad; } }
+  html, body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.4 Inter, system-ui, sans-serif; }
+  body.render { background: #fff; }
+  #wrap { max-width: 1280px; margin: 0 auto; padding: 16px; }
+  canvas { width: 100%; height: auto; display: block; background: #fff; box-shadow: 0 2px 16px rgba(0,0,0,.15); }
+  body.render #wrap { padding: 0; max-width: none; }
+  body.render canvas { width: 1920px; box-shadow: none; }
+  body.render #ui { display: none; }
+  #ui { display: flex; gap: 12px; align-items: center; margin-top: 12px; flex-wrap: wrap; }
+  #ui input[type=range] { flex: 1; min-width: 200px; }
+  #ui button { font: inherit; padding: 6px 14px; border-radius: 6px; border: 1px solid var(--muted); background: transparent; color: var(--fg); cursor: pointer; }
+  #time { font-variant-numeric: tabular-nums; color: var(--muted); }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="c" width="1920" height="1080"></canvas>
+  <div id="ui">
+    <button id="play">Play</button>
+    <input id="seek" type="range" min="0" max="1079" step="0.01" value="0">
+    <span id="time">0:00.0</span>
+  </div>
+</div>
+<audio id="vo" src="../audio/voiceover.mp3" preload="auto"></audio>
+<script src="js/util.js"></script>
+<script src="js/ink.js"></script>
+<script src="js/characters.js"></script>
+<script src="js/props.js"></script>
+<script src="js/cards.js"></script>
+<script src="js/cast.js"></script>
+<script src="data/words.js"></script>
+<script src="data/env.js"></script>
+<script src="js/timeline.js"></script>
+<script src="js/shotkit.js"></script>
+<script src="js/shots1.js"></script>
+<script src="js/shots2.js"></script>
+<script src="js/shots3.js"></script>
+<script src="js/shots4.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

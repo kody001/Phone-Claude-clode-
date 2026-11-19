@@ -1,0 +1,246 @@
+   0.00 About half of American adults say they never use AI chatbots.
+   4.00 Not ChatGPT, not Gemini, not Copilot.
+   7.52 Never.
+   8.00 That's according to Pew Research.
+   9.92 For a lot of those people, AI just isn't part of their life.
+  13.08 They don't ask it questions.
+  14.80 They don't use it for work, they don't really think about it at all, but a lot of them are paying for it anyway.
+  21.12 Every.
+  21.72 Single.
+  22.56 Month.
+  23.28 It just doesn't say AI anywhere on the bill.
+  26.48 It says, Electricity.
+  28.55 Now, you'd think that if you've never typed a single word into a chatbot, you wouldn't be paying for the power it runs on.
+  35.15 That's how paying for things is supposed to work.
+  37.79 You use it, you pay for it, you don't use it, you don't.
+  42.19 Except, that's not how the power grid works.
+  45.55 And no, this isn't a conspiracy theory.
+  48.63 It's in the auction results.
+  50.47 It's in the grid operators' own forecasts.
+  53.07 And by the end of this video, you'll see exactly how a building you've never seen in a state you might not even live in ends up on your bill.
+  61.75 In February, residential electricity prices across the country were up 7.4% from a year earlier, according to the Energy Information Administration, and the EIA expected the average price for this whole year to land around 18 cents per kilowatt hour, up from about 17.3 cents in 2025.
+  81.75 Now, there are some easy explanations for that, and to be fair, some of them are real.
+  87.54 The first one is fuel.
+  89.14 A lot of America's electricity comes from burning natural gas, and gas often sets the price of power.
+  95.50 The EIA expected wholesale natural gas prices to be about 16% higher this year than last year.
+ 101.54 When the fuel costs more, the electricity costs more.
+ 104.82 The second one is the wires.
+ 106.78 Researchers at Lawrence Berkeley National Laboratory found that a big part of the recent increase in bills comes from transmission and distribution.
+ 114.60 The poles, lines, and substations that carry power to your house.
+ 118.92 A lot of that equipment is more than 50 years old and replacing it costs more than $10 billion a year just for transmission.
+ 126.68 Add storm damage and wildfire protection on top of that and your bill goes up.
+ 131.40 And it's not that you're suddenly using a lot more power at home either.
+ 135.16 The EIA expects household electricity demand to grow by only about half a percent this year.
+ 140.72 Your house isn't the thing that changed.
+ 142.88 So let's be clear.
+ 144.40 Data centers are not the only reason your bill is rising.
+ 147.84 But they're the part almost nobody explains.
+ 151.00 Because it's hidden inside a charge most people have never even heard of.
+ 155.44 What's actually happening is that parts of the grid are now charging everyone to get ready for customers who haven't even shown up yet.
+ 163.80 And to understand how that works, you have to start at a restaurant.
+ 167.60 Imagine you walk into a restaurant.
+ 169.76 You sit down.
+ 170.76 You order a burger.
+ 172.28 Nothing fancy.
+ 173.48 The bill comes.
+ 174.92 Burger.
+ 175.64 $15.
+ 177.08 And right underneath it, table reservation fee.
+ 180.28 $4.
+ 181.45 You didn't reserve a table.
+ 183.33 You're already sitting at one.
+ 184.97 So you call the waiter over and ask what that's for.
+ 187.73 And he points to the back room.
+ 189.69 There are 40 empty tables back there.
+ 192.17 Napkins folded.
+ 193.45 Glasses out.
+ 194.45 Chairs pushed in.
+ 195.81 They're being held for a giant party that's supposed to show up at some point.
+ 200.25 Maybe next year.
+ 201.57 Maybe the year after that.
+ 203.37 Maybe never.
+ 204.41 But to be ready, the restaurant had to rent the extra space, buy the extra chairs, and keep extra cooks on call.
+ 211.89 And somebody has to pay for that.
+ 214.29 So the cost gets split across every diner in the building, including the guy in the corner who just came in for a burger.
+ 221.17 That guy is you.
+ 222.73 That's basically how a big part of America's power grid works right now.
+ 226.73 The restaurant is a company called PJM.
+ 229.33 It's the largest grid operator in the country.
+ 232.13 It runs the power system for 13 states and Washington DC, stretching from New Jersey all the way to Illinois.
+ 239.65 If you live anywhere in that region, PJM is deciding how much power gets reserved for you and what you pay for it.
+ 247.09 To do that, PJM runs an auction.
+ 249.73 But here's the thing.
+ 251.09 It's not buying electricity.
+ 253.17 It's paying power plants to promise they'll be available on the hottest and coldest days of the year.
+ 258.53 The days when everyone's blasting their AC or their heat at the same time.
+ 263.85 It's called the capacity market.
+ 266.05 In restaurant terms, it's paying to keep tables open.
+ 269.77 And here's the important part.
+ 271.69 How many tables PJM holds depends on how many people it expects to show up.
+ 277.30 That's its demand forecast.
+ 279.54 If the forecast says a huge party is coming, PJM has to reserve more capacity.
+ 284.94 The more it needs, the higher the price goes.
+ 287.50 And that cost flows down to your local utility, and then onto your bill.
+ 291.86 And when the forecast jumps faster than new power plants can get built, the price shoots up.
+ 297.39 That's exactly what's been happening.
+ 299.35 In December 2025, PJM's auction price hit its cap, a record high for the third auction in a row.
+ 306.35 You'll never see a line on your statement that says data centers.
+ 310.75 It's just baked into the rate.
+ 312.99 So who's the giant party?
+ 315.09 Data centers, the massive warehouses full of computer chips that train and run AI.
+ 320.59 PJM's own long-term forecast from 2025 showed peak demand growing by 32 gigawatts between 2024 and 2030.
+ 329.41 And of that growth, about 30 gigawatts was expected to come from data centers.
+ 334.25 [Oh,] [but] [two!]
+ 335.45 To put that in perspective, 1 gigawatt is roughly what a single large nuclear reactor puts out.
+ 341.57 So that's like needing about 30 nuclear reactors worth of new power, mostly to run computers.
+ 347.45 One analysis of PJM's newer forecast went even further.
+ 351.30 The energy research firm Modo Energy found that without data centers, peak demand on PJM's grid would actually be shrinking.
+ 359.30 That makes sense when you think about it.
+ 361.26 Homes keep getting more efficient.
+ 363.30 Maryland's top utility consumer advocate has pointed out that regular demand barely grew for years thanks to things like more efficient light bulbs.
+ 371.42 So the party isn't just part of the growth.
+ 374.22 The party is the growth.
+ 376.25 And the bill for getting ready for it is already here.
+ 379.37 In July, PJM held its latest capacity auction, this one for the year starting June, 2028.
+ 385.89 It committed to paying power plants about $16.4 billion.
+ 390.45 That tied the record set in the auction right before it.
+ 393.57 Then the grid's independent watchdog weighed in.
+ 396.33 It's a firm called Monitoring Analytics, and its whole job is to keep an eye on PJM's markets.
+ 402.29 Its president, Joseph Bowring, said about $6.3 billion of that total came from data centers.
+ 408.93 That's roughly 38% of the entire auction, driven by one type of customer.
+ 414.55 And that's with a price cap!
+ 417.07 PJM said that without the cap, the auction would have cleared so high that the total cost would have been almost $30 billion.
+ 423.99 And after all that, the grid still fell short of its own reliability target.
+ 429.00 So we're paying record prices and still not getting all the capacity the grid says it needs.
+ 434.92 Over the last four auctions, the market monitor puts the data center bill at $29.4 billion.
+ 441.80 That's almost half of everything paid for capacity in that time.
+ 445.75 Now here's the part that really fits the restaurant.
+ 448.95 In the auction before this one, the monitor found data centers drove about $6.5 billion in costs, and about $6.2 billion of that was tied to data centers that hadn't even been built yet.
+ 462.00 The party hasn't arrived, but the tables are already on your tab.
+ 466.88 Bowring has argued that data center demand should be pulled out of the main auction and handled in a separate auction of its own, to, in his words, ensure that data centers pay for their own capacity.
+ 478.45 The translation, whoever's causing the cost should be the one paying for it.
+ 482.93 Right now, that's not how it works.
+ 485.17 And you don't even need a data center in your town for this to hit you.
+ 488.65 Maryland's Office of People's Counsel, the state agency that represents utility customers, says Marylanders are on the hook for about $1.6 billion over the next decade for transmission projects driven mostly by data centers in other states.
+ 503.40 For homes, it works out to roughly $345 per customer.
+ 507.84 It's like getting a split-the-bill request for a dinner you didn't go to, in a state you don't even live in.
+ 514.40 And it's not just transmission.
+ 516.40 When Bloomberg analyzed wholesale power prices, it found that in areas near major data center activity, electricity cost as much as 267% more for a single month than it did five years earlier.
+ 531.00 Now, to be fair, capacity charges are only one slice of your bill.
+ 536.48 PJM itself has estimated that rising capacity costs could add somewhere around 1.5 to 5% to some household bills.
+ 544.76 But capacity is just the first domino.
+ 547.64 All the new power plants and power lines being built to serve this demand have to be paid for too.
+ 552.90 The consulting firm ICF estimated that residential electricity rates across the PJM region could climb 30 to 60 percent by 2030.
+ 562.34 And people are already feeling it.
+ 564.46 In October, Consumer Reports surveyed just over 2,000 American adults.
+ 570.10 [Yep,] [yeah.]
+ 571.30 81% of people who'd lived in the same home for at least three years said their electric bill had gone UP in that time.
+ 578.50 28% said it had jumped by 20 to 49% and another 6% said it went up by more than half.
+ 586.38 And this isn't just an annoying number in an app.
+ 589.30 About three out of four people whose bills went up said it was straining their finances.
+ 594.26 People earning under $85,000 a year were more than twice as likely to say it was straining them a lot.
+ 600.58 About one in five Americans said they'd cut back on groceries, switched to cheaper food, or thought about it just to keep up with the electric bill.
+ 609.00 Let that sink in.
+ 610.44 People are deciding between keeping the lights on and what goes in the fridge.
+ 614.72 And for a lot of families, it's already gone past deciding.
+ 618.04 The National Energy Assistance Directors Association estimates that about 21.5 million households are behind on their energy bills.
+ 626.50 That's roughly one in six homes in America.
+ 629.23 As of the middle of 2025, Americans owed more than $23 billion in past-due energy bills, and when you fall far enough behind, the power gets cut.
+ 639.50 The same group estimated about 3.5 million households had their electricity shut off at some point in 2024, and expected that number to climb to around 4 million in 2025.
+ 651.42 None of those households signed up for an AI subscription, but they're helping pay for one anyway.
+ 657.02 But I know what some of you may be thinking right now.
+ 659.90 Okay, so data centers are pushing costs up.
+ 663.27 Once they're up and running, they'll be paying massive power bills themselves.
+ 667.51 That spreads the cost around, right?
+ 670.23 Maybe, if they show up.
+ 672.23 Because even PJM doesn't fully believe the RSVPs.
+ 675.75 Modo Energy found that utilities asked PJM to plan for roughly 60 gigawatts of new large load demand by 2030.
+ 683.30 PJM only accepted 34.
+ 685.17 It cut the guest list by more than 40% before the party even started.
+ 690.26 Maryland's consumer advocate has even started calling some of this phantom data center demand, requests for power from projects that may never actually get built.
+ 699.35 And as the agency pointed out, utilities can still benefit from building those upgrades, whether the demand ever shows up or not.
+ 707.43 So who's supposed to pay for the empty chairs?
+ 710.15 Which brings us to the question nobody in this industry likes to answer.
+ 714.03 What happens if the AI boom fizzles?
+ 717.43 Remember, the capacity auction is a one-year deal.
+ 721.05 But the power plants and transmission lines being built for this new demand are not.
+ 726.33 Utilities don't pay for those in cash upfront.
+ 729.37 They borrow the money, build the thing, and then recover the cost from customers over decades.
+ 734.97 A transmission line can get paid off over 20, 30, even 40 years.
+ 740.53 And a regulated utility usually earns a set return on that investment the entire time.
+ 746.00 So, if the giant party never shows up, the restaurant doesn't eat the cost of all those empty tables.
+ 751.92 The regular diners do.
+ 753.68 For years.
+ 754.64 And we know this happens because it's happening right now in Wisconsin.
+ 758.76 There's a coal plant in Pleasant Prairie, Wisconsin.
+ 761.68 It opened in 1980.
+ 763.44 It shut down in 2018.
+ 765.50 Customers are going to be paying for it until 2039.
+ 769.10 That's 21 years of paying for a power plant that doesn't make any power.
+ 773.18 According to Wisconsin Watch, utility customers in the state owe nearly $1 billion on plants that have already shut down or soon will.
+ 781.50 And that bill includes a return for the utility, typically around 9.8%, that keeps coming even after the plant stops running.
+ 789.85 It's like still making car payments on a car that's been sitting in a scrapyard since 2018.
+ 794.60 And the dealership is still making money on every single payment.
+ 798.61 When Wisconsin Watch asked about the data center boom, Todd Stuart, who runs a group representing big industrial energy users in the state warned that if a data center turns out to be short lived or smaller than promised.
+ 811.20 Everybody's left holding the bag.
+ 813.36 The translation, If the AI party cancels, the rest of us get stuck with the bill.
+ 819.00 And if this sounds familiar, it's because we've done it before.
+ 822.72 In the late 1990s, the internet was the next big thing.
+ 827.00 Telecom companies, fueled by huge forecasts and easy money, raced to lay fiber optic cable everywhere they could.
+ 834.80 By one estimate from NYU's Stern School of Business, network builders poured roughly $30 billion into laying about 90 million miles of fiber.
+ 844.48 Then the bubble popped.
+ 846.00 By 2001, estimates said only about 5% of the fiber in the ground was actually being used.
+ 852.56 95% of it.
+ 854.64 Just sitting there.
+ 856.24 Dark.
+ 857.05 Under city streets, sometimes just yards from the buildings it was supposed to connect.
+ 862.29 Companies like Global Crossing and WorldCom ended up in bankruptcy.
+ 866.49 Now, to be fair, a lot of that fiber DID eventually get used.
+ 871.85 Years later, it became part of the backbone of the internet you're using right now.
+ 876.97 But here's the difference.
+ 878.57 When the fiber bubble popped, the people who lost money were mostly investors, shareholders, lenders.
+ 885.70 People who chose to make that bet.
+ 887.86 This time, the bet is being made with your electric bill.
+ 892.62 Some states are trying to protect against this by making data centers sign long-term contracts, often 10 to 15 years, that lock in their payments.
+ 901.70 That helps.
+ 902.95 But if a transmission line takes 40 years to pay off, who covers the other 25?
+ 908.75 And people are starting to notice.
+ 910.95 In March, Gallup asked Americans for the first time how they'd feel about an AI data center being built in their area.
+ 917.55 71% said they'd oppose it.
+ 920.03 Nearly half.
+ 921.23 48%.
+ 922.85 said they were strongly opposed.
+ 924.93 In that same survey, only 53% opposed a nuclear power plant in their area.
+ 931.09 So Americans would now rather live next to a nuclear reactor than next to a warehouse full of computers.
+ 937.73 And this isn't a red state or blue state thing.
+ 941.05 Gallup found majorities of Democrats, Independents, and Republicans opposed local construction.
+ 947.10 In this month's midterm elections, candidates from both parties blame data centers for rising electric bills.
+ 953.50 And in that Consumer Reports survey, 84% said they'd support their utility putting big users like data centers into a separate rate category of their own.
+ 963.18 Some states have stopped waiting.
+ 965.66 In May, Tennessee Governor Bill Lee signed a law aimed right at this problem.
+ 970.90 Under it, data centers that need at least 50 megawatts of power have to pay for the infrastructure that serves them.
+ 977.74 The substations, the grid upgrades?
+ 980.70 Instead of spreading that cost across everyone else's bill, the bill's House sponsor Republican Representative Ed Butler, put it to his fellow lawmakers like this.
+ 992.10 In Tennessee, we love data centers.
+ 995.38 Then he said they wanted guardrails to protect ratepayers.
+ 998.82 The translation, Come build here.
+1001.90 Just bring your own wallet!
+1003.78 Now, it's not airtight.
+1005.74 The law still lets utilities share some of the costs if the upgrades also help other customers, or if they follow the normal rules for all large customers.
+1014.42 But it flips the starting point.
+1016.35 In Tennessee, the default is now that the data center pays.
+1020.91 Not you.
+1022.51 A couple of months later, Lee joined 22 other Republican governors in signing a White House ratepayer protection pledge.
+1030.99 A promise that households won't foot the bill for the data center boom.
+1035.19 But that pledge is voluntary.
+1037.31 The Tennessee law isn't.
+1038.99 So what we have is this.
+1040.80 A grid that's charging everyone to get ready for customers who haven't shown up yet.
+1045.44 A forecast where almost all the growth comes from one industry.
+1049.32 Power plants and power lines that get paid off over decades by families who never asked for them.
+1054.90 And an industry that could look completely different five years from now.
+1058.98 About half of American adults say they never use AI chatbots.
+1063.62 They're paying for the build-out anyway.
+1066.02 The restaurant is still holding those 40 tables, the party still hasn't arrived, and every month, the reservation fee shows up on your bill.
+1074.98 The AI boom might be a bubble.
+1077.26 Your electric bill isn't.
