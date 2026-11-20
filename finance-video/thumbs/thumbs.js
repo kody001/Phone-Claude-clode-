@@ -18,7 +18,8 @@ const THUMBS = [
     year: '2028', yearAt: [1390, 330],
     source: 'Source: PJM, Monitoring Analytics',
     extra(ctx) {
-      mapChar(605, 805, 0.74, { mood: 'worried', sweat: true, arm: 'hold', look: [0.5, -0.3], hold: { prop: 'bill', a: { total: '$$$' }, s: 0.42, rot: 0.15 } });
+      mapChar(590, 790, 0.7, { mood: 'worried', sweat: true, arm: 'point', look: [0.5, -0.4] });
+      stickman('joe', 835, 1050, 0.52, 'worried', 'holdR', { prop: 'bill', a: { total: '$$$' }, s: 0.45 });
     },
   },
   {
