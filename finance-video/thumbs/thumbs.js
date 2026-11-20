@@ -18,7 +18,7 @@ const THUMBS = [
     year: '2028', yearAt: [1390, 330],
     source: 'Source: PJM, Monitoring Analytics',
     extra(ctx) {
-      stickman('joe', 640, 1000, 0.62, 'worried', 'holdR', { prop: 'bill', a: { total: '$$$' }, s: 0.45 });
+      mapChar(605, 805, 0.74, { mood: 'worried', sweat: true, arm: 'hold', look: [0.5, -0.3], hold: { prop: 'bill', a: { total: '$$$' }, s: 0.42, rot: 0.15 } });
     },
   },
   {
@@ -32,10 +32,7 @@ const THUMBS = [
     year: '2026', yearAt: [1390, 300],
     source: 'Source: Gallup',
     extra(ctx) {
-      prop('nuclear', 560, 900, 0.5);
-      prop('check', 560, 735, 0.55);
-      prop('dataCenter', 790, 960, 0.48);
-      prop('xmark', 790, 935, 0.6);
+      mapChar(605, 805, 0.74, { mood: 'angry', arm: 'up', look: [0.6, 0], hold: { prop: 'sign', a: { text: 'NO!', size: 84, w: 230, h: 140, color: COL.red }, s: 0.5, dy: -40 } });
     },
   },
   {
@@ -49,8 +46,7 @@ const THUMBS = [
     year: '2030', yearAt: [1390, 320],
     source: 'Source: PJM 2025 load forecast',
     extra(ctx) {
-      prop('dataCenter', 660, 940, 0.62);
-      prop('partyHat', 660, 795, 0.55, 0.15);
+      mapChar(605, 805, 0.74, { mood: 'shocked', arm: 'point', look: [0.4, -0.6], onTop: () => { prop('dataCenter', 175, -95, 0.36); prop('partyHat', 180, -175, 0.42, 0.2); } });
     },
   },
 ];
@@ -68,6 +64,40 @@ function stickman(cast, x, y, s, expr, pose, hold) {
     ctx.save(); ctx.translate(x + H.x * s, y + H.y * s); ctx.scale(hold.s * s, hold.s * s);
     drawProp(ctx, hold.prop, hold.a || {}, 1); ctx.restore();
   }
+}
+// Our own green US-map character (drawn here, in the style of the reference channel):
+// green map, googly eyes, a mouth for the mood, stick arms and legs.
+function mapChar(x, y, s, o = {}) {
+  const pen = new Pen(ctx, 321, 1.1);
+  ctx.save(); ctx.translate(x, y); ctx.scale(s, s);
+  // legs + arms first so the map body overlaps their roots
+  for (const [hx, dir] of [[-70, -1], [60, 1]]) pen.line([[hx, 100], [hx + dir * 6, 228], [hx + dir * 34, 232]], { lw: 8 });
+  pen.line([[-285, -30], [-335, 40], [-350, 95]], { lw: 8 });
+  const hand = o.arm === 'up' ? [330, -210] : o.arm === 'point' ? [390, -150] : [345, 40];
+  const elbow = o.arm === 'up' ? [300, -110] : o.arm === 'point' ? [310, -90] : [300, -5];
+  pen.line([[228, -40], elbow, hand], { lw: 8 });
+  if (o.arm === 'point') pen.seg(hand[0], hand[1], hand[0] + 34, hand[1] - 16, { lw: 7 });
+  // the map
+  pen.shape(US_OUTLINE.map(([lo, la]) => mapXY(lo, la)), { fill: '#5a9a45', lw: 7, smooth: false, amp: 1.4 });
+  pen.shape([[-345, 130], [-300, 112], [-262, 128], [-252, 168], [-282, 182], [-318, 176], [-350, 200], [-382, 204], [-362, 176], [-372, 150]], { fill: '#5a9a45', lw: 6, amp: 1 });
+  // face
+  const lk = o.look || [0, 0];
+  for (const ex of [-52, 22]) {
+    pen.ellipse(ex, -18, 32, 40, { fill: '#fff', lw: 6, irr: 0.04 });
+    ctx.fillStyle = COL.ink; ctx.beginPath(); ctx.arc(ex + lk[0] * 13, -14 + lk[1] * 16, 14, 0, 7); ctx.fill();
+  }
+  if (o.mood === 'angry') { pen.seg(-88, -78, -26, -58, { lw: 9 }); pen.seg(58, -78, -4, -58, { lw: 9 }); }
+  if (o.mood === 'worried') { pen.seg(-86, -62, -30, -80, { lw: 8 }); pen.seg(56, -62, 0, -80, { lw: 8 }); }
+  if (o.mood === 'worried') pen.line([[-50, 62], [-34, 52], [-18, 62], [-2, 52], [14, 62]], { lw: 7 });
+  else if (o.mood === 'angry') { pen.rect(-52, 46, 72, 32, { fill: '#fff', lw: 6, r: 8 }); for (const tx of [-28, -4]) pen.seg(tx, 48, tx, 76, { lw: 3 }); pen.seg(-50, 62, 18, 62, { lw: 3 }); }
+  else if (o.mood === 'shocked') pen.ellipse(-16, 64, 22, 28, { fill: '#5a1f1f', lw: 6 });
+  if (o.sweat) pen.shape([[118, -120], [134, -86], [118, -70], [102, -86]], { fill: '#8fd0ff', lw: 4 });
+  if (o.onTop) o.onTop();
+  if (o.hold) {
+    ctx.save(); ctx.translate(hand[0] + (o.hold.dx || 0), hand[1] + (o.hold.dy || 0)); ctx.rotate(o.hold.rot || 0); ctx.scale(o.hold.s, o.hold.s);
+    drawProp(ctx, o.hold.prop, o.hold.a || {}, 1); ctx.restore();
+  }
+  ctx.restore();
 }
 const CAST_T = { joe: { seed: 11, skin: '#f6cfa9', hair: 'side', hairColor: '#7a4a2a', freckles: true, browsAlways: true } };
 
@@ -119,7 +149,7 @@ function drawThumb(T) {
   if (T.extra) T.extra(ctx);
   const sx = 567, sy = 128, sw = 261, sh = 640, s = 1.06;
   ctx.imageSmoothingQuality = 'high';
-  ctx.drawImage(mascotImg, sx, sy, sw, sh, 160, 455, sw * s, sh * s);
+  ctx.drawImage(mascotImg, sx, sy, sw, sh, 56, 455, sw * s, sh * s);
 }
 
 window.READY = (async () => {
