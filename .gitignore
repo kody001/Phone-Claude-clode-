@@ -1,0 +1,4 @@
+video/out/
+video/align/vo16k.raw
+node_modules/
+video/align/custom.dict
