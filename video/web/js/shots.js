@@ -732,14 +732,14 @@ export function buildTimeline({ words, sets, cast, THREE }) {
   cut(PS(66) - 0.1, 'building', ['you'], ctx => {
     E(ctx); act(ctx, 'you', { pos: [-0.5, 0, 0.1], rot: 0, pose: 'stand', expr: 'nervous', sweat: 1, idle: 0, aL: 0 });
     cast.you.arms.L.sh.rotation.z = 0.05; cast.you.arms.R.sh.rotation.z = -0.05; cast.you.arms.L.el.rotation.x = 0; cast.you.arms.R.el.rotation.x = 0;
-    dolly(ctx, [[-0.5, 1.2, 2.3], [-0.5, 1.05, 0.1], 38], [[-0.5, 1.2, 2.6], [-0.5, 1.05, 0.1], 40]);
+    ctx.S.cutFront = true; dolly(ctx, [[-0.5, 1.2, 2.3], [-0.5, 1.05, 0.1], 38], [[-0.5, 1.2, 2.6], [-0.5, 1.05, 0.1], 40]);
   });
   pop(T(66, 'hard'), PE(66) + 0.4, 'SO HARD?!', { size: 110, x: 0.7, y: 0.3, rot: 5 });
   // P67-72 stomach growl
   mood(PS(67), 'none');
   cut(PS(67) - 0.1, 'building', ['you'], ctx => {
     E(ctx); act(ctx, 'you', { pos: [-0.5, 0, 0.1], rot: 0, pose: 'stand', expr: 'awkward', idle: 0.2 });
-    dolly(ctx, [[-0.5, 1.4, 2.0], [-0.5, 1.2, 0.1], 40], [[-0.5, 1.0, 1.15], [-0.5, 0.95, 0.1], 36], ease.inOut);
+    ctx.S.cutFront = true; dolly(ctx, [[-0.5, 1.4, 2.0], [-0.5, 1.2, 0.1], 40], [[-0.5, 1.0, 1.15], [-0.5, 0.95, 0.1], 36], ease.inOut);
   });
   fx(PS(67), 'suspense_hit', 0.4);
   cut(PS(68) - 0.1, 'building', ['you'], ctx => {
