@@ -15,7 +15,10 @@ const scale = +(Q.get('scale') || 1);
 const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('gl'), antialias: true, preserveDrawingBuffer: true, powerPreference: 'high-performance' });
 renderer.setPixelRatio(1); renderer.setSize(W * scale, H * scale, false);
 document.getElementById('gl').style.width = W + 'px'; document.getElementById('gl').style.height = H + 'px';
-renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+// PCF (with shadow.radius blur) is ~20% cheaper than PCFSoft in SwiftShader; colour grade + grain are applied
+// at encode time (ffmpeg) because CSS filters/blend layers double the compositing cost per frame.
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFShadowMap;
+if (!Q.has('cssgrade')) { document.getElementById('gl').style.filter = 'none'; document.getElementById('grain').style.display = 'none'; }
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.08;
 const ui = document.getElementById('ui').getContext('2d');
@@ -94,7 +97,7 @@ window.renderAt = (t) => {
   renderer.render(scene, camera);
   lastShot = shot;
   resolveAnchors(t, castNow);
-  drawOverlay(ui, t, overlays, captionAt(t), { project, headPos, hideCaption: ctx.hideCaption || TL.bubbleAt(t) }, grain);
+  drawOverlay(ui, t, overlays, captionAt(t), { project, headPos, hideCaption: ctx.hideCaption || TL.bubbleAt(t) }, Q.has('cssgrade') ? grain : null);
 };
 window.TL_INFO = { duration: TL.duration, shots: shots.length }; window.__dbgCam = camera; window.__dbgSets = sets;
 window.TL_AUDIO = { sfx: TL.sfx, music: TL.music, speech: TL.speech, duration: TL.duration };

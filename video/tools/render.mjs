@@ -41,7 +41,7 @@ async function worker(id) {
     const f0 = k * CHUNK * FPS, f1 = Math.min(totalFrames, (k + 1) * CHUNK * FPS);
     const tmp = name(k) + '.part.mp4';
     const ff = spawn('ffmpeg', ['-v', 'error', '-y', '-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'mjpeg', '-i', '-',
-      '-c:v', 'libx264', '-preset', 'slow', '-tune', 'animation', '-crf', '18', '-maxrate', '16M', '-bufsize', '32M', '-profile:v', 'high', '-level', '4.2', '-pix_fmt', 'yuv420p', '-r', String(FPS),
+      '-vf', 'eq=saturation=1.16:contrast=1.05', '-c:v', 'libx264', '-preset', 'slow', '-tune', 'animation', '-crf', '18', '-maxrate', '16M', '-bufsize', '32M', '-profile:v', 'high', '-level', '4.2', '-pix_fmt', 'yuv420p', '-r', String(FPS),
       '-g', '120', '-movflags', '+faststart', tmp], { stdio: ['pipe', 'inherit', 'inherit'] });
     const tc = Date.now();
     for (let f = f0; f < f1; f++) {
