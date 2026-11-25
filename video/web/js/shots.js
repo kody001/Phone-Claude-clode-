@@ -203,7 +203,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
     const stopT = PS(2) + 0.6;
     act(ctx, 'you', { pos: [lerp(-1.2, 0.2, ease.out(range(t, ctx.shot.t0, stopT))), 0, lerp(7.2, 5.2, ease.out(range(t, ctx.shot.t0, stopT)))], rot: Math.PI, walk: { phase: t * 12, amt: t < stopT ? 1 : 0, run: true }, expr: 'shocked', head: { pitch: 0 } });
     act(ctx, 'alex', { pos: STAND_ALEX, rot: -0.2, expr: 'neutral', look: [0.3, 0] });
-    dolly(ctx, [[1.2, 1.7, 8.6], [0, 1.3, FZ], 42], [[0.6, 1.5, 6.9], [0, 1.2, FZ], 36]);
+    dolly(ctx, [[1.7, 2.5, 9.8], [0, 1.25, FZ], 40], [[1.1, 2.35, 8.6], [0, 1.2, FZ], 36]);
   });
   fx(PS(2) + 0.2, 'ding', 0.5); fx(T(2, 'slowly'), 'door_slide', 0.7);
   cut(T(2, 'elevator') - 0.1, 'building', ['you', 'alex'], ctx => {
@@ -338,7 +338,8 @@ export function buildTimeline({ words, sets, cast, THREE }) {
     const t = ctx.t; E(ctx);
     act(ctx, 'you', { pos: [-0.25, 0, 0.35], rot: 0, expr: t > T(10, 'fascinating') ? 'love' : 'awkward', head: { pitch: -0.45 }, look: [0, -1] });
     act(ctx, 'alex', { pos: STAND_ALEX, rot: -0.35, expr: 'neutral', head: { yaw: -0.3 } });
-    dolly(ctx, [[-0.1, 1.05, 1.2], [-0.25, 1.75, 0.3], 44], [[-0.15, 1.15, 1.05], [-0.25, 1.75, 0.3], 40]);
+    if (t < T(10, 'like')) dolly(ctx, [[0.35, 1.3, -1.0], [-0.1, 2.5, FZ], 46], [[0.3, 1.25, -0.85], [-0.1, 2.6, FZ], 42], ease.inOut, range(t, ctx.shot.t0, T(10, 'like')));
+    else cu(ctx, 'you', { dist: 1.45, dy: -0.25, ly: 0.12, push: 0.15 });
   });
   ov({ type: 'symbol', t0: T(10, 'fascinating'), t1: PE(10) + 0.3, whoA: aw('you', 0.7), sym: '✦', color: '#fff7b0', size: 70 });
   fx(T(10, 'fascinating'), 'sparkle', 0.5);
@@ -370,7 +371,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
   // P13 flicker / grinding
   cut(PS(13) - 0.1, 'building', ['you', 'alex'], ctx => {
     E(ctx); act(ctx, 'you', { pos: [-0.25, 0, 0.35], rot: 0, expr: 'scared', pose: 'scared', head: { pitch: -0.5 } }); act(ctx, 'alex', { pos: STAND_ALEX, rot: -0.35, expr: 'scared', pose: 'scared', head: { pitch: -0.5 } });
-    drift(ctx, [0.6, 1.05, 1.0], [0, 2.9, -0.2], 46, 0.04); ctx.shake = 0.3;
+    ctx.S.cutFront = true; drift(ctx, [0.3, 1.0, 3.9], [0, 1.75, -0.3], 42, 0.04); ctx.shake = 0.3;
   });
   fx(PS(13), 'flicker', 0.7, { dur: 4 });
   cut(T(13, 'grinding') - 0.1, 'shaft', ['you', 'alex'], ctx => {
@@ -438,7 +439,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
   mood(PS(21) - 0.3, 'awkward', 0.75);
 
   // ======================================================================== ACT 2 — buttons + intercom
-  const panelCam = (ctx, z = 0) => drift(ctx, [-1.18 + z * 0.05, 1.5, 0.22 + z * 0.25], [-0.86, 1.36, FZ - 0.08], 46 - z * 6, 0.015);
+  const panelCam = (ctx, z = 0) => { cast.you.head.visible = false; drift(ctx, [-1.18 + z * 0.03, 1.42, 0.66 + z * 0.1], [-0.88, 1.36, FZ - 0.08], 44 - z * 4, 0.01); }; // presser's head sits just off-frame; hide it so its edge doesn't intrude
   cut(PS(21) - 0.1, 'building', ['you'], ctx => {
     const t = ctx.t, pr = T(21, 'press') + 0.2;
     E(ctx, { lit: t > pr + 0.15 ? ['8'] : [] });
@@ -509,7 +510,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
   // P29 maintenance voice (office)
   cut(PS(29) - 0.1, 'office', ['maint'], ctx => {
     act(ctx, 'maint', { pos: [0, 0, -0.25], rot: 0, pose: 'sitChair', expr: 'bored', head: { roll: 0.12 } });
-    cu(ctx, 'maint', { dist: 1.5, yaw: -0.25, dy: 0.02 });
+    cu(ctx, 'maint', { dist: 1.5, yaw: 0.3, dy: 0.02 });
   });
   // P30 Alex answers
   cut(PS(30) - 0.1, 'building', ['you', 'alex'], ctx => {
@@ -539,7 +540,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
   mood(PS(33), 'none');
   cut(PS(34) - 0.1, 'office', ['maint'], ctx => {
     const t = ctx.t; act(ctx, 'maint', { pos: [0, 0, -0.25], rot: 0, pose: t > T(34, 'click') - 0.2 ? 'pressButton' : 'sitChair', expr: 'bored' });
-    dolly(ctx, [[0.9, 1.5, 2.3], [0, 1.2, -0.6], 36], [[0.8, 1.45, 2.0], [0, 1.2, -0.6], 34]);
+    dolly(ctx, [[1.2, 1.75, 2.8], [0, 1.4, -0.4], 36], [[1.05, 1.7, 2.5], [0, 1.42, -0.4], 34]);
   });
   fx(T(34, 'click'), 'intercom_click', 0.9);
   // P35 stare at speaker
@@ -1483,6 +1484,6 @@ export function buildTimeline({ words, sets, cast, THREE }) {
     act(ctx, 'you', { pos: [sit ? -0.32 : -0.45, y, sit ? -0.6 : 0.0], rot: sit ? 0.3 : 0.2, pose: sit ? (sc ? 'sitHug' : 'sitKnees') : (ctx.t < 70 || ctx.t > 940 ? 'stand' : 'scared'), expr: sc ? 'scared' : ctx.t > 940 ? 'awkward' : ctx.t > 490 && ctx.t < 510 ? 'smile' : 'shocked' });
     act(ctx, 'alex', { pos: [sit ? 0.38 : 0.6, y, sit ? -0.6 : -0.3], rot: sit ? -0.3 : -0.3, pose: sit ? (sc ? 'sitHug' : 'sitKnees') : (ctx.t < 70 || ctx.t > 940 ? 'stand' : 'scared'), expr: sc ? 'scared' : ctx.t > 940 ? 'awkward' : ctx.t > 490 && ctx.t < 510 ? 'content' : 'shocked' });
   };
-  const preFrame = () => { props(null, {}); resetScale(); catHall.visible = false; };
+  const preFrame = () => { props(null, {}); resetScale(); catHall.visible = false; cast.you.head.visible = true; };
   return { duration: DUR, shots, overlays, captions, speech, sfx, music, bubbleAt, words, preFrame, post };
 }
