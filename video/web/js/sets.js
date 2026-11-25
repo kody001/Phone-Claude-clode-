@@ -238,9 +238,9 @@ export function buildBuilding() {
       if (camera) {
         for (const w of walls) {
           const c = camera.position; const d = w.n[0] ? (c.x - w.p) * w.n[0] : (c.z - w.p) * w.n[2];
-          w.m.visible = d > -0.02 || s.noCut;
+          w.m.visible = !!(d > -0.02 || s.noCut);
         }
-        ceil.visible = camera.position.y < CH + 0.02 || s.noCut;
+        ceil.visible = !!(camera.position.y < CH + 0.02 || s.noCut);
         lightPanel.visible = ceil.visible;
         const inside = camera.position.z < FZ;
         lobby.visible = s.lobby ?? (!inside || open > 0.02);
@@ -523,19 +523,20 @@ export function buildOffice() {
   lights(scene, { hemi: 1.1, key: 1.2, keyPos: [-3, 7, 5], shadowSize: 6, sky: '#ffe9c8' });
   scene.add(M(box(10, 0.1, 8), lam('#6a5c8a'), 0, -0.05, 0, { cast: false }));
   scene.add(M(box(10, 4, 0.2), lam('#9e95c0'), 0, 2, -2.5, { cast: false }));
-  // desk + monitor + keyboard + mug
-  scene.add(M(box(2.4, 0.08, 1.0), lam('#c48a5a'), 0, 0.85, -1.2)); scene.add(M(box(0.1, 0.85, 0.9), lam('#8a5a3a'), -1.1, 0.42, -1.2)); scene.add(M(box(0.1, 0.85, 0.9), lam('#8a5a3a'), 1.1, 0.42, -1.2));
+  // desk in front of the worker (who faces +z), monitor angled at the side so the face stays visible
+  scene.add(M(box(2.4, 0.08, 1.0), lam('#c48a5a'), 0, 0.85, 0.85)); scene.add(M(box(0.1, 0.85, 0.9), lam('#8a5a3a'), -1.1, 0.42, 0.85)); scene.add(M(box(0.1, 0.85, 0.9), lam('#8a5a3a'), 1.1, 0.42, 0.85));
   const monTex = canvasTex(512, 320, (x, w, h) => { x.fillStyle = '#10223a'; x.fillRect(0, 0, w, h); x.fillStyle = '#39ff9a'; x.font = '28px monospace'; ['BLDG: MAPLE APTS', 'CAR 1: FAULT', 'POS: FL 6-7', 'STATUS: STOPPED', 'TECH ETA: 2:00:00'].forEach((l, i) => x.fillText(l, 24, 50 + i * 50)); });
-  scene.add(M(box(1.0, 0.65, 0.06), lam('#2a2338'), 0, 1.35, -1.45)); scene.add(M(new THREE.PlaneGeometry(0.9, 0.56), basic('#fff', { map: monTex }), 0, 1.35, -1.415, { cast: false }));
-  scene.add(M(box(0.1, 0.3, 0.1), lam('#2a2338'), 0, 1.0, -1.45));
-  const kb = M(box(0.7, 0.04, 0.22), lam('#3a3348'), 0, 0.91, -0.95); scene.add(kb);
-  scene.add(M(new THREE.CylinderGeometry(0.07, 0.06, 0.16, 16), lam('#ff7eb6'), 0.8, 0.97, -1.0));
-  // microphone
-  scene.add(M(new THREE.CylinderGeometry(0.01, 0.01, 0.35, 8), lam('#2a2338'), -0.6, 1.05, -1.1, { rz: 0.4 }));
-  scene.add(M(new THREE.SphereGeometry(0.05, 12, 10), lam('#2a2338'), -0.67, 1.22, -1.1));
-  // chair
-  scene.add(M(box(0.6, 0.08, 0.6), lam('#3a3348'), 0, 0.5, -0.2)); scene.add(M(box(0.6, 0.7, 0.08), lam('#3a3348'), 0, 0.9, 0.12));
-  const lamp = new THREE.PointLight('#a8ffd0', 2.5, 3, 1.5); lamp.position.set(0, 1.4, -0.9); scene.add(lamp);
+  const mon = new THREE.Group(); mon.position.set(-0.85, 1.3, 0.95); mon.rotation.y = Math.PI - 0.55; scene.add(mon);
+  mon.add(M(box(1.0, 0.65, 0.06), lam('#2a2338'), 0, 0, 0)); mon.add(M(new THREE.PlaneGeometry(0.9, 0.56), basic('#fff', { map: monTex }), 0, 0, 0.035, { cast: false }));
+  scene.add(M(box(0.1, 0.4, 0.1), lam('#2a2338'), -0.85, 1.0, 0.95));
+  const kb = M(box(0.7, 0.04, 0.22), lam('#3a3348'), 0, 0.91, 0.5); scene.add(kb);
+  scene.add(M(new THREE.CylinderGeometry(0.07, 0.06, 0.16, 16), lam('#ff7eb6'), 0.75, 0.97, 0.7));
+  // microphone on a little stand
+  scene.add(M(new THREE.CylinderGeometry(0.01, 0.01, 0.35, 8), lam('#2a2338'), 0.45, 1.05, 0.62, { rz: 0.4 }));
+  scene.add(M(new THREE.SphereGeometry(0.05, 12, 10), lam('#2a2338'), 0.38, 1.22, 0.62));
+  // chair (behind the worker)
+  scene.add(M(box(0.6, 0.08, 0.6), lam('#3a3348'), 0, 0.5, -0.3)); scene.add(M(box(0.6, 0.7, 0.08), lam('#3a3348'), 0, 0.9, -0.62));
+  const lamp = new THREE.PointLight('#a8ffd0', 2.5, 3, 1.5); lamp.position.set(-0.6, 1.4, 0.7); scene.add(lamp);
   return { scene, update() { } };
 }
 

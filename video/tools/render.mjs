@@ -29,7 +29,9 @@ console.log(`duration ${DUR}s, ${totalFrames} frames, ${nChunks} chunks; renderi
 
 let done = 0; const t0 = Date.now();
 async function worker(id) {
-  const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
+  // one browser (and so one SwiftShader GPU process) per worker so rendering spreads across cores
+  const br = id === 0 ? browser : await chromium.launch({ args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--disable-background-timer-throttling'] });
+  const page = await br.newPage({ viewport: { width: 1920, height: 1080 } });
   page.on('pageerror', e => console.log(`[w${id}] PAGE ERROR`, e.message));
   await page.goto(`http://127.0.0.1:${port}/web/index.html`);
   await page.waitForFunction('window.ready', null, { timeout: 180000 });
@@ -39,7 +41,7 @@ async function worker(id) {
     const f0 = k * CHUNK * FPS, f1 = Math.min(totalFrames, (k + 1) * CHUNK * FPS);
     const tmp = name(k) + '.part.mp4';
     const ff = spawn('ffmpeg', ['-v', 'error', '-y', '-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'mjpeg', '-i', '-',
-      '-c:v', 'libx264', '-preset', 'faster', '-tune', 'animation', '-crf', '16', '-pix_fmt', 'yuv420p', '-r', String(FPS),
+      '-c:v', 'libx264', '-preset', 'slow', '-tune', 'animation', '-crf', '18', '-maxrate', '16M', '-bufsize', '32M', '-profile:v', 'high', '-level', '4.2', '-pix_fmt', 'yuv420p', '-r', String(FPS),
       '-g', '120', '-movflags', '+faststart', tmp], { stdio: ['pipe', 'inherit', 'inherit'] });
     const tc = Date.now();
     for (let f = f0; f < f1; f++) {
@@ -56,6 +58,7 @@ async function worker(id) {
     console.log(`[w${id}] chunk ${k} (${f1 - f0} fr) in ${((Date.now() - tc) / 1000).toFixed(0)}s · ${done} done · ${(el / 60).toFixed(1)} min elapsed · ETA ${((el / done) * jobs.length / 60).toFixed(0)} min`);
   }
   await page.close();
+  if (br !== browser) await br.close();
 }
 await Promise.all([...Array(WORKERS).keys()].map(worker));
 await browser.close(); srv.close();

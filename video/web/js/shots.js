@@ -246,7 +246,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
     const u = ease.out(range(t, st, st + 1.1));
     act(ctx, 'you', { pos: [lerp(0.05, -0.3, u), 0, lerp(FZ + 0.6, 0.3, u)], rot: Math.PI - u * 0.2, walk: { phase: t * 10, amt: u < 1 ? 0.8 : 0 }, pose: u < 1 ? 'stand' : 'slump', expr: 'tired', mouth: u >= 1 ? 0.35 + 0.25 * Math.sin(t * 9) : 0, sweat: 1, bob: u >= 1 ? Math.sin(t * 9) * 0.01 : 0 });
     act(ctx, 'alex', { pos: STAND_ALEX, rot: -0.2, expr: 'neutral', look: [0.3, 0] });
-    drift(ctx, [-0.9, 1.7, -0.95], [0.1, 1.2, 0.9], 52);
+    drift(ctx, [-1.9, 1.9, -0.9], [0.0, 1.2, 0.7], 44);
   });
   fx(T(4, 'stumble'), 'stumble', 0.6); fx(T(4, 'stumble') + 1.3, 'pant', 0.35);
   cut(T(4, 'notice') - 0.1, 'building', ['you', 'alex'], ctx => {
@@ -254,7 +254,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
     E(ctx, { door: 1, floor: 'L', light: 1, tint: '#fff' });
     act(ctx, 'you', { pos: [-0.3, 0, 0.3], rot: Math.PI - 0.2 + ease.inOut(range(t, T(4, 'notice'), T(4, 'notice') + 0.8)) * -2.2, pose: 'slump', expr: t > T(4, 'corner') ? 'surprised' : 'tired', sweat: 1 });
     act(ctx, 'alex', { pos: STAND_ALEX, rot: -0.35, expr: 'neutral' });
-    dolly(ctx, [[-0.95, 1.55, 1.1], [0.72, 1.3, -0.62], 44], [[-0.45, 1.5, 0.75], [0.72, 1.45, -0.62], 30], ease.sine);
+    ctx.S.cutFront = true; dolly(ctx, [[0.1, 1.9, 3.2], [0.6, 1.45, -0.62], 38], [[0.3, 1.85, 2.6], [0.7, 1.5, -0.62], 30], ease.sine);
   });
   fx(T(4, 'notice'), 'suspense_hit', 0.5);
   mood(T(4, 'notice'), 'none');
@@ -520,7 +520,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
     const t = ctx.t, ty = T(31, 'typing');
     act(ctx, 'maint', { pos: [0, 0, -0.25], rot: 0, pose: 'sitChair', expr: 'bored', bob: t > ty ? Math.abs(Math.sin(t * 22)) * 0.008 : 0 });
     if (t > ty) { cast.maint.arms.L.el.rotation.x -= Math.abs(Math.sin(t * 20)) * 0.15; cast.maint.arms.R.el.rotation.x -= Math.abs(Math.sin(t * 23 + 1)) * 0.15; }
-    dolly(ctx, [[-0.4, 1.7, 1.2], [0, 1.25, -1.3], 40], [[-0.2, 1.55, 0.6], [0, 1.3, -1.4], 36]);
+    dolly(ctx, [[1.3, 1.9, 2.2], [-0.3, 1.0, 0.6], 40], [[1.1, 1.8, 1.9], [-0.35, 1.05, 0.6], 36]);
   });
   fx(T(31, 'typing') - 0.1, 'typing', 0.7, { dur: 1.6 });
   pill(T(31, 'then'), PS(32) + 1.0, 'TECH ETA: 2:00:00', 0.5, 0.775, { icon: 'clock' });
@@ -638,7 +638,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
     const t = ctx.t; E(ctx); const pu = T(46, 'pull');
     props(ctx, { phoneYou: t > pu + 0.3 });
     act(ctx, 'you', { pos: [-0.3, 0, 0.3], rot: 0.15, poseMix: tp(t, pu, 'stand', 'phone', 0.45), expr: 'awkward', head: { pitch: 0.35 } }); act(ctx, 'alex', { pos: [0.55, 0, -0.55], rot: -0.3, expr: 'neutral', head: { yaw: -0.3 } });
-    dolly(ctx, [[-0.9, 1.6, 1.2], [-0.25, 1.3, 0.3], 40], [[-0.85, 1.55, 1.0], [-0.25, 1.35, 0.3], 36]);
+    ctx.S.cutFront = true; dolly(ctx, [[-1.5, 1.9, 2.7], [-0.15, 1.45, 0.1], 36], [[-1.35, 1.85, 2.4], [-0.15, 1.5, 0.1], 34]);
   });
   pill(T(46, 'look'), PE(46) + 0.3, 'LOOK BUSY', 0.5, 0.775, { icon: 'bolt' });
   // P47–58 phone UI
@@ -663,7 +663,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
   fx(PS(54), 'phone_buzz', 0.7); fx(PS(55) - 0.05, 'msg_pop', 0.8);
   cut(PS(56) - 0.1, 'building', ['you', 'alex'], ctx => {
     E(ctx); props(ctx, { phoneYou: true }); act(ctx, 'you', { pos: [-0.3, 0, 0.3], rot: 0.15, pose: 'phone', expr: 'awkward', head: { pitch: 0.2 }, sweat: 1 }); act(ctx, 'alex', { pos: [0.55, 0, -0.55], rot: -0.6, expr: 'neutral', look: [-0.6, 0] });
-    look(ctx.cam, [-0.2, 1.75, 1.15], [0.1, 1.45, -0.3], 44);
+    ctx.S.cutFront = true; look(ctx.cam, [-1.0, 1.8, 2.7], [0.05, 1.55, -0.2], 36);
   });
   ov({ ...chat, t0: T(57, 'start') - 0.2, t1: T(58, 'reflection') - 0.2, messages: chat.messages, dx: 0 });
   fx(T(57, 'typing'), 'phone_typing', 0.55, { dur: tDie - T(57, 'typing') });
@@ -994,8 +994,8 @@ export function buildTimeline({ words, sets, cast, THREE }) {
   ov({ type: 'custom', t0: T(119, 'airtight') - 0.2, t1: T(119, 'worst'), draw: (c, t) => { for (let i = 0; i < 5; i++) { const p = ((t * 0.5) + i / 5) % 1; c.save(); c.globalAlpha = Math.sin(p * Math.PI) * 0.8; c.strokeStyle = '#bdf6ff'; c.lineWidth = 6; c.lineCap = 'round'; const x = 520 + i * 180, y = 980 - p * 760; c.beginPath(); c.moveTo(x, y); c.quadraticCurveTo(x + 30, y - 40, x, y - 80); c.stroke(); c.beginPath(); c.moveTo(x - 14, y - 64); c.lineTo(x, y - 82); c.lineTo(x + 16, y - 66); c.stroke(); c.restore(); } } });
   list(T(119, 'airtight'), PE(119) + 0.5, [{ text: 'NOT AIRTIGHT', icon: 'check', t: T(119, 'airtight') }, { text: 'NOT RUNNING OUT OF AIR', icon: 'check', t: T(119, 'running') }, { text: 'CLIMB OUT THE CEILING', icon: 'x', t: T(119, 'climb') }, { text: 'STAY PUT · WAIT FOR HELP', icon: 'check', t: T(119, 'safest') }], 0.06, 0.18, { title: 'STUCK? DO THIS' });
   cut(T(119, 'ceiling') - 0.1, 'building', ['you'], ctx => {
-    E(ctx, { light: 0.4, tint: '#ffb3b3' }); act(ctx, 'you', { pos: [0, 1.55 + ease.out(range(ctx.t, T(119, 'ceiling'), T(119, 'movies'))) * 0.6, -0.1], rot: 0, pose: 'cheer', expr: 'determined' });
-    dolly(ctx, [[0.2, 0.6, 1.6], [0, 2.6, -0.1], 50], [[0.3, 0.5, 1.3], [0, 2.8, -0.1], 46]);
+    E(ctx, { light: 0.4, tint: '#ffb3b3' }); act(ctx, 'you', { pos: [0, 0.5 * ease.out(range(ctx.t, T(119, 'ceiling'), T(119, 'movies'))), -0.4], rot: 0, pose: 'cheer', expr: 'determined', head: { pitch: -0.4 } });
+    ctx.S.cutFront = true; dolly(ctx, [[0.3, 0.8, 2.4], [0, 2.1, -0.4], 48], [[0.35, 0.7, 2.1], [0, 2.3, -0.4], 46]);
   });
   ov({ type: 'bars', t0: T(119, 'ceiling') - 0.1, t1: T(119, 'real') - 0.1 });
   pop(T(119, 'movies'), T(119, 'real') - 0.1, 'ONLY IN MOVIES', { size: 96, y: 0.5, colors: ['#ffffff', '#ff4f5e'], snd: 'movie_boom' });
@@ -1232,7 +1232,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
   cut(PS(173) - 0.1, 'building', ['you', 'alex'], ctx => { E(ctx); act(ctx, 'alex', { pos: SIT_ALEX2, rot: -0.75, pose: 'sitKnees' }); act(ctx, 'you', { pos: SIT_YOU2, rot: 0.7, pose: 'sitKnees', expr: 'nervous', idle: 0 }); cu(ctx, 'you', { dist: 0.95, yaw: 0.3, fov: 30 }); });
   cut(PS(174) - 0.1, 'building', ['you', 'alex'], ctx => { E(ctx); act(ctx, 'alex', { pos: SIT_ALEX2, rot: -0.2, pose: 'sitKnees', expr: 'surprised', head: { pitch: -0.3 } }); act(ctx, 'you', { pos: SIT_YOU2, rot: 0.1, pose: 'sitKnees', expr: 'surprised', head: { pitch: -0.3 } }); drift(ctx, [-0.6, 1.35, 0.85], [-0.98, 1.6, FZ], 38); });
   fx(T(174, 'crackles'), 'static', 0.6, { dur: 1.0 });
-  cut(PS(175) - 0.1, 'office', ['maint'], ctx => { act(ctx, 'maint', { pos: [0, 0, -0.25], rot: 0, pose: 'sitChair', expr: 'smile' }); cu(ctx, 'maint', { dist: 1.6, yaw: -0.2 }); });
+  cut(PS(175) - 0.1, 'office', ['maint'], ctx => { act(ctx, 'maint', { pos: [0, 0, -0.25], rot: 0, pose: 'sitChair', expr: 'smile' }); cu(ctx, 'maint', { dist: 1.6, yaw: 0.25 }); });
   cut(PS(176) - 0.1, 'building', ['you', 'alex'], ctx => { E(ctx); act(ctx, 'alex', { pos: SIT_ALEX2, rot: -0.2, pose: 'sitKnees', expr: 'neutral' }); act(ctx, 'you', { pos: SIT_YOU2, rot: 0.2, pose: 'sitKnees', expr: 'neutral' }); twoSit(ctx, 3.0); });
   const countdown = (t0, t1, from = 300) => ov({ type: 'counter', t0, t1, x: 0.05, y: 0.12, size: 60, box: true, icon: 'clock', text: t => { const s = Math.max(0, from - (t - t0)); return `0${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`; } });
   countdown(T(175, 'five'), PE(185) + 1.0);
@@ -1242,7 +1242,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
   cut(PS(177) - 0.1, 'building', ['you', 'alex'], ctx => { E(ctx); act(ctx, 'alex', { pos: SIT_ALEX2, rot: -0.1, pose: 'sitKnees', expr: 'content' }); act(ctx, 'you', { pos: SIT_YOU2, rot: 0.1, pose: 'sitKnees', expr: 'sad' }); ctx.S.cutFront = true; dolly(ctx, [[0, 1.0, 2.6], [0, 0.85, -0.6], 34], [[0, 1.0, 2.2], [0, 0.85, -0.6], 34]); });
   // P178 montage of "normal"
   const grey = (t0, t1) => wash(t0, t1, '#8a8aa8', 0.35, { mode: 'saturation', inD: 0.2, outD: 0.2 });
-  cut(PS(178) - 0.1, 'building', ['you', 'alex'], ctx => { const t = ctx.t; E(ctx, { door: ease.inOut(range(t, PS(178), T(178, 'normal'))), light: 1.0, tint: '#ffffff' }); ctx.S.lobby = true; act(ctx, 'alex', { pos: [0.45, 0, 0.25], rot: 0, pose: 'stand' }); act(ctx, 'you', { pos: [-0.45, 0, 0.25], rot: 0 }); look(ctx.cam, [0, 2.7, -2.6], [0, 1.3, 3], 44); });
+  cut(PS(178) - 0.1, 'building', ['you', 'alex'], ctx => { const t = ctx.t; E(ctx, { door: ease.inOut(range(t, PS(178), T(178, 'normal'))), light: 1.0, tint: '#ffffff' }); ctx.S.lobby = true; act(ctx, 'alex', { pos: [0.45, 0, 0.25], rot: 0, pose: 'stand' }); act(ctx, 'you', { pos: [-0.45, 0, 0.25], rot: 0 }); look(ctx.cam, [0, 3.0, -3.4], [0, 1.2, 3], 40); });
   cut(T(178, 'alex') - 0.1, 'stack', ['alex'], ctx => { stack.rooms.alex.add(cast.alex.root); act(ctx, 'alex', { pos: [-0.5, 0, 0.2], rot: 0.3, pose: 'stand', expr: 'sad' }); dolly(ctx, [[0, 4.6, 6.0], [0, 4.2, 0], 36], [[0, 4.6, 5.2], [0, 4.2, 0], 36]); }, { onCast: true });
   grey(T(178, 'alex') - 0.1, T(178, 'you') - 0.1);
   cut(T(178, 'you') - 0.1, 'classroom', ['you', 'alex', 'npc1', 'npc2', 'npc3'], ctx => {
@@ -1270,7 +1270,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
     const w = range(t, op + 0.6, op + 3.0);
     act(ctx, 'alex', { pos: [lerp(0.45, 0.6, w), 0, lerp(0.25, FZ + 3.0, w)], rot: w > 0 ? 0 : -0.2, walk: { phase: t * 8, amt: w > 0 && w < 1 ? 1 : 0 }, expr: 'neutral' });
     act(ctx, 'you', { pos: [-0.45, 0, 0.25], rot: 0.1, expr: 'sad', pose: 'pockets' });
-    look(ctx.cam, [-0.1, 2.7, -2.6], [0.2, 1.3, 3], 44);
+    look(ctx.cam, [-0.1, 3.0, -3.4], [0.2, 1.2, 3], 40);
   });
   grey(PS(182) - 0.1, T(182, 'wondering') - 0.1); card(PS(182), T(182, 'wondering'), 'IF YOU SAY NOTHING…');
   fx(T(182, 'doors'), 'ding', 0.45); fx(T(182, 'doors') + 0.1, 'door_slide', 0.5);
@@ -1323,18 +1323,18 @@ export function buildTimeline({ words, sets, cast, THREE }) {
     act(ctx, 'alex', { pos: [lerp(SIT_ALEX2[0], 0.5, st), 0, lerp(SIT_ALEX2[2], 0.15, st)], rot: lerp(-0.75, 0, st), poseMix: { a: 'sitKnees', b: 'stand', u: st }, expr: 'surprised' });
     act(ctx, 'you', { pos: [lerp(SIT_YOU2[0], -0.5, st), 0, lerp(SIT_YOU2[2], 0.15, st)], rot: lerp(0.75, 0, st), poseMix: { a: 'sitHands', b: 'stand', u: st }, expr: 'surprised' });
     act(ctx, 'tech', { pos: [0.9, 0, FZ + 1.6], rot: Math.PI, expr: 'tired' }); act(ctx, 'patterson', { pos: [-1.0, 0, FZ + 1.9], rot: Math.PI, expr: 'surprised', scale: 0.92 }); act(ctx, 'friend', { pos: [0, 0, FZ + 2.4], rot: Math.PI, pose: 'phone', expr: 'grin' });
-    drift(ctx, [0.1, 2.5, -2.2], [0, 1.25, FZ + 1.5], 44); ctx.shake = pulse(t, PS(195), PS(195) + 0.8) * 0.5;
+    drift(ctx, [0.1, 3.0, -3.4], [0, 1.2, FZ + 1.5], 40); ctx.shake = pulse(t, PS(195), PS(195) + 0.8) * 0.5;
   });
   fx(PS(195), 'shudder', 0.55); fx(T(195, 'lights'), 'lights_on', 0.6); fx(T(195, 'doors') - 0.1, 'ding', 0.8); fx(T(195, 'doors') + 0.3, 'door_slide', 0.8);
   mood(T(195, 'doors'), 'joy', 0.75);
   cut(PS(196) - 0.1, 'building', ['you', 'alex', 'tech', 'patterson', 'friend'], ctx => {
     const t = ctx.t; E(ctx, { door: 1, floor: '7' }); ctx.S.lobby = true; props(ctx, { phoneFriend: true });
     catHall.visible = true; catHall.position.set(-1.3, 0, FZ + 1.6); catHall.rotation.y = 2.4;
-    act(ctx, 'alex', { pos: [0.5, 0, 0.15], rot: 0, pose: 'stand', expr: 'awkward' }); act(ctx, 'you', { pos: [-0.5, 0, 0.15], rot: 0, pose: 'stand', expr: 'awkward' });
+    act(ctx, 'alex', { pos: [0.56, 0, 0.15], rot: 0, pose: 'stand', expr: 'awkward' }); act(ctx, 'you', { pos: [-0.56, 0, 0.15], rot: 0, pose: 'stand', expr: 'awkward' });
     act(ctx, 'tech', { pos: [0.9, 0, FZ + 1.6], rot: Math.PI - 0.2, expr: 'tired', pose: 'slump' }); act(ctx, 'patterson', { pos: [-1.0, 0, FZ + 1.9], rot: Math.PI + 0.2, expr: 'surprised', scale: 0.92 }); act(ctx, 'friend', { pos: [0, 0, FZ + 2.4], rot: Math.PI, pose: 'phone', expr: 'grin' });
     const sh = step(t, [[0, 0], [T(196, 'technician'), 1], [T(196, 'patterson'), 2], [T(196, 'best'), 3]]);
     const tg = [[0, 1.3, FZ + 1.6], [0.9, 1.4, FZ + 1.6], [-1.0, 1.35, FZ + 1.9], [0, 1.4, FZ + 2.4]][sh];
-    const cp = [[0.1, 2.5, -2.2], [0.25, 1.75, FZ + 0.1], [-0.45, 1.7, FZ + 0.2], [0.15, 1.75, FZ + 0.5]][sh];
+    const cp = [[0.1, 3.0, -3.4], [0.25, 1.75, FZ + 0.1], [-0.45, 1.7, FZ + 0.2], [0.15, 1.75, FZ + 0.5]][sh];
     drift(ctx, cp, tg, [44, 36, 36, 34][sh]);
   }, { after: () => { catHall.visible = false; } });
   fx(T(196, 'crowd'), 'crowd_gasp', 0.55);
@@ -1343,7 +1343,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
   const rec = (t0, t1) => ov({ type: 'custom', t0, t1, draw: (c, t) => { c.save(); c.strokeStyle = '#fff'; c.lineWidth = 8; const m = 90, L = 90; [[m, m, 1, 1], [1920 - m, m, -1, 1], [m, 1080 - m, 1, -1], [1920 - m, 1080 - m, -1, -1]].forEach(([x, y, sx, sy]) => { c.beginPath(); c.moveTo(x, y + sy * L); c.lineTo(x, y); c.lineTo(x + sx * L, y); c.stroke(); }); if (Math.floor(t * 2) % 2 === 0) { c.fillStyle = '#ff3b3b'; c.beginPath(); c.arc(170, 160, 16, 0, 7); c.fill(); } c.fillStyle = '#fff'; c.font = 'bold 36px Fredoka'; c.fillText('REC', 200, 172); const s = Math.floor(t - t0 + 12); c.fillText(`00:00:${String(s).padStart(2, '0')}`, 1560, 172); c.restore(); } });
   cut(PS(197) - 0.1, 'building', ['you', 'alex', 'friend'], ctx => {
     E(ctx, { door: 1, floor: '7' }); ctx.S.lobby = true;
-    act(ctx, 'alex', { pos: [0.5, 0, 0.15], rot: 0, pose: 'stand', expr: 'awkward' }); act(ctx, 'you', { pos: [-0.5, 0, 0.15], rot: 0, pose: 'stand', expr: 'awkward' }); act(ctx, 'friend', { pos: [0, 0, FZ + 2.4], rot: Math.PI, pose: 'phone', expr: 'grin' });
+    act(ctx, 'alex', { pos: [0.56, 0, 0.15], rot: 0, pose: 'stand', expr: 'awkward' }); act(ctx, 'you', { pos: [-0.56, 0, 0.15], rot: 0, pose: 'stand', expr: 'awkward' }); act(ctx, 'friend', { pos: [0, 0, FZ + 2.4], rot: Math.PI, pose: 'phone', expr: 'grin' });
     look(ctx.cam, [0.05, 1.55, FZ + 2.0], [0, 1.45, 0.15], 40);
   });
   rec(PS(197) - 0.1, PS(198) - 0.1);
@@ -1447,7 +1447,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
   list(T(216, 'nervous') - 0.1, T(216, 'exactly'), [{ text: 'GETS NERVOUS', icon: 'check', t: T(216, 'nervous') }, { text: 'GETS SCARED', icon: 'check', t: T(216, 'scared') }, { text: 'WONDERS ABOUT YOU', icon: 'heart', t: T(216, 'wondering') }], 0.06, 0.22);
   ov({ type: 'symbol', t0: T(216, 'exactly'), t1: PE(216) + 0.5, whoA: aw('alex', 0.8), sym: 'heart' }); ov({ type: 'symbol', t0: T(216, 'exactly') + 0.2, t1: PE(216) + 0.5, whoA: aw('you', 0.8), sym: 'heart' });
   fx(T(216, 'exactly'), 'chime_soft', 0.5);
-  cut(PS(217) - 0.1, 'building', ['you', 'alex'], ctx => { const t = ctx.t; E(ctx, { door: ease.inOut(range(t, T(217, 'amazing') - 0.4, T(217, 'amazing') + 1.0)), light: 1.0, tint: '#fff4fa', lobby: true }); act(ctx, 'you', { pos: [-0.45, 0, 0.25], rot: 0, expr: 'determined' }); act(ctx, 'alex', { pos: [0.45, 0, 0.25], rot: 0, expr: 'smile' }); dolly(ctx, [[0, 2.7, -2.6], [0, 1.3, 3], 44], [[0, 2.5, -2.1], [0, 1.3, 3], 42]); });
+  cut(PS(217) - 0.1, 'building', ['you', 'alex'], ctx => { const t = ctx.t; E(ctx, { door: ease.inOut(range(t, T(217, 'amazing') - 0.4, T(217, 'amazing') + 1.0)), light: 1.0, tint: '#fff4fa', lobby: true }); act(ctx, 'you', { pos: [-0.45, 0, 0.25], rot: 0, expr: 'determined' }); act(ctx, 'alex', { pos: [0.45, 0, 0.25], rot: 0, expr: 'smile' }); dolly(ctx, [[0, 3.1, -3.6], [0, 1.2, 3], 40], [[0, 2.9, -3.0], [0, 1.25, 3], 40]); });
   ov({ type: 'meter', t0: T(217, 'ten') - 0.3, t1: PE(217) + 0.6, label: 'TEN SECONDS OF BRAVE', x: 0.39, y: 0.14, w: 420, value: t => ease.inOut(range(t, T(217, 'ten'), PE(217))), icon: 'heart', c0: '#ffd34d', c1: '#ff7eb6' });
   pop(T(217, 'brave'), PE(217) + 0.6, 'BE BRAVE.', { size: 130, y: 0.74, colors: ['#ffffff', '#ffd34d'] });
   mood(PS(218), 'theme', 0.75);

@@ -72,7 +72,12 @@ def env_adsr(dur, a=0.01, d=0.1, s=0.7, r=0.2):
 def osc(freq, dur, kind='sine', phase=0.0):
     """freq may be scalar or array (per-sample)."""
     n = int(dur * SR)
-    f = np.full(n, freq, dtype=float) if np.isscalar(freq) else np.asarray(freq, dtype=float)[:n]
+    if np.isscalar(freq):
+        f = np.full(n, freq, dtype=float)
+    else:
+        f = np.asarray(freq, dtype=float)[:n]
+        if len(f) < n:
+            f = np.concatenate([f, np.full(n - len(f), f[-1] if len(f) else 0.0)])
     ph = 2 * np.pi * np.cumsum(f) / SR + phase
     if kind == 'sine':
         return np.sin(ph)
@@ -214,3 +219,12 @@ def db(x): return 10 ** (x / 20)
 def note(n):
     """MIDI note number -> Hz"""
     return 440.0 * 2 ** ((n - 69) / 12)
+
+
+def mix(*xs):
+    """Sum arrays of different lengths (zero-padded)."""
+    n = max(len(x) for x in xs); shp = (n,) + xs[0].shape[1:]
+    out = np.zeros(shp)
+    for x in xs:
+        out[:len(x)] += x
+    return out
