@@ -1353,7 +1353,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
     const t = ctx.t; E(ctx, { door: 1, floor: '7' }); ctx.S.lobby = true; props(ctx, { phoneFriend: true });
     act(ctx, 'alex', { pos: [0.5, 0, 0.15], rot: -0.3, pose: 'stand', expr: 'grin' }); act(ctx, 'you', { pos: [-0.5, 0, 0.15], rot: 0.3, pose: 'stand', expr: 'grin' });
     act(ctx, 'friend', { pos: [0, 0, FZ + 2.4], rot: Math.PI, pose: 'cheer', expr: 'laugh' }); act(ctx, 'tech', { pos: [0.9, 0, FZ + 1.6], rot: Math.PI - 0.2, expr: 'smile' }); act(ctx, 'patterson', { pos: [-1.0, 0, FZ + 1.9], rot: Math.PI + 0.2, expr: 'happy', scale: 0.92 });
-    drift(ctx, [0.3, 1.7, FZ + 4.2], [0, 1.3, 0.4], 40);
+    drift(ctx, [0.35, 1.85, FZ + 1.15], [0, 1.6, 0.15], 42); // just in front of the crowd
   });
   pop(T(199, 'weird') + 0.1, PE(199) + 0.8, 'SO WEIRD.', { size: 130, y: 0.26, colors: ['#ffffff', '#ff7eb6'] });
   fx(T(199, 'weird') + 0.2, 'crowd_aww', 0.5);
@@ -1426,7 +1426,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
     act(ctx, 'you', { pos: [lerp(1.6, tgt[0], w), 0, lerp(0.4, tgt[2], w)], rot: lerp(Math.PI * 0.8, Math.PI, w), walk: { phase: t * 8, amt: w < 1 ? 1 : 0 }, poseMix: { a: 'stand', b: 'sitChair', u: s }, expr: 'smile' });
     dolly(ctx, [[6.8, 2.4, 1.2], [3.8, 0.9, -2.6], 40], [[6.4, 2.2, 0.6], [3.9, 0.95, -2.8], 38]);
   });
-  cut(PS(212) - 0.1, 'cafeteria', ['you', 'newkid'], ctx => { const t = ctx.t; const u = ease.out(range(t, PS(212), PS(212) + 0.6)); act(ctx, 'newkid', { pos: ctab(4), rot: 0, pose: 'sitChair', expr: t > T(212, 'smiles') - 0.2 ? 'happy' : 'surprised', head: { pitch: lerp(0.3, -0.1, u) } }); act(ctx, 'you', { pos: ctab(4, 0, -1), rot: Math.PI, pose: 'sitChair', expr: 'smile' }); cu(ctx, 'newkid', { dist: 1.7, yaw: 0.25, push: 0.15 }); });
+  cut(PS(212) - 0.1, 'cafeteria', ['you', 'newkid'], ctx => { const t = ctx.t; const u = ease.out(range(t, PS(212), PS(212) + 0.6)); act(ctx, 'newkid', { pos: ctab(4), rot: 0, pose: 'sitChair', expr: t > T(212, 'smiles') - 0.2 ? 'happy' : 'surprised', head: { pitch: lerp(0.3, -0.1, u) } }); act(ctx, 'you', { pos: ctab(4, 0, -1), rot: Math.PI, pose: 'sitChair', expr: 'smile' }); cu(ctx, 'newkid', { dist: 1.6, yaw: 0.9, free: true, push: 0.15 }); });
   fx(T(212, 'smiles'), 'chime_soft', 0.55);
 
   // ======================================================================== OUTRO
