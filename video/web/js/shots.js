@@ -338,7 +338,7 @@ export function buildTimeline({ words, sets, cast, THREE }) {
     const t = ctx.t; E(ctx);
     act(ctx, 'you', { pos: [-0.25, 0, 0.35], rot: 0, expr: t > T(10, 'fascinating') ? 'love' : 'awkward', head: { pitch: -0.45 }, look: [0, -1] });
     act(ctx, 'alex', { pos: STAND_ALEX, rot: -0.35, expr: 'neutral', head: { yaw: -0.3 } });
-    if (t < T(10, 'like')) dolly(ctx, [[0.35, 1.3, -1.0], [-0.1, 2.5, FZ], 46], [[0.3, 1.25, -0.85], [-0.1, 2.6, FZ], 42], ease.inOut, range(t, ctx.shot.t0, T(10, 'like')));
+    if (t < T(10, 'like')) { cast.you.head.visible = false; /* POV up at the floor indicator */ dolly(ctx, [[-0.2, 1.6, 0.5], [0, 2.6, FZ], 46], [[-0.16, 1.66, 0.58], [0, 2.66, FZ], 38], ease.inOut, range(t, ctx.shot.t0, T(10, 'like'))); }
     else cu(ctx, 'you', { dist: 1.45, dy: -0.25, ly: 0.12, push: 0.15 });
   });
   ov({ type: 'symbol', t0: T(10, 'fascinating'), t1: PE(10) + 0.3, whoA: aw('you', 0.7), sym: '✦', color: '#fff7b0', size: 70 });
@@ -1335,8 +1335,9 @@ export function buildTimeline({ words, sets, cast, THREE }) {
     act(ctx, 'tech', { pos: [0.9, 0, FZ + 1.6], rot: Math.PI - 0.2, expr: 'tired', pose: 'slump' }); act(ctx, 'patterson', { pos: [-1.0, 0, FZ + 1.9], rot: Math.PI + 0.2, expr: 'surprised', scale: 0.92 }); act(ctx, 'friend', { pos: [0, 0, FZ + 2.4], rot: Math.PI, pose: 'phone', expr: 'grin' });
     const sh = step(t, [[0, 0], [T(196, 'technician'), 1], [T(196, 'patterson'), 2], [T(196, 'best'), 3]]);
     const tg = [[0, 1.3, FZ + 1.6], [0.9, 1.4, FZ + 1.6], [-1.0, 1.35, FZ + 1.9], [0, 1.4, FZ + 2.4]][sh];
-    const cp = [[0.1, 3.0, -3.4], [0.25, 1.75, FZ + 0.1], [-0.45, 1.7, FZ + 0.2], [0.15, 1.75, FZ + 0.5]][sh];
-    drift(ctx, cp, tg, [44, 36, 36, 34][sh]);
+    // medium singles framed through the open doors (wider than a tight CU so the hallway group still reads)
+    const cp = [[0.1, 3.0, -3.4], [0.3, 1.7, FZ - 0.25], [-0.58, 1.62, FZ + 0.05], [0.1, 1.7, FZ + 0.05]][sh];
+    drift(ctx, cp, [tg[0], tg[1] - 0.05, tg[2]], [44, 48, 47, 44][sh]);
   }, { after: () => { catHall.visible = false; } });
   fx(T(196, 'crowd'), 'crowd_gasp', 0.55);
   pill(T(196, 'technician'), T(196, 'patterson'), 'VERY TIRED TECHNICIAN', 0.5, 0.775, { icon: 'bolt' }); pill(T(196, 'patterson'), T(196, 'best'), 'MRS. PATTERSON (+ CAT)', 0.5, 0.775, { icon: 'heart' }); pill(T(196, 'best'), PE(196) + 0.3, 'YOUR BEST FRIEND', 0.5, 0.775, { icon: 'dot' });
