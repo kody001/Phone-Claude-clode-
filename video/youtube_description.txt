@@ -1,0 +1,103 @@
+TITLE
+The SpaceX IPO Was Never About Space
+
+DESCRIPTION
+SpaceX just pulled off the biggest IPO in history: $75 billion raised, a $2 trillion valuation on day one, and Elon Musk became the first trillionaire. But the space company's own filing says 93% of the market it's chasing is artificial intelligence. Space is about 1% of the pitch.
+
+In this video I break down what investors actually bought: xAI's multi-billion-dollar losses, the $20B bridge loan, the Grok subscriptions banks had to buy, the Nasdaq "fast entry" rule that pushed SpaceX into your index fund in 15 trading days, the $60B Cursor deal paid in stock, and why the fastest-growing part of SpaceX is renting out computers on Earth.
+
+If you own a Nasdaq index fund, you probably own SpaceX right now. Even if you never clicked buy.
+
+CHAPTERS
+0:00 The largest IPO in history
+0:40 What investors actually bought
+1:15 The easy explanations don't work
+2:03 Musk: no IPO until Mars
+3:14 What changed? A chatbot
+4:27 Starlink vs. xAI
+5:09 The $20B bridge loan
+5:44 How the IPO was put together
+7:27 The Nasdaq-100 fast entry rule
+9:20 What happened to the stock
+10:26 SpaceX stock as a currency (Cursor)
+11:30 Renting Colossus to rivals
+12:42 Q3: AI is now most of the revenue
+14:07 $40B+ in debt for Nvidia chips
+15:00 Mars moved into Musk's pay package
+15:49 Next up: Tesla?
+16:43 The December 8 unlock
+17:08 The good parts were the collateral
+
+SOURCES
+IPO size, pricing and first day
+- NPR: https://www.npr.org/2026/06/11/nx-s1-5853199/spacex-is-poised-for-blastoff-with-an-ipo-likely-to-break-records
+- Bloomberg Law: https://news.bloomberglaw.com/capital-markets/elon-musks-spacex-set-to-make-history-with-record-breaking-ipo
+- Renaissance Capital: https://www.renaissancecapital.com/IPO-Center/News/119775/spacex-prices-record-setting-75-billion-ipo-at-135-as-expected
+
+IPO filing (S-1): $28.5T market, xAI losses, Starlink numbers
+- SpaceX Form S-1 prospectus, SEC EDGAR (sec.gov)
+- Reuters via Yahoo Finance: https://finance.yahoo.com/sectors/technology/articles/exclusive-spacex-conquered-stars-now-100320499.html
+- Fortune: https://fortune.com/2026/05/20/spacex-ipo-filing-s1-total-addressable-market-make-life-multiplanetary/
+- TechCrunch: https://techcrunch.com/2026/05/20/the-spacex-ipo-filing-has-arrived/
+- TechCrunch, xAI burned $6.4B: https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/
+- PitchBook via Morningstar, "Financials look reckless": https://www.morningstar.com/stocks/financials-look-reckless-lifting-xais-hood-spacex-ipo
+
+What Musk and Shotwell said about going public
+- Musk's 2013 email to employees: https://www.valuewalk.com/2018/01/elons-email-spacex-employees-regarding-taking-company-public/
+- Gwynne Shotwell, 2018 (GeekWire): https://www.geekwire.com/2018/spacex-president-gwynne-shotwell-sees-satellites-bigger-market-rockets/
+
+xAI merger, bridge loan and bonds
+- Fortune, SpaceX-xAI merger: https://fortune.com/2026/02/02/elon-musk-spacex-xai-ipo-trillion
+- The Next Web, $20B bridge loan: https://thenextweb.com/news/spacex-bridge-loan-musk-debt-refinancing-ipo
+- The Next Web, $25B debut bond sale: https://thenextweb.com/news/spacex-89-billion-demand-debut-bond-sale
+
+How the IPO was put together
+- New York Times report on Grok subscriptions (via Reuters/Yahoo Finance): https://finance.yahoo.com/markets/stocks/articles/musk-asks-spacex-ipo-banks-181543226.html
+- Scott Galloway, Prof G Markets: https://www.profgmedia.com/p/spacex-ipo-takes-off-and-elon-is
+
+Nasdaq-100 fast entry and index funds
+- Bloomberg, Nasdaq fast entry rule: https://www.bloomberg.com/news/articles/2026-03-30/nasdaq-clears-way-for-spacex-big-ipos-to-gain-fast-index-entry
+- IBTimes, $4.3B of passive buying: https://www.ibtimes.com/nasdaq-rewrote-its-rules-spacex-now-43b-passive-buying-forces-index-funds-hands-3804958
+- Kiplinger (syndicated): https://www.inkl.com/news/what-the-nasdaq-s-new-fast-entry-rule-means-for-investors
+- Fortune, SpaceX in your index fund: https://fortune.com/2026/06/13/spacex-stock-index-funds-passive-investing-401k-nasdaq-100-russell/
+- Fast Company, Nasdaq-100 timeline: https://www.fastcompany.com/91566621/spacex-stock-nasdaq-100-timeline-date-impact-qqq-401k
+- Financial Times, Robin Wigglesworth (FT Alphaville)
+
+The stock and valuation
+- Axios, SpaceX falls under IPO price: https://www.axios.com/2026/07/17/spacex-lockup-stock-selloff
+- Quartz: https://qz.com/spacex-stock-ipo-price-below-071526
+- Morningstar $780B fair value (Yahoo Finance): https://finance.yahoo.com/markets/article/spacex-valued-at-just-780-billion-by-morningstar-less-than-half-its-ipo-target-174617034.html
+- Aswath Damodaran's valuation (Moneywise): https://moneywise.com/investing/stocks/spacex-valuation-aswath-damodaran-morningstar-ed-elson
+
+Cursor deal
+- TechCrunch: https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/
+- Fortune: https://fortune.com/2026/06/16/elon-musk-spacex-ipo-ai-coding-startup-cursor-acquisition/
+
+Colossus, Anthropic and Google
+- Tom's Hardware: https://www.tomshardware.com/tech-industry/artificial-intelligence/google-signs-usd920m-monthly-compute-deal-with-spacex-companys-projected-annual-data-center-revenue-to-exceed-its-combined-proceeds-from-starlink-launch-services-and-ai-in-2025
+- Wccftech: https://wccftech.com/spacex-locks-google-into-a-920-million-per-month-compute-deal-after-anthropic-as-xai-abandons-colossus-1s-messy-gpu-mix/
+
+Q3 results
+- Reuters via Khaleej Times: https://www.khaleejtimes.com/business/spacex-quarterly-revenue-jumps-beats-estimates-as-ai-business-surges-2
+
+Chip financing
+- TechCrunch: https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/
+- Financial Times report (via InvestingLive): https://investinglive.com/stocks/spacex-seeks-40-billion-in-debt-led-by-apollo-to-fund-nvidia-chip-order-ft-says/
+
+Musk's pay package
+- Fortune: https://fortune.com/2026/06/22/elon-musk-billion-shares-spacex-settle-million-humans-mars-colony/
+- Fortune: https://fortune.com/2026/05/20/space-x-filing-elon-musk-pay-colonize-mars/
+
+Tesla merger talks
+- TechCrunch: https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/
+
+Lockups
+- TIKR, 798M shares on Dec 8: https://www.tikr.com/blog/will-798-million-unlocked-spacex-shares-on-december-8-swamp-starships-catch
+- Fortune, Musk can't sell until 2027: https://fortune.com/2026/07/03/elon-musk-cant-sell-spacex-stock-for-year/
+
+If you got something out of this breakdown, subscribe. I make these videos to give you the whole story behind the headline, not just the headline.
+
+This video is for education and entertainment only and is not financial advice. Do your own research before making any investment decision.
+
+TAGS (comma-separated)
+spacex ipo, spacex stock, spcx, elon musk, spacex ipo explained, xai, starlink, nasdaq 100, index funds, spacex valuation, elon musk trillionaire, biggest ipo ever, spacex xai merger, ai bubble, stock market 2026, finance explained, spacex tesla merger, spacex lockup expiration, investing for beginners, grok
