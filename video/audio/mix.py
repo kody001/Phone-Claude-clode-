@@ -90,7 +90,7 @@ music = render_score(cues['music'], DUR)
 music = np.vstack([music, np.zeros((max(0, N - len(music)), 2))])[:N]
 # level: underscore sits ~20 dB under the voice during speech, ~13 dB under in gaps
 vo_rms = np.sqrt(np.mean(vo[env_db > -40] ** 2)); mu_rms = np.sqrt(np.mean(music[np.abs(music).mean(1) > 1e-4] ** 2)) + 1e-9
-music *= vo_rms / mu_rms * db(-10.5)
+music *= vo_rms / mu_rms * db(-8.0)
 music *= (1 - 0.55 * vad)[:, None]  # sidechain duck ≈ -7 dB under speech
 music = hp(music, 70, 2)
 # carve a little room for the voice (presence dip in the underscore)

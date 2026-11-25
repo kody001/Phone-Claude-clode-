@@ -3,3 +3,4 @@ render/
 *.part.mp4
 audio/out/
 *.wav
+__pycache__/
