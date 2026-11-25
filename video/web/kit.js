@@ -11,7 +11,15 @@ function S(phrase, build, o = {}) {
 const tt = t => (t === undefined || t === null) ? SHOT_T0 : t;
 
 // ---- characters ----
-function elon(o = {}) { return new Elon({ x: 1500, y: 955, s: 0.82, t0: SHOT_T0, enter: 'none', ...o, t0: tt(o.t0) }); }
+let ELON_N = 0;
+function elon(o = {}) {
+  ELON_N++;
+  // reference-style variety: every third standing-right shot, the mascot leans in from the corner instead
+  if (!o.peek && (o.x || 0) >= 1600 && o.y === undefined && ELON_N % 3 === 1) o = { ...o, peek: 'R' };
+  if (o.peek === 'R') o = { ...o, x: 1790, y: 1185, s: 1.0, rot: -24 };
+  if (o.peek === 'L') o = { ...o, x: 130, y: 1185, s: 1.0, rot: 24 };
+  return new Elon({ x: 1500, y: 955, s: 0.82, t0: SHOT_T0, enter: 'none', ...o, t0: tt(o.t0) });
+}
 function stick(o = {}) { return new Stick({ x: 960, y: 955, s: 1, t0: SHOT_T0, enter: 'pop', ...o, t0: tt(o.t0) }); }
 
 // ---- props / text ----
@@ -156,6 +164,8 @@ function stamp(str, x, y, t0, o = {}) {
 }
 // starfield background (for space shots)
 function stars(o = {}) {
+  // reference style: plain white background (no starfield)
+  return E({ t0: SHOT_T0 - 1, x: 0, y: 0, enter: 'none', z: -10, render: () => { } });
   const R = rnd(o.seed || 11); const st = [...Array(o.n || 140)].map(() => [R() * W, R() * H, R() * 2.6 + .8, R() * 6]);
   return E({ t0: SHOT_T0 - 1, x: 0, y: 0, enter: 'none', z: -10, render: (c, t) => {
     c.fillStyle = o.bg || '#0e1530'; c.fillRect(-100, -100, W + 200, H + 200);

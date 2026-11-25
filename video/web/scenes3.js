@@ -270,7 +270,7 @@ S('and the money spacex makes', (add) => {
   add(P('satellite', {}, 600, 220, .7)); add(P('satellite', {}, 1350, 180, .55));
   add(P('server', {}, 960, 560, .7, T('somewhere')));
   for (let i = 0; i < 4; i++) add(mover('bill', {}, [[960, 520, .4], [960 + (i - 1.5) * 200, 300, .4]], T('more and more') + i * .25, 1));
-  add(big('nothing to do with orbit', 960, 140, T('nothing to do'), { size: 70, color: COL.yellow, outline: '#0e1530' }));
+  add(big('nothing to do with orbit', 960, 140, T('nothing to do'), { size: 70, color: '#c98a00' }));
 });
 // L56 Remember Colossus... the giant data center in Memphis that was built to train Grok?
 S('remember colossus', (add) => {

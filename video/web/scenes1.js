@@ -87,7 +87,6 @@ S("so you'd think", (add) => {
 // The company that lands boosters on floating platforms in the middle of the ocean.
 S('the company that lands', (add) => {
   const e = elon({ x: 1650, expr: 'happy' });
-  add(bgColor('#eaf6fd'));
   add(P('droneship', {}, 760, 820, 1.4, T('floating platforms')));
   add(E({ t0: T('lands'), x: 760, y: 0, enter: 'none', z: 4, render: (c, t, el) => {
     const p = ease.out(clamp((t - el.t0) / 2.2)); const y = lerp(-200, 560, p);
@@ -104,7 +103,7 @@ S('the company that says', (add) => {
   add(P('planet', { color: '#d0643b' }, 1250, 600, 1.7, null, { enter: 'pop' }));
   add(P('domes', {}, 1250, 300, 0.7, T('city on mars')));
   add(rocketFly([[200, 900], [700, 500], [1150, 380]], T('put a city'), 1.6, { s: .45, ease: ease.inOut }));
-  add(big('CITY ON MARS', 600, 180, T('city on mars'), { size: 92, color: '#ff9a6b', outline: '#0e1530' }));
+  add(big('CITY ON MARS', 600, 180, T('city on mars'), { size: 92, color: COL.red }));
 });
 // L4 Except... that's not really what they bought.
 S('except', (add) => {
@@ -201,10 +200,10 @@ S('starlink its satellite', (add) => {
   add(stars());
   add(P('planet', { kind: 'earth', color: '#5b9bd5' }, 560, 1020, 2.6));
   for (let i = 0; i < 5; i++) add(E({ t0: T('starlink') + i * .12, x: 0, y: 0, enter: 'none', z: 3, render: (c, t, el) => { const a = -2.4 + i * .3 + (t - el.t0) * 0.08; const x = 560 + Math.cos(a) * 560, y = 1020 + Math.sin(a) * 560; drawSprite(c, 'satellite', {}, x, y, .38); } }));
-  add(note('STARLINK', 560, 160, T('starlink'), { size: 90, font: 'marker', color: '#fff' }));
+  add(note('STARLINK', 560, 160, T('starlink'), { size: 90, font: 'marker', color: COL.dblue }));
   add(P('moneybag', {}, 1180, 520, .8, T('billions'))); add(P('moneybag', {}, 1380, 560, .9, T('billions') + .2)); add(P('cash', {}, 1280, 760, .9, T('profit')));
-  add(big('BILLIONS IN PROFIT', 1300, 260, T('billions'), { size: 70, color: COL.green, outline: '#0e1530' }));
-  add(note('every single year', 1300, 920, T('every single'), { size: 56, color: '#fff' }));
+  add(big('BILLIONS IN PROFIT', 1300, 260, T('billions'), { size: 70, color: COL.dgreen }));
+  add(note('every single year', 1300, 900, T('every single'), { size: 56 }));
 });
 // L11 It's not that Musk finally decided Mars was ready.
 S("it's not that musk", (add) => {

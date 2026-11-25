@@ -102,11 +102,10 @@ S('because musk wants', (add) => {
   add(stars());
   add(P('planet', { kind: 'earth', color: '#5b9bd5' }, 400, 1100, 2.6));
   add(E({ t0: T('data centers'), x: 1150, y: 380, enter: 'pop', z: 4, float: 8, render: c => { drawSprite(c, 'satellite', {}, -200, 0, .9); drawSprite(c, 'server', {}, 0, 0, .5); drawSprite(c, 'satellite', {}, 200, 0, .9); } }));
-  add(big('DATA CENTERS IN ORBIT', 1150, 150, T('in orbit'), { size: 70, color: COL.yellow, outline: '#0e1530' }));
+  add(big('DATA CENTERS IN ORBIT', 1150, 150, T('in orbit'), { size: 70, color: '#c98a00' }));
 });
 // And if SpaceX ever defaults... you can't exactly send a repo man to low Earth orbit. SpaceX says those particular chips are meant for data centers on Earth.
 S('and if spacex ever defaults', (add) => {
-  add(bgColor('#dff0fb'));
   add(E({ t0: SHOT_T0, x: 0, y: 0, enter: 'none', z: 0, render: c => { c.fillStyle = '#b5d9a0'; c.fillRect(0, 900, W, 200); } }));
   add(P('towtruck', {}, 600, 820, 1.1, T('repo man')));
   const r = stick({ x: 1000, s: .95, seed: 351, hat: 'cap', hatColor: '#f2a52b', hair: 'messy', hairColor: '#333', beard: 'stubble', outfit: { type: 'shirt', color: '#5f8fbf' }, expr: 'confused', t0: T('repo man'), pose: 'pointUpR' });
@@ -169,16 +168,16 @@ S('and build a permanent', (add) => {
   add(stars());
   add(P('planet', { color: '#d0643b' }, 960, 1200, 4.0));
   add(P('domes', {}, 960, 560, 1.4, T('colony')));
-  add(counter(960, 200, 0, 1000000, v => Math.round(v).toLocaleString('en-US') + ' people', T('one million'), 1.6, { size: 96, color: COL.yellow, outline: '#0e1530' }));
-  add(note('a permanent colony on Mars', 960, 320, T('permanent'), { size: 56, color: '#fff' }));
+  add(counter(960, 200, 0, 1000000, v => Math.round(v).toLocaleString('en-US') + ' people', T('one million'), 1.6, { size: 96, color: '#c98a00' }));
+  add(note('a permanent colony on Mars', 960, 320, T('permanent'), { size: 56 }));
 });
 // There's a separate award tied to data centers in space that deliver 100 terawatts of computing power a year.
 S("there's a separate award", (add) => {
   add(stars());
   add(E({ t0: T('data centers'), x: 760, y: 470, enter: 'pop', z: 4, float: 8, render: c => { drawSprite(c, 'satellite', {}, -220, 0, 1.0); drawSprite(c, 'server', {}, 0, 0, .6); drawSprite(c, 'satellite', {}, 220, 0, 1.0); } }));
   add(P('trophy', {}, 1450, 450, .9, T('separate award')));
-  add(note('separate award', 1450, 230, T('separate award'), { size: 56, color: '#fff' }));
-  add(big('100 TERAWATTS / yr', 760, 830 - 20, T('terawatts'), { size: 84, color: COL.yellow, outline: '#0e1530' }));
+  add(note('separate award', 1450, 230, T('separate award'), { size: 56 }));
+  add(big('100 TERAWATTS / yr', 760, 830 - 20, T('terawatts'), { size: 84, color: '#c98a00' }));
 });
 // L72 And according to reports, SpaceX's own accounting treats both of those goals as improbable.
 S('and according to reports', (add) => {
@@ -392,8 +391,8 @@ S("that's exactly why musk", (add) => {
   add(stars());
   add(P('planet', { color: '#d0643b' }, 960, 520, 1.6, T('until mars')));
   add(P('padlock', {}, 520, 480, .9));
-  add(big('STAY PRIVATE...', 600, 180, T('stay private'), { size: 80, color: '#fff', outline: '#0e1530' }));
-  add(big('...UNTIL MARS', 1300, 860 - 20, T('until mars'), { size: 80, color: '#ff9a6b', outline: '#0e1530' }));
+  add(big('STAY PRIVATE...', 600, 180, T('stay private'), { size: 80, color: COL.dblue }));
+  add(big('...UNTIL MARS', 1300, 860 - 20, T('until mars'), { size: 80, color: COL.red }));
 });
 // L80 Mars didn't change. What changed is that AI needs more money than almost any private investor can provide. Tens of billions of dollars... every quarter.
 S("mars didn't change", (add) => {

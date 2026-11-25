@@ -166,12 +166,12 @@ S('it has more than nine', (add) => {
   add(P('planet', { kind: 'earth', color: '#5b9bd5' }, 960, 560, 1.6));
   add(E({ t0: T('nine thousand'), x: 960, y: 560, enter: 'none', z: 3, render: (c, t, el) => {
     const n = Math.floor(clamp((t - el.t0) / 1.6) * 90); const R = rnd(5);
-    for (let i = 0; i < 90; i++) { const a = R() * Math.PI * 2, r = 260 + R() * 70; if (i >= n) continue; const ang = a + t * .05 * (R() > .5 ? 1 : -1); c.save(); c.translate(Math.cos(ang) * r, Math.sin(ang) * r * .85); c.fillStyle = '#ffffff'; c.fillRect(-7, -2, 14, 4); c.fillStyle = '#7fc8ff'; c.fillRect(-2, -4, 4, 8); c.restore(); }
+    for (let i = 0; i < 90; i++) { const a = R() * Math.PI * 2, r = 260 + R() * 70; if (i >= n) continue; const ang = a + t * .05 * (R() > .5 ? 1 : -1); c.save(); c.translate(Math.cos(ang) * r, Math.sin(ang) * r * .85); c.fillStyle = '#2f6aa3'; c.fillRect(-8, -2.5, 16, 5); c.fillStyle = '#3a3f46'; c.fillRect(-2.5, -5, 5, 10); c.restore(); }
   } }));
-  add(big('9,600+ SATELLITES', 960, 110, T('nine thousand'), { size: 80, color: '#fff', outline: '#0e1530' }));
+  add(big('9,600+ SATELLITES', 960, 110, T('nine thousand'), { size: 80, color: COL.dblue }));
   add(P('dish', {}, 300, 700, .8, T('ten million'))); add(P('dish', {}, 1620, 700, .8, T('ten million') + .1));
-  add(big('10M+ subscribers', 400, 300, T('ten million'), { size: 64, color: COL.yellow, outline: '#0e1530', rot: -6 }));
-  add(big('164 countries', 1520, 330, T('sixty-four'), { size: 64, color: COL.lgreen, outline: '#0e1530', rot: 6 }));
+  add(big('10M+ subscribers', 400, 300, T('ten million'), { size: 64, color: '#c98a00', rot: -6 }));
+  add(big('164 countries', 1520, 330, T('sixty-four'), { size: 64, color: COL.dgreen, rot: 6 }));
 });
 // L26 So put them side by side. One business makes about $4B a year. The other one loses about six.
 S('so put them side', (add) => {
@@ -210,7 +210,6 @@ S("it's the corporate version", (add) => {
 });
 // ...and finding out on the honeymoon that they also come with a $6-billion credit card habit.
 S('and finding out', (add) => {
-  add(bgColor('#fff6dc'));
   add(P('sun', {}, 1700, 170, 1)); add(P('palm', {}, 160, 640, 1.2));
   add(E({ t0: SHOT_T0, x: 0, y: 0, enter: 'none', z: 0, render: c => { c.fillStyle = '#f3dc9c'; c.fillRect(0, 880, W, 200); } }));
   const bride = stick({ x: 620, s: 1.05, seed: 121, hair: 'long', hairColor: '#c9a24a', outfit: { type: 'dress', color: '#ffffff' }, expr: 'happy', enter: 'none' });

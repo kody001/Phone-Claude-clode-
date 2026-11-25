@@ -797,6 +797,8 @@ function renderAt(t) {
   while (si + 1 < SHOTS.length && SHOTS[si + 1].t0 <= t) si++;
   lastShot = si; const sh = SHOTS[si];
   ctx.fillStyle = sh.bg; ctx.fillRect(0, 0, W, H);
+  const cut = sh.cuts && sh.cuts.find(c => t >= c.t0 && t < c.t1);
+  if (cut) { for (const el of cut.els) drawElement(ctx, el, t); drawCaptions(ctx, t); return; }
   ctx.save();
   if (sh.zoom) { const p = clamp((t - sh.t0) / Math.max(0.5, Math.min(sh.t1, TL.duration) - sh.t0)); const z = lerp(sh.zoom[0], sh.zoom[1], ease.inOut(p)); const cx = sh.zoom[2] ?? 960, cy = sh.zoom[3] ?? 500; ctx.translate(cx, cy); ctx.scale(z, z); ctx.translate(-cx, -cy); }
   for (const el of sh.els) drawElement(ctx, el, t);
