@@ -1,0 +1,16962 @@
+[
+ {
+  "i": 0,
+  "tags": [],
+  "text": "You're already halfway to the bus stop... when you realize you forgot your math homework.",
+  "words": [
+   {
+    "t": "You're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "already",
+    "n": [
+     "already"
+    ]
+   },
+   {
+    "t": "halfway",
+    "n": [
+     "halfway"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "bus",
+    "n": [
+     "bus"
+    ]
+   },
+   {
+    "t": "stop...",
+    "n": [
+     "stop"
+    ]
+   },
+   {
+    "t": "when",
+    "n": [
+     "when"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "realize",
+    "n": [
+     "realize"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "forgot",
+    "n": [
+     "forgot"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "math",
+    "n": [
+     "math"
+    ]
+   },
+   {
+    "t": "homework.",
+    "n": [
+     "homework"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 1,
+  "tags": [
+   "fear"
+  ],
+  "text": "You turn around and SPRINT back into your apartment building.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "turn",
+    "n": [
+     "turn"
+    ]
+   },
+   {
+    "t": "around",
+    "n": [
+     "around"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "SPRINT",
+    "n": [
+     "sprint"
+    ]
+   },
+   {
+    "t": "back",
+    "n": [
+     "back"
+    ]
+   },
+   {
+    "t": "into",
+    "n": [
+     "into"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "apartment",
+    "n": [
+     "apartment"
+    ]
+   },
+   {
+    "t": "building.",
+    "n": [
+     "building"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 2,
+  "tags": [],
+  "text": "And that's when you see it. The elevator doors... slowly closing.",
+  "words": [
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "that's",
+    "n": [
+     "that's"
+    ]
+   },
+   {
+    "t": "when",
+    "n": [
+     "when"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "see",
+    "n": [
+     "see"
+    ]
+   },
+   {
+    "t": "it.",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "elevator",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "doors...",
+    "n": [
+     "doors"
+    ]
+   },
+   {
+    "t": "slowly",
+    "n": [
+     "slowly"
+    ]
+   },
+   {
+    "t": "closing.",
+    "n": [
+     "closing"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 3,
+  "tags": [
+   "determination"
+  ],
+  "text": "You are NOT climbing eight flights of stairs today.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "are",
+    "n": [
+     "are"
+    ]
+   },
+   {
+    "t": "NOT",
+    "n": [
+     "not"
+    ]
+   },
+   {
+    "t": "climbing",
+    "n": [
+     "climbing"
+    ]
+   },
+   {
+    "t": "eight",
+    "n": [
+     "eight"
+    ]
+   },
+   {
+    "t": "flights",
+    "n": [
+     "flights"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "stairs",
+    "n": [
+     "stairs"
+    ]
+   },
+   {
+    "t": "today.",
+    "n": [
+     "today"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 4,
+  "tags": [],
+  "text": "You shove your hand between the doors. They bounce open. You stumble inside, out of breath... and then you notice who's standing in the corner.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "shove",
+    "n": [
+     "shove"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "hand",
+    "n": [
+     "hand"
+    ]
+   },
+   {
+    "t": "between",
+    "n": [
+     "between"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "doors.",
+    "n": [
+     "doors"
+    ]
+   },
+   {
+    "t": "They",
+    "n": [
+     "they"
+    ]
+   },
+   {
+    "t": "bounce",
+    "n": [
+     "bounce"
+    ]
+   },
+   {
+    "t": "open.",
+    "n": [
+     "open"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "stumble",
+    "n": [
+     "stumble"
+    ]
+   },
+   {
+    "t": "inside,",
+    "n": [
+     "inside"
+    ]
+   },
+   {
+    "t": "out",
+    "n": [
+     "out"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "breath...",
+    "n": [
+     "breath"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "then",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "notice",
+    "n": [
+     "notice"
+    ]
+   },
+   {
+    "t": "who's",
+    "n": [
+     "who's"
+    ]
+   },
+   {
+    "t": "standing",
+    "n": [
+     "standing"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "corner.",
+    "n": [
+     "corner"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 5,
+  "tags": [
+   "surprise"
+  ],
+  "text": "It's Alex.",
+  "words": [
+   {
+    "t": "It's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "Alex.",
+    "n": [
+     "alex"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 6,
+  "tags": [],
+  "text": "Alex... from the ninth floor. Alex... who sits two rows in front of you in math class. Alex... who you've had a crush on for... let's just say... a VERY long time.",
+  "words": [
+   {
+    "t": "Alex...",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "from",
+    "n": [
+     "from"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "ninth",
+    "n": [
+     "ninth"
+    ]
+   },
+   {
+    "t": "floor.",
+    "n": [
+     "floor"
+    ]
+   },
+   {
+    "t": "Alex...",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "who",
+    "n": [
+     "who"
+    ]
+   },
+   {
+    "t": "sits",
+    "n": [
+     "sits"
+    ]
+   },
+   {
+    "t": "two",
+    "n": [
+     "two"
+    ]
+   },
+   {
+    "t": "rows",
+    "n": [
+     "rows"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "front",
+    "n": [
+     "front"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "math",
+    "n": [
+     "math"
+    ]
+   },
+   {
+    "t": "class.",
+    "n": [
+     "class"
+    ]
+   },
+   {
+    "t": "Alex...",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "who",
+    "n": [
+     "who"
+    ]
+   },
+   {
+    "t": "you've",
+    "n": [
+     "you've"
+    ]
+   },
+   {
+    "t": "had",
+    "n": [
+     "had"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "crush",
+    "n": [
+     "crush"
+    ]
+   },
+   {
+    "t": "on",
+    "n": [
+     "on"
+    ]
+   },
+   {
+    "t": "for...",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "let's",
+    "n": [
+     "let's"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "say...",
+    "n": [
+     "say"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "VERY",
+    "n": [
+     "very"
+    ]
+   },
+   {
+    "t": "long",
+    "n": [
+     "long"
+    ]
+   },
+   {
+    "t": "time.",
+    "n": [
+     "time"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 7,
+  "tags": [],
+  "text": "And in all that time... you've said exactly four words to them.",
+  "words": [
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "all",
+    "n": [
+     "all"
+    ]
+   },
+   {
+    "t": "that",
+    "n": [
+     "that"
+    ]
+   },
+   {
+    "t": "time...",
+    "n": [
+     "time"
+    ]
+   },
+   {
+    "t": "you've",
+    "n": [
+     "you've"
+    ]
+   },
+   {
+    "t": "said",
+    "n": [
+     "said"
+    ]
+   },
+   {
+    "t": "exactly",
+    "n": [
+     "exactly"
+    ]
+   },
+   {
+    "t": "four",
+    "n": [
+     "four"
+    ]
+   },
+   {
+    "t": "words",
+    "n": [
+     "words"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "them.",
+    "n": [
+     "them"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 8,
+  "tags": [],
+  "text": "Hi. Hey. Sorry. And... bye.",
+  "words": [
+   {
+    "t": "Hi.",
+    "n": [
+     "hi"
+    ]
+   },
+   {
+    "t": "Hey.",
+    "n": [
+     "hey"
+    ]
+   },
+   {
+    "t": "Sorry.",
+    "n": [
+     "sorry"
+    ]
+   },
+   {
+    "t": "And...",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "bye.",
+    "n": [
+     "bye"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 9,
+  "tags": [],
+  "text": "That's it. That's the whole relationship.",
+  "words": [
+   {
+    "t": "That's",
+    "n": [
+     "that's"
+    ]
+   },
+   {
+    "t": "it.",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "That's",
+    "n": [
+     "that's"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "whole",
+    "n": [
+     "whole"
+    ]
+   },
+   {
+    "t": "relationship.",
+    "n": [
+     "relationship"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 10,
+  "tags": [],
+  "text": "The doors close. The elevator starts moving. You stare at the little numbers above the door like they're the most fascinating thing you've ever seen.",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "doors",
+    "n": [
+     "doors"
+    ]
+   },
+   {
+    "t": "close.",
+    "n": [
+     "close"
+    ]
+   },
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "elevator",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "starts",
+    "n": [
+     "starts"
+    ]
+   },
+   {
+    "t": "moving.",
+    "n": [
+     "moving"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "stare",
+    "n": [
+     "stare"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "little",
+    "n": [
+     "little"
+    ]
+   },
+   {
+    "t": "numbers",
+    "n": [
+     "numbers"
+    ]
+   },
+   {
+    "t": "above",
+    "n": [
+     "above"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "door",
+    "n": [
+     "door"
+    ]
+   },
+   {
+    "t": "like",
+    "n": [
+     "like"
+    ]
+   },
+   {
+    "t": "they're",
+    "n": [
+     "they're"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "most",
+    "n": [
+     "most"
+    ]
+   },
+   {
+    "t": "fascinating",
+    "n": [
+     "fascinating"
+    ]
+   },
+   {
+    "t": "thing",
+    "n": [
+     "thing"
+    ]
+   },
+   {
+    "t": "you've",
+    "n": [
+     "you've"
+    ]
+   },
+   {
+    "t": "ever",
+    "n": [
+     "ever"
+    ]
+   },
+   {
+    "t": "seen.",
+    "n": [
+     "seen"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 11,
+  "tags": [],
+  "text": "Three... four... five... six...",
+  "words": [
+   {
+    "t": "Three...",
+    "n": [
+     "three"
+    ]
+   },
+   {
+    "t": "four...",
+    "n": [
+     "four"
+    ]
+   },
+   {
+    "t": "five...",
+    "n": [
+     "five"
+    ]
+   },
+   {
+    "t": "six...",
+    "n": [
+     "six"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 12,
+  "tags": [
+   "fear"
+  ],
+  "text": "And then... the elevator JOLTS.",
+  "words": [
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "then...",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "elevator",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "JOLTS.",
+    "n": [
+     "jolts"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 13,
+  "tags": [],
+  "text": "The lights flicker. There's a horrible grinding sound... a shudder... and then...",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "lights",
+    "n": [
+     "lights"
+    ]
+   },
+   {
+    "t": "flicker.",
+    "n": [
+     "flicker"
+    ]
+   },
+   {
+    "t": "There's",
+    "n": [
+     "there's"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "horrible",
+    "n": [
+     "horrible"
+    ]
+   },
+   {
+    "t": "grinding",
+    "n": [
+     "grinding"
+    ]
+   },
+   {
+    "t": "sound...",
+    "n": [
+     "sound"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "shudder...",
+    "n": [
+     "shudder"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "then...",
+    "n": [
+     "then"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 14,
+  "tags": [],
+  "text": "Nothing.",
+  "words": [
+   {
+    "t": "Nothing.",
+    "n": [
+     "nothing"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 15,
+  "tags": [],
+  "text": "The elevator stops. Completely. Somewhere between the sixth and seventh floor.",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "elevator",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "stops.",
+    "n": [
+     "stops"
+    ]
+   },
+   {
+    "t": "Completely.",
+    "n": [
+     "completely"
+    ]
+   },
+   {
+    "t": "Somewhere",
+    "n": [
+     "somewhere"
+    ]
+   },
+   {
+    "t": "between",
+    "n": [
+     "between"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "sixth",
+    "n": [
+     "sixth"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "seventh",
+    "n": [
+     "seventh"
+    ]
+   },
+   {
+    "t": "floor.",
+    "n": [
+     "floor"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 16,
+  "tags": [],
+  "text": "You look at Alex. Alex looks at you.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "look",
+    "n": [
+     "look"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "Alex.",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "looks",
+    "n": [
+     "looks"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "you.",
+    "n": [
+     "you"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 17,
+  "tags": [
+   "less expressive"
+  ],
+  "text": "And you're both thinking the exact same thing.",
+  "words": [
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "you're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "both",
+    "n": [
+     "both"
+    ]
+   },
+   {
+    "t": "thinking",
+    "n": [
+     "thinking"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "exact",
+    "n": [
+     "exact"
+    ]
+   },
+   {
+    "t": "same",
+    "n": [
+     "same"
+    ]
+   },
+   {
+    "t": "thing.",
+    "n": [
+     "thing"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 18,
+  "tags": [],
+  "text": "This... is NOT happening.",
+  "words": [
+   {
+    "t": "This...",
+    "n": [
+     "this"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "NOT",
+    "n": [
+     "not"
+    ]
+   },
+   {
+    "t": "happening.",
+    "n": [
+     "happening"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 19,
+  "tags": [],
+  "text": "So... what would ACTUALLY happen if you got stuck in an elevator with your crush? Would you finally have a real conversation? Would you embarrass yourself so badly you'd have to move to another country? And most importantly... could you survive the silence?",
+  "words": [
+   {
+    "t": "So...",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "what",
+    "n": [
+     "what"
+    ]
+   },
+   {
+    "t": "would",
+    "n": [
+     "would"
+    ]
+   },
+   {
+    "t": "ACTUALLY",
+    "n": [
+     "actually"
+    ]
+   },
+   {
+    "t": "happen",
+    "n": [
+     "happen"
+    ]
+   },
+   {
+    "t": "if",
+    "n": [
+     "if"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "got",
+    "n": [
+     "got"
+    ]
+   },
+   {
+    "t": "stuck",
+    "n": [
+     "stuck"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "an",
+    "n": [
+     "an"
+    ]
+   },
+   {
+    "t": "elevator",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "with",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "crush?",
+    "n": [
+     "crush"
+    ]
+   },
+   {
+    "t": "Would",
+    "n": [
+     "would"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "finally",
+    "n": [
+     "finally"
+    ]
+   },
+   {
+    "t": "have",
+    "n": [
+     "have"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "real",
+    "n": [
+     "real"
+    ]
+   },
+   {
+    "t": "conversation?",
+    "n": [
+     "conversation"
+    ]
+   },
+   {
+    "t": "Would",
+    "n": [
+     "would"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "embarrass",
+    "n": [
+     "embarrass"
+    ]
+   },
+   {
+    "t": "yourself",
+    "n": [
+     "yourself"
+    ]
+   },
+   {
+    "t": "so",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "badly",
+    "n": [
+     "badly"
+    ]
+   },
+   {
+    "t": "you'd",
+    "n": [
+     "you'd"
+    ]
+   },
+   {
+    "t": "have",
+    "n": [
+     "have"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "move",
+    "n": [
+     "move"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "another",
+    "n": [
+     "another"
+    ]
+   },
+   {
+    "t": "country?",
+    "n": [
+     "country"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "most",
+    "n": [
+     "most"
+    ]
+   },
+   {
+    "t": "importantly...",
+    "n": [
+     "importantly"
+    ]
+   },
+   {
+    "t": "could",
+    "n": [
+     "could"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "survive",
+    "n": [
+     "survive"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "silence?",
+    "n": [
+     "silence"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 20,
+  "tags": [
+   "enthusiasm"
+  ],
+  "text": "Let's find out.",
+  "words": [
+   {
+    "t": "Let's",
+    "n": [
+     "let's"
+    ]
+   },
+   {
+    "t": "find",
+    "n": [
+     "find"
+    ]
+   },
+   {
+    "t": "out.",
+    "n": [
+     "out"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 21,
+  "tags": [],
+  "text": "The first thing you do is press the button for your floor.",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "first",
+    "n": [
+     "first"
+    ]
+   },
+   {
+    "t": "thing",
+    "n": [
+     "thing"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "do",
+    "n": [
+     "do"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "press",
+    "n": [
+     "press"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "button",
+    "n": [
+     "button"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "floor.",
+    "n": [
+     "floor"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 22,
+  "tags": [],
+  "text": "Nothing happens.",
+  "words": [
+   {
+    "t": "Nothing",
+    "n": [
+     "nothing"
+    ]
+   },
+   {
+    "t": "happens.",
+    "n": [
+     "happens"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 23,
+  "tags": [],
+  "text": "You press it again. Harder. Because apparently... that's how elevators work.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "press",
+    "n": [
+     "press"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "again.",
+    "n": [
+     "again"
+    ]
+   },
+   {
+    "t": "Harder.",
+    "n": [
+     "harder"
+    ]
+   },
+   {
+    "t": "Because",
+    "n": [
+     "because"
+    ]
+   },
+   {
+    "t": "apparently...",
+    "n": [
+     "apparently"
+    ]
+   },
+   {
+    "t": "that's",
+    "n": [
+     "that's"
+    ]
+   },
+   {
+    "t": "how",
+    "n": [
+     "how"
+    ]
+   },
+   {
+    "t": "elevators",
+    "n": [
+     "elevators"
+    ]
+   },
+   {
+    "t": "work.",
+    "n": [
+     "work"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 24,
+  "tags": [],
+  "text": "Still nothing.",
+  "words": [
+   {
+    "t": "Still",
+    "n": [
+     "still"
+    ]
+   },
+   {
+    "t": "nothing.",
+    "n": [
+     "nothing"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 25,
+  "tags": [],
+  "text": "You try the \"door open\" button. Then the \"door close\" button. Then every single button on the panel... at the same time.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "try",
+    "n": [
+     "try"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "\"door",
+    "n": [
+     "door"
+    ]
+   },
+   {
+    "t": "open\"",
+    "n": [
+     "open"
+    ]
+   },
+   {
+    "t": "button.",
+    "n": [
+     "button"
+    ]
+   },
+   {
+    "t": "Then",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "\"door",
+    "n": [
+     "door"
+    ]
+   },
+   {
+    "t": "close\"",
+    "n": [
+     "close"
+    ]
+   },
+   {
+    "t": "button.",
+    "n": [
+     "button"
+    ]
+   },
+   {
+    "t": "Then",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "every",
+    "n": [
+     "every"
+    ]
+   },
+   {
+    "t": "single",
+    "n": [
+     "single"
+    ]
+   },
+   {
+    "t": "button",
+    "n": [
+     "button"
+    ]
+   },
+   {
+    "t": "on",
+    "n": [
+     "on"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "panel...",
+    "n": [
+     "panel"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "same",
+    "n": [
+     "same"
+    ]
+   },
+   {
+    "t": "time.",
+    "n": [
+     "time"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 26,
+  "tags": [
+   "amusement"
+  ],
+  "text": "Alex watches you quietly. \"I don't think it's a password.\"",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "watches",
+    "n": [
+     "watches"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "quietly.",
+    "n": [
+     "quietly"
+    ]
+   },
+   {
+    "t": "\"I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "don't",
+    "n": [
+     "don't"
+    ]
+   },
+   {
+    "t": "think",
+    "n": [
+     "think"
+    ]
+   },
+   {
+    "t": "it's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "password.\"",
+    "n": [
+     "password"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 27,
+  "tags": [],
+  "text": "You slowly lower your hand. Okay. Great start.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "slowly",
+    "n": [
+     "slowly"
+    ]
+   },
+   {
+    "t": "lower",
+    "n": [
+     "lower"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "hand.",
+    "n": [
+     "hand"
+    ]
+   },
+   {
+    "t": "Okay.",
+    "n": [
+     "okay"
+    ]
+   },
+   {
+    "t": "Great",
+    "n": [
+     "great"
+    ]
+   },
+   {
+    "t": "start.",
+    "n": [
+     "start"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 28,
+  "tags": [],
+  "text": "Alex reaches past you and presses the small button with a bell on it. There's a crackle of static... and then a very bored voice comes through the speaker.",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "reaches",
+    "n": [
+     "reaches"
+    ]
+   },
+   {
+    "t": "past",
+    "n": [
+     "past"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "presses",
+    "n": [
+     "presses"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "small",
+    "n": [
+     "small"
+    ]
+   },
+   {
+    "t": "button",
+    "n": [
+     "button"
+    ]
+   },
+   {
+    "t": "with",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "bell",
+    "n": [
+     "bell"
+    ]
+   },
+   {
+    "t": "on",
+    "n": [
+     "on"
+    ]
+   },
+   {
+    "t": "it.",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "There's",
+    "n": [
+     "there's"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "crackle",
+    "n": [
+     "crackle"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "static...",
+    "n": [
+     "static"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "then",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "very",
+    "n": [
+     "very"
+    ]
+   },
+   {
+    "t": "bored",
+    "n": [
+     "bored"
+    ]
+   },
+   {
+    "t": "voice",
+    "n": [
+     "voice"
+    ]
+   },
+   {
+    "t": "comes",
+    "n": [
+     "comes"
+    ]
+   },
+   {
+    "t": "through",
+    "n": [
+     "through"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "speaker.",
+    "n": [
+     "speaker"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 29,
+  "tags": [],
+  "text": "\"Building maintenance. What's the problem?\"",
+  "words": [
+   {
+    "t": "\"Building",
+    "n": [
+     "building"
+    ]
+   },
+   {
+    "t": "maintenance.",
+    "n": [
+     "maintenance"
+    ]
+   },
+   {
+    "t": "What's",
+    "n": [
+     "what's"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "problem?\"",
+    "n": [
+     "problem"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 30,
+  "tags": [],
+  "text": "\"We're stuck,\" Alex says. \"Between six and seven.\"",
+  "words": [
+   {
+    "t": "\"We're",
+    "n": [
+     "we're"
+    ]
+   },
+   {
+    "t": "stuck,\"",
+    "n": [
+     "stuck"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "says.",
+    "n": [
+     "says"
+    ]
+   },
+   {
+    "t": "\"Between",
+    "n": [
+     "between"
+    ]
+   },
+   {
+    "t": "six",
+    "n": [
+     "six"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "seven.\"",
+    "n": [
+     "seven"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 31,
+  "tags": [],
+  "text": "A pause. Some typing. Then...",
+  "words": [
+   {
+    "t": "A",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "pause.",
+    "n": [
+     "pause"
+    ]
+   },
+   {
+    "t": "Some",
+    "n": [
+     "some"
+    ]
+   },
+   {
+    "t": "typing.",
+    "n": [
+     "typing"
+    ]
+   },
+   {
+    "t": "Then...",
+    "n": [
+     "then"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 32,
+  "tags": [],
+  "text": "\"Okay, don't panic. You're safe. We'll have a technician out there in about... two hours.\"",
+  "words": [
+   {
+    "t": "\"Okay,",
+    "n": [
+     "okay"
+    ]
+   },
+   {
+    "t": "don't",
+    "n": [
+     "don't"
+    ]
+   },
+   {
+    "t": "panic.",
+    "n": [
+     "panic"
+    ]
+   },
+   {
+    "t": "You're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "safe.",
+    "n": [
+     "safe"
+    ]
+   },
+   {
+    "t": "We'll",
+    "n": [
+     "we'll"
+    ]
+   },
+   {
+    "t": "have",
+    "n": [
+     "have"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "technician",
+    "n": [
+     "technician"
+    ]
+   },
+   {
+    "t": "out",
+    "n": [
+     "out"
+    ]
+   },
+   {
+    "t": "there",
+    "n": [
+     "there"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "about...",
+    "n": [
+     "about"
+    ]
+   },
+   {
+    "t": "two",
+    "n": [
+     "two"
+    ]
+   },
+   {
+    "t": "hours.\"",
+    "n": [
+     "hours"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 33,
+  "tags": [
+   "surprise"
+  ],
+  "text": "Two HOURS?",
+  "words": [
+   {
+    "t": "Two",
+    "n": [
+     "two"
+    ]
+   },
+   {
+    "t": "HOURS?",
+    "n": [
+     "hours"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 34,
+  "tags": [],
+  "text": "\"Just sit tight.\" Click.",
+  "words": [
+   {
+    "t": "\"Just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "sit",
+    "n": [
+     "sit"
+    ]
+   },
+   {
+    "t": "tight.\"",
+    "n": [
+     "tight"
+    ]
+   },
+   {
+    "t": "Click.",
+    "n": [
+     "click"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 35,
+  "tags": [],
+  "text": "You stare at the speaker. Two hours. In a metal box. With your crush.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "stare",
+    "n": [
+     "stare"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "speaker.",
+    "n": [
+     "speaker"
+    ]
+   },
+   {
+    "t": "Two",
+    "n": [
+     "two"
+    ]
+   },
+   {
+    "t": "hours.",
+    "n": [
+     "hours"
+    ]
+   },
+   {
+    "t": "In",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "metal",
+    "n": [
+     "metal"
+    ]
+   },
+   {
+    "t": "box.",
+    "n": [
+     "box"
+    ]
+   },
+   {
+    "t": "With",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "crush.",
+    "n": [
+     "crush"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 36,
+  "tags": [],
+  "text": "You've dreamed about spending time alone with Alex for months... and this is DEFINITELY not how you pictured it.",
+  "words": [
+   {
+    "t": "You've",
+    "n": [
+     "you've"
+    ]
+   },
+   {
+    "t": "dreamed",
+    "n": [
+     "dreamed"
+    ]
+   },
+   {
+    "t": "about",
+    "n": [
+     "about"
+    ]
+   },
+   {
+    "t": "spending",
+    "n": [
+     "spending"
+    ]
+   },
+   {
+    "t": "time",
+    "n": [
+     "time"
+    ]
+   },
+   {
+    "t": "alone",
+    "n": [
+     "alone"
+    ]
+   },
+   {
+    "t": "with",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "months...",
+    "n": [
+     "months"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "this",
+    "n": [
+     "this"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "DEFINITELY",
+    "n": [
+     "definitely"
+    ]
+   },
+   {
+    "t": "not",
+    "n": [
+     "not"
+    ]
+   },
+   {
+    "t": "how",
+    "n": [
+     "how"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "pictured",
+    "n": [
+     "pictured"
+    ]
+   },
+   {
+    "t": "it.",
+    "n": [
+     "it"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 37,
+  "tags": [],
+  "text": "Here's the thing... you've actually prepared for this.",
+  "words": [
+   {
+    "t": "Here's",
+    "n": [
+     "here's"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "thing...",
+    "n": [
+     "thing"
+    ]
+   },
+   {
+    "t": "you've",
+    "n": [
+     "you've"
+    ]
+   },
+   {
+    "t": "actually",
+    "n": [
+     "actually"
+    ]
+   },
+   {
+    "t": "prepared",
+    "n": [
+     "prepared"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "this.",
+    "n": [
+     "this"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 38,
+  "tags": [],
+  "text": "You've rehearsed conversations with Alex in your head HUNDREDS of times. In the shower. On the bus. At two in the morning.",
+  "words": [
+   {
+    "t": "You've",
+    "n": [
+     "you've"
+    ]
+   },
+   {
+    "t": "rehearsed",
+    "n": [
+     "rehearsed"
+    ]
+   },
+   {
+    "t": "conversations",
+    "n": [
+     "conversations"
+    ]
+   },
+   {
+    "t": "with",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "head",
+    "n": [
+     "head"
+    ]
+   },
+   {
+    "t": "HUNDREDS",
+    "n": [
+     "hundreds"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "times.",
+    "n": [
+     "times"
+    ]
+   },
+   {
+    "t": "In",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "shower.",
+    "n": [
+     "shower"
+    ]
+   },
+   {
+    "t": "On",
+    "n": [
+     "on"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "bus.",
+    "n": [
+     "bus"
+    ]
+   },
+   {
+    "t": "At",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "two",
+    "n": [
+     "two"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "morning.",
+    "n": [
+     "morning"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 39,
+  "tags": [
+   "confusion"
+  ],
+  "text": "And right now... your brain has deleted ALL of it.",
+  "words": [
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "right",
+    "n": [
+     "right"
+    ]
+   },
+   {
+    "t": "now...",
+    "n": [
+     "now"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "brain",
+    "n": [
+     "brain"
+    ]
+   },
+   {
+    "t": "has",
+    "n": [
+     "has"
+    ]
+   },
+   {
+    "t": "deleted",
+    "n": [
+     "deleted"
+    ]
+   },
+   {
+    "t": "ALL",
+    "n": [
+     "all"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "it.",
+    "n": [
+     "it"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 40,
+  "tags": [],
+  "text": "The silence stretches. Five seconds. Ten seconds. Thirty seconds.",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "silence",
+    "n": [
+     "silence"
+    ]
+   },
+   {
+    "t": "stretches.",
+    "n": [
+     "stretches"
+    ]
+   },
+   {
+    "t": "Five",
+    "n": [
+     "five"
+    ]
+   },
+   {
+    "t": "seconds.",
+    "n": [
+     "seconds"
+    ]
+   },
+   {
+    "t": "Ten",
+    "n": [
+     "ten"
+    ]
+   },
+   {
+    "t": "seconds.",
+    "n": [
+     "seconds"
+    ]
+   },
+   {
+    "t": "Thirty",
+    "n": [
+     "thirty"
+    ]
+   },
+   {
+    "t": "seconds.",
+    "n": [
+     "seconds"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 41,
+  "tags": [],
+  "text": "You need to say something. ANYTHING.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "need",
+    "n": [
+     "need"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "say",
+    "n": [
+     "say"
+    ]
+   },
+   {
+    "t": "something.",
+    "n": [
+     "something"
+    ]
+   },
+   {
+    "t": "ANYTHING.",
+    "n": [
+     "anything"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 42,
+  "tags": [],
+  "text": "You open your mouth... and say...",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "open",
+    "n": [
+     "open"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "mouth...",
+    "n": [
+     "mouth"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "say...",
+    "n": [
+     "say"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 43,
+  "tags": [],
+  "text": "\"So... elevators, huh?\"",
+  "words": [
+   {
+    "t": "\"So...",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "elevators,",
+    "n": [
+     "elevators"
+    ]
+   },
+   {
+    "t": "huh?\"",
+    "n": [
+     "huh"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 44,
+  "tags": [
+   "less expressive"
+  ],
+  "text": "Alex blinks. \"...Yeah. Elevators.\"",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "blinks.",
+    "n": [
+     "blinks"
+    ]
+   },
+   {
+    "t": "\"...Yeah.",
+    "n": [
+     "yeah"
+    ]
+   },
+   {
+    "t": "Elevators.\"",
+    "n": [
+     "elevators"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 45,
+  "tags": [],
+  "text": "You want to sink through the floor. Unfortunately... the floor is the only thing currently holding you up.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "want",
+    "n": [
+     "want"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "sink",
+    "n": [
+     "sink"
+    ]
+   },
+   {
+    "t": "through",
+    "n": [
+     "through"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "floor.",
+    "n": [
+     "floor"
+    ]
+   },
+   {
+    "t": "Unfortunately...",
+    "n": [
+     "unfortunately"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "floor",
+    "n": [
+     "floor"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "only",
+    "n": [
+     "only"
+    ]
+   },
+   {
+    "t": "thing",
+    "n": [
+     "thing"
+    ]
+   },
+   {
+    "t": "currently",
+    "n": [
+     "currently"
+    ]
+   },
+   {
+    "t": "holding",
+    "n": [
+     "holding"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "up.",
+    "n": [
+     "up"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 46,
+  "tags": [],
+  "text": "You pull out your phone. Maybe you can text someone. Maybe you can at least LOOK busy.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "pull",
+    "n": [
+     "pull"
+    ]
+   },
+   {
+    "t": "out",
+    "n": [
+     "out"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "phone.",
+    "n": [
+     "phone"
+    ]
+   },
+   {
+    "t": "Maybe",
+    "n": [
+     "maybe"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "can",
+    "n": [
+     "can"
+    ]
+   },
+   {
+    "t": "text",
+    "n": [
+     "text"
+    ]
+   },
+   {
+    "t": "someone.",
+    "n": [
+     "someone"
+    ]
+   },
+   {
+    "t": "Maybe",
+    "n": [
+     "maybe"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "can",
+    "n": [
+     "can"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "least",
+    "n": [
+     "least"
+    ]
+   },
+   {
+    "t": "LOOK",
+    "n": [
+     "look"
+    ]
+   },
+   {
+    "t": "busy.",
+    "n": [
+     "busy"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 47,
+  "tags": [],
+  "text": "One bar of signal. Four percent battery.",
+  "words": [
+   {
+    "t": "One",
+    "n": [
+     "one"
+    ]
+   },
+   {
+    "t": "bar",
+    "n": [
+     "bar"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "signal.",
+    "n": [
+     "signal"
+    ]
+   },
+   {
+    "t": "Four",
+    "n": [
+     "four"
+    ]
+   },
+   {
+    "t": "percent",
+    "n": [
+     "percent"
+    ]
+   },
+   {
+    "t": "battery.",
+    "n": [
+     "battery"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 48,
+  "tags": [],
+  "text": "Perfect.",
+  "words": [
+   {
+    "t": "Perfect.",
+    "n": [
+     "perfect"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 49,
+  "tags": [],
+  "text": "You open a chat with your best friend and type... stuck in elevator. with Alex.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "open",
+    "n": [
+     "open"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "chat",
+    "n": [
+     "chat"
+    ]
+   },
+   {
+    "t": "with",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "best",
+    "n": [
+     "best"
+    ]
+   },
+   {
+    "t": "friend",
+    "n": [
+     "friend"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "type...",
+    "n": [
+     "type"
+    ]
+   },
+   {
+    "t": "stuck",
+    "n": [
+     "stuck"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "elevator.",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "with",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "Alex.",
+    "n": [
+     "alex"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 50,
+  "tags": [],
+  "text": "You hit send. Three seconds later, your phone buzzes.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "hit",
+    "n": [
+     "hit"
+    ]
+   },
+   {
+    "t": "send.",
+    "n": [
+     "send"
+    ]
+   },
+   {
+    "t": "Three",
+    "n": [
+     "three"
+    ]
+   },
+   {
+    "t": "seconds",
+    "n": [
+     "seconds"
+    ]
+   },
+   {
+    "t": "later,",
+    "n": [
+     "later"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "phone",
+    "n": [
+     "phone"
+    ]
+   },
+   {
+    "t": "buzzes.",
+    "n": [
+     "buzzes"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 51,
+  "tags": [],
+  "text": "What.",
+  "words": [
+   {
+    "t": "What.",
+    "n": [
+     "what"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 52,
+  "tags": [],
+  "text": "Then again.",
+  "words": [
+   {
+    "t": "Then",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "again.",
+    "n": [
+     "again"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 53,
+  "tags": [],
+  "text": "O M G.",
+  "words": [
+   {
+    "t": "O",
+    "n": [
+     "o"
+    ]
+   },
+   {
+    "t": "M",
+    "n": [
+     "m"
+    ]
+   },
+   {
+    "t": "G.",
+    "n": [
+     "g"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 54,
+  "tags": [],
+  "text": "Then again.",
+  "words": [
+   {
+    "t": "Then",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "again.",
+    "n": [
+     "again"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 55,
+  "tags": [],
+  "text": "DO NOT be weird.",
+  "words": [
+   {
+    "t": "DO",
+    "n": [
+     "do"
+    ]
+   },
+   {
+    "t": "NOT",
+    "n": [
+     "not"
+    ]
+   },
+   {
+    "t": "be",
+    "n": [
+     "be"
+    ]
+   },
+   {
+    "t": "weird.",
+    "n": [
+     "weird"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 56,
+  "tags": [
+   "amusement"
+  ],
+  "text": "You stare at the screen. Yeah... it's a little late for that.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "stare",
+    "n": [
+     "stare"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "screen.",
+    "n": [
+     "screen"
+    ]
+   },
+   {
+    "t": "Yeah...",
+    "n": [
+     "yeah"
+    ]
+   },
+   {
+    "t": "it's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "little",
+    "n": [
+     "little"
+    ]
+   },
+   {
+    "t": "late",
+    "n": [
+     "late"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "that.",
+    "n": [
+     "that"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 57,
+  "tags": [],
+  "text": "You start typing a reply... and your phone dies.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "start",
+    "n": [
+     "start"
+    ]
+   },
+   {
+    "t": "typing",
+    "n": [
+     "typing"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "reply...",
+    "n": [
+     "reply"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "phone",
+    "n": [
+     "phone"
+    ]
+   },
+   {
+    "t": "dies.",
+    "n": [
+     "dies"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 58,
+  "tags": [],
+  "text": "The screen goes black. Your reflection stares back at you... looking EXACTLY as panicked as you feel.",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "screen",
+    "n": [
+     "screen"
+    ]
+   },
+   {
+    "t": "goes",
+    "n": [
+     "goes"
+    ]
+   },
+   {
+    "t": "black.",
+    "n": [
+     "black"
+    ]
+   },
+   {
+    "t": "Your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "reflection",
+    "n": [
+     "reflection"
+    ]
+   },
+   {
+    "t": "stares",
+    "n": [
+     "stares"
+    ]
+   },
+   {
+    "t": "back",
+    "n": [
+     "back"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "you...",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "looking",
+    "n": [
+     "looking"
+    ]
+   },
+   {
+    "t": "EXACTLY",
+    "n": [
+     "exactly"
+    ]
+   },
+   {
+    "t": "as",
+    "n": [
+     "as"
+    ]
+   },
+   {
+    "t": "panicked",
+    "n": [
+     "panicked"
+    ]
+   },
+   {
+    "t": "as",
+    "n": [
+     "as"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "feel.",
+    "n": [
+     "feel"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 59,
+  "tags": [],
+  "text": "Alex glances over. \"Dead?\"",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "glances",
+    "n": [
+     "glances"
+    ]
+   },
+   {
+    "t": "over.",
+    "n": [
+     "over"
+    ]
+   },
+   {
+    "t": "\"Dead?\"",
+    "n": [
+     "dead"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 60,
+  "tags": [],
+  "text": "You nod.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "nod.",
+    "n": [
+     "nod"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 61,
+  "tags": [],
+  "text": "\"Mine's at two percent,\" Alex says. \"So... I guess it's just us.\"",
+  "words": [
+   {
+    "t": "\"Mine's",
+    "n": [
+     "mine's"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "two",
+    "n": [
+     "two"
+    ]
+   },
+   {
+    "t": "percent,\"",
+    "n": [
+     "percent"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "says.",
+    "n": [
+     "says"
+    ]
+   },
+   {
+    "t": "\"So...",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "guess",
+    "n": [
+     "guess"
+    ]
+   },
+   {
+    "t": "it's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "us.\"",
+    "n": [
+     "us"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 62,
+  "tags": [],
+  "text": "Just us. Two words. And somehow... your heart is pounding like you just ran up all seven floors.",
+  "words": [
+   {
+    "t": "Just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "us.",
+    "n": [
+     "us"
+    ]
+   },
+   {
+    "t": "Two",
+    "n": [
+     "two"
+    ]
+   },
+   {
+    "t": "words.",
+    "n": [
+     "words"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "somehow...",
+    "n": [
+     "somehow"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "heart",
+    "n": [
+     "heart"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "pounding",
+    "n": [
+     "pounding"
+    ]
+   },
+   {
+    "t": "like",
+    "n": [
+     "like"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "ran",
+    "n": [
+     "ran"
+    ]
+   },
+   {
+    "t": "up",
+    "n": [
+     "up"
+    ]
+   },
+   {
+    "t": "all",
+    "n": [
+     "all"
+    ]
+   },
+   {
+    "t": "seven",
+    "n": [
+     "seven"
+    ]
+   },
+   {
+    "t": "floors.",
+    "n": [
+     "floors"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 63,
+  "tags": [],
+  "text": "Ten minutes in... the silence becomes LOUD.",
+  "words": [
+   {
+    "t": "Ten",
+    "n": [
+     "ten"
+    ]
+   },
+   {
+    "t": "minutes",
+    "n": [
+     "minutes"
+    ]
+   },
+   {
+    "t": "in...",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "silence",
+    "n": [
+     "silence"
+    ]
+   },
+   {
+    "t": "becomes",
+    "n": [
+     "becomes"
+    ]
+   },
+   {
+    "t": "LOUD.",
+    "n": [
+     "loud"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 64,
+  "tags": [],
+  "text": "You've never noticed how many sounds a human body makes. You can hear yourself breathing. You start wondering if you're breathing too loudly... which makes you breathe weird... which makes it WORSE.",
+  "words": [
+   {
+    "t": "You've",
+    "n": [
+     "you've"
+    ]
+   },
+   {
+    "t": "never",
+    "n": [
+     "never"
+    ]
+   },
+   {
+    "t": "noticed",
+    "n": [
+     "noticed"
+    ]
+   },
+   {
+    "t": "how",
+    "n": [
+     "how"
+    ]
+   },
+   {
+    "t": "many",
+    "n": [
+     "many"
+    ]
+   },
+   {
+    "t": "sounds",
+    "n": [
+     "sounds"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "human",
+    "n": [
+     "human"
+    ]
+   },
+   {
+    "t": "body",
+    "n": [
+     "body"
+    ]
+   },
+   {
+    "t": "makes.",
+    "n": [
+     "makes"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "can",
+    "n": [
+     "can"
+    ]
+   },
+   {
+    "t": "hear",
+    "n": [
+     "hear"
+    ]
+   },
+   {
+    "t": "yourself",
+    "n": [
+     "yourself"
+    ]
+   },
+   {
+    "t": "breathing.",
+    "n": [
+     "breathing"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "start",
+    "n": [
+     "start"
+    ]
+   },
+   {
+    "t": "wondering",
+    "n": [
+     "wondering"
+    ]
+   },
+   {
+    "t": "if",
+    "n": [
+     "if"
+    ]
+   },
+   {
+    "t": "you're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "breathing",
+    "n": [
+     "breathing"
+    ]
+   },
+   {
+    "t": "too",
+    "n": [
+     "too"
+    ]
+   },
+   {
+    "t": "loudly...",
+    "n": [
+     "loudly"
+    ]
+   },
+   {
+    "t": "which",
+    "n": [
+     "which"
+    ]
+   },
+   {
+    "t": "makes",
+    "n": [
+     "makes"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "breathe",
+    "n": [
+     "breathe"
+    ]
+   },
+   {
+    "t": "weird...",
+    "n": [
+     "weird"
+    ]
+   },
+   {
+    "t": "which",
+    "n": [
+     "which"
+    ]
+   },
+   {
+    "t": "makes",
+    "n": [
+     "makes"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "WORSE.",
+    "n": [
+     "worse"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 65,
+  "tags": [],
+  "text": "You suddenly don't know what to do with your hands. You put them in your pockets. You take them out. You cross your arms.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "suddenly",
+    "n": [
+     "suddenly"
+    ]
+   },
+   {
+    "t": "don't",
+    "n": [
+     "don't"
+    ]
+   },
+   {
+    "t": "know",
+    "n": [
+     "know"
+    ]
+   },
+   {
+    "t": "what",
+    "n": [
+     "what"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "do",
+    "n": [
+     "do"
+    ]
+   },
+   {
+    "t": "with",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "hands.",
+    "n": [
+     "hands"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "put",
+    "n": [
+     "put"
+    ]
+   },
+   {
+    "t": "them",
+    "n": [
+     "them"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "pockets.",
+    "n": [
+     "pockets"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "take",
+    "n": [
+     "take"
+    ]
+   },
+   {
+    "t": "them",
+    "n": [
+     "them"
+    ]
+   },
+   {
+    "t": "out.",
+    "n": [
+     "out"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "cross",
+    "n": [
+     "cross"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "arms.",
+    "n": [
+     "arms"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 66,
+  "tags": [],
+  "text": "Why is standing still so HARD?",
+  "words": [
+   {
+    "t": "Why",
+    "n": [
+     "why"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "standing",
+    "n": [
+     "standing"
+    ]
+   },
+   {
+    "t": "still",
+    "n": [
+     "still"
+    ]
+   },
+   {
+    "t": "so",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "HARD?",
+    "n": [
+     "hard"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 67,
+  "tags": [],
+  "text": "And then... it happens.",
+  "words": [
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "then...",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "happens.",
+    "n": [
+     "happens"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 68,
+  "tags": [],
+  "text": "Your stomach growls.",
+  "words": [
+   {
+    "t": "Your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "stomach",
+    "n": [
+     "stomach"
+    ]
+   },
+   {
+    "t": "growls.",
+    "n": [
+     "growls"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 69,
+  "tags": [],
+  "text": "Not a small growl. Not a polite little rumble.",
+  "words": [
+   {
+    "t": "Not",
+    "n": [
+     "not"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "small",
+    "n": [
+     "small"
+    ]
+   },
+   {
+    "t": "growl.",
+    "n": [
+     "growl"
+    ]
+   },
+   {
+    "t": "Not",
+    "n": [
+     "not"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "polite",
+    "n": [
+     "polite"
+    ]
+   },
+   {
+    "t": "little",
+    "n": [
+     "little"
+    ]
+   },
+   {
+    "t": "rumble.",
+    "n": [
+     "rumble"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 70,
+  "tags": [
+   "surprise"
+  ],
+  "text": "It sounds like a WHALE calling for help.",
+  "words": [
+   {
+    "t": "It",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "sounds",
+    "n": [
+     "sounds"
+    ]
+   },
+   {
+    "t": "like",
+    "n": [
+     "like"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "WHALE",
+    "n": [
+     "whale"
+    ]
+   },
+   {
+    "t": "calling",
+    "n": [
+     "calling"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "help.",
+    "n": [
+     "help"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 71,
+  "tags": [],
+  "text": "It echoes off the metal walls. There's nowhere to hide.",
+  "words": [
+   {
+    "t": "It",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "echoes",
+    "n": [
+     "echoes"
+    ]
+   },
+   {
+    "t": "off",
+    "n": [
+     "off"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "metal",
+    "n": [
+     "metal"
+    ]
+   },
+   {
+    "t": "walls.",
+    "n": [
+     "walls"
+    ]
+   },
+   {
+    "t": "There's",
+    "n": [
+     "there's"
+    ]
+   },
+   {
+    "t": "nowhere",
+    "n": [
+     "nowhere"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "hide.",
+    "n": [
+     "hide"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 72,
+  "tags": [],
+  "text": "You close your eyes... and quietly accept your fate.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "close",
+    "n": [
+     "close"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "eyes...",
+    "n": [
+     "eyes"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "quietly",
+    "n": [
+     "quietly"
+    ]
+   },
+   {
+    "t": "accept",
+    "n": [
+     "accept"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "fate.",
+    "n": [
+     "fate"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 73,
+  "tags": [
+   "amusement"
+  ],
+  "text": "Then you hear something unexpected. Alex is laughing.",
+  "words": [
+   {
+    "t": "Then",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "hear",
+    "n": [
+     "hear"
+    ]
+   },
+   {
+    "t": "something",
+    "n": [
+     "something"
+    ]
+   },
+   {
+    "t": "unexpected.",
+    "n": [
+     "unexpected"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "laughing.",
+    "n": [
+     "laughing"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 74,
+  "tags": [],
+  "text": "Not a polite laugh. A REAL one.",
+  "words": [
+   {
+    "t": "Not",
+    "n": [
+     "not"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "polite",
+    "n": [
+     "polite"
+    ]
+   },
+   {
+    "t": "laugh.",
+    "n": [
+     "laugh"
+    ]
+   },
+   {
+    "t": "A",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "REAL",
+    "n": [
+     "real"
+    ]
+   },
+   {
+    "t": "one.",
+    "n": [
+     "one"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 75,
+  "tags": [],
+  "text": "\"Did you skip breakfast?\"",
+  "words": [
+   {
+    "t": "\"Did",
+    "n": [
+     "did"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "skip",
+    "n": [
+     "skip"
+    ]
+   },
+   {
+    "t": "breakfast?\"",
+    "n": [
+     "breakfast"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 76,
+  "tags": [],
+  "text": "\"I was... running late.\"",
+  "words": [
+   {
+    "t": "\"I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "was...",
+    "n": [
+     "was"
+    ]
+   },
+   {
+    "t": "running",
+    "n": [
+     "running"
+    ]
+   },
+   {
+    "t": "late.\"",
+    "n": [
+     "late"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 77,
+  "tags": [],
+  "text": "Alex unzips their backpack, pulls out a granola bar... breaks it in half... and hands you a piece.",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "unzips",
+    "n": [
+     "unzips"
+    ]
+   },
+   {
+    "t": "their",
+    "n": [
+     "their"
+    ]
+   },
+   {
+    "t": "backpack,",
+    "n": [
+     "backpack"
+    ]
+   },
+   {
+    "t": "pulls",
+    "n": [
+     "pulls"
+    ]
+   },
+   {
+    "t": "out",
+    "n": [
+     "out"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "granola",
+    "n": [
+     "granola"
+    ]
+   },
+   {
+    "t": "bar...",
+    "n": [
+     "bar"
+    ]
+   },
+   {
+    "t": "breaks",
+    "n": [
+     "breaks"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "half...",
+    "n": [
+     "half"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "hands",
+    "n": [
+     "hands"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "piece.",
+    "n": [
+     "piece"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 78,
+  "tags": [],
+  "text": "You stare at it. Your crush... just shared food with you.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "stare",
+    "n": [
+     "stare"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "it.",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "Your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "crush...",
+    "n": [
+     "crush"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "shared",
+    "n": [
+     "shared"
+    ]
+   },
+   {
+    "t": "food",
+    "n": [
+     "food"
+    ]
+   },
+   {
+    "t": "with",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "you.",
+    "n": [
+     "you"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 79,
+  "tags": [
+   "affection"
+  ],
+  "text": "It's slightly crushed... slightly stale... and honestly? It's the best thing you've ever eaten.",
+  "words": [
+   {
+    "t": "It's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "slightly",
+    "n": [
+     "slightly"
+    ]
+   },
+   {
+    "t": "crushed...",
+    "n": [
+     "crushed"
+    ]
+   },
+   {
+    "t": "slightly",
+    "n": [
+     "slightly"
+    ]
+   },
+   {
+    "t": "stale...",
+    "n": [
+     "stale"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "honestly?",
+    "n": [
+     "honestly"
+    ]
+   },
+   {
+    "t": "It's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "best",
+    "n": [
+     "best"
+    ]
+   },
+   {
+    "t": "thing",
+    "n": [
+     "thing"
+    ]
+   },
+   {
+    "t": "you've",
+    "n": [
+     "you've"
+    ]
+   },
+   {
+    "t": "ever",
+    "n": [
+     "ever"
+    ]
+   },
+   {
+    "t": "eaten.",
+    "n": [
+     "eaten"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 80,
+  "tags": [],
+  "text": "Something changes after that.",
+  "words": [
+   {
+    "t": "Something",
+    "n": [
+     "something"
+    ]
+   },
+   {
+    "t": "changes",
+    "n": [
+     "changes"
+    ]
+   },
+   {
+    "t": "after",
+    "n": [
+     "after"
+    ]
+   },
+   {
+    "t": "that.",
+    "n": [
+     "that"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 81,
+  "tags": [],
+  "text": "The silence doesn't feel quite so heavy. Alex slides down and sits on the floor. After a second... you sit down too.",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "silence",
+    "n": [
+     "silence"
+    ]
+   },
+   {
+    "t": "doesn't",
+    "n": [
+     "doesn't"
+    ]
+   },
+   {
+    "t": "feel",
+    "n": [
+     "feel"
+    ]
+   },
+   {
+    "t": "quite",
+    "n": [
+     "quite"
+    ]
+   },
+   {
+    "t": "so",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "heavy.",
+    "n": [
+     "heavy"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "slides",
+    "n": [
+     "slides"
+    ]
+   },
+   {
+    "t": "down",
+    "n": [
+     "down"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "sits",
+    "n": [
+     "sits"
+    ]
+   },
+   {
+    "t": "on",
+    "n": [
+     "on"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "floor.",
+    "n": [
+     "floor"
+    ]
+   },
+   {
+    "t": "After",
+    "n": [
+     "after"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "second...",
+    "n": [
+     "second"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "sit",
+    "n": [
+     "sit"
+    ]
+   },
+   {
+    "t": "down",
+    "n": [
+     "down"
+    ]
+   },
+   {
+    "t": "too.",
+    "n": [
+     "too"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 82,
+  "tags": [],
+  "text": "\"So,\" Alex says. \"You're in my math class, right?\"",
+  "words": [
+   {
+    "t": "\"So,\"",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "says.",
+    "n": [
+     "says"
+    ]
+   },
+   {
+    "t": "\"You're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "my",
+    "n": [
+     "my"
+    ]
+   },
+   {
+    "t": "math",
+    "n": [
+     "math"
+    ]
+   },
+   {
+    "t": "class,",
+    "n": [
+     "class"
+    ]
+   },
+   {
+    "t": "right?\"",
+    "n": [
+     "right"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 83,
+  "tags": [
+   "surprise"
+  ],
+  "text": "Wait. Alex KNOWS that?",
+  "words": [
+   {
+    "t": "Wait.",
+    "n": [
+     "wait"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "KNOWS",
+    "n": [
+     "knows"
+    ]
+   },
+   {
+    "t": "that?",
+    "n": [
+     "that"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 84,
+  "tags": [],
+  "text": "\"Yeah,\" you say, trying to sound casual. \"Two rows behind you.\"",
+  "words": [
+   {
+    "t": "\"Yeah,\"",
+    "n": [
+     "yeah"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "say,",
+    "n": [
+     "say"
+    ]
+   },
+   {
+    "t": "trying",
+    "n": [
+     "trying"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "sound",
+    "n": [
+     "sound"
+    ]
+   },
+   {
+    "t": "casual.",
+    "n": [
+     "casual"
+    ]
+   },
+   {
+    "t": "\"Two",
+    "n": [
+     "two"
+    ]
+   },
+   {
+    "t": "rows",
+    "n": [
+     "rows"
+    ]
+   },
+   {
+    "t": "behind",
+    "n": [
+     "behind"
+    ]
+   },
+   {
+    "t": "you.\"",
+    "n": [
+     "you"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 85,
+  "tags": [],
+  "text": "Alex nods. \"I knew it. You're also the one who plays guitar at eleven at night.\"",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "nods.",
+    "n": [
+     "nods"
+    ]
+   },
+   {
+    "t": "\"I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "knew",
+    "n": [
+     "knew"
+    ]
+   },
+   {
+    "t": "it.",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "You're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "also",
+    "n": [
+     "also"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "one",
+    "n": [
+     "one"
+    ]
+   },
+   {
+    "t": "who",
+    "n": [
+     "who"
+    ]
+   },
+   {
+    "t": "plays",
+    "n": [
+     "plays"
+    ]
+   },
+   {
+    "t": "guitar",
+    "n": [
+     "guitar"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "eleven",
+    "n": [
+     "eleven"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "night.\"",
+    "n": [
+     "night"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 86,
+  "tags": [
+   "fear"
+  ],
+  "text": "Your soul leaves your body.",
+  "words": [
+   {
+    "t": "Your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "soul",
+    "n": [
+     "soul"
+    ]
+   },
+   {
+    "t": "leaves",
+    "n": [
+     "leaves"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "body.",
+    "n": [
+     "body"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 87,
+  "tags": [],
+  "text": "Your bedroom is directly below Alex's apartment. And for the past six months... you've been teaching yourself guitar. Badly. VERY badly.",
+  "words": [
+   {
+    "t": "Your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "bedroom",
+    "n": [
+     "bedroom"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "directly",
+    "n": [
+     "directly"
+    ]
+   },
+   {
+    "t": "below",
+    "n": [
+     "below"
+    ]
+   },
+   {
+    "t": "Alex's",
+    "n": [
+     "alex's"
+    ]
+   },
+   {
+    "t": "apartment.",
+    "n": [
+     "apartment"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "past",
+    "n": [
+     "past"
+    ]
+   },
+   {
+    "t": "six",
+    "n": [
+     "six"
+    ]
+   },
+   {
+    "t": "months...",
+    "n": [
+     "months"
+    ]
+   },
+   {
+    "t": "you've",
+    "n": [
+     "you've"
+    ]
+   },
+   {
+    "t": "been",
+    "n": [
+     "been"
+    ]
+   },
+   {
+    "t": "teaching",
+    "n": [
+     "teaching"
+    ]
+   },
+   {
+    "t": "yourself",
+    "n": [
+     "yourself"
+    ]
+   },
+   {
+    "t": "guitar.",
+    "n": [
+     "guitar"
+    ]
+   },
+   {
+    "t": "Badly.",
+    "n": [
+     "badly"
+    ]
+   },
+   {
+    "t": "VERY",
+    "n": [
+     "very"
+    ]
+   },
+   {
+    "t": "badly.",
+    "n": [
+     "badly"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 88,
+  "tags": [],
+  "text": "\"I didn't know anyone could hear that.\"",
+  "words": [
+   {
+    "t": "\"I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "didn't",
+    "n": [
+     "didn't"
+    ]
+   },
+   {
+    "t": "know",
+    "n": [
+     "know"
+    ]
+   },
+   {
+    "t": "anyone",
+    "n": [
+     "anyone"
+    ]
+   },
+   {
+    "t": "could",
+    "n": [
+     "could"
+    ]
+   },
+   {
+    "t": "hear",
+    "n": [
+     "hear"
+    ]
+   },
+   {
+    "t": "that.\"",
+    "n": [
+     "that"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 89,
+  "tags": [],
+  "text": "\"The whole building can hear that. Mrs. Patterson on the third floor thinks someone's torturing a cat.\"",
+  "words": [
+   {
+    "t": "\"The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "whole",
+    "n": [
+     "whole"
+    ]
+   },
+   {
+    "t": "building",
+    "n": [
+     "building"
+    ]
+   },
+   {
+    "t": "can",
+    "n": [
+     "can"
+    ]
+   },
+   {
+    "t": "hear",
+    "n": [
+     "hear"
+    ]
+   },
+   {
+    "t": "that.",
+    "n": [
+     "that"
+    ]
+   },
+   {
+    "t": "Mrs.",
+    "n": [
+     "mrs"
+    ]
+   },
+   {
+    "t": "Patterson",
+    "n": [
+     "patterson"
+    ]
+   },
+   {
+    "t": "on",
+    "n": [
+     "on"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "third",
+    "n": [
+     "third"
+    ]
+   },
+   {
+    "t": "floor",
+    "n": [
+     "floor"
+    ]
+   },
+   {
+    "t": "thinks",
+    "n": [
+     "thinks"
+    ]
+   },
+   {
+    "t": "someone's",
+    "n": [
+     "someone's"
+    ]
+   },
+   {
+    "t": "torturing",
+    "n": [
+     "torturing"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "cat.\"",
+    "n": [
+     "cat"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 90,
+  "tags": [],
+  "text": "You bury your face in your hands.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "bury",
+    "n": [
+     "bury"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "face",
+    "n": [
+     "face"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "hands.",
+    "n": [
+     "hands"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 91,
+  "tags": [
+   "amusement"
+  ],
+  "text": "But Alex is smiling. \"For what it's worth... you're getting better. Last week, I actually recognized the song.\"",
+  "words": [
+   {
+    "t": "But",
+    "n": [
+     "but"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "smiling.",
+    "n": [
+     "smiling"
+    ]
+   },
+   {
+    "t": "\"For",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "what",
+    "n": [
+     "what"
+    ]
+   },
+   {
+    "t": "it's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "worth...",
+    "n": [
+     "worth"
+    ]
+   },
+   {
+    "t": "you're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "getting",
+    "n": [
+     "getting"
+    ]
+   },
+   {
+    "t": "better.",
+    "n": [
+     "better"
+    ]
+   },
+   {
+    "t": "Last",
+    "n": [
+     "last"
+    ]
+   },
+   {
+    "t": "week,",
+    "n": [
+     "week"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "actually",
+    "n": [
+     "actually"
+    ]
+   },
+   {
+    "t": "recognized",
+    "n": [
+     "recognized"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "song.\"",
+    "n": [
+     "song"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 92,
+  "tags": [],
+  "text": "You look up. \"Really?\"",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "look",
+    "n": [
+     "look"
+    ]
+   },
+   {
+    "t": "up.",
+    "n": [
+     "up"
+    ]
+   },
+   {
+    "t": "\"Really?\"",
+    "n": [
+     "really"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 93,
+  "tags": [],
+  "text": "\"Okay... no. But I could tell it WAS a song.\"",
+  "words": [
+   {
+    "t": "\"Okay...",
+    "n": [
+     "okay"
+    ]
+   },
+   {
+    "t": "no.",
+    "n": [
+     "no"
+    ]
+   },
+   {
+    "t": "But",
+    "n": [
+     "but"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "could",
+    "n": [
+     "could"
+    ]
+   },
+   {
+    "t": "tell",
+    "n": [
+     "tell"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "WAS",
+    "n": [
+     "was"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "song.\"",
+    "n": [
+     "song"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 94,
+  "tags": [],
+  "text": "You laugh. Alex laughs. And for the first time... the conversation actually starts to flow.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "laugh.",
+    "n": [
+     "laugh"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "laughs.",
+    "n": [
+     "laughs"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "first",
+    "n": [
+     "first"
+    ]
+   },
+   {
+    "t": "time...",
+    "n": [
+     "time"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "conversation",
+    "n": [
+     "conversation"
+    ]
+   },
+   {
+    "t": "actually",
+    "n": [
+     "actually"
+    ]
+   },
+   {
+    "t": "starts",
+    "n": [
+     "starts"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "flow.",
+    "n": [
+     "flow"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 95,
+  "tags": [],
+  "text": "You find out Alex hates pineapple on pizza. You find out you both play the same video game... and you've BOTH been stuck on the same level for two weeks.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "find",
+    "n": [
+     "find"
+    ]
+   },
+   {
+    "t": "out",
+    "n": [
+     "out"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "hates",
+    "n": [
+     "hates"
+    ]
+   },
+   {
+    "t": "pineapple",
+    "n": [
+     "pineapple"
+    ]
+   },
+   {
+    "t": "on",
+    "n": [
+     "on"
+    ]
+   },
+   {
+    "t": "pizza.",
+    "n": [
+     "pizza"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "find",
+    "n": [
+     "find"
+    ]
+   },
+   {
+    "t": "out",
+    "n": [
+     "out"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "both",
+    "n": [
+     "both"
+    ]
+   },
+   {
+    "t": "play",
+    "n": [
+     "play"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "same",
+    "n": [
+     "same"
+    ]
+   },
+   {
+    "t": "video",
+    "n": [
+     "video"
+    ]
+   },
+   {
+    "t": "game...",
+    "n": [
+     "game"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "you've",
+    "n": [
+     "you've"
+    ]
+   },
+   {
+    "t": "BOTH",
+    "n": [
+     "both"
+    ]
+   },
+   {
+    "t": "been",
+    "n": [
+     "been"
+    ]
+   },
+   {
+    "t": "stuck",
+    "n": [
+     "stuck"
+    ]
+   },
+   {
+    "t": "on",
+    "n": [
+     "on"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "same",
+    "n": [
+     "same"
+    ]
+   },
+   {
+    "t": "level",
+    "n": [
+     "level"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "two",
+    "n": [
+     "two"
+    ]
+   },
+   {
+    "t": "weeks.",
+    "n": [
+     "weeks"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 96,
+  "tags": [
+   "enthusiasm"
+  ],
+  "text": "\"Wait... the lava bridge?\"",
+  "words": [
+   {
+    "t": "\"Wait...",
+    "n": [
+     "wait"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "lava",
+    "n": [
+     "lava"
+    ]
+   },
+   {
+    "t": "bridge?\"",
+    "n": [
+     "bridge"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 97,
+  "tags": [],
+  "text": "\"The LAVA BRIDGE!\" Alex practically shouts.",
+  "words": [
+   {
+    "t": "\"The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "LAVA",
+    "n": [
+     "lava"
+    ]
+   },
+   {
+    "t": "BRIDGE!\"",
+    "n": [
+     "bridge"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "practically",
+    "n": [
+     "practically"
+    ]
+   },
+   {
+    "t": "shouts.",
+    "n": [
+     "shouts"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 98,
+  "tags": [],
+  "text": "For a few minutes... you completely forget you're trapped.",
+  "words": [
+   {
+    "t": "For",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "few",
+    "n": [
+     "few"
+    ]
+   },
+   {
+    "t": "minutes...",
+    "n": [
+     "minutes"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "completely",
+    "n": [
+     "completely"
+    ]
+   },
+   {
+    "t": "forget",
+    "n": [
+     "forget"
+    ]
+   },
+   {
+    "t": "you're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "trapped.",
+    "n": [
+     "trapped"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 99,
+  "tags": [],
+  "text": "You're just two people... talking.",
+  "words": [
+   {
+    "t": "You're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "two",
+    "n": [
+     "two"
+    ]
+   },
+   {
+    "t": "people...",
+    "n": [
+     "people"
+    ]
+   },
+   {
+    "t": "talking.",
+    "n": [
+     "talking"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 100,
+  "tags": [],
+  "text": "But around forty minutes in... things start getting uncomfortable.",
+  "words": [
+   {
+    "t": "But",
+    "n": [
+     "but"
+    ]
+   },
+   {
+    "t": "around",
+    "n": [
+     "around"
+    ]
+   },
+   {
+    "t": "forty",
+    "n": [
+     "forty"
+    ]
+   },
+   {
+    "t": "minutes",
+    "n": [
+     "minutes"
+    ]
+   },
+   {
+    "t": "in...",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "things",
+    "n": [
+     "things"
+    ]
+   },
+   {
+    "t": "start",
+    "n": [
+     "start"
+    ]
+   },
+   {
+    "t": "getting",
+    "n": [
+     "getting"
+    ]
+   },
+   {
+    "t": "uncomfortable.",
+    "n": [
+     "uncomfortable"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 101,
+  "tags": [],
+  "text": "The air feels warmer. The tiny ceiling fan has stopped spinning.",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "air",
+    "n": [
+     "air"
+    ]
+   },
+   {
+    "t": "feels",
+    "n": [
+     "feels"
+    ]
+   },
+   {
+    "t": "warmer.",
+    "n": [
+     "warmer"
+    ]
+   },
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "tiny",
+    "n": [
+     "tiny"
+    ]
+   },
+   {
+    "t": "ceiling",
+    "n": [
+     "ceiling"
+    ]
+   },
+   {
+    "t": "fan",
+    "n": [
+     "fan"
+    ]
+   },
+   {
+    "t": "has",
+    "n": [
+     "has"
+    ]
+   },
+   {
+    "t": "stopped",
+    "n": [
+     "stopped"
+    ]
+   },
+   {
+    "t": "spinning.",
+    "n": [
+     "spinning"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 102,
+  "tags": [],
+  "text": "You glance at Alex... and something's wrong.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "glance",
+    "n": [
+     "glance"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "Alex...",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "something's",
+    "n": [
+     "something's"
+    ]
+   },
+   {
+    "t": "wrong.",
+    "n": [
+     "wrong"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 103,
+  "tags": [],
+  "text": "Alex has stopped talking. Their knees are pulled up to their chest. They're staring at the doors... and breathing fast. Way too fast.",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "has",
+    "n": [
+     "has"
+    ]
+   },
+   {
+    "t": "stopped",
+    "n": [
+     "stopped"
+    ]
+   },
+   {
+    "t": "talking.",
+    "n": [
+     "talking"
+    ]
+   },
+   {
+    "t": "Their",
+    "n": [
+     "their"
+    ]
+   },
+   {
+    "t": "knees",
+    "n": [
+     "knees"
+    ]
+   },
+   {
+    "t": "are",
+    "n": [
+     "are"
+    ]
+   },
+   {
+    "t": "pulled",
+    "n": [
+     "pulled"
+    ]
+   },
+   {
+    "t": "up",
+    "n": [
+     "up"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "their",
+    "n": [
+     "their"
+    ]
+   },
+   {
+    "t": "chest.",
+    "n": [
+     "chest"
+    ]
+   },
+   {
+    "t": "They're",
+    "n": [
+     "they're"
+    ]
+   },
+   {
+    "t": "staring",
+    "n": [
+     "staring"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "doors...",
+    "n": [
+     "doors"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "breathing",
+    "n": [
+     "breathing"
+    ]
+   },
+   {
+    "t": "fast.",
+    "n": [
+     "fast"
+    ]
+   },
+   {
+    "t": "Way",
+    "n": [
+     "way"
+    ]
+   },
+   {
+    "t": "too",
+    "n": [
+     "too"
+    ]
+   },
+   {
+    "t": "fast.",
+    "n": [
+     "fast"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 104,
+  "tags": [],
+  "text": "\"Hey... are you okay?\"",
+  "words": [
+   {
+    "t": "\"Hey...",
+    "n": [
+     "hey"
+    ]
+   },
+   {
+    "t": "are",
+    "n": [
+     "are"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "okay?\"",
+    "n": [
+     "okay"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 105,
+  "tags": [
+   "fear"
+  ],
+  "text": "\"I'm fine,\" Alex says. But their voice is shaking. \"I just... I really don't like small spaces.\"",
+  "words": [
+   {
+    "t": "\"I'm",
+    "n": [
+     "i'm"
+    ]
+   },
+   {
+    "t": "fine,\"",
+    "n": [
+     "fine"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "says.",
+    "n": [
+     "says"
+    ]
+   },
+   {
+    "t": "But",
+    "n": [
+     "but"
+    ]
+   },
+   {
+    "t": "their",
+    "n": [
+     "their"
+    ]
+   },
+   {
+    "t": "voice",
+    "n": [
+     "voice"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "shaking.",
+    "n": [
+     "shaking"
+    ]
+   },
+   {
+    "t": "\"I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "just...",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "really",
+    "n": [
+     "really"
+    ]
+   },
+   {
+    "t": "don't",
+    "n": [
+     "don't"
+    ]
+   },
+   {
+    "t": "like",
+    "n": [
+     "like"
+    ]
+   },
+   {
+    "t": "small",
+    "n": [
+     "small"
+    ]
+   },
+   {
+    "t": "spaces.\"",
+    "n": [
+     "spaces"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 106,
+  "tags": [],
+  "text": "And suddenly you realize... Alex isn't just a little uncomfortable.",
+  "words": [
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "suddenly",
+    "n": [
+     "suddenly"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "realize...",
+    "n": [
+     "realize"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "isn't",
+    "n": [
+     "isn't"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "little",
+    "n": [
+     "little"
+    ]
+   },
+   {
+    "t": "uncomfortable.",
+    "n": [
+     "uncomfortable"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 107,
+  "tags": [],
+  "text": "Alex is scared.",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "scared.",
+    "n": [
+     "scared"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 108,
+  "tags": [],
+  "text": "For months, you've thought of Alex as this perfect, untouchable person. Always calm. Always cool. Always confident.",
+  "words": [
+   {
+    "t": "For",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "months,",
+    "n": [
+     "months"
+    ]
+   },
+   {
+    "t": "you've",
+    "n": [
+     "you've"
+    ]
+   },
+   {
+    "t": "thought",
+    "n": [
+     "thought"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "as",
+    "n": [
+     "as"
+    ]
+   },
+   {
+    "t": "this",
+    "n": [
+     "this"
+    ]
+   },
+   {
+    "t": "perfect,",
+    "n": [
+     "perfect"
+    ]
+   },
+   {
+    "t": "untouchable",
+    "n": [
+     "untouchable"
+    ]
+   },
+   {
+    "t": "person.",
+    "n": [
+     "person"
+    ]
+   },
+   {
+    "t": "Always",
+    "n": [
+     "always"
+    ]
+   },
+   {
+    "t": "calm.",
+    "n": [
+     "calm"
+    ]
+   },
+   {
+    "t": "Always",
+    "n": [
+     "always"
+    ]
+   },
+   {
+    "t": "cool.",
+    "n": [
+     "cool"
+    ]
+   },
+   {
+    "t": "Always",
+    "n": [
+     "always"
+    ]
+   },
+   {
+    "t": "confident.",
+    "n": [
+     "confident"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 109,
+  "tags": [],
+  "text": "But right now... Alex is just a person. A scared one.",
+  "words": [
+   {
+    "t": "But",
+    "n": [
+     "but"
+    ]
+   },
+   {
+    "t": "right",
+    "n": [
+     "right"
+    ]
+   },
+   {
+    "t": "now...",
+    "n": [
+     "now"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "person.",
+    "n": [
+     "person"
+    ]
+   },
+   {
+    "t": "A",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "scared",
+    "n": [
+     "scared"
+    ]
+   },
+   {
+    "t": "one.",
+    "n": [
+     "one"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 110,
+  "tags": [
+   "determination"
+  ],
+  "text": "And you decide... you're going to help.",
+  "words": [
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "decide...",
+    "n": [
+     "decide"
+    ]
+   },
+   {
+    "t": "you're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "going",
+    "n": [
+     "going"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "help.",
+    "n": [
+     "help"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 111,
+  "tags": [],
+  "text": "You scoot a little closer. \"Okay. Let's try something. Breathe in with me. In... two... three... four. Hold it. Now out... slowly.\"",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "scoot",
+    "n": [
+     "scoot"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "little",
+    "n": [
+     "little"
+    ]
+   },
+   {
+    "t": "closer.",
+    "n": [
+     "closer"
+    ]
+   },
+   {
+    "t": "\"Okay.",
+    "n": [
+     "okay"
+    ]
+   },
+   {
+    "t": "Let's",
+    "n": [
+     "let's"
+    ]
+   },
+   {
+    "t": "try",
+    "n": [
+     "try"
+    ]
+   },
+   {
+    "t": "something.",
+    "n": [
+     "something"
+    ]
+   },
+   {
+    "t": "Breathe",
+    "n": [
+     "breathe"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "with",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "me.",
+    "n": [
+     "me"
+    ]
+   },
+   {
+    "t": "In...",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "two...",
+    "n": [
+     "two"
+    ]
+   },
+   {
+    "t": "three...",
+    "n": [
+     "three"
+    ]
+   },
+   {
+    "t": "four.",
+    "n": [
+     "four"
+    ]
+   },
+   {
+    "t": "Hold",
+    "n": [
+     "hold"
+    ]
+   },
+   {
+    "t": "it.",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "Now",
+    "n": [
+     "now"
+    ]
+   },
+   {
+    "t": "out...",
+    "n": [
+     "out"
+    ]
+   },
+   {
+    "t": "slowly.\"",
+    "n": [
+     "slowly"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 112,
+  "tags": [],
+  "text": "Alex hesitates... then does it.",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "hesitates...",
+    "n": [
+     "hesitates"
+    ]
+   },
+   {
+    "t": "then",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "does",
+    "n": [
+     "does"
+    ]
+   },
+   {
+    "t": "it.",
+    "n": [
+     "it"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 113,
+  "tags": [],
+  "text": "Once. Twice. Five times.",
+  "words": [
+   {
+    "t": "Once.",
+    "n": [
+     "once"
+    ]
+   },
+   {
+    "t": "Twice.",
+    "n": [
+     "twice"
+    ]
+   },
+   {
+    "t": "Five",
+    "n": [
+     "five"
+    ]
+   },
+   {
+    "t": "times.",
+    "n": [
+     "times"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 114,
+  "tags": [],
+  "text": "Then you start talking about the only thing you can think of... elevators.",
+  "words": [
+   {
+    "t": "Then",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "start",
+    "n": [
+     "start"
+    ]
+   },
+   {
+    "t": "talking",
+    "n": [
+     "talking"
+    ]
+   },
+   {
+    "t": "about",
+    "n": [
+     "about"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "only",
+    "n": [
+     "only"
+    ]
+   },
+   {
+    "t": "thing",
+    "n": [
+     "thing"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "can",
+    "n": [
+     "can"
+    ]
+   },
+   {
+    "t": "think",
+    "n": [
+     "think"
+    ]
+   },
+   {
+    "t": "of...",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "elevators.",
+    "n": [
+     "elevators"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 115,
+  "tags": [],
+  "text": "\"You know these things almost NEVER fall, right? They're held up by several steel cables... and just one of them is strong enough to hold the whole elevator. And if it ever moves too fast, emergency brakes grab onto the rails.\"",
+  "words": [
+   {
+    "t": "\"You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "know",
+    "n": [
+     "know"
+    ]
+   },
+   {
+    "t": "these",
+    "n": [
+     "these"
+    ]
+   },
+   {
+    "t": "things",
+    "n": [
+     "things"
+    ]
+   },
+   {
+    "t": "almost",
+    "n": [
+     "almost"
+    ]
+   },
+   {
+    "t": "NEVER",
+    "n": [
+     "never"
+    ]
+   },
+   {
+    "t": "fall,",
+    "n": [
+     "fall"
+    ]
+   },
+   {
+    "t": "right?",
+    "n": [
+     "right"
+    ]
+   },
+   {
+    "t": "They're",
+    "n": [
+     "they're"
+    ]
+   },
+   {
+    "t": "held",
+    "n": [
+     "held"
+    ]
+   },
+   {
+    "t": "up",
+    "n": [
+     "up"
+    ]
+   },
+   {
+    "t": "by",
+    "n": [
+     "by"
+    ]
+   },
+   {
+    "t": "several",
+    "n": [
+     "several"
+    ]
+   },
+   {
+    "t": "steel",
+    "n": [
+     "steel"
+    ]
+   },
+   {
+    "t": "cables...",
+    "n": [
+     "cables"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "one",
+    "n": [
+     "one"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "them",
+    "n": [
+     "them"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "strong",
+    "n": [
+     "strong"
+    ]
+   },
+   {
+    "t": "enough",
+    "n": [
+     "enough"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "hold",
+    "n": [
+     "hold"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "whole",
+    "n": [
+     "whole"
+    ]
+   },
+   {
+    "t": "elevator.",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "if",
+    "n": [
+     "if"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "ever",
+    "n": [
+     "ever"
+    ]
+   },
+   {
+    "t": "moves",
+    "n": [
+     "moves"
+    ]
+   },
+   {
+    "t": "too",
+    "n": [
+     "too"
+    ]
+   },
+   {
+    "t": "fast,",
+    "n": [
+     "fast"
+    ]
+   },
+   {
+    "t": "emergency",
+    "n": [
+     "emergency"
+    ]
+   },
+   {
+    "t": "brakes",
+    "n": [
+     "brakes"
+    ]
+   },
+   {
+    "t": "grab",
+    "n": [
+     "grab"
+    ]
+   },
+   {
+    "t": "onto",
+    "n": [
+     "onto"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "rails.\"",
+    "n": [
+     "rails"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 116,
+  "tags": [],
+  "text": "Alex stares at you. \"How do you know that?\"",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "stares",
+    "n": [
+     "stares"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "you.",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "\"How",
+    "n": [
+     "how"
+    ]
+   },
+   {
+    "t": "do",
+    "n": [
+     "do"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "know",
+    "n": [
+     "know"
+    ]
+   },
+   {
+    "t": "that?\"",
+    "n": [
+     "that"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 117,
+  "tags": [],
+  "text": "\"I watch a LOT of weird videos at three in the morning.\"",
+  "words": [
+   {
+    "t": "\"I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "watch",
+    "n": [
+     "watch"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "LOT",
+    "n": [
+     "lot"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "weird",
+    "n": [
+     "weird"
+    ]
+   },
+   {
+    "t": "videos",
+    "n": [
+     "videos"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "three",
+    "n": [
+     "three"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "morning.\"",
+    "n": [
+     "morning"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 118,
+  "tags": [
+   "relief"
+  ],
+  "text": "Alex laughs. It's small and a little shaky... but it's a laugh.",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "laughs.",
+    "n": [
+     "laughs"
+    ]
+   },
+   {
+    "t": "It's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "small",
+    "n": [
+     "small"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "little",
+    "n": [
+     "little"
+    ]
+   },
+   {
+    "t": "shaky...",
+    "n": [
+     "shaky"
+    ]
+   },
+   {
+    "t": "but",
+    "n": [
+     "but"
+    ]
+   },
+   {
+    "t": "it's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "laugh.",
+    "n": [
+     "laugh"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 119,
+  "tags": [],
+  "text": "\"Also, elevators aren't airtight. We're not running out of air. It just FEELS stuffy. And the worst thing we could do is try to climb out through the ceiling. That only works in movies. In real life... the safest place to be is right here. Waiting for help.\"",
+  "words": [
+   {
+    "t": "\"Also,",
+    "n": [
+     "also"
+    ]
+   },
+   {
+    "t": "elevators",
+    "n": [
+     "elevators"
+    ]
+   },
+   {
+    "t": "aren't",
+    "n": [
+     "aren't"
+    ]
+   },
+   {
+    "t": "airtight.",
+    "n": [
+     "airtight"
+    ]
+   },
+   {
+    "t": "We're",
+    "n": [
+     "we're"
+    ]
+   },
+   {
+    "t": "not",
+    "n": [
+     "not"
+    ]
+   },
+   {
+    "t": "running",
+    "n": [
+     "running"
+    ]
+   },
+   {
+    "t": "out",
+    "n": [
+     "out"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "air.",
+    "n": [
+     "air"
+    ]
+   },
+   {
+    "t": "It",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "FEELS",
+    "n": [
+     "feels"
+    ]
+   },
+   {
+    "t": "stuffy.",
+    "n": [
+     "stuffy"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "worst",
+    "n": [
+     "worst"
+    ]
+   },
+   {
+    "t": "thing",
+    "n": [
+     "thing"
+    ]
+   },
+   {
+    "t": "we",
+    "n": [
+     "we"
+    ]
+   },
+   {
+    "t": "could",
+    "n": [
+     "could"
+    ]
+   },
+   {
+    "t": "do",
+    "n": [
+     "do"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "try",
+    "n": [
+     "try"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "climb",
+    "n": [
+     "climb"
+    ]
+   },
+   {
+    "t": "out",
+    "n": [
+     "out"
+    ]
+   },
+   {
+    "t": "through",
+    "n": [
+     "through"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "ceiling.",
+    "n": [
+     "ceiling"
+    ]
+   },
+   {
+    "t": "That",
+    "n": [
+     "that"
+    ]
+   },
+   {
+    "t": "only",
+    "n": [
+     "only"
+    ]
+   },
+   {
+    "t": "works",
+    "n": [
+     "works"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "movies.",
+    "n": [
+     "movies"
+    ]
+   },
+   {
+    "t": "In",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "real",
+    "n": [
+     "real"
+    ]
+   },
+   {
+    "t": "life...",
+    "n": [
+     "life"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "safest",
+    "n": [
+     "safest"
+    ]
+   },
+   {
+    "t": "place",
+    "n": [
+     "place"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "be",
+    "n": [
+     "be"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "right",
+    "n": [
+     "right"
+    ]
+   },
+   {
+    "t": "here.",
+    "n": [
+     "here"
+    ]
+   },
+   {
+    "t": "Waiting",
+    "n": [
+     "waiting"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "help.\"",
+    "n": [
+     "help"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 120,
+  "tags": [],
+  "text": "Alex takes another slow breath. Their shoulders drop... just a little.",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "takes",
+    "n": [
+     "takes"
+    ]
+   },
+   {
+    "t": "another",
+    "n": [
+     "another"
+    ]
+   },
+   {
+    "t": "slow",
+    "n": [
+     "slow"
+    ]
+   },
+   {
+    "t": "breath.",
+    "n": [
+     "breath"
+    ]
+   },
+   {
+    "t": "Their",
+    "n": [
+     "their"
+    ]
+   },
+   {
+    "t": "shoulders",
+    "n": [
+     "shoulders"
+    ]
+   },
+   {
+    "t": "drop...",
+    "n": [
+     "drop"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "little.",
+    "n": [
+     "little"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 121,
+  "tags": [],
+  "text": "\"Okay,\" Alex says. \"Keep talking.\"",
+  "words": [
+   {
+    "t": "\"Okay,\"",
+    "n": [
+     "okay"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "says.",
+    "n": [
+     "says"
+    ]
+   },
+   {
+    "t": "\"Keep",
+    "n": [
+     "keep"
+    ]
+   },
+   {
+    "t": "talking.\"",
+    "n": [
+     "talking"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 122,
+  "tags": [],
+  "text": "So you do.",
+  "words": [
+   {
+    "t": "So",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "do.",
+    "n": [
+     "do"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 123,
+  "tags": [],
+  "text": "You start a game of would you rather.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "start",
+    "n": [
+     "start"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "game",
+    "n": [
+     "game"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "would",
+    "n": [
+     "would"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "rather.",
+    "n": [
+     "rather"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 124,
+  "tags": [],
+  "text": "\"Would you rather be stuck in this elevator for another hour... or listen to me play guitar for an hour?\"",
+  "words": [
+   {
+    "t": "\"Would",
+    "n": [
+     "would"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "rather",
+    "n": [
+     "rather"
+    ]
+   },
+   {
+    "t": "be",
+    "n": [
+     "be"
+    ]
+   },
+   {
+    "t": "stuck",
+    "n": [
+     "stuck"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "this",
+    "n": [
+     "this"
+    ]
+   },
+   {
+    "t": "elevator",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "another",
+    "n": [
+     "another"
+    ]
+   },
+   {
+    "t": "hour...",
+    "n": [
+     "hour"
+    ]
+   },
+   {
+    "t": "or",
+    "n": [
+     "or"
+    ]
+   },
+   {
+    "t": "listen",
+    "n": [
+     "listen"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "me",
+    "n": [
+     "me"
+    ]
+   },
+   {
+    "t": "play",
+    "n": [
+     "play"
+    ]
+   },
+   {
+    "t": "guitar",
+    "n": [
+     "guitar"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "an",
+    "n": [
+     "an"
+    ]
+   },
+   {
+    "t": "hour?\"",
+    "n": [
+     "hour"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 125,
+  "tags": [
+   "amusement"
+  ],
+  "text": "Alex doesn't even hesitate. \"Elevator.\"",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "doesn't",
+    "n": [
+     "doesn't"
+    ]
+   },
+   {
+    "t": "even",
+    "n": [
+     "even"
+    ]
+   },
+   {
+    "t": "hesitate.",
+    "n": [
+     "hesitate"
+    ]
+   },
+   {
+    "t": "\"Elevator.\"",
+    "n": [
+     "elevator"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 126,
+  "tags": [],
+  "text": "\"WOW.\"",
+  "words": [
+   {
+    "t": "\"WOW.\"",
+    "n": [
+     "wow"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 127,
+  "tags": [],
+  "text": "\"My turn,\" Alex says. \"Would you rather have fingers as long as your legs... or legs as long as your fingers?\"",
+  "words": [
+   {
+    "t": "\"My",
+    "n": [
+     "my"
+    ]
+   },
+   {
+    "t": "turn,\"",
+    "n": [
+     "turn"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "says.",
+    "n": [
+     "says"
+    ]
+   },
+   {
+    "t": "\"Would",
+    "n": [
+     "would"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "rather",
+    "n": [
+     "rather"
+    ]
+   },
+   {
+    "t": "have",
+    "n": [
+     "have"
+    ]
+   },
+   {
+    "t": "fingers",
+    "n": [
+     "fingers"
+    ]
+   },
+   {
+    "t": "as",
+    "n": [
+     "as"
+    ]
+   },
+   {
+    "t": "long",
+    "n": [
+     "long"
+    ]
+   },
+   {
+    "t": "as",
+    "n": [
+     "as"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "legs...",
+    "n": [
+     "legs"
+    ]
+   },
+   {
+    "t": "or",
+    "n": [
+     "or"
+    ]
+   },
+   {
+    "t": "legs",
+    "n": [
+     "legs"
+    ]
+   },
+   {
+    "t": "as",
+    "n": [
+     "as"
+    ]
+   },
+   {
+    "t": "long",
+    "n": [
+     "long"
+    ]
+   },
+   {
+    "t": "as",
+    "n": [
+     "as"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "fingers?\"",
+    "n": [
+     "fingers"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 128,
+  "tags": [],
+  "text": "You both stare at your hands. You both take the question WAY too seriously. The debate lasts eleven minutes.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "both",
+    "n": [
+     "both"
+    ]
+   },
+   {
+    "t": "stare",
+    "n": [
+     "stare"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "hands.",
+    "n": [
+     "hands"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "both",
+    "n": [
+     "both"
+    ]
+   },
+   {
+    "t": "take",
+    "n": [
+     "take"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "question",
+    "n": [
+     "question"
+    ]
+   },
+   {
+    "t": "WAY",
+    "n": [
+     "way"
+    ]
+   },
+   {
+    "t": "too",
+    "n": [
+     "too"
+    ]
+   },
+   {
+    "t": "seriously.",
+    "n": [
+     "seriously"
+    ]
+   },
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "debate",
+    "n": [
+     "debate"
+    ]
+   },
+   {
+    "t": "lasts",
+    "n": [
+     "lasts"
+    ]
+   },
+   {
+    "t": "eleven",
+    "n": [
+     "eleven"
+    ]
+   },
+   {
+    "t": "minutes.",
+    "n": [
+     "minutes"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 129,
+  "tags": [],
+  "text": "Would you rather sing everything you say... or dance everywhere you go?",
+  "words": [
+   {
+    "t": "Would",
+    "n": [
+     "would"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "rather",
+    "n": [
+     "rather"
+    ]
+   },
+   {
+    "t": "sing",
+    "n": [
+     "sing"
+    ]
+   },
+   {
+    "t": "everything",
+    "n": [
+     "everything"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "say...",
+    "n": [
+     "say"
+    ]
+   },
+   {
+    "t": "or",
+    "n": [
+     "or"
+    ]
+   },
+   {
+    "t": "dance",
+    "n": [
+     "dance"
+    ]
+   },
+   {
+    "t": "everywhere",
+    "n": [
+     "everywhere"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "go?",
+    "n": [
+     "go"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 130,
+  "tags": [],
+  "text": "Alex decides to demonstrate.",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "decides",
+    "n": [
+     "decides"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "demonstrate.",
+    "n": [
+     "demonstrate"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 131,
+  "tags": [
+   "singing"
+  ],
+  "text": "I would rather be anywhere but here...",
+  "words": [
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "would",
+    "n": [
+     "would"
+    ]
+   },
+   {
+    "t": "rather",
+    "n": [
+     "rather"
+    ]
+   },
+   {
+    "t": "be",
+    "n": [
+     "be"
+    ]
+   },
+   {
+    "t": "anywhere",
+    "n": [
+     "anywhere"
+    ]
+   },
+   {
+    "t": "but",
+    "n": [
+     "but"
+    ]
+   },
+   {
+    "t": "here...",
+    "n": [
+     "here"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 132,
+  "tags": [
+   "amusement"
+  ],
+  "text": "It's terrible. It's SO terrible.",
+  "words": [
+   {
+    "t": "It's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "terrible.",
+    "n": [
+     "terrible"
+    ]
+   },
+   {
+    "t": "It's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "SO",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "terrible.",
+    "n": [
+     "terrible"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 133,
+  "tags": [],
+  "text": "You're both laughing so hard you can barely breathe. And somewhere in the middle of it all... you notice Alex isn't staring at the doors anymore.",
+  "words": [
+   {
+    "t": "You're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "both",
+    "n": [
+     "both"
+    ]
+   },
+   {
+    "t": "laughing",
+    "n": [
+     "laughing"
+    ]
+   },
+   {
+    "t": "so",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "hard",
+    "n": [
+     "hard"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "can",
+    "n": [
+     "can"
+    ]
+   },
+   {
+    "t": "barely",
+    "n": [
+     "barely"
+    ]
+   },
+   {
+    "t": "breathe.",
+    "n": [
+     "breathe"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "somewhere",
+    "n": [
+     "somewhere"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "middle",
+    "n": [
+     "middle"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "all...",
+    "n": [
+     "all"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "notice",
+    "n": [
+     "notice"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "isn't",
+    "n": [
+     "isn't"
+    ]
+   },
+   {
+    "t": "staring",
+    "n": [
+     "staring"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "doors",
+    "n": [
+     "doors"
+    ]
+   },
+   {
+    "t": "anymore.",
+    "n": [
+     "anymore"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 134,
+  "tags": [],
+  "text": "Alex is looking at you.",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "looking",
+    "n": [
+     "looking"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "you.",
+    "n": [
+     "you"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 135,
+  "tags": [],
+  "text": "About an hour in... the elevator suddenly SHAKES.",
+  "words": [
+   {
+    "t": "About",
+    "n": [
+     "about"
+    ]
+   },
+   {
+    "t": "an",
+    "n": [
+     "an"
+    ]
+   },
+   {
+    "t": "hour",
+    "n": [
+     "hour"
+    ]
+   },
+   {
+    "t": "in...",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "elevator",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "suddenly",
+    "n": [
+     "suddenly"
+    ]
+   },
+   {
+    "t": "SHAKES.",
+    "n": [
+     "shakes"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 136,
+  "tags": [],
+  "text": "It drops a few inches with a loud CLUNK.",
+  "words": [
+   {
+    "t": "It",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "drops",
+    "n": [
+     "drops"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "few",
+    "n": [
+     "few"
+    ]
+   },
+   {
+    "t": "inches",
+    "n": [
+     "inches"
+    ]
+   },
+   {
+    "t": "with",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "loud",
+    "n": [
+     "loud"
+    ]
+   },
+   {
+    "t": "CLUNK.",
+    "n": [
+     "clunk"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 137,
+  "tags": [
+   "fear"
+  ],
+  "text": "You both yell. And without thinking... Alex grabs your hand.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "both",
+    "n": [
+     "both"
+    ]
+   },
+   {
+    "t": "yell.",
+    "n": [
+     "yell"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "without",
+    "n": [
+     "without"
+    ]
+   },
+   {
+    "t": "thinking...",
+    "n": [
+     "thinking"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "grabs",
+    "n": [
+     "grabs"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "hand.",
+    "n": [
+     "hand"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 138,
+  "tags": [],
+  "text": "Then the elevator stops. Everything goes quiet.",
+  "words": [
+   {
+    "t": "Then",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "elevator",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "stops.",
+    "n": [
+     "stops"
+    ]
+   },
+   {
+    "t": "Everything",
+    "n": [
+     "everything"
+    ]
+   },
+   {
+    "t": "goes",
+    "n": [
+     "goes"
+    ]
+   },
+   {
+    "t": "quiet.",
+    "n": [
+     "quiet"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 139,
+  "tags": [],
+  "text": "Your heart is racing. But honestly... you're not sure if it's because of the drop... or because Alex is STILL holding your hand.",
+  "words": [
+   {
+    "t": "Your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "heart",
+    "n": [
+     "heart"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "racing.",
+    "n": [
+     "racing"
+    ]
+   },
+   {
+    "t": "But",
+    "n": [
+     "but"
+    ]
+   },
+   {
+    "t": "honestly...",
+    "n": [
+     "honestly"
+    ]
+   },
+   {
+    "t": "you're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "not",
+    "n": [
+     "not"
+    ]
+   },
+   {
+    "t": "sure",
+    "n": [
+     "sure"
+    ]
+   },
+   {
+    "t": "if",
+    "n": [
+     "if"
+    ]
+   },
+   {
+    "t": "it's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "because",
+    "n": [
+     "because"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "drop...",
+    "n": [
+     "drop"
+    ]
+   },
+   {
+    "t": "or",
+    "n": [
+     "or"
+    ]
+   },
+   {
+    "t": "because",
+    "n": [
+     "because"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "STILL",
+    "n": [
+     "still"
+    ]
+   },
+   {
+    "t": "holding",
+    "n": [
+     "holding"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "hand.",
+    "n": [
+     "hand"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 140,
+  "tags": [],
+  "text": "Three seconds pass. Four. Five.",
+  "words": [
+   {
+    "t": "Three",
+    "n": [
+     "three"
+    ]
+   },
+   {
+    "t": "seconds",
+    "n": [
+     "seconds"
+    ]
+   },
+   {
+    "t": "pass.",
+    "n": [
+     "pass"
+    ]
+   },
+   {
+    "t": "Four.",
+    "n": [
+     "four"
+    ]
+   },
+   {
+    "t": "Five.",
+    "n": [
+     "five"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 141,
+  "tags": [],
+  "text": "Alex looks down. You look down.",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "looks",
+    "n": [
+     "looks"
+    ]
+   },
+   {
+    "t": "down.",
+    "n": [
+     "down"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "look",
+    "n": [
+     "look"
+    ]
+   },
+   {
+    "t": "down.",
+    "n": [
+     "down"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 142,
+  "tags": [],
+  "text": "Alex slowly lets go. \"Sorry. Reflex.\"",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "slowly",
+    "n": [
+     "slowly"
+    ]
+   },
+   {
+    "t": "lets",
+    "n": [
+     "lets"
+    ]
+   },
+   {
+    "t": "go.",
+    "n": [
+     "go"
+    ]
+   },
+   {
+    "t": "\"Sorry.",
+    "n": [
+     "sorry"
+    ]
+   },
+   {
+    "t": "Reflex.\"",
+    "n": [
+     "reflex"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 143,
+  "tags": [],
+  "text": "\"Yeah. Totally. Reflex.\"",
+  "words": [
+   {
+    "t": "\"Yeah.",
+    "n": [
+     "yeah"
+    ]
+   },
+   {
+    "t": "Totally.",
+    "n": [
+     "totally"
+    ]
+   },
+   {
+    "t": "Reflex.\"",
+    "n": [
+     "reflex"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 144,
+  "tags": [
+   "amusement"
+  ],
+  "text": "You both stare at opposite walls and pretend that never happened. You are both VERY bad at pretending.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "both",
+    "n": [
+     "both"
+    ]
+   },
+   {
+    "t": "stare",
+    "n": [
+     "stare"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "opposite",
+    "n": [
+     "opposite"
+    ]
+   },
+   {
+    "t": "walls",
+    "n": [
+     "walls"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "pretend",
+    "n": [
+     "pretend"
+    ]
+   },
+   {
+    "t": "that",
+    "n": [
+     "that"
+    ]
+   },
+   {
+    "t": "never",
+    "n": [
+     "never"
+    ]
+   },
+   {
+    "t": "happened.",
+    "n": [
+     "happened"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "are",
+    "n": [
+     "are"
+    ]
+   },
+   {
+    "t": "both",
+    "n": [
+     "both"
+    ]
+   },
+   {
+    "t": "VERY",
+    "n": [
+     "very"
+    ]
+   },
+   {
+    "t": "bad",
+    "n": [
+     "bad"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "pretending.",
+    "n": [
+     "pretending"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 145,
+  "tags": [],
+  "text": "The speaker crackles. \"Sorry about that, folks. Technician's working on the motor. Shouldn't be much longer.\"",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "speaker",
+    "n": [
+     "speaker"
+    ]
+   },
+   {
+    "t": "crackles.",
+    "n": [
+     "crackles"
+    ]
+   },
+   {
+    "t": "\"Sorry",
+    "n": [
+     "sorry"
+    ]
+   },
+   {
+    "t": "about",
+    "n": [
+     "about"
+    ]
+   },
+   {
+    "t": "that,",
+    "n": [
+     "that"
+    ]
+   },
+   {
+    "t": "folks.",
+    "n": [
+     "folks"
+    ]
+   },
+   {
+    "t": "Technician's",
+    "n": [
+     "technician's"
+    ]
+   },
+   {
+    "t": "working",
+    "n": [
+     "working"
+    ]
+   },
+   {
+    "t": "on",
+    "n": [
+     "on"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "motor.",
+    "n": [
+     "motor"
+    ]
+   },
+   {
+    "t": "Shouldn't",
+    "n": [
+     "shouldn't"
+    ]
+   },
+   {
+    "t": "be",
+    "n": [
+     "be"
+    ]
+   },
+   {
+    "t": "much",
+    "n": [
+     "much"
+    ]
+   },
+   {
+    "t": "longer.\"",
+    "n": [
+     "longer"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 146,
+  "tags": [],
+  "text": "Shouldn't be much longer. And weirdly... you're not sure if you're relieved... or disappointed.",
+  "words": [
+   {
+    "t": "Shouldn't",
+    "n": [
+     "shouldn't"
+    ]
+   },
+   {
+    "t": "be",
+    "n": [
+     "be"
+    ]
+   },
+   {
+    "t": "much",
+    "n": [
+     "much"
+    ]
+   },
+   {
+    "t": "longer.",
+    "n": [
+     "longer"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "weirdly...",
+    "n": [
+     "weirdly"
+    ]
+   },
+   {
+    "t": "you're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "not",
+    "n": [
+     "not"
+    ]
+   },
+   {
+    "t": "sure",
+    "n": [
+     "sure"
+    ]
+   },
+   {
+    "t": "if",
+    "n": [
+     "if"
+    ]
+   },
+   {
+    "t": "you're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "relieved...",
+    "n": [
+     "relieved"
+    ]
+   },
+   {
+    "t": "or",
+    "n": [
+     "or"
+    ]
+   },
+   {
+    "t": "disappointed.",
+    "n": [
+     "disappointed"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 147,
+  "tags": [],
+  "text": "Then Alex turns to you. Suddenly... serious.",
+  "words": [
+   {
+    "t": "Then",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "turns",
+    "n": [
+     "turns"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "you.",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "Suddenly...",
+    "n": [
+     "suddenly"
+    ]
+   },
+   {
+    "t": "serious.",
+    "n": [
+     "serious"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 148,
+  "tags": [],
+  "text": "\"Can I tell you something? I've been wanting to say it for a while.\"",
+  "words": [
+   {
+    "t": "\"Can",
+    "n": [
+     "can"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "tell",
+    "n": [
+     "tell"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "something?",
+    "n": [
+     "something"
+    ]
+   },
+   {
+    "t": "I've",
+    "n": [
+     "i've"
+    ]
+   },
+   {
+    "t": "been",
+    "n": [
+     "been"
+    ]
+   },
+   {
+    "t": "wanting",
+    "n": [
+     "wanting"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "say",
+    "n": [
+     "say"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "while.\"",
+    "n": [
+     "while"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 149,
+  "tags": [],
+  "text": "Your heart stops.",
+  "words": [
+   {
+    "t": "Your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "heart",
+    "n": [
+     "heart"
+    ]
+   },
+   {
+    "t": "stops.",
+    "n": [
+     "stops"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 150,
+  "tags": [],
+  "text": "This is it. The moment you've imagined a THOUSAND different ways. You try to look calm. You fail.",
+  "words": [
+   {
+    "t": "This",
+    "n": [
+     "this"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "it.",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "moment",
+    "n": [
+     "moment"
+    ]
+   },
+   {
+    "t": "you've",
+    "n": [
+     "you've"
+    ]
+   },
+   {
+    "t": "imagined",
+    "n": [
+     "imagined"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "THOUSAND",
+    "n": [
+     "thousand"
+    ]
+   },
+   {
+    "t": "different",
+    "n": [
+     "different"
+    ]
+   },
+   {
+    "t": "ways.",
+    "n": [
+     "ways"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "try",
+    "n": [
+     "try"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "look",
+    "n": [
+     "look"
+    ]
+   },
+   {
+    "t": "calm.",
+    "n": [
+     "calm"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "fail.",
+    "n": [
+     "fail"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 151,
+  "tags": [
+   "whispering"
+  ],
+  "text": "\"Yeah... of course.\"",
+  "words": [
+   {
+    "t": "\"Yeah...",
+    "n": [
+     "yeah"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "course.\"",
+    "n": [
+     "course"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 152,
+  "tags": [],
+  "text": "Alex takes a deep breath.",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "takes",
+    "n": [
+     "takes"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "deep",
+    "n": [
+     "deep"
+    ]
+   },
+   {
+    "t": "breath.",
+    "n": [
+     "breath"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 153,
+  "tags": [
+   "less expressive"
+  ],
+  "text": "\"You have granola stuck in your teeth. It's been there for an hour.\"",
+  "words": [
+   {
+    "t": "\"You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "have",
+    "n": [
+     "have"
+    ]
+   },
+   {
+    "t": "granola",
+    "n": [
+     "granola"
+    ]
+   },
+   {
+    "t": "stuck",
+    "n": [
+     "stuck"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "teeth.",
+    "n": [
+     "teeth"
+    ]
+   },
+   {
+    "t": "It's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "been",
+    "n": [
+     "been"
+    ]
+   },
+   {
+    "t": "there",
+    "n": [
+     "there"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "an",
+    "n": [
+     "an"
+    ]
+   },
+   {
+    "t": "hour.\"",
+    "n": [
+     "hour"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 154,
+  "tags": [],
+  "text": "...",
+  "words": [
+   {
+    "t": "...",
+    "n": []
+   }
+  ]
+ },
+ {
+  "i": 155,
+  "tags": [],
+  "text": "You close your mouth. Very. Slowly.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "close",
+    "n": [
+     "close"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "mouth.",
+    "n": [
+     "mouth"
+    ]
+   },
+   {
+    "t": "Very.",
+    "n": [
+     "very"
+    ]
+   },
+   {
+    "t": "Slowly.",
+    "n": [
+     "slowly"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 156,
+  "tags": [
+   "high pitch"
+  ],
+  "text": "\"An HOUR?\"",
+  "words": [
+   {
+    "t": "\"An",
+    "n": [
+     "an"
+    ]
+   },
+   {
+    "t": "HOUR?\"",
+    "n": [
+     "hour"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 157,
+  "tags": [],
+  "text": "\"I didn't know how to bring it up!\"",
+  "words": [
+   {
+    "t": "\"I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "didn't",
+    "n": [
+     "didn't"
+    ]
+   },
+   {
+    "t": "know",
+    "n": [
+     "know"
+    ]
+   },
+   {
+    "t": "how",
+    "n": [
+     "how"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "bring",
+    "n": [
+     "bring"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "up!\"",
+    "n": [
+     "up"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 158,
+  "tags": [],
+  "text": "Alex is cracking up. And honestly... so are you.",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "cracking",
+    "n": [
+     "cracking"
+    ]
+   },
+   {
+    "t": "up.",
+    "n": [
+     "up"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "honestly...",
+    "n": [
+     "honestly"
+    ]
+   },
+   {
+    "t": "so",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "are",
+    "n": [
+     "are"
+    ]
+   },
+   {
+    "t": "you.",
+    "n": [
+     "you"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 159,
+  "tags": [],
+  "text": "Because an hour ago, this would've been the most embarrassing moment of your life.",
+  "words": [
+   {
+    "t": "Because",
+    "n": [
+     "because"
+    ]
+   },
+   {
+    "t": "an",
+    "n": [
+     "an"
+    ]
+   },
+   {
+    "t": "hour",
+    "n": [
+     "hour"
+    ]
+   },
+   {
+    "t": "ago,",
+    "n": [
+     "ago"
+    ]
+   },
+   {
+    "t": "this",
+    "n": [
+     "this"
+    ]
+   },
+   {
+    "t": "would've",
+    "n": [
+     "would've"
+    ]
+   },
+   {
+    "t": "been",
+    "n": [
+     "been"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "most",
+    "n": [
+     "most"
+    ]
+   },
+   {
+    "t": "embarrassing",
+    "n": [
+     "embarrassing"
+    ]
+   },
+   {
+    "t": "moment",
+    "n": [
+     "moment"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "life.",
+    "n": [
+     "life"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 160,
+  "tags": [],
+  "text": "Now... it's just funny.",
+  "words": [
+   {
+    "t": "Now...",
+    "n": [
+     "now"
+    ]
+   },
+   {
+    "t": "it's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "funny.",
+    "n": [
+     "funny"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 161,
+  "tags": [],
+  "text": "After a while, the laughing fades... and things get quieter.",
+  "words": [
+   {
+    "t": "After",
+    "n": [
+     "after"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "while,",
+    "n": [
+     "while"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "laughing",
+    "n": [
+     "laughing"
+    ]
+   },
+   {
+    "t": "fades...",
+    "n": [
+     "fades"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "things",
+    "n": [
+     "things"
+    ]
+   },
+   {
+    "t": "get",
+    "n": [
+     "get"
+    ]
+   },
+   {
+    "t": "quieter.",
+    "n": [
+     "quieter"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 162,
+  "tags": [],
+  "text": "Alex picks at the edge of their sleeve. \"Can I ask you something? For real this time?\"",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "picks",
+    "n": [
+     "picks"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "edge",
+    "n": [
+     "edge"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "their",
+    "n": [
+     "their"
+    ]
+   },
+   {
+    "t": "sleeve.",
+    "n": [
+     "sleeve"
+    ]
+   },
+   {
+    "t": "\"Can",
+    "n": [
+     "can"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "ask",
+    "n": [
+     "ask"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "something?",
+    "n": [
+     "something"
+    ]
+   },
+   {
+    "t": "For",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "real",
+    "n": [
+     "real"
+    ]
+   },
+   {
+    "t": "this",
+    "n": [
+     "this"
+    ]
+   },
+   {
+    "t": "time?\"",
+    "n": [
+     "time"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 163,
+  "tags": [],
+  "text": "You nod.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "nod.",
+    "n": [
+     "nod"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 164,
+  "tags": [],
+  "text": "\"Why do you always avoid me?\"",
+  "words": [
+   {
+    "t": "\"Why",
+    "n": [
+     "why"
+    ]
+   },
+   {
+    "t": "do",
+    "n": [
+     "do"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "always",
+    "n": [
+     "always"
+    ]
+   },
+   {
+    "t": "avoid",
+    "n": [
+     "avoid"
+    ]
+   },
+   {
+    "t": "me?\"",
+    "n": [
+     "me"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 165,
+  "tags": [
+   "confusion"
+  ],
+  "text": "You freeze. \"What do you mean?\"",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "freeze.",
+    "n": [
+     "freeze"
+    ]
+   },
+   {
+    "t": "\"What",
+    "n": [
+     "what"
+    ]
+   },
+   {
+    "t": "do",
+    "n": [
+     "do"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "mean?\"",
+    "n": [
+     "mean"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 166,
+  "tags": [],
+  "text": "\"Every time I see you in the hallway, you stare at the floor. Whenever I get on the elevator, you suddenly remember you need to check your mail. Last week at the store... you literally walked into a stack of cereal boxes trying to get away from me.\"",
+  "words": [
+   {
+    "t": "\"Every",
+    "n": [
+     "every"
+    ]
+   },
+   {
+    "t": "time",
+    "n": [
+     "time"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "see",
+    "n": [
+     "see"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "hallway,",
+    "n": [
+     "hallway"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "stare",
+    "n": [
+     "stare"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "floor.",
+    "n": [
+     "floor"
+    ]
+   },
+   {
+    "t": "Whenever",
+    "n": [
+     "whenever"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "get",
+    "n": [
+     "get"
+    ]
+   },
+   {
+    "t": "on",
+    "n": [
+     "on"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "elevator,",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "suddenly",
+    "n": [
+     "suddenly"
+    ]
+   },
+   {
+    "t": "remember",
+    "n": [
+     "remember"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "need",
+    "n": [
+     "need"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "check",
+    "n": [
+     "check"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "mail.",
+    "n": [
+     "mail"
+    ]
+   },
+   {
+    "t": "Last",
+    "n": [
+     "last"
+    ]
+   },
+   {
+    "t": "week",
+    "n": [
+     "week"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "store...",
+    "n": [
+     "store"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "literally",
+    "n": [
+     "literally"
+    ]
+   },
+   {
+    "t": "walked",
+    "n": [
+     "walked"
+    ]
+   },
+   {
+    "t": "into",
+    "n": [
+     "into"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "stack",
+    "n": [
+     "stack"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "cereal",
+    "n": [
+     "cereal"
+    ]
+   },
+   {
+    "t": "boxes",
+    "n": [
+     "boxes"
+    ]
+   },
+   {
+    "t": "trying",
+    "n": [
+     "trying"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "get",
+    "n": [
+     "get"
+    ]
+   },
+   {
+    "t": "away",
+    "n": [
+     "away"
+    ]
+   },
+   {
+    "t": "from",
+    "n": [
+     "from"
+    ]
+   },
+   {
+    "t": "me.\"",
+    "n": [
+     "me"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 167,
+  "tags": [],
+  "text": "You remember the cereal boxes. You've spent a whole week trying to forget the cereal boxes.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "remember",
+    "n": [
+     "remember"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "cereal",
+    "n": [
+     "cereal"
+    ]
+   },
+   {
+    "t": "boxes.",
+    "n": [
+     "boxes"
+    ]
+   },
+   {
+    "t": "You've",
+    "n": [
+     "you've"
+    ]
+   },
+   {
+    "t": "spent",
+    "n": [
+     "spent"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "whole",
+    "n": [
+     "whole"
+    ]
+   },
+   {
+    "t": "week",
+    "n": [
+     "week"
+    ]
+   },
+   {
+    "t": "trying",
+    "n": [
+     "trying"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "forget",
+    "n": [
+     "forget"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "cereal",
+    "n": [
+     "cereal"
+    ]
+   },
+   {
+    "t": "boxes.",
+    "n": [
+     "boxes"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 168,
+  "tags": [
+   "sadness"
+  ],
+  "text": "\"I just figured you didn't like me,\" Alex says quietly. \"I moved here in the middle of the year. I don't really know anyone. I thought... maybe I did something wrong.\"",
+  "words": [
+   {
+    "t": "\"I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "figured",
+    "n": [
+     "figured"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "didn't",
+    "n": [
+     "didn't"
+    ]
+   },
+   {
+    "t": "like",
+    "n": [
+     "like"
+    ]
+   },
+   {
+    "t": "me,\"",
+    "n": [
+     "me"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "says",
+    "n": [
+     "says"
+    ]
+   },
+   {
+    "t": "quietly.",
+    "n": [
+     "quietly"
+    ]
+   },
+   {
+    "t": "\"I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "moved",
+    "n": [
+     "moved"
+    ]
+   },
+   {
+    "t": "here",
+    "n": [
+     "here"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "middle",
+    "n": [
+     "middle"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "year.",
+    "n": [
+     "year"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "don't",
+    "n": [
+     "don't"
+    ]
+   },
+   {
+    "t": "really",
+    "n": [
+     "really"
+    ]
+   },
+   {
+    "t": "know",
+    "n": [
+     "know"
+    ]
+   },
+   {
+    "t": "anyone.",
+    "n": [
+     "anyone"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "thought...",
+    "n": [
+     "thought"
+    ]
+   },
+   {
+    "t": "maybe",
+    "n": [
+     "maybe"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "did",
+    "n": [
+     "did"
+    ]
+   },
+   {
+    "t": "something",
+    "n": [
+     "something"
+    ]
+   },
+   {
+    "t": "wrong.\"",
+    "n": [
+     "wrong"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 169,
+  "tags": [],
+  "text": "All this time, you thought you were just being shy. You never imagined Alex might see it completely differently. That Alex might have felt... lonely.",
+  "words": [
+   {
+    "t": "All",
+    "n": [
+     "all"
+    ]
+   },
+   {
+    "t": "this",
+    "n": [
+     "this"
+    ]
+   },
+   {
+    "t": "time,",
+    "n": [
+     "time"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "thought",
+    "n": [
+     "thought"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "were",
+    "n": [
+     "were"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "being",
+    "n": [
+     "being"
+    ]
+   },
+   {
+    "t": "shy.",
+    "n": [
+     "shy"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "never",
+    "n": [
+     "never"
+    ]
+   },
+   {
+    "t": "imagined",
+    "n": [
+     "imagined"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "might",
+    "n": [
+     "might"
+    ]
+   },
+   {
+    "t": "see",
+    "n": [
+     "see"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "completely",
+    "n": [
+     "completely"
+    ]
+   },
+   {
+    "t": "differently.",
+    "n": [
+     "differently"
+    ]
+   },
+   {
+    "t": "That",
+    "n": [
+     "that"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "might",
+    "n": [
+     "might"
+    ]
+   },
+   {
+    "t": "have",
+    "n": [
+     "have"
+    ]
+   },
+   {
+    "t": "felt...",
+    "n": [
+     "felt"
+    ]
+   },
+   {
+    "t": "lonely.",
+    "n": [
+     "lonely"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 170,
+  "tags": [],
+  "text": "\"You didn't do anything wrong,\" you say. \"I wasn't avoiding you because I didn't like you. I was avoiding you because I was... nervous.\"",
+  "words": [
+   {
+    "t": "\"You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "didn't",
+    "n": [
+     "didn't"
+    ]
+   },
+   {
+    "t": "do",
+    "n": [
+     "do"
+    ]
+   },
+   {
+    "t": "anything",
+    "n": [
+     "anything"
+    ]
+   },
+   {
+    "t": "wrong,\"",
+    "n": [
+     "wrong"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "say.",
+    "n": [
+     "say"
+    ]
+   },
+   {
+    "t": "\"I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "wasn't",
+    "n": [
+     "wasn't"
+    ]
+   },
+   {
+    "t": "avoiding",
+    "n": [
+     "avoiding"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "because",
+    "n": [
+     "because"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "didn't",
+    "n": [
+     "didn't"
+    ]
+   },
+   {
+    "t": "like",
+    "n": [
+     "like"
+    ]
+   },
+   {
+    "t": "you.",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "was",
+    "n": [
+     "was"
+    ]
+   },
+   {
+    "t": "avoiding",
+    "n": [
+     "avoiding"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "because",
+    "n": [
+     "because"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "was...",
+    "n": [
+     "was"
+    ]
+   },
+   {
+    "t": "nervous.\"",
+    "n": [
+     "nervous"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 171,
+  "tags": [],
+  "text": "Alex tilts their head. \"Nervous? About what?\"",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "tilts",
+    "n": [
+     "tilts"
+    ]
+   },
+   {
+    "t": "their",
+    "n": [
+     "their"
+    ]
+   },
+   {
+    "t": "head.",
+    "n": [
+     "head"
+    ]
+   },
+   {
+    "t": "\"Nervous?",
+    "n": [
+     "nervous"
+    ]
+   },
+   {
+    "t": "About",
+    "n": [
+     "about"
+    ]
+   },
+   {
+    "t": "what?\"",
+    "n": [
+     "what"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 172,
+  "tags": [],
+  "text": "And there it is.",
+  "words": [
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "there",
+    "n": [
+     "there"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "is.",
+    "n": [
+     "is"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 173,
+  "tags": [],
+  "text": "The question.",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "question.",
+    "n": [
+     "question"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 174,
+  "tags": [],
+  "text": "Before you can answer, the speaker crackles one more time.",
+  "words": [
+   {
+    "t": "Before",
+    "n": [
+     "before"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "can",
+    "n": [
+     "can"
+    ]
+   },
+   {
+    "t": "answer,",
+    "n": [
+     "answer"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "speaker",
+    "n": [
+     "speaker"
+    ]
+   },
+   {
+    "t": "crackles",
+    "n": [
+     "crackles"
+    ]
+   },
+   {
+    "t": "one",
+    "n": [
+     "one"
+    ]
+   },
+   {
+    "t": "more",
+    "n": [
+     "more"
+    ]
+   },
+   {
+    "t": "time.",
+    "n": [
+     "time"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 175,
+  "tags": [],
+  "text": "\"Good news! Technician's almost done. You'll be out in about five minutes.\"",
+  "words": [
+   {
+    "t": "\"Good",
+    "n": [
+     "good"
+    ]
+   },
+   {
+    "t": "news!",
+    "n": [
+     "news"
+    ]
+   },
+   {
+    "t": "Technician's",
+    "n": [
+     "technician's"
+    ]
+   },
+   {
+    "t": "almost",
+    "n": [
+     "almost"
+    ]
+   },
+   {
+    "t": "done.",
+    "n": [
+     "done"
+    ]
+   },
+   {
+    "t": "You'll",
+    "n": [
+     "you'll"
+    ]
+   },
+   {
+    "t": "be",
+    "n": [
+     "be"
+    ]
+   },
+   {
+    "t": "out",
+    "n": [
+     "out"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "about",
+    "n": [
+     "about"
+    ]
+   },
+   {
+    "t": "five",
+    "n": [
+     "five"
+    ]
+   },
+   {
+    "t": "minutes.\"",
+    "n": [
+     "minutes"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 176,
+  "tags": [],
+  "text": "Five minutes.",
+  "words": [
+   {
+    "t": "Five",
+    "n": [
+     "five"
+    ]
+   },
+   {
+    "t": "minutes.",
+    "n": [
+     "minutes"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 177,
+  "tags": [
+   "longing"
+  ],
+  "text": "And suddenly... five minutes doesn't feel like enough.",
+  "words": [
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "suddenly...",
+    "n": [
+     "suddenly"
+    ]
+   },
+   {
+    "t": "five",
+    "n": [
+     "five"
+    ]
+   },
+   {
+    "t": "minutes",
+    "n": [
+     "minutes"
+    ]
+   },
+   {
+    "t": "doesn't",
+    "n": [
+     "doesn't"
+    ]
+   },
+   {
+    "t": "feel",
+    "n": [
+     "feel"
+    ]
+   },
+   {
+    "t": "like",
+    "n": [
+     "like"
+    ]
+   },
+   {
+    "t": "enough.",
+    "n": [
+     "enough"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 178,
+  "tags": [],
+  "text": "Because when those doors open, everything goes back to normal. Alex goes back to the ninth floor. You go back to staring at your desk in math class. And this whole strange, awful, AMAZING hour... becomes just a funny story.",
+  "words": [
+   {
+    "t": "Because",
+    "n": [
+     "because"
+    ]
+   },
+   {
+    "t": "when",
+    "n": [
+     "when"
+    ]
+   },
+   {
+    "t": "those",
+    "n": [
+     "those"
+    ]
+   },
+   {
+    "t": "doors",
+    "n": [
+     "doors"
+    ]
+   },
+   {
+    "t": "open,",
+    "n": [
+     "open"
+    ]
+   },
+   {
+    "t": "everything",
+    "n": [
+     "everything"
+    ]
+   },
+   {
+    "t": "goes",
+    "n": [
+     "goes"
+    ]
+   },
+   {
+    "t": "back",
+    "n": [
+     "back"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "normal.",
+    "n": [
+     "normal"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "goes",
+    "n": [
+     "goes"
+    ]
+   },
+   {
+    "t": "back",
+    "n": [
+     "back"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "ninth",
+    "n": [
+     "ninth"
+    ]
+   },
+   {
+    "t": "floor.",
+    "n": [
+     "floor"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "go",
+    "n": [
+     "go"
+    ]
+   },
+   {
+    "t": "back",
+    "n": [
+     "back"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "staring",
+    "n": [
+     "staring"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "desk",
+    "n": [
+     "desk"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "math",
+    "n": [
+     "math"
+    ]
+   },
+   {
+    "t": "class.",
+    "n": [
+     "class"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "this",
+    "n": [
+     "this"
+    ]
+   },
+   {
+    "t": "whole",
+    "n": [
+     "whole"
+    ]
+   },
+   {
+    "t": "strange,",
+    "n": [
+     "strange"
+    ]
+   },
+   {
+    "t": "awful,",
+    "n": [
+     "awful"
+    ]
+   },
+   {
+    "t": "AMAZING",
+    "n": [
+     "amazing"
+    ]
+   },
+   {
+    "t": "hour...",
+    "n": [
+     "hour"
+    ]
+   },
+   {
+    "t": "becomes",
+    "n": [
+     "becomes"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "funny",
+    "n": [
+     "funny"
+    ]
+   },
+   {
+    "t": "story.",
+    "n": [
+     "story"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 179,
+  "tags": [],
+  "text": "Unless... you say something.",
+  "words": [
+   {
+    "t": "Unless...",
+    "n": [
+     "unless"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "say",
+    "n": [
+     "say"
+    ]
+   },
+   {
+    "t": "something.",
+    "n": [
+     "something"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 180,
+  "tags": [],
+  "text": "You think about everything that could go wrong. What if Alex doesn't feel the same way? What if it's awkward forever? You live in the SAME building. You'd be riding this elevator together for YEARS.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "think",
+    "n": [
+     "think"
+    ]
+   },
+   {
+    "t": "about",
+    "n": [
+     "about"
+    ]
+   },
+   {
+    "t": "everything",
+    "n": [
+     "everything"
+    ]
+   },
+   {
+    "t": "that",
+    "n": [
+     "that"
+    ]
+   },
+   {
+    "t": "could",
+    "n": [
+     "could"
+    ]
+   },
+   {
+    "t": "go",
+    "n": [
+     "go"
+    ]
+   },
+   {
+    "t": "wrong.",
+    "n": [
+     "wrong"
+    ]
+   },
+   {
+    "t": "What",
+    "n": [
+     "what"
+    ]
+   },
+   {
+    "t": "if",
+    "n": [
+     "if"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "doesn't",
+    "n": [
+     "doesn't"
+    ]
+   },
+   {
+    "t": "feel",
+    "n": [
+     "feel"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "same",
+    "n": [
+     "same"
+    ]
+   },
+   {
+    "t": "way?",
+    "n": [
+     "way"
+    ]
+   },
+   {
+    "t": "What",
+    "n": [
+     "what"
+    ]
+   },
+   {
+    "t": "if",
+    "n": [
+     "if"
+    ]
+   },
+   {
+    "t": "it's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "awkward",
+    "n": [
+     "awkward"
+    ]
+   },
+   {
+    "t": "forever?",
+    "n": [
+     "forever"
+    ]
+   },
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "live",
+    "n": [
+     "live"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "SAME",
+    "n": [
+     "same"
+    ]
+   },
+   {
+    "t": "building.",
+    "n": [
+     "building"
+    ]
+   },
+   {
+    "t": "You'd",
+    "n": [
+     "you'd"
+    ]
+   },
+   {
+    "t": "be",
+    "n": [
+     "be"
+    ]
+   },
+   {
+    "t": "riding",
+    "n": [
+     "riding"
+    ]
+   },
+   {
+    "t": "this",
+    "n": [
+     "this"
+    ]
+   },
+   {
+    "t": "elevator",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "together",
+    "n": [
+     "together"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "YEARS.",
+    "n": [
+     "years"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 181,
+  "tags": [],
+  "text": "But then you think about the other option.",
+  "words": [
+   {
+    "t": "But",
+    "n": [
+     "but"
+    ]
+   },
+   {
+    "t": "then",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "think",
+    "n": [
+     "think"
+    ]
+   },
+   {
+    "t": "about",
+    "n": [
+     "about"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "other",
+    "n": [
+     "other"
+    ]
+   },
+   {
+    "t": "option.",
+    "n": [
+     "option"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 182,
+  "tags": [],
+  "text": "You say nothing. The doors open. And you spend the rest of the year wondering what might have happened... if you'd just been brave for ten seconds.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "say",
+    "n": [
+     "say"
+    ]
+   },
+   {
+    "t": "nothing.",
+    "n": [
+     "nothing"
+    ]
+   },
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "doors",
+    "n": [
+     "doors"
+    ]
+   },
+   {
+    "t": "open.",
+    "n": [
+     "open"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "spend",
+    "n": [
+     "spend"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "rest",
+    "n": [
+     "rest"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "year",
+    "n": [
+     "year"
+    ]
+   },
+   {
+    "t": "wondering",
+    "n": [
+     "wondering"
+    ]
+   },
+   {
+    "t": "what",
+    "n": [
+     "what"
+    ]
+   },
+   {
+    "t": "might",
+    "n": [
+     "might"
+    ]
+   },
+   {
+    "t": "have",
+    "n": [
+     "have"
+    ]
+   },
+   {
+    "t": "happened...",
+    "n": [
+     "happened"
+    ]
+   },
+   {
+    "t": "if",
+    "n": [
+     "if"
+    ]
+   },
+   {
+    "t": "you'd",
+    "n": [
+     "you'd"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "been",
+    "n": [
+     "been"
+    ]
+   },
+   {
+    "t": "brave",
+    "n": [
+     "brave"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "ten",
+    "n": [
+     "ten"
+    ]
+   },
+   {
+    "t": "seconds.",
+    "n": [
+     "seconds"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 183,
+  "tags": [],
+  "text": "And you realize... staying quiet isn't always playing it safe. Sometimes it just leaves someone else guessing.",
+  "words": [
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "realize...",
+    "n": [
+     "realize"
+    ]
+   },
+   {
+    "t": "staying",
+    "n": [
+     "staying"
+    ]
+   },
+   {
+    "t": "quiet",
+    "n": [
+     "quiet"
+    ]
+   },
+   {
+    "t": "isn't",
+    "n": [
+     "isn't"
+    ]
+   },
+   {
+    "t": "always",
+    "n": [
+     "always"
+    ]
+   },
+   {
+    "t": "playing",
+    "n": [
+     "playing"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "safe.",
+    "n": [
+     "safe"
+    ]
+   },
+   {
+    "t": "Sometimes",
+    "n": [
+     "sometimes"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "leaves",
+    "n": [
+     "leaves"
+    ]
+   },
+   {
+    "t": "someone",
+    "n": [
+     "someone"
+    ]
+   },
+   {
+    "t": "else",
+    "n": [
+     "else"
+    ]
+   },
+   {
+    "t": "guessing.",
+    "n": [
+     "guessing"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 184,
+  "tags": [
+   "determination"
+  ],
+  "text": "You take a deep breath.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "take",
+    "n": [
+     "take"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "deep",
+    "n": [
+     "deep"
+    ]
+   },
+   {
+    "t": "breath.",
+    "n": [
+     "breath"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 185,
+  "tags": [],
+  "text": "\"I was nervous... because I kind of like you. Like... LIKE you, like you.\"",
+  "words": [
+   {
+    "t": "\"I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "was",
+    "n": [
+     "was"
+    ]
+   },
+   {
+    "t": "nervous...",
+    "n": [
+     "nervous"
+    ]
+   },
+   {
+    "t": "because",
+    "n": [
+     "because"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "kind",
+    "n": [
+     "kind"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "like",
+    "n": [
+     "like"
+    ]
+   },
+   {
+    "t": "you.",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "Like...",
+    "n": [
+     "like"
+    ]
+   },
+   {
+    "t": "LIKE",
+    "n": [
+     "like"
+    ]
+   },
+   {
+    "t": "you,",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "like",
+    "n": [
+     "like"
+    ]
+   },
+   {
+    "t": "you.\"",
+    "n": [
+     "you"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 186,
+  "tags": [],
+  "text": "The words hang in the air.",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "words",
+    "n": [
+     "words"
+    ]
+   },
+   {
+    "t": "hang",
+    "n": [
+     "hang"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "air.",
+    "n": [
+     "air"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 187,
+  "tags": [],
+  "text": "Alex doesn't say anything.",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "doesn't",
+    "n": [
+     "doesn't"
+    ]
+   },
+   {
+    "t": "say",
+    "n": [
+     "say"
+    ]
+   },
+   {
+    "t": "anything.",
+    "n": [
+     "anything"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 188,
+  "tags": [],
+  "text": "One second. Two. Three.",
+  "words": [
+   {
+    "t": "One",
+    "n": [
+     "one"
+    ]
+   },
+   {
+    "t": "second.",
+    "n": [
+     "second"
+    ]
+   },
+   {
+    "t": "Two.",
+    "n": [
+     "two"
+    ]
+   },
+   {
+    "t": "Three.",
+    "n": [
+     "three"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 189,
+  "tags": [],
+  "text": "It's the longest silence of your entire life.",
+  "words": [
+   {
+    "t": "It's",
+    "n": [
+     "it's"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "longest",
+    "n": [
+     "longest"
+    ]
+   },
+   {
+    "t": "silence",
+    "n": [
+     "silence"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "entire",
+    "n": [
+     "entire"
+    ]
+   },
+   {
+    "t": "life.",
+    "n": [
+     "life"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 190,
+  "tags": [
+   "surprise"
+  ],
+  "text": "And then... Alex starts laughing.",
+  "words": [
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "then...",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "starts",
+    "n": [
+     "starts"
+    ]
+   },
+   {
+    "t": "laughing.",
+    "n": [
+     "laughing"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 191,
+  "tags": [],
+  "text": "Your heart sinks... until Alex covers their face with both hands.",
+  "words": [
+   {
+    "t": "Your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "heart",
+    "n": [
+     "heart"
+    ]
+   },
+   {
+    "t": "sinks...",
+    "n": [
+     "sinks"
+    ]
+   },
+   {
+    "t": "until",
+    "n": [
+     "until"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "covers",
+    "n": [
+     "covers"
+    ]
+   },
+   {
+    "t": "their",
+    "n": [
+     "their"
+    ]
+   },
+   {
+    "t": "face",
+    "n": [
+     "face"
+    ]
+   },
+   {
+    "t": "with",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "both",
+    "n": [
+     "both"
+    ]
+   },
+   {
+    "t": "hands.",
+    "n": [
+     "hands"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 192,
+  "tags": [],
+  "text": "\"Why do you think I take the elevator at EXACTLY eight o'clock every morning? I don't even have to be anywhere until eight thirty.\"",
+  "words": [
+   {
+    "t": "\"Why",
+    "n": [
+     "why"
+    ]
+   },
+   {
+    "t": "do",
+    "n": [
+     "do"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "think",
+    "n": [
+     "think"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "take",
+    "n": [
+     "take"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "elevator",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "EXACTLY",
+    "n": [
+     "exactly"
+    ]
+   },
+   {
+    "t": "eight",
+    "n": [
+     "eight"
+    ]
+   },
+   {
+    "t": "o'clock",
+    "n": [
+     "o'clock"
+    ]
+   },
+   {
+    "t": "every",
+    "n": [
+     "every"
+    ]
+   },
+   {
+    "t": "morning?",
+    "n": [
+     "morning"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "don't",
+    "n": [
+     "don't"
+    ]
+   },
+   {
+    "t": "even",
+    "n": [
+     "even"
+    ]
+   },
+   {
+    "t": "have",
+    "n": [
+     "have"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "be",
+    "n": [
+     "be"
+    ]
+   },
+   {
+    "t": "anywhere",
+    "n": [
+     "anywhere"
+    ]
+   },
+   {
+    "t": "until",
+    "n": [
+     "until"
+    ]
+   },
+   {
+    "t": "eight",
+    "n": [
+     "eight"
+    ]
+   },
+   {
+    "t": "thirty.\"",
+    "n": [
+     "thirty"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 193,
+  "tags": [],
+  "text": "You blink. \"Wait... what?\"",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "blink.",
+    "n": [
+     "blink"
+    ]
+   },
+   {
+    "t": "\"Wait...",
+    "n": [
+     "wait"
+    ]
+   },
+   {
+    "t": "what?\"",
+    "n": [
+     "what"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 194,
+  "tags": [
+   "affection"
+  ],
+  "text": "Alex peeks at you between their fingers. \"I like you too, you idiot.\"",
+  "words": [
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "peeks",
+    "n": [
+     "peeks"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "between",
+    "n": [
+     "between"
+    ]
+   },
+   {
+    "t": "their",
+    "n": [
+     "their"
+    ]
+   },
+   {
+    "t": "fingers.",
+    "n": [
+     "fingers"
+    ]
+   },
+   {
+    "t": "\"I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "like",
+    "n": [
+     "like"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "too,",
+    "n": [
+     "too"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "idiot.\"",
+    "n": [
+     "idiot"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 195,
+  "tags": [
+   "relief"
+  ],
+  "text": "The elevator shudders... the lights flicker back to full brightness... and the doors slide open.",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "elevator",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "shudders...",
+    "n": [
+     "shudders"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "lights",
+    "n": [
+     "lights"
+    ]
+   },
+   {
+    "t": "flicker",
+    "n": [
+     "flicker"
+    ]
+   },
+   {
+    "t": "back",
+    "n": [
+     "back"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "full",
+    "n": [
+     "full"
+    ]
+   },
+   {
+    "t": "brightness...",
+    "n": [
+     "brightness"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "doors",
+    "n": [
+     "doors"
+    ]
+   },
+   {
+    "t": "slide",
+    "n": [
+     "slide"
+    ]
+   },
+   {
+    "t": "open.",
+    "n": [
+     "open"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 196,
+  "tags": [],
+  "text": "There's a small crowd in the hallway. A very tired technician. Mrs. Patterson from the third floor. And your best friend... holding up their phone... recording.",
+  "words": [
+   {
+    "t": "There's",
+    "n": [
+     "there's"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "small",
+    "n": [
+     "small"
+    ]
+   },
+   {
+    "t": "crowd",
+    "n": [
+     "crowd"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "hallway.",
+    "n": [
+     "hallway"
+    ]
+   },
+   {
+    "t": "A",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "very",
+    "n": [
+     "very"
+    ]
+   },
+   {
+    "t": "tired",
+    "n": [
+     "tired"
+    ]
+   },
+   {
+    "t": "technician.",
+    "n": [
+     "technician"
+    ]
+   },
+   {
+    "t": "Mrs.",
+    "n": [
+     "mrs"
+    ]
+   },
+   {
+    "t": "Patterson",
+    "n": [
+     "patterson"
+    ]
+   },
+   {
+    "t": "from",
+    "n": [
+     "from"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "third",
+    "n": [
+     "third"
+    ]
+   },
+   {
+    "t": "floor.",
+    "n": [
+     "floor"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "best",
+    "n": [
+     "best"
+    ]
+   },
+   {
+    "t": "friend...",
+    "n": [
+     "friend"
+    ]
+   },
+   {
+    "t": "holding",
+    "n": [
+     "holding"
+    ]
+   },
+   {
+    "t": "up",
+    "n": [
+     "up"
+    ]
+   },
+   {
+    "t": "their",
+    "n": [
+     "their"
+    ]
+   },
+   {
+    "t": "phone...",
+    "n": [
+     "phone"
+    ]
+   },
+   {
+    "t": "recording.",
+    "n": [
+     "recording"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 197,
+  "tags": [],
+  "text": "\"So,\" your best friend asks. \"Were you weird?\"",
+  "words": [
+   {
+    "t": "\"So,\"",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "best",
+    "n": [
+     "best"
+    ]
+   },
+   {
+    "t": "friend",
+    "n": [
+     "friend"
+    ]
+   },
+   {
+    "t": "asks.",
+    "n": [
+     "asks"
+    ]
+   },
+   {
+    "t": "\"Were",
+    "n": [
+     "were"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "weird?\"",
+    "n": [
+     "weird"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 198,
+  "tags": [],
+  "text": "You look at Alex. Alex looks at you.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "look",
+    "n": [
+     "look"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "Alex.",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "looks",
+    "n": [
+     "looks"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "you.",
+    "n": [
+     "you"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 199,
+  "tags": [
+   "amusement"
+  ],
+  "text": "\"SO weird,\" you both say at the same time.",
+  "words": [
+   {
+    "t": "\"SO",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "weird,\"",
+    "n": [
+     "weird"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "both",
+    "n": [
+     "both"
+    ]
+   },
+   {
+    "t": "say",
+    "n": [
+     "say"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "same",
+    "n": [
+     "same"
+    ]
+   },
+   {
+    "t": "time.",
+    "n": [
+     "time"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 200,
+  "tags": [],
+  "text": "The next morning, you press the button on the eighth floor at exactly eight o'clock.",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "next",
+    "n": [
+     "next"
+    ]
+   },
+   {
+    "t": "morning,",
+    "n": [
+     "morning"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "press",
+    "n": [
+     "press"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "button",
+    "n": [
+     "button"
+    ]
+   },
+   {
+    "t": "on",
+    "n": [
+     "on"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "eighth",
+    "n": [
+     "eighth"
+    ]
+   },
+   {
+    "t": "floor",
+    "n": [
+     "floor"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "exactly",
+    "n": [
+     "exactly"
+    ]
+   },
+   {
+    "t": "eight",
+    "n": [
+     "eight"
+    ]
+   },
+   {
+    "t": "o'clock.",
+    "n": [
+     "o'clock"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 201,
+  "tags": [],
+  "text": "The doors slide open. Alex is standing inside... smiling.",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "doors",
+    "n": [
+     "doors"
+    ]
+   },
+   {
+    "t": "slide",
+    "n": [
+     "slide"
+    ]
+   },
+   {
+    "t": "open.",
+    "n": [
+     "open"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "standing",
+    "n": [
+     "standing"
+    ]
+   },
+   {
+    "t": "inside...",
+    "n": [
+     "inside"
+    ]
+   },
+   {
+    "t": "smiling.",
+    "n": [
+     "smiling"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 202,
+  "tags": [],
+  "text": "You look at the elevator. Then at Alex.",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "look",
+    "n": [
+     "look"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "elevator.",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "Then",
+    "n": [
+     "then"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "Alex.",
+    "n": [
+     "alex"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 203,
+  "tags": [],
+  "text": "\"Stairs?\" Alex asks.",
+  "words": [
+   {
+    "t": "\"Stairs?\"",
+    "n": [
+     "stairs"
+    ]
+   },
+   {
+    "t": "Alex",
+    "n": [
+     "alex"
+    ]
+   },
+   {
+    "t": "asks.",
+    "n": [
+     "asks"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 204,
+  "tags": [
+   "contentment"
+  ],
+  "text": "You grin. \"Stairs.\"",
+  "words": [
+   {
+    "t": "You",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "grin.",
+    "n": [
+     "grin"
+    ]
+   },
+   {
+    "t": "\"Stairs.\"",
+    "n": [
+     "stairs"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 205,
+  "tags": [],
+  "text": "And for the first time ever... walking down eight flights of stairs is the best part of your day.",
+  "words": [
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "first",
+    "n": [
+     "first"
+    ]
+   },
+   {
+    "t": "time",
+    "n": [
+     "time"
+    ]
+   },
+   {
+    "t": "ever...",
+    "n": [
+     "ever"
+    ]
+   },
+   {
+    "t": "walking",
+    "n": [
+     "walking"
+    ]
+   },
+   {
+    "t": "down",
+    "n": [
+     "down"
+    ]
+   },
+   {
+    "t": "eight",
+    "n": [
+     "eight"
+    ]
+   },
+   {
+    "t": "flights",
+    "n": [
+     "flights"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "stairs",
+    "n": [
+     "stairs"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "best",
+    "n": [
+     "best"
+    ]
+   },
+   {
+    "t": "part",
+    "n": [
+     "part"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "day.",
+    "n": [
+     "day"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 206,
+  "tags": [],
+  "text": "But something else has changed too.",
+  "words": [
+   {
+    "t": "But",
+    "n": [
+     "but"
+    ]
+   },
+   {
+    "t": "something",
+    "n": [
+     "something"
+    ]
+   },
+   {
+    "t": "else",
+    "n": [
+     "else"
+    ]
+   },
+   {
+    "t": "has",
+    "n": [
+     "has"
+    ]
+   },
+   {
+    "t": "changed",
+    "n": [
+     "changed"
+    ]
+   },
+   {
+    "t": "too.",
+    "n": [
+     "too"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 207,
+  "tags": [],
+  "text": "At lunch that day, you notice a new kid sitting alone.",
+  "words": [
+   {
+    "t": "At",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "lunch",
+    "n": [
+     "lunch"
+    ]
+   },
+   {
+    "t": "that",
+    "n": [
+     "that"
+    ]
+   },
+   {
+    "t": "day,",
+    "n": [
+     "day"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "notice",
+    "n": [
+     "notice"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "new",
+    "n": [
+     "new"
+    ]
+   },
+   {
+    "t": "kid",
+    "n": [
+     "kid"
+    ]
+   },
+   {
+    "t": "sitting",
+    "n": [
+     "sitting"
+    ]
+   },
+   {
+    "t": "alone.",
+    "n": [
+     "alone"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 208,
+  "tags": [],
+  "text": "A week ago... you might've assumed they just wanted to be left alone.",
+  "words": [
+   {
+    "t": "A",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "week",
+    "n": [
+     "week"
+    ]
+   },
+   {
+    "t": "ago...",
+    "n": [
+     "ago"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "might've",
+    "n": [
+     "might've"
+    ]
+   },
+   {
+    "t": "assumed",
+    "n": [
+     "assumed"
+    ]
+   },
+   {
+    "t": "they",
+    "n": [
+     "they"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "wanted",
+    "n": [
+     "wanted"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "be",
+    "n": [
+     "be"
+    ]
+   },
+   {
+    "t": "left",
+    "n": [
+     "left"
+    ]
+   },
+   {
+    "t": "alone.",
+    "n": [
+     "alone"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 209,
+  "tags": [],
+  "text": "Now you know better.",
+  "words": [
+   {
+    "t": "Now",
+    "n": [
+     "now"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "know",
+    "n": [
+     "know"
+    ]
+   },
+   {
+    "t": "better.",
+    "n": [
+     "better"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 210,
+  "tags": [],
+  "text": "Sometimes the person who seems quiet... is just nervous. Sometimes the person who seems distant... is actually lonely. And sometimes the person you're scared to talk to... is just as scared to talk to you.",
+  "words": [
+   {
+    "t": "Sometimes",
+    "n": [
+     "sometimes"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "person",
+    "n": [
+     "person"
+    ]
+   },
+   {
+    "t": "who",
+    "n": [
+     "who"
+    ]
+   },
+   {
+    "t": "seems",
+    "n": [
+     "seems"
+    ]
+   },
+   {
+    "t": "quiet...",
+    "n": [
+     "quiet"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "nervous.",
+    "n": [
+     "nervous"
+    ]
+   },
+   {
+    "t": "Sometimes",
+    "n": [
+     "sometimes"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "person",
+    "n": [
+     "person"
+    ]
+   },
+   {
+    "t": "who",
+    "n": [
+     "who"
+    ]
+   },
+   {
+    "t": "seems",
+    "n": [
+     "seems"
+    ]
+   },
+   {
+    "t": "distant...",
+    "n": [
+     "distant"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "actually",
+    "n": [
+     "actually"
+    ]
+   },
+   {
+    "t": "lonely.",
+    "n": [
+     "lonely"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "sometimes",
+    "n": [
+     "sometimes"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "person",
+    "n": [
+     "person"
+    ]
+   },
+   {
+    "t": "you're",
+    "n": [
+     "you're"
+    ]
+   },
+   {
+    "t": "scared",
+    "n": [
+     "scared"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "talk",
+    "n": [
+     "talk"
+    ]
+   },
+   {
+    "t": "to...",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "as",
+    "n": [
+     "as"
+    ]
+   },
+   {
+    "t": "scared",
+    "n": [
+     "scared"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "talk",
+    "n": [
+     "talk"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "you.",
+    "n": [
+     "you"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 211,
+  "tags": [],
+  "text": "So you walk over and sit down. \"Hey... mind if I sit here?\"",
+  "words": [
+   {
+    "t": "So",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "walk",
+    "n": [
+     "walk"
+    ]
+   },
+   {
+    "t": "over",
+    "n": [
+     "over"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "sit",
+    "n": [
+     "sit"
+    ]
+   },
+   {
+    "t": "down.",
+    "n": [
+     "down"
+    ]
+   },
+   {
+    "t": "\"Hey...",
+    "n": [
+     "hey"
+    ]
+   },
+   {
+    "t": "mind",
+    "n": [
+     "mind"
+    ]
+   },
+   {
+    "t": "if",
+    "n": [
+     "if"
+    ]
+   },
+   {
+    "t": "I",
+    "n": [
+     "i"
+    ]
+   },
+   {
+    "t": "sit",
+    "n": [
+     "sit"
+    ]
+   },
+   {
+    "t": "here?\"",
+    "n": [
+     "here"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 212,
+  "tags": [],
+  "text": "The kid looks up... and smiles.",
+  "words": [
+   {
+    "t": "The",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "kid",
+    "n": [
+     "kid"
+    ]
+   },
+   {
+    "t": "looks",
+    "n": [
+     "looks"
+    ]
+   },
+   {
+    "t": "up...",
+    "n": [
+     "up"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "smiles.",
+    "n": [
+     "smiles"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 213,
+  "tags": [],
+  "text": "So... what if you really got stuck in an elevator with your crush?",
+  "words": [
+   {
+    "t": "So...",
+    "n": [
+     "so"
+    ]
+   },
+   {
+    "t": "what",
+    "n": [
+     "what"
+    ]
+   },
+   {
+    "t": "if",
+    "n": [
+     "if"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "really",
+    "n": [
+     "really"
+    ]
+   },
+   {
+    "t": "got",
+    "n": [
+     "got"
+    ]
+   },
+   {
+    "t": "stuck",
+    "n": [
+     "stuck"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "an",
+    "n": [
+     "an"
+    ]
+   },
+   {
+    "t": "elevator",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "with",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "crush?",
+    "n": [
+     "crush"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 214,
+  "tags": [],
+  "text": "At first... it would probably be the most awkward experience of your entire life. You'd forget how to talk. You'd forget what to do with your hands. And your stomach would DEFINITELY betray you at the worst possible moment.",
+  "words": [
+   {
+    "t": "At",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "first...",
+    "n": [
+     "first"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "would",
+    "n": [
+     "would"
+    ]
+   },
+   {
+    "t": "probably",
+    "n": [
+     "probably"
+    ]
+   },
+   {
+    "t": "be",
+    "n": [
+     "be"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "most",
+    "n": [
+     "most"
+    ]
+   },
+   {
+    "t": "awkward",
+    "n": [
+     "awkward"
+    ]
+   },
+   {
+    "t": "experience",
+    "n": [
+     "experience"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "entire",
+    "n": [
+     "entire"
+    ]
+   },
+   {
+    "t": "life.",
+    "n": [
+     "life"
+    ]
+   },
+   {
+    "t": "You'd",
+    "n": [
+     "you'd"
+    ]
+   },
+   {
+    "t": "forget",
+    "n": [
+     "forget"
+    ]
+   },
+   {
+    "t": "how",
+    "n": [
+     "how"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "talk.",
+    "n": [
+     "talk"
+    ]
+   },
+   {
+    "t": "You'd",
+    "n": [
+     "you'd"
+    ]
+   },
+   {
+    "t": "forget",
+    "n": [
+     "forget"
+    ]
+   },
+   {
+    "t": "what",
+    "n": [
+     "what"
+    ]
+   },
+   {
+    "t": "to",
+    "n": [
+     "to"
+    ]
+   },
+   {
+    "t": "do",
+    "n": [
+     "do"
+    ]
+   },
+   {
+    "t": "with",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "hands.",
+    "n": [
+     "hands"
+    ]
+   },
+   {
+    "t": "And",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "stomach",
+    "n": [
+     "stomach"
+    ]
+   },
+   {
+    "t": "would",
+    "n": [
+     "would"
+    ]
+   },
+   {
+    "t": "DEFINITELY",
+    "n": [
+     "definitely"
+    ]
+   },
+   {
+    "t": "betray",
+    "n": [
+     "betray"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "at",
+    "n": [
+     "at"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "worst",
+    "n": [
+     "worst"
+    ]
+   },
+   {
+    "t": "possible",
+    "n": [
+     "possible"
+    ]
+   },
+   {
+    "t": "moment.",
+    "n": [
+     "moment"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 215,
+  "tags": [],
+  "text": "But the biggest surprise might not be how embarrassing it is.",
+  "words": [
+   {
+    "t": "But",
+    "n": [
+     "but"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "biggest",
+    "n": [
+     "biggest"
+    ]
+   },
+   {
+    "t": "surprise",
+    "n": [
+     "surprise"
+    ]
+   },
+   {
+    "t": "might",
+    "n": [
+     "might"
+    ]
+   },
+   {
+    "t": "not",
+    "n": [
+     "not"
+    ]
+   },
+   {
+    "t": "be",
+    "n": [
+     "be"
+    ]
+   },
+   {
+    "t": "how",
+    "n": [
+     "how"
+    ]
+   },
+   {
+    "t": "embarrassing",
+    "n": [
+     "embarrassing"
+    ]
+   },
+   {
+    "t": "it",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "is.",
+    "n": [
+     "is"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 216,
+  "tags": [],
+  "text": "It might be finding out that your crush... is just a person. Someone who gets nervous. Someone who gets scared. Someone who might be wondering about you... exactly the same way you've been wondering about them.",
+  "words": [
+   {
+    "t": "It",
+    "n": [
+     "it"
+    ]
+   },
+   {
+    "t": "might",
+    "n": [
+     "might"
+    ]
+   },
+   {
+    "t": "be",
+    "n": [
+     "be"
+    ]
+   },
+   {
+    "t": "finding",
+    "n": [
+     "finding"
+    ]
+   },
+   {
+    "t": "out",
+    "n": [
+     "out"
+    ]
+   },
+   {
+    "t": "that",
+    "n": [
+     "that"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "crush...",
+    "n": [
+     "crush"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "just",
+    "n": [
+     "just"
+    ]
+   },
+   {
+    "t": "a",
+    "n": [
+     "a"
+    ]
+   },
+   {
+    "t": "person.",
+    "n": [
+     "person"
+    ]
+   },
+   {
+    "t": "Someone",
+    "n": [
+     "someone"
+    ]
+   },
+   {
+    "t": "who",
+    "n": [
+     "who"
+    ]
+   },
+   {
+    "t": "gets",
+    "n": [
+     "gets"
+    ]
+   },
+   {
+    "t": "nervous.",
+    "n": [
+     "nervous"
+    ]
+   },
+   {
+    "t": "Someone",
+    "n": [
+     "someone"
+    ]
+   },
+   {
+    "t": "who",
+    "n": [
+     "who"
+    ]
+   },
+   {
+    "t": "gets",
+    "n": [
+     "gets"
+    ]
+   },
+   {
+    "t": "scared.",
+    "n": [
+     "scared"
+    ]
+   },
+   {
+    "t": "Someone",
+    "n": [
+     "someone"
+    ]
+   },
+   {
+    "t": "who",
+    "n": [
+     "who"
+    ]
+   },
+   {
+    "t": "might",
+    "n": [
+     "might"
+    ]
+   },
+   {
+    "t": "be",
+    "n": [
+     "be"
+    ]
+   },
+   {
+    "t": "wondering",
+    "n": [
+     "wondering"
+    ]
+   },
+   {
+    "t": "about",
+    "n": [
+     "about"
+    ]
+   },
+   {
+    "t": "you...",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "exactly",
+    "n": [
+     "exactly"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "same",
+    "n": [
+     "same"
+    ]
+   },
+   {
+    "t": "way",
+    "n": [
+     "way"
+    ]
+   },
+   {
+    "t": "you've",
+    "n": [
+     "you've"
+    ]
+   },
+   {
+    "t": "been",
+    "n": [
+     "been"
+    ]
+   },
+   {
+    "t": "wondering",
+    "n": [
+     "wondering"
+    ]
+   },
+   {
+    "t": "about",
+    "n": [
+     "about"
+    ]
+   },
+   {
+    "t": "them.",
+    "n": [
+     "them"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 217,
+  "tags": [],
+  "text": "Because sometimes... the only thing standing between you and something amazing... is ten seconds of being brave.",
+  "words": [
+   {
+    "t": "Because",
+    "n": [
+     "because"
+    ]
+   },
+   {
+    "t": "sometimes...",
+    "n": [
+     "sometimes"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "only",
+    "n": [
+     "only"
+    ]
+   },
+   {
+    "t": "thing",
+    "n": [
+     "thing"
+    ]
+   },
+   {
+    "t": "standing",
+    "n": [
+     "standing"
+    ]
+   },
+   {
+    "t": "between",
+    "n": [
+     "between"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "something",
+    "n": [
+     "something"
+    ]
+   },
+   {
+    "t": "amazing...",
+    "n": [
+     "amazing"
+    ]
+   },
+   {
+    "t": "is",
+    "n": [
+     "is"
+    ]
+   },
+   {
+    "t": "ten",
+    "n": [
+     "ten"
+    ]
+   },
+   {
+    "t": "seconds",
+    "n": [
+     "seconds"
+    ]
+   },
+   {
+    "t": "of",
+    "n": [
+     "of"
+    ]
+   },
+   {
+    "t": "being",
+    "n": [
+     "being"
+    ]
+   },
+   {
+    "t": "brave.",
+    "n": [
+     "brave"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 218,
+  "tags": [
+   "more expressive"
+  ],
+  "text": "But here's the ultimate question.",
+  "words": [
+   {
+    "t": "But",
+    "n": [
+     "but"
+    ]
+   },
+   {
+    "t": "here's",
+    "n": [
+     "here's"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "ultimate",
+    "n": [
+     "ultimate"
+    ]
+   },
+   {
+    "t": "question.",
+    "n": [
+     "question"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 219,
+  "tags": [],
+  "text": "If you got stuck in an elevator with your crush... and help was only five minutes away... would you tell them how you feel? Or would you stay quiet... and let the doors open?",
+  "words": [
+   {
+    "t": "If",
+    "n": [
+     "if"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "got",
+    "n": [
+     "got"
+    ]
+   },
+   {
+    "t": "stuck",
+    "n": [
+     "stuck"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "an",
+    "n": [
+     "an"
+    ]
+   },
+   {
+    "t": "elevator",
+    "n": [
+     "elevator"
+    ]
+   },
+   {
+    "t": "with",
+    "n": [
+     "with"
+    ]
+   },
+   {
+    "t": "your",
+    "n": [
+     "your"
+    ]
+   },
+   {
+    "t": "crush...",
+    "n": [
+     "crush"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "help",
+    "n": [
+     "help"
+    ]
+   },
+   {
+    "t": "was",
+    "n": [
+     "was"
+    ]
+   },
+   {
+    "t": "only",
+    "n": [
+     "only"
+    ]
+   },
+   {
+    "t": "five",
+    "n": [
+     "five"
+    ]
+   },
+   {
+    "t": "minutes",
+    "n": [
+     "minutes"
+    ]
+   },
+   {
+    "t": "away...",
+    "n": [
+     "away"
+    ]
+   },
+   {
+    "t": "would",
+    "n": [
+     "would"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "tell",
+    "n": [
+     "tell"
+    ]
+   },
+   {
+    "t": "them",
+    "n": [
+     "them"
+    ]
+   },
+   {
+    "t": "how",
+    "n": [
+     "how"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "feel?",
+    "n": [
+     "feel"
+    ]
+   },
+   {
+    "t": "Or",
+    "n": [
+     "or"
+    ]
+   },
+   {
+    "t": "would",
+    "n": [
+     "would"
+    ]
+   },
+   {
+    "t": "you",
+    "n": [
+     "you"
+    ]
+   },
+   {
+    "t": "stay",
+    "n": [
+     "stay"
+    ]
+   },
+   {
+    "t": "quiet...",
+    "n": [
+     "quiet"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "let",
+    "n": [
+     "let"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "doors",
+    "n": [
+     "doors"
+    ]
+   },
+   {
+    "t": "open?",
+    "n": [
+     "open"
+    ]
+   }
+  ]
+ },
+ {
+  "i": 220,
+  "tags": [],
+  "text": "Tell us what you'd do in the comments... and subscribe for more animated what-if scenarios, awkward situations, and impossible adventures.",
+  "words": [
+   {
+    "t": "Tell",
+    "n": [
+     "tell"
+    ]
+   },
+   {
+    "t": "us",
+    "n": [
+     "us"
+    ]
+   },
+   {
+    "t": "what",
+    "n": [
+     "what"
+    ]
+   },
+   {
+    "t": "you'd",
+    "n": [
+     "you'd"
+    ]
+   },
+   {
+    "t": "do",
+    "n": [
+     "do"
+    ]
+   },
+   {
+    "t": "in",
+    "n": [
+     "in"
+    ]
+   },
+   {
+    "t": "the",
+    "n": [
+     "the"
+    ]
+   },
+   {
+    "t": "comments...",
+    "n": [
+     "comments"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "subscribe",
+    "n": [
+     "subscribe"
+    ]
+   },
+   {
+    "t": "for",
+    "n": [
+     "for"
+    ]
+   },
+   {
+    "t": "more",
+    "n": [
+     "more"
+    ]
+   },
+   {
+    "t": "animated",
+    "n": [
+     "animated"
+    ]
+   },
+   {
+    "t": "what-if",
+    "n": [
+     "what",
+     "if"
+    ]
+   },
+   {
+    "t": "scenarios,",
+    "n": [
+     "scenarios"
+    ]
+   },
+   {
+    "t": "awkward",
+    "n": [
+     "awkward"
+    ]
+   },
+   {
+    "t": "situations,",
+    "n": [
+     "situations"
+    ]
+   },
+   {
+    "t": "and",
+    "n": [
+     "and"
+    ]
+   },
+   {
+    "t": "impossible",
+    "n": [
+     "impossible"
+    ]
+   },
+   {
+    "t": "adventures.",
+    "n": [
+     "adventures"
+    ]
+   }
+  ]
+ }
+]

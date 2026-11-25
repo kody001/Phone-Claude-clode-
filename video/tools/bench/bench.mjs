@@ -1,0 +1,15 @@
+import { chromium } from 'playwright';
+import { serve } from '../server.mjs';
+const srv = await serve(0); const port = srv.address().port;
+const b = await chromium.launch({ args: ['--use-angle=swiftshader','--enable-unsafe-swiftshader','--ignore-gpu-blocklist'] });
+const p = await b.newPage({ viewport: { width: 1920, height: 1080 } });
+p.on('console', m => console.log('page:', m.text()));
+await p.goto(`http://127.0.0.1:${port}/tools/bench/bench.html`);
+await p.waitForFunction('window.ready');
+console.log(await p.evaluate(() => { const gl=document.querySelector('canvas').getContext('webgl2'); const d=gl.getExtension('WEBGL_debug_renderer_info'); return d?gl.getParameter(d.UNMASKED_RENDERER_WEBGL):'?'; }));
+const cdp = await p.context().newCDPSession(p);
+let t0 = Date.now(); for (let i = 0; i < 30; i++) await p.evaluate(t => window.renderAt(t), i / 60); console.log('render only ms/frame', (Date.now() - t0) / 30);
+t0 = Date.now(); let sz=0; for (let i = 0; i < 30; i++) { const d = await p.evaluate(t => { window.renderAt(t); return window.grab(0.92); }, i / 60); sz+=d.length; } console.log('render+toDataURL jpeg ms/frame', (Date.now() - t0) / 30, 'avg KB', sz/30/1024|0);
+t0 = Date.now(); for (let i = 0; i < 30; i++) { await p.evaluate(t => window.renderAt(t), i / 60); await cdp.send('Page.captureScreenshot', { format: 'jpeg', quality: 92, optimizeForSpeed: true }); } console.log('render+CDP screenshot jpeg ms/frame', (Date.now() - t0) / 30);
+t0 = Date.now(); for (let i = 0; i < 30; i++) { await p.evaluate(t => window.renderAt(t), i / 60); await p.screenshot({ type: 'jpeg', quality: 92 }); } console.log('render+page.screenshot ms/frame', (Date.now() - t0) / 30);
+await b.close(); srv.close();

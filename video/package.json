@@ -1,0 +1,13 @@
+{
+  "name": "elevator-crush-video",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@fontsource/dm-serif-display": "^5.1.0",
+    "@fontsource/fredoka": "^5.1.0",
+    "@fontsource/inter": "^5.1.0",
+    "@fontsource/libre-baskerville": "^5.1.0",
+    "@fontsource/lilita-one": "^5.1.0",
+    "three": "^0.170.0"
+  }
+}

@@ -1,0 +1,19 @@
+<!doctype html><html><head><style>html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js"}}</script></head><body>
+<script type="module">
+import * as THREE from 'three';
+const W=1920,H=1080;
+const Q=new URLSearchParams(location.search);const r=new THREE.WebGLRenderer({antialias:!Q.has('noaa'),preserveDrawingBuffer:true});
+r.setSize(W,H); r.shadowMap.enabled=!Q.has('noshadow'); r.shadowMap.type=THREE.PCFShadowMap;
+document.body.appendChild(r.domElement);
+const s=new THREE.Scene(); s.background=new THREE.Color('#4b2bd1');
+const cam=new THREE.PerspectiveCamera(40,W/H,0.1,100); cam.position.set(0,1.6,6);
+s.add(new THREE.HemisphereLight('#ffe9ff','#5030a0',1.2));
+const d=new THREE.DirectionalLight('#ffffff',2); d.position.set(3,6,4); d.castShadow=true; d.shadow.mapSize.set(2048,2048); s.add(d);
+const fl=new THREE.Mesh(new THREE.PlaneGeometry(30,30),new THREE.MeshStandardMaterial({color:'#6a4cf0'})); fl.rotation.x=-Math.PI/2; fl.receiveShadow=true; s.add(fl);
+const meshes=[];
+for(let i=0;i<40;i++){const m=new THREE.Mesh(new THREE.SphereGeometry(0.4,48,32),new THREE.MeshStandardMaterial({color:new THREE.Color().setHSL(i/40,0.6,0.6),roughness:0.5}));m.position.set((i%8-4)*0.9,0.5+Math.floor(i/8)*0.6,-Math.floor(i/8));m.castShadow=true;s.add(m);meshes.push(m);}
+window.renderAt=(t)=>{meshes.forEach((m,i)=>m.position.y=0.5+Math.abs(Math.sin(t*2+i))*0.5);cam.position.x=Math.sin(t*0.3)*2;cam.lookAt(0,1,0);r.render(s,cam);};
+window.grab=(q)=>r.domElement.toDataURL('image/jpeg',q);
+window.ready=true;
+</script></body></html>
