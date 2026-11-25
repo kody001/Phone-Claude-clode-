@@ -4,7 +4,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 OUT=${1:-render/final.mp4}
 ls render/chunks/c*.mp4 | grep -v part | sort | sed "s|^|file '$PWD/|; s|$|'|" > render/list.txt
-ffmpeg -v error -y -i audio/out/mix_premaster.wav -af loudnorm=I=-14:TP=-1.0:LRA=11:print_format=json -f null - 2> render/loudnorm.json || true
+ffmpeg -hide_banner -nostats -y -i audio/out/mix_premaster.wav -af loudnorm=I=-14:TP=-1.0:LRA=11:print_format=json -f null - 2> render/loudnorm.json || true
 read -r MI MTP MLRA MTH MOFF < <(python3 - <<'PY'
 import json,re
 t=open('render/loudnorm.json').read(); j=json.loads(t[t.index('{'):t.rindex('}')+1])
