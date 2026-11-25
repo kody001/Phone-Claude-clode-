@@ -1342,9 +1342,9 @@ export function buildTimeline({ words, sets, cast, THREE }) {
   pill(T(196, 'technician'), T(196, 'patterson'), 'VERY TIRED TECHNICIAN', 0.5, 0.775, { icon: 'bolt' }); pill(T(196, 'patterson'), T(196, 'best'), 'MRS. PATTERSON (+ CAT)', 0.5, 0.775, { icon: 'heart' }); pill(T(196, 'best'), PE(196) + 0.3, 'YOUR BEST FRIEND', 0.5, 0.775, { icon: 'dot' });
   fx(T(196, 'recording'), 'rec_beep', 0.6); fx(T(196, 'patterson') + 0.6, 'cat_meow', 0.45);
   const rec = (t0, t1) => ov({ type: 'custom', t0, t1, draw: (c, t) => { c.save(); c.strokeStyle = '#fff'; c.lineWidth = 8; const m = 90, L = 90; [[m, m, 1, 1], [1920 - m, m, -1, 1], [m, 1080 - m, 1, -1], [1920 - m, 1080 - m, -1, -1]].forEach(([x, y, sx, sy]) => { c.beginPath(); c.moveTo(x, y + sy * L); c.lineTo(x, y); c.lineTo(x + sx * L, y); c.stroke(); }); if (Math.floor(t * 2) % 2 === 0) { c.fillStyle = '#ff3b3b'; c.beginPath(); c.arc(170, 160, 16, 0, 7); c.fill(); } c.fillStyle = '#fff'; c.font = 'bold 36px Fredoka'; c.fillText('REC', 200, 172); const s = Math.floor(t - t0 + 12); c.fillText(`00:00:${String(s).padStart(2, '0')}`, 1560, 172); c.restore(); } });
-  cut(PS(197) - 0.1, 'building', ['you', 'alex', 'friend'], ctx => {
+  cut(PS(197) - 0.1, 'building', ['you', 'alex'], ctx => { // the friend's phone POV
     E(ctx, { door: 1, floor: '7' }); ctx.S.lobby = true;
-    act(ctx, 'alex', { pos: [0.56, 0, 0.15], rot: 0, pose: 'stand', expr: 'awkward' }); act(ctx, 'you', { pos: [-0.56, 0, 0.15], rot: 0, pose: 'stand', expr: 'awkward' }); act(ctx, 'friend', { pos: [0, 0, FZ + 2.4], rot: Math.PI, pose: 'phone', expr: 'grin' });
+    act(ctx, 'alex', { pos: [0.56, 0, 0.15], rot: 0, pose: 'stand', expr: 'awkward' }); act(ctx, 'you', { pos: [-0.56, 0, 0.15], rot: 0, pose: 'stand', expr: 'awkward' });
     look(ctx.cam, [0.05, 1.55, FZ + 2.0], [0, 1.45, 0.15], 40);
   });
   rec(PS(197) - 0.1, PS(198) - 0.1);
@@ -1376,13 +1376,13 @@ export function buildTimeline({ words, sets, cast, THREE }) {
     dolly(ctx, [[-0.4, 2.3, FZ + 4.0], [0.1, 1.4, -0.2], 36], [[-0.3, 2.2, FZ + 3.5], [0.1, 1.45, -0.2], 32]);
   }, { after: () => sets.building.drawPlaque('L') });
   fx(PS(201) - 0.1, 'ding', 0.7); fx(PS(201), 'door_slide', 0.65); fx(T(201, 'smiling'), 'sparkle', 0.45);
-  cut(PS(202) - 0.1, 'building', ['you', 'alex'], ctx => {
+  cut(PS(202) - 0.1, 'building', ['you', 'alex'], ctx => { sets.building.drawPlaque('8');
     const t = ctx.t; E(ctx, { door: 1, floor: '8', light: 1, tint: '#fff', lobby: true });
     act(ctx, 'you', { pos: [0.75, 0, FZ + 1.2], rot: Math.PI + 0.35, expr: t > T(202, 'alex') ? 'smile' : 'thinking', head: { pitch: t > T(202, 'alex') ? 0 : -0.35, yaw: t > T(202, 'alex') ? 0 : 0.5 } }); act(ctx, 'alex', { pos: [0.1, 0, -0.2], rot: 0, expr: 'grin' });
-    cu(ctx, 'you', { dist: 1.6, yaw: 0.3 });
+    drift(ctx, [-0.6, 1.8, 0.55], [0.75, 1.85, FZ + 1.2], 34);
   });
-  cut(PS(203) - 0.1, 'building', ['you', 'alex'], ctx => { E(ctx, { door: 1, floor: '8', light: 1, tint: '#fff', lobby: true }); act(ctx, 'you', { pos: [0.75, 0, FZ + 1.2], rot: Math.PI + 0.35, expr: 'smile' }); act(ctx, 'alex', { pos: [0.1, 0, -0.2], rot: 0, expr: 'grin', pose: 'point', head: { roll: 0.1 } }); cu(ctx, 'alex', { dist: 1.7, yaw: 0.2 }); });
-  cut(PS(204) - 0.1, 'building', ['you', 'alex'], ctx => { E(ctx, { door: 1, floor: '8', light: 1, tint: '#fff', lobby: true }); act(ctx, 'you', { pos: [0.75, 0, FZ + 1.2], rot: Math.PI + 0.35, expr: 'content' }); act(ctx, 'alex', { pos: [0.1, 0, -0.2], rot: 0, expr: 'grin' }); cu(ctx, 'you', { dist: 1.6, yaw: -0.2 }); });
+  cut(PS(203) - 0.1, 'building', ['you', 'alex'], ctx => { sets.building.drawPlaque('8'); E(ctx, { door: 1, floor: '8', light: 1, tint: '#fff', lobby: true }); act(ctx, 'you', { pos: [0.75, 0, FZ + 1.2], rot: Math.PI + 0.35, expr: 'smile' }); act(ctx, 'alex', { pos: [0.1, 0, -0.2], rot: 0, expr: 'grin', pose: 'point', head: { roll: 0.1 } }); drift(ctx, [-0.6, 1.9, FZ + 3.0], [0.1, 1.65, -0.2], 34); });
+  cut(PS(204) - 0.1, 'building', ['you', 'alex'], ctx => { sets.building.drawPlaque('8'); E(ctx, { door: 1, floor: '8', light: 1, tint: '#fff', lobby: true }); act(ctx, 'you', { pos: [0.75, 0, FZ + 1.2], rot: Math.PI + 0.35, expr: 'content' }); act(ctx, 'alex', { pos: [0.1, 0, -0.2], rot: 0, expr: 'grin' }); drift(ctx, [-0.6, 1.8, 0.55], [0.75, 1.85, FZ + 1.2], 32); });
   cut(PS(205) - 0.1, 'stairs', ['you', 'alex'], ctx => {
     const t = ctx.t; const SS = sets.stairs; const u = range(t, PS(205) - 0.1, PE(205) + 0.8); const n = SS.stepsN;
     const k = u * n * 0.95; const a = SS.stepPos(0, k), b = SS.stepPos(0, Math.max(0, k - 0.6));
