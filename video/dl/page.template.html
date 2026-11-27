@@ -78,7 +78,7 @@
     barWrap.hidden = false;
     const chunks = []; let got = 0;
     for (let i = 0; i < PARTS; i++) {
-      const name = "part" + String(i).padStart(2, "0") + ".bin";
+      const name = "part" + String(i).padStart(2, "0") + ".mp4";
       let res;
       for (let attempt = 0; attempt < 3; attempt++) {
         try { res = await fetch(name); if (res.ok) break; } catch (e) { res = null; }
