@@ -1,0 +1,17 @@
+import { createRequire } from 'node:module';
+import path from 'node:path';
+import { serve } from './server.mjs';
+const { chromium } = createRequire(import.meta.url)('playwright');
+const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
+const srv = await serve(root);
+const browser = await chromium.launch();
+const page = await browser.newPage();
+page.on('console', m => { if (m.type() === 'warning' || m.type() === 'error') console.log('[page]', m.text().slice(0, 200)); });
+await page.goto(`http://127.0.0.1:${srv.address().port}/web/index.html?render=1`);
+await page.waitForFunction(() => window.READY === true);
+const list = await page.evaluate(() => window.SHOT_LIST);
+const min = Number(process.argv[2] || 0);
+const d = list.map(s => s[2]);
+console.log('shots', list.length, 'mean', (d.reduce((a, b) => a + b, 0) / d.length).toFixed(2), 'over', min, ':', d.filter(x => x > min).length);
+for (const s of list) if (s[2] > min) console.log(s[1].toFixed(1).padStart(6), s[2].toFixed(1).padStart(5), s[0]);
+await browser.close(); srv.close();

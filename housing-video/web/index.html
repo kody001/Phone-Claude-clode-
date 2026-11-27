@@ -1,0 +1,35 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Locked In Place</title>
+<style>
+@font-face{font-family:"Patrick Hand";src:url(../assets/fonts/PatrickHand.ttf)}
+@font-face{font-family:"Permanent Marker";src:url(../assets/fonts/PermanentMarker.ttf)}
+@font-face{font-family:"Caveat Brush";src:url(../assets/fonts/CaveatBrush.ttf)}
+@font-face{font-family:"Gochi Hand";src:url(../assets/fonts/GochiHand.ttf)}
+@font-face{font-family:"Architects Daughter";src:url(../assets/fonts/ArchitectsDaughter.ttf)}
+@font-face{font-family:"Kalam";font-weight:400;src:url(../assets/fonts/Kalam-Regular.ttf)}
+@font-face{font-family:"Kalam";font-weight:700;src:url(../assets/fonts/Kalam-Bold.ttf)}
+html,body{margin:0;background:#222;color:#eee;font-family:sans-serif}
+canvas{display:block;width:100%;max-width:1280px;margin:0 auto;background:#fff}
+#bar{max-width:1280px;margin:8px auto;display:flex;gap:8px;align-items:center}
+#scrub{flex:1}
+body.render canvas{width:1920px;max-width:none}
+body.render #bar{display:none}
+</style></head>
+<body>
+<canvas id="cv" width="1920" height="1080"></canvas>
+<div id="bar"><button id="play">Play</button><input id="scrub" type="range" min="0" max="933" step="0.01" value="0"><span id="tc">0.00</span></div>
+<audio id="au" src="../assets/voiceover.mp3" preload="auto"></audio>
+<script src="js/core.js"></script>
+<script src="js/mascot.js"></script>
+<script src="js/stick.js"></script>
+<script src="js/props.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/captions.js"></script>
+<script src="js/story.js"></script>
+<script src="js/story_a.js"></script>
+<script src="js/story_b.js"></script>
+<script src="js/story_c.js"></script>
+<script src="js/test.js"></script>
+<script src="js/main.js"></script>
+</body></html>
