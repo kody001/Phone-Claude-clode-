@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Florida Housing Video Preview</title>
+<style>
+  @font-face { font-family: 'Patrick Hand'; src: url('assets/fonts/Patrick_Hand.ttf'); }
+  @font-face { font-family: 'Permanent Marker'; src: url('assets/fonts/Permanent_Marker.ttf'); }
+  @font-face { font-family: 'Gochi Hand'; src: url('assets/fonts/Gochi_Hand.ttf'); }
+  @font-face { font-family: 'Kalam'; src: url('assets/fonts/Kalam_700.ttf'); font-weight: bold; }
+  body { margin: 0; background: #222; color: #eee; font: 14px system-ui, sans-serif; }
+  canvas { width: 100%; max-width: 1280px; display: block; margin: 0 auto; background: #fff; }
+  .bar { max-width: 1280px; margin: 8px auto; display: flex; gap: 8px; align-items: center; padding: 0 16px; }
+  input[type=range] { flex: 1; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<div class="bar"><button id="play">Play</button><input id="seek" type="range" min="0" max="1104" step="0.1" value="0"><span id="time">0:00</span></div>
+<audio id="vo" src="assets/voiceover.mp3" preload="auto"></audio>
+<script src="src/engine.js"></script>
+<script src="src/characters.js"></script>
+<script src="src/props.js"></script>
+<script src="src/scenes.js"></script>
+<script src="src/shots.js"></script>
+<script src="src/shots2.js"></script>
+<script src="src/video.js"></script>
+<script>
+(async () => {
+  const load = (src) => new Promise((r) => { const i = new Image(); i.onload = () => r(i); i.src = src; });
+  const [words, env, meta, head, body] = await Promise.all([
+    fetch('build/words.json').then((r) => r.json()), fetch('build/env.json').then((r) => r.json()),
+    fetch('assets/mascot.json').then((r) => r.json()), load('assets/mascot_head.png'), load('assets/mascot_body.png')]);
+  await document.fonts.load('40px "Permanent Marker"'); await document.fonts.load('40px "Patrick Hand"');
+  await document.fonts.load('40px "Gochi Hand"'); await document.fonts.load('bold 40px "Kalam"');
+  const V = createVideo(words, env, { mascotMeta: meta, mascotHead: head, mascotBody: body });
+  const ctx = document.getElementById('c').getContext('2d');
+  const vo = document.getElementById('vo'), seek = document.getElementById('seek'), time = document.getElementById('time');
+  seek.max = V.duration;
+  document.getElementById('play').onclick = () => (vo.paused ? vo.play() : vo.pause());
+  seek.oninput = () => { vo.currentTime = +seek.value; };
+  (function tick() {
+    const t = vo.currentTime; V.renderFrame(ctx, t);
+    if (!vo.paused) seek.value = t;
+    time.textContent = Math.floor(t / 60) + ':' + String(Math.floor(t % 60)).padStart(2, '0');
+    requestAnimationFrame(tick);
+  })();
+})();
+</script>
+</body>
+</html>
