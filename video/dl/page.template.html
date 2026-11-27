@@ -36,6 +36,10 @@
   .status.ok { color: var(--ok); font-weight: 600; }
   .steps { margin: 0; padding-left: 1.2em; color: var(--muted); display: grid; gap: 4px; }
   .note { font-size: 0.85rem; color: var(--muted); margin: 0; }
+  h2 { font-family: var(--display); font-weight: 400; font-size: 1.5rem; line-height: 1.2; margin: 0; }
+  .thumbs { display: grid; gap: 20px; }
+  .thumbs figure { margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+  .small-btn { font-size: 1rem; padding: 10px 14px; background: var(--paper); color: var(--ink); }
   @media (prefers-reduced-motion: reduce) { .bar > span { transition: none; } }
 </style>
 
@@ -56,6 +60,15 @@
     <li>On iPhone, choose <strong>Save Video</strong> in the share sheet to put it in Photos. On Android it is saved to your Downloads.</li>
   </ol>
   <p class="note" id="note" hidden></p>
+  <section class="card" aria-labelledby="th">
+    <h2 id="th">Thumbnails</h2>
+    <p class="note">1280 × 720 JPG, ready to upload to YouTube. Tap a Save button to put one on your phone.</p>
+    <div class="thumbs">
+      <figure><img class="thumb" src="thumb1_florida_is_cracking.jpg" alt="Thumbnail 1: Florida Is Cracking, with a Punta Gorda price chart"><button type="button" class="small-btn" data-thumb="thumb1_florida_is_cracking.jpg">Save thumbnail 1</button><p class="note" aria-live="polite"></p></figure>
+      <figure><img class="thumb" src="thumb2_the_bill_came_due.jpg" alt="Thumbnail 2: The Bill Came Due, with Florida vs U.S. insurance bars"><button type="button" class="small-btn" data-thumb="thumb2_the_bill_came_due.jpg">Save thumbnail 2</button><p class="note" aria-live="polite"></p></figure>
+      <figure><img class="thumb" src="thumb3_everyone_wants_out.jpg" alt="Thumbnail 3: Everyone Wants Out, with Florida condo listings bars"><button type="button" class="small-btn" data-thumb="thumb3_everyone_wants_out.jpg">Save thumbnail 3</button><p class="note" aria-live="polite"></p></figure>
+    </div>
+  </section>
 </main>
 
 <script>
@@ -112,6 +125,25 @@
       else say("Saving isn't available here. Open this page in your phone's browser at claude.ai.", "err");
     }
   }
+
+  document.querySelectorAll("[data-thumb]").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const file = btn.getAttribute("data-thumb");
+      const msg = btn.nextElementSibling;
+      btn.disabled = true;
+      try {
+        const d = await dlReady;
+        if (!d) { msg.textContent = "Saving isn't available in this view. Open this page in your phone's browser at claude.ai."; return; }
+        const res = await fetch(file);
+        if (!res.ok) throw new Error("load");
+        await d.save({ filename: file, data: await res.blob() });
+        msg.textContent = "Saved. Look in Photos or Files (iPhone) or Downloads (Android).";
+      } catch (e) {
+        const code = e && e.code;
+        msg.textContent = code === "declined" ? "Not saved. Tap Save to try again." : "Couldn't save here. Open this page in your phone's browser at claude.ai.";
+      } finally { btn.disabled = false; }
+    });
+  });
 
   go.addEventListener("click", async () => {
     if (busy) return;
