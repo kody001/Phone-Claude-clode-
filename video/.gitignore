@@ -2,3 +2,6 @@ node_modules/
 build/
 assets/debug_limbs.png
 *.mp4
+dl/*.bin
+dl/thumb.b64
+dl/index.html
